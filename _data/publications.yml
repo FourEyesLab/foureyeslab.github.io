@@ -4,22 +4,22 @@
   year: 2017
   website: "http://doi.acm.org/10.1145/3027063.3053227"
   bibtex: |
-@inproceedings{Narwal:2017:AAI:3027063.3053227,
- author = {Narwal, Vishwajeet and Salih, Mohamed Hashim and Lopez, Jose Angel and Ortega, Angel and O'Donovan, John and H\"{o}llerer, Tobias and Savage, Saiph},
- title = {Automated Assistants to Identify and Prompt Action on Visual News Bias},
- booktitle = {Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
- series = {CHI EA '17},
- year = {2017},
- isbn = {978-1-4503-4656-6},
- location = {Denver, Colorado, USA},
- pages = {2796--2801},
- numpages = {6},
- url = {http://doi.acm.org/10.1145/3027063.3053227},
- doi = {10.1145/3027063.3053227},
- acmid = {3053227},
- publisher = {ACM},
- address = {New York, NY, USA},
- keywords = {civic computing, fake news, news bias}
+    @inproceedings{Narwal:2017:AAI:3027063.3053227,
+     author = {Narwal, Vishwajeet and Salih, Mohamed Hashim and Lopez, Jose Angel and Ortega, Angel and O'Donovan, John and H\"{o}llerer, Tobias and Savage, Saiph},
+     title = {Automated Assistants to Identify and Prompt Action on Visual News Bias},
+     booktitle = {Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
+     series = {CHI EA '17},
+     year = {2017},
+     isbn = {978-1-4503-4656-6},
+     location = {Denver, Colorado, USA},
+     pages = {2796--2801},
+     numpages = {6},
+     url = {http://doi.acm.org/10.1145/3027063.3053227},
+     doi = {10.1145/3027063.3053227},
+     acmid = {3053227},
+     publisher = {ACM},
+     address = {New York, NY, USA},
+     keywords = {civic computing, fake news, news bias}
     }
 
 
