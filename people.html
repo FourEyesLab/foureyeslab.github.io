@@ -1,0 +1,76 @@
+---
+layout: page
+title: People
+permalink: /people
+
+people_roles:
+    - role: faculty
+      display: Faculty
+    - role: research_scientist
+      display: Research Scientists
+    - role: visitor
+      display: Visitors
+    - role: phd_student
+      display: Ph.D. Students
+    - role: master_student
+      display: M.S. Students
+
+people_roles_alumni:
+    - role: faculty
+      display: Faculty
+    - role: research_scientist
+      display: Research Scientists
+    - role: phd_student
+      display: Ph.D. Students
+    - role: master_student
+      display: M.S. Students
+    - role: visitor
+      display: Visitors
+---
+
+<h1>People</h1>
+
+
+{% assign people_sorted = site.data.people | sort: "display" | stable_sort: "order" %}
+
+{% for section in page.people_roles %}
+    {% assign isFirstItem = true %}
+    {% for people in people_sorted %}{% unless people.alumni %}{% if people.role == section.role %}
+        {% if isFirstItem %}
+        {% assign isFirstItem = false %}
+<div class="people-list">
+    <h2>{{section.display}}</h2>
+        {% endif %}
+    <div class="people-item">
+        {% if people.website %}
+        <a href="{{people.website}}"><div class="photo" style="background-image: url({{site.baseurl}}/assets/images/people/{{people.photo}})" /></div><br />{{people.display}}</a>
+        {% else %}
+        <div class="photo" style="background-image: url({{site.baseurl}}/assets/images/people/{{people.photo}})" /></div><br />{{people.display}}
+        {% endif %}
+    </div>
+{% endif %}{% endunless %}{% endfor %}
+{% if isFirstItem == false %}
+</div>
+{% endif %}
+{% endfor %}
+
+{% for section in page.people_roles_alumni %}
+    {% assign isFirstItem = true %}
+    {% for people in people_sorted %}{% if people.alumni %}{% if people.role == section.role %}
+        {% if isFirstItem %}
+        {% assign isFirstItem = false %}
+<div class="people-list">
+    <h2>Past {{section.display}}</h2>
+        {% endif %}
+    <div class="people-item">
+        {% if people.website %}
+        <a href="{{people.website}}"><div class="photo" style="background-image: url({{site.baseurl}}/assets/images/people/{{people.photo}})" /></div><br />{{people.display}}</a>
+        {% else %}
+        <div class="photo" style="background-image: url({{site.baseurl}}/assets/images/people/{{people.photo}})" /></div><br />{{people.display}}
+        {% endif %}
+    </div>
+{% endif %}{% endif %}{% endfor %}
+{% if isFirstItem == false %}
+</div>
+{% endif %}
+{% endfor %}

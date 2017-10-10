@@ -1,0 +1,146 @@
+# Define our research areas
+areas:
+  # template:
+  # - name: a short abbreviation of the research area, e.g., AR
+  #   display: full name of the research area, to be shown on the website
+
+  - name: AR
+    display: Augmented Reality
+  - name: VR
+    display: Virtual Reality
+  - name: CV
+    display: Computer Vision
+  - name: RecSys
+    display: Recommender Systems
+  - name: VIS
+    display: Visualization
+  - name: HCI
+    display: Other UI / HCI
+  - name: ML
+    display: Data Mining / Machine Learning
+  # - name: NS
+  #   display: Network Science
+
+projects:
+  # template:
+  # - display: Effects of Restricted FOV
+  #   description: A brief description of the project
+  #   year: year that the project started
+  #   image: project_image.jpg
+  #   people: [ people_name1, people_name2, ... ] -- use the same "name" in people.yml
+  #   areas: [ area1, area2, ... ]
+  #   publications: [ paper_key1, paper_key2, ... ]
+  #   completed: True/False -- is the project completed (True) or still active (ignore this field)
+
+  - display: Effects of Restricted FOV
+    description: NULL
+    year: 2017
+    image: NULL
+    people: [ brandon_huynh, donghao_ren ]
+    areas: [ AR, VR ]
+
+  - display: Evaluating Wide-Field-of-View Augmented Reality with Mixed Reality Simulation
+    image: mr-simulation.jpg
+    year: 2017
+    people: [ donghao_ren, tibor_goldschwendt, yunsuk_chang, tobias_hollerer ]
+    areas: [ VR, AR ]
+
+  - display: Spherical InfoVis
+    year: 2016
+    people: [ donghao_ren, martin_hering, john_odonovan, andreas_butz, tobias_hollerer ]
+    areas: [ VR, VIS ]
+
+  - display: Gesture-based 3D annotation system for multi-user collaboration in see-through, head-mounted AR
+    year: 2016
+    people: [ yunsuk_chang, benjamin_nuernberger, tobias_hollerer ]
+    areas: [ AR, VR, CV ]
+
+  - display: AR Education (Language Learning)
+    year: 2016
+    people: [ brandon_huynh, adam_ibrahim, john_odonovan ]
+    areas: [ AR, RecSys ]
+
+  - display: Product Recommendations in AR
+    year: 2016
+    people: [ brandon_huynh, yunsuk_chang, adam_ibrahim, john_odonovan, tobias_hollerer]
+    areas: [ AR, RecSys ]
+
+  - display: Spatial Mapping Server (Heterogenous Data)
+    year: 2016
+    people: [ brandon_huynh, peter_zhe_fu, tobias_hollerer ]
+    areas: [ CV ]
+
+  - display: Diner's Dilemma "Guru" study
+    year: 2016
+    areas: [ HCI ]
+    people: [ john_odonovan, james_schaffer, tobias_hollerer ]
+
+  - display: News Bias Perception Study
+    year: 2016
+    areas: [ HCI ]
+    people: [ john_odonovan, angel_ortega, tobias_hollerer ]
+
+  - display: Agent-based Modeling in Twitter.
+    year: 2016
+    areas: [ ML ]
+    people: [ john_odonovan, peter_zhe_fu ]
+
+  - display: Amazon location-based ratings study.
+    year: 2016
+    areas: [ ML ]
+    people: [ john_odonovan, shinsuke_nakajima ]
+
+  - display: Metadata analysis in Reddit and Twitter.
+    year: 2016
+    areas: [ ML ]
+    people: [ john_odonovan, byungkyu_jay_kang ]
+
+  - display: Question answering in Quora DB.
+    year: 2016
+    areas: [ ML ]
+    people: [ john_odonovan ]
+
+  - display: 3D bounding boxes in the mesh
+    year: 2016
+    areas: [ CV ]
+    people: [ adam_ibrahim ]
+
+  - display: Virtual navigation of image-based 3D reconstructions (using SfM and SLAM datasets)
+    year: 2016
+    areas: [ CV ]
+    people: [ benjamin_nuernberger, matthew_turk, tobias_hollerer ]
+
+  - display: Stardust Visualization Library
+    year: 2016
+    areas: [ VIS ]
+    people: [ donghao_ren, tobias_hollerer ]
+
+  - display: iVisDesigner
+    year: 2014
+    areas: [ VIS ]
+    people: [ donghao_ren, tobias_hollerer ]
+
+  - display: T4 Graph Visualization Study
+    year: 2016
+    areas: [ VIS ]
+    people: [ donghao_ren, john_odonovan, tobias_hollerer ]
+
+  - display: Human Robot Interaction Simulation in VIVE/AlloSphere
+    year: 2016
+    areas: [ VR ]
+    people: [ hannah_wolfe, tobias_hollerer ]
+
+  - display: Cinematic Virtual Reality
+    year: 2016
+    areas: [ VR ]
+    people: [ hanwei_kung, tobias_hollerer ]
+
+  - display: 3D modeling system for projected panoramic images in Virtual Reality
+    year: 2016
+    areas: [ VR ]
+    people: [ ehsan_sayyad, tobias_hollerer ]
+
+  - display: Bimanual 3D interface for modeling virtual reality
+    year: 2016
+    areas: [ HCI ]
+    people: [ ehsan_sayyad, tobias_hollerer ]

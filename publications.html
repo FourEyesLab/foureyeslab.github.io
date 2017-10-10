@@ -1,0 +1,55 @@
+---
+layout: page
+title: Publications
+permalink: /publications
+---
+
+<h1>Publications</h1>
+
+{% for year in (2010..2016) reversed %}
+
+<h2>{{year}}</h2>
+
+<ul class="publication-list">
+    {% for pub in site.data.publications %}
+    {% if pub.year == year %}
+    <li class="publication-item">
+        <span class="publication-title">{{pub.title}}</span>
+        <span class="publication-authors">{{pub.authors | join:", "}}</span>
+        <span class="publication-where">{{pub.where}}</span>
+        <span class="publication-controls">
+            {% if pub.pdf %}
+                <span><a href="{{pub.pdf}}">PDF</a></span>
+            {% endif %}
+            {% if pub.website %}
+                <span><a href="{{pub.website}}">Website</a></span>
+            {% endif %}
+            {% if pub.bibtex %}
+                <span><a href="#" onclick="toggleBibtex(this); return false;">Bibtex</a></span>
+            {% endif %}
+        </span>
+        <span class="publication-details" style="display: none">
+            {% if pub.bibtex %}
+                <pre>{{pub.bibtex}}</pre>
+            {% endif %}
+        </span>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+
+{% endfor %}
+
+<script type="text/javascript">
+
+function toggleBibtex(a) {
+    let parent = a.parentNode.parentNode.parentNode;
+    let details = parent.lastChild.previousSibling;
+    if(details.style.display != "none") {
+        details.style.display = "none";
+    } else {
+        details.style.display = "block";
+    }
+}
+</script>

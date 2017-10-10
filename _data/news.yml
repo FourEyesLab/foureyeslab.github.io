@@ -1,0 +1,51 @@
+# To add a news, copy, uncomment, and fill-in the template below:
+
+# - date: Date of the news, e.g., Feb 2017
+#   title: title of the news, e.g., the name of your conference.
+#   description: your description here, in **markdown** format, you can add hyperlinks as [link](http://example.com/).
+
+# The news items will appear in the website as the order defined here. The front page will display a limited number of items.
+ 
+- date: May 2017
+  title: Test
+  description: Test
+ 
+- date: Feb 2017
+  title: CHI17
+  description: Research by former lab member Saiph Savage (& team at WVU), in collaboration with Tobias Hollerer, John O'Donovan and Angel Ortega (undergraduate researcher) on combatting bias in news media was accepted to ACM CHI'17 (late breaking track).
+  
+- date: Feb 2017
+  title: Keynote talk
+  description: John O'Donovan will give a keynote talk at the "AWARE" workshop on awareness interfaces and interactions, to be held at IUI 2017 in March.
+
+- date: Jan 2017
+  title: ACM IUI Award
+  description: John O'Donovan to receive inaugural award for most-influential-paper of ACM IUI conference series, for his 2005 paper on "Trust in Recommender Systems" [(link to article)](http://dl.acm.org/citation.cfm?id=1040870) [(link to ACM award notice)](http://iui.acm.org/2017/).  John will present an invited talk about the work at IUI'17 in Cyprus.
+
+- date: Dec 2016
+  title: Ph.D. Defense
+  description: James Schaffer successfully defended his Ph.D. dissertation entitled "A Quantitative Investigation into the Design Tradeoffs in Decision Support Systems". Congratulations, James!
+
+- date: Dec 2016
+  title: 3DV 2016
+  description: Our paper, "Large Scale SfM with the Distributed Camera Model" by Chris Sweeney, Victor Fragoso, Tobias Höllerer, and Matthew Turk was presented at the 3D Vision Conference at Stanford University.
+
+- date: Nov 2016
+  title: Ph.D. Defense
+  description: Domagoj Baričević successfully defended his Ph.D. dissertation entitled "User-Perspective Augmented Reality Magic Lenses". Congratulations, Domagoj!
+
+- date: May 2016
+  title: Lab Open House 2016
+  description: The Four Eyes Lab will host an Open House, including demonstrations of the lab's current and recent research projects on Friday, May 27, 2016, 5-9pm. This event takes place along with the Media Arts and Technology End of Year Show in Elings Hall. The lab's work will be primarily on the third floor, so come on up!
+
+- date: Mar 2016
+  title: IEEE VR 2016
+  description: Our paper "Evaluating Wide-Field-of-View Augmented Reality with Mixed Reality Simulation" by Donghao Ren, Tibor Goldschwendt, YunSuk Chang, and Tobias Hollerer was presented at IEEE VR 2016.
+
+- date: Mar 2016
+  title: IEEE 3DUI 2016 Honorable Mention for Best Paper Award
+  description: Our paper, "Interpreting 2D Gesture Annotations in 3D Augmented Reality" by Benjamin Nuernberger, Kuo-Chin Lien, Tobias Hollerer, and Matthew Turk was presented at IEEE 3DUI 2016 and was awarded an honorable mention for best paper.
+
+- date: Feb 2016
+  title: Ph.D. Defense
+  description: Byungkyu "Jay" Kang successfully defended his Ph.D. dissertation entitled "Information Reliability on the Social Web." Congratulations, Jay!

@@ -1,0 +1,29 @@
+---
+layout: page
+title: Research
+permalink: /research
+---
+
+<script src="{{site.baseurl}}/assets/js/d3.v4.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/d3-tip.js"></script>
+
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/charts.js"></script>
+
+<h1>Research</h1>
+
+<div id="graph-area"></div>
+
+<div id="list-area"></div>
+
+<ul id="integrity-messages"></ul>
+
+<script type="text/javascript">
+// Include the data
+var research_areas = {{site.data.research_areas | json}};
+var people = {{site.data.people | json}};
+
+ValidateIntegrity(d3.select("#integrity-messages"), research_areas, people);
+var chart = new ResearchAreasListView(d3.select("#list-area"), research_areas, people)
+var chart = new ResearchAreasGraphView(d3.select("#graph-area"), research_areas, people)
+
+</script>

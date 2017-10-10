@@ -1,0 +1,13 @@
+<div class="header">
+    <h1>Four Eyes Lab</h1><small>University of California, Santa Barbara</small>
+</div>
+
+<ul class="nav-list">
+    <li {% if page.url=='/' %}class='active' {% endif %}><a href="{{site.baseurl}}/">Home</a></li>
+    <li {% if page.url=='/people' %}class='active' {% endif %}><a href="{{site.baseurl}}/people">People</a></li>
+    <li {% if page.url=='/research' %}class='active'{% endif %}><a href="{{site.baseurl}}/research">Research</a></li>
+    <li {% if page.url=='/publications' %}class='active' {% endif %}><a href="{{site.baseurl}}/publications">Publications</a></li>
+    <li {% if page.url=='/info' %}class='active' {% endif %}><a href="{{site.baseurl}}/info">Info for Students</a></li>
+    <li {% if page.url=='/datasets' %}class='active' {% endif %}><a href="{{site.baseurl}}/datasets">Datasets</a></li>
+    <li {% if page.url=='/contact' %}class='active' {% endif %}><a href="{{site.baseurl}}/contact">Contact</a></li>
+</ul>

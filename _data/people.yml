@@ -1,0 +1,711 @@
+# Template:
+# - name: firstname_lastname
+#   display: Firstname Lastname
+#   photo: firstname_lastname.jpg
+#   website: Your website full URL, optional
+#   role: faculty / research_scientist / phd_student / master_student / visitor
+#   alumni: yes / no (or leave out)
+#   order: 1 (or leave out for alphabetical order)
+
+- alumni: true
+  display: Jonathan Ventura
+  name: jonathan_ventura
+  order: 1
+  photo: jonathan_ventura.jpg
+  role: phd_student
+  website: http://www.cs.ucsb.edu/~jventura
+- alumni: true
+  display: Saiph Savage
+  name: saiph_savage
+  order: 0
+  photo: saiph_savage.jpg
+  role: phd_student
+  website: http://www.saiph.org
+- alumni: true
+  display: Daniel Vaquero
+  name: daniel_vaquero
+  order: 3
+  photo: daniel_vaquero.jpg
+  role: phd_student
+  website: http://alumni.cs.ucsb.edu/~daniel
+- alumni: true
+  display: Sehwan Kim
+  name: sehwan_kim
+  order: 1
+  photo: sehwan_kim.jpg
+  role: visitor
+  website: null
+- alumni: false
+  display: Matthew Turk
+  name: matthew_turk
+  order: 1
+  photo: matthew_turk.jpg
+  role: faculty
+  website: http://www.cs.ucsb.edu/~mturk
+- alumni: false
+  display: "Tobias H\xF6llerer"
+  name: tobias_hollerer
+  order: 2
+  photo: tobias_hollerer.jpg
+  role: faculty
+  website: http://www.cs.ucsb.edu/~holl/
+- alumni: true
+  display: Nichole Stockman
+  name: nichole_stockman
+  order: 4
+  photo: nichole_stockman.jpg
+  role: master_student
+  website: http://cs.ucsb.edu/~nstockman
+- alumni: true
+  display: Brynjar Gretarsson
+  name: brynjar_gretarsson
+  order: 5
+  photo: brynjar_gretarsson.jpg
+  role: phd_student
+  website: http://www.brynjarg.com
+- alumni: true
+  display: Cha Lee
+  name: cha_lee
+  order: 6
+  photo: cha_lee.jpg
+  role: phd_student
+  website: http://cs.ucsb.edu/~chalee21
+- alumni: false
+  display: "Domagoj Bari\u010Devi\u0107"
+  name: domagoj_baricevic
+  order: 7
+  photo: domagoj_baricevic.jpg
+  role: phd_student
+  website: null
+- alumni: false
+  display: John O'Donovan
+  name: john_odonovan
+  order: 1
+  photo: john_odonovan.jpg
+  role: research_scientist
+  website: http://cs.ucsb.edu/~jod
+- alumni: true
+  display: Justin Muncaster
+  name: justin_muncaster
+  order: 2
+  photo: justin_muncaster.jpg
+  role: master_student
+  website: null
+- alumni: false
+  display: Christopher Hall
+  name: christopher_hall
+  order: 8
+  photo: christopher_hall.jpg
+  role: phd_student
+  website: null
+- alumni: true
+  display: Longbin Chen
+  name: longbin_chen
+  order: 3
+  photo: longbin_chen.jpg
+  role: phd_student
+  website: null
+- alumni: true
+  display: Svetlin Bostandjiev
+  name: svetlin_bostandjiev
+  order: 9
+  photo: svetlin_bostandjiev.jpg
+  role: phd_student
+  website: http://bostandjiev.com
+- alumni: true
+  display: Christopher Coffin
+  name: christopher_coffin
+  order: 10
+  photo: christopher_coffin.jpg
+  role: phd_student
+  website: null
+- alumni: true
+  display: Panuakdet Suwannatat
+  name: panuakdet_suwannatat
+  order: 11
+  photo: panuakdet_suwannatat.jpg
+  role: phd_student
+  website: http://cs.ucsb.edu/~mock/
+- alumni: true
+  display: Juneho Yi
+  name: juneho_yi
+  order: 4
+  photo: juneho_yi.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Masayuki Kanbara
+  name: masayuki_kanbara
+  order: 5
+  photo: masayuki_kanbara.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Masahiro Toyoura
+  name: masahiro_toyoura
+  order: 6
+  photo: masahiro_toyoura.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Ryan Bane
+  name: ryan_bane
+  order: 7
+  photo: ryan_bane.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Lihua Lin
+  name: lihua_lin
+  order: 8
+  photo: lihua_lin.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Vineet Thanedar
+  name: vineet_thanedar
+  order: 9
+  photo: vineet_thanedar.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: "Mathias K\xF6lsch"
+  name: mathias_kolsch
+  order: 10
+  photo: mathias_kolsch.jpg
+  role: phd_student
+  website: null
+- alumni: true
+  display: Changbo Hu
+  name: changbo_hu
+  order: 11
+  photo: changbo_hu.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Helly Kwee
+  name: helly_kwee
+  order: 12
+  photo: helly_kwee.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Alex Olwal
+  name: alex_olwal
+  order: 13
+  photo: alex_olwal.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Sebastian Grange
+  name: sebastian_grange
+  order: 14
+  photo: sebastian_grange.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Taehee Lee
+  name: taehee_lee
+  order: 15
+  photo: taehee_lee.jpg
+  role: master_student
+  website: null
+- alumni: true
+  display: Ismo Rakkolainen
+  name: ismo_rakkolainen
+  order: 3
+  photo: ismo_rakkolainen.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Hang-Bong Kang
+  name: hang-bong_kang
+  order: 17
+  photo: hang-bong_kang.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Ya Chang
+  name: ya_chang
+  order: 18
+  photo: ya_chang.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Rogerio Feris
+  name: rogerio_feris
+  order: 19
+  photo: rogerio_feris.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: John Roberts
+  name: john_roberts
+  order: 20
+  photo: john_roberts.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Mark Breisinger
+  name: mark_breisinger
+  order: 21
+  photo: mark_breisinger.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Sehyung Park
+  name: sehyung_park
+  order: 22
+  photo: sehyung_park.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Stephen DiVerdi
+  name: stephen_diverdi
+  order: 23
+  photo: stephen_diverdi.jpg
+  role: phd_student
+  website: null
+- alumni: true
+  display: Haiying Guan
+  name: haiying_guan
+  order: 24
+  photo: haiying_guan.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Jae Sik Chang
+  name: jae_sik_chang
+  order: 25
+  photo: jae_sik_chang.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Thomas Klemmer
+  name: thomas_klemmer
+  order: 26
+  photo: thomas_klemmer.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Chunghoon Kim
+  name: chunghoon_kim
+  order: 27
+  photo: chunghoon_kim.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Jason Wither
+  name: jason_wither
+  order: 28
+  photo: jason_wither.jpg
+  role: phd_student
+  website: null
+- alumni: true
+  display: Steffen Gauglitz
+  name: steffen_gauglitz
+  order: 12
+  photo: steffen_gauglitz.jpg
+  role: phd_student
+  website: http://www.cs.ucsb.edu/~sgauglitz
+- alumni: true
+  display: Victor Fragoso
+  name: victor_fragoso
+  order: 13
+  photo: victor_fragoso.jpg
+  role: visitor
+  website: http://www.cs.ucsb.edu/~vfragoso
+- alumni: true
+  display: Wendy Chun
+  name: wendy_chun
+  order: 14
+  photo: wendy_chun.jpg
+  role: master_student
+  website: null
+- alumni: true
+  display: Eyrun Eyjolfsdottir
+  name: eyrun_eyjolfsdottir
+  order: 29
+  photo: eyrun_eyjolfsdottir.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Shane Zamora
+  name: shane_zamora
+  order: 30
+  photo: shane_zamora.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: "R\xE9mi Paucher"
+  name: remi_paucher
+  order: 28
+  photo: remi_paucher.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Christine Chen
+  name: christine_chen
+  order: 1
+  photo: christine_chen.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Erno Makinen
+  name: erno_makinen
+  order: 29
+  photo: erno_makinen.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Sylvie Daniel
+  name: sylvie_daniel
+  order: 2
+  photo: sylvie_daniel.jpg
+  role: visitor
+  website: http://www.scg.ulaval.ca/prof01.php?id=14
+- alumni: true
+  display: Sven Dickinson
+  name: sven_dickinson
+  order: 16
+  photo: sven_dickinson.jpg
+  role: visitor
+  website: http://www.cs.toronto.edu/~sven/
+- alumni: false
+  display: Benjamin Nuernberger
+  name: benjamin_nuernberger
+  order: 21
+  photo: benjamin_nuernberger.jpg
+  role: phd_student
+  website: http://cs.ucsb.edu/~bnuernberger
+- alumni: true
+  display: Yun Teng
+  name: yun_teng
+  order: 16
+  photo: yun_teng.jpg
+  role: master_student
+  website: http://cs.ucsb.edu/~yunteng.cs
+- alumni: false
+  display: James Schaffer
+  name: james_schaffer
+  order: 20
+  photo: james_schaffer.jpg
+  role: phd_student
+  website: null
+- alumni: true
+  display: Doug Bowman
+  name: doug_bowman
+  order: 30
+  photo: doug_bowman.jpg
+  role: visitor
+  website: http://people.cs.vt.edu/~bowman/
+- alumni: true
+  display: Marc Petter
+  name: marc_petter
+  order: 4
+  photo: marc_petter.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Dianna Han
+  name: dianna_han
+  order: 14
+  photo: dianna_han.jpg
+  role: phd_student
+  website: http://www.linkedin.com/in/diannahan
+- alumni: true
+  display: Greg Meyer
+  name: greg_meyer
+  order: 1
+  photo: greg_meyer.jpg
+  role: visitor
+  website: http://www.meyergreg.us.
+- alumni: true
+  display: Byungkyu Jay Kang
+  name: byungkyu_jay_kang
+  order: 15
+  photo: byungkyu_jay_kang.jpg
+  role: phd_student
+  website: http://penguinkang.com
+- alumni: true
+  display: Angus Forbes
+  name: angus_forbes
+  order: 15
+  photo: angus_forbes.jpg
+  role: visitor
+  website: http://www.mat.ucsb.edu/a.forbes
+- alumni: true
+  display: Miao Mao
+  name: miao_mao
+  order: 2
+  photo: miao_mao.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Sang Chul Ahn
+  name: sang_chul_ahn
+  order: 3
+  photo: sang_chul_ahn.jpg
+  role: visitor
+  website: http://www.imrc.kist.re.kr/
+- alumni: true
+  display: Chris Sweeney
+  name: chris_sweeney
+  order: 16
+  photo: chris_sweeney.jpg
+  role: visitor
+  website: http://cs.ucsb.edu/~cmsweeney/
+- alumni: true
+  display: Mathieu Rodrigue
+  name: mathieu_rodrigue
+  order: 17
+  photo: mathieu_rodrigue.jpg
+  role: visitor
+  website: http://cs.ucsb.edu/~mathieu
+- alumni: true
+  display: Emily Fujimoto
+  name: emily_fujimoto
+  order: 18
+  photo: emily_fujimoto.jpg
+  role: phd_student
+  website: http://www.cs.ucsb.edu/~efujimoto/
+- alumni: true
+  display: Ai Takahashi
+  name: ai_takahashi
+  order: 2
+  photo: ai_takahashi.jpg
+  role: visitor
+  website: http://www.rm.is.ritsumei.ac.jp/english/research.html
+- alumni: true
+  display: 'Devdeep R. Choudhury '
+  name: devdeep_r._choudhury_
+  order: 17
+  photo: devdeep_r._choudhury_.jpg
+  role: visitor
+  website: http://www.linkedin.com/pub/devdeep-roy-choudhury/22/83a/319
+- alumni: true
+  display: Erina Ishikawa
+  name: erina_ishikawa
+  order: 3
+  photo: erina_ishikawa.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Selan R. dos Santos
+  name: selan_r._dos_santos
+  order: 4
+  photo: selan_r._dos_santos.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Lukas Gruber
+  name: lukas_gruber
+  order: 5
+  photo: lukas_gruber.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Kuo-Chin Lien
+  name: kuo-chin_lien
+  order: 23
+  photo: kuo-chin_lien.jpg
+  role: phd_student
+  website: http://www.ece.ucsb.edu/~kuochin/
+- alumni: true
+  display: Basak Alper
+  name: basak_alper
+  order: 19
+  photo: basak_alper.jpg
+  role: phd_student
+  website: http://www.mat.ucsb.edu/basak.alper
+- alumni: false
+  display: Nataly Moreno
+  name: nataly_moreno
+  order: 17
+  photo: nataly_moreno.jpg
+  role: master_student
+  website: http://natalymoreno.weebly.com/
+- alumni: false
+  display: Nicholas Davis
+  name: nicholas_davis
+  order: 18
+  photo: nicholas_davis.jpg
+  role: master_student
+  website: null
+- alumni: true
+  display: Xiaoli Zhao
+  name: xiaoli_zhao
+  order: 1
+  photo: xiaoli_zhao.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: Akira Kudo
+  name: akira_kudo
+  order: 18
+  photo: akira_kudo.jpg
+  role: visitor
+  website: null
+- alumni: false
+  display: Donghao Ren
+  name: donghao_ren
+  order: 22
+  photo: donghao_ren.jpg
+  role: phd_student
+  website: https://donghaoren.org
+- alumni: true
+  display: Julia Kuosmanen
+  name: julia_kuosmanen
+  order: 18
+  photo: julia_kuosmanen.jpg
+  role: visitor
+  website: http://www.uta.fi/sis/yhteystiedot/henkilokunta/yuliagizatdinova.html
+- alumni: false
+  display: Jungah Son
+  name: jungah_son
+  order: 24
+  photo: jungah_son.jpg
+  role: phd_student
+  website: null
+- alumni: false
+  display: Mohit Hingorani
+  name: mohit_hingorani
+  order: 19
+  photo: mohit_hingorani.jpg
+  role: master_student
+  website: http://www.mohithingorani.com
+- alumni: true
+  display: Lei Xiong
+  name: lei_xiong
+  order: 19
+  photo: lei_xiong.jpg
+  role: visitor
+  website: null
+- alumni: false
+  display: YunSuk Chang
+  name: yunsuk_chang
+  order: 22
+  photo: yunsuk_chang.jpg
+  role: master_student
+  website: null
+- alumni: true
+  display: Rakesh Ramesh
+  name: rakesh_ramesh
+  order: 20
+  photo: rakesh_ramesh.jpg
+  role: visitor
+  website: null
+- alumni: true
+  display: 'Tibor Goldschwendt'
+  name: tibor_goldschwendt
+  order: 20
+  photo: tibor_goldschwendt.jpg
+  role: visitor
+  website: null
+- alumni: false
+  display: Mudit Uppal
+  name: mudit_uppal
+  order: 21
+  photo: mudit_uppal.jpg
+  role: master_student
+  website: null
+- alumni: true
+  display: Shinsuke Nakajima
+  name: shinsuke_nakajima
+  order: 21
+  photo: shinsuke_nakajima.jpg
+  role: visitor
+  website: http://nakajima.cse.kyoto-su.ac.jp/e_index.html
+- alumni: true
+  display: Lennon Grinta
+  name: lennon_grinta
+  order: 23
+  photo: lennon_grinta.jpg
+  role: visitor
+  website: null
+- alumni: false
+  display: Han-Wei Kung
+  name: han-wei_kung
+  order: 25
+  photo: han-wei_kung.jpg
+  role: phd_student
+  website: null
+- alumni: false
+  display: Brandon Huynh
+  name: brandon_huynh
+  order: 26
+  photo: brandon_huynh.jpg
+  role: phd_student
+  website: null
+- alumni: false
+  display: Kalyan Tej Javvadi Appannacharya
+  name: kalyan_tej_javvadi_appannacharya
+  order: 24
+  photo: kalyan_tej_javvadi_appannacharya.jpg
+  role: master_student
+  website: null
+- alumni: true
+  display: Andreas Butz
+  name: andreas_butz
+  order: 22
+  photo: andreas_butz.jpg
+  role: visitor
+  website: http://www.butz.org
+- alumni: true
+  display: "Renate H\xE4uslschmid"
+  name: renate_hauslschmid
+  order: 23
+  photo: renate_hauslschmid.jpg
+  role: visitor
+  website: null
+- alumni: false
+  display: Angel Ortega
+  name: angel_ortega
+  order: 25
+  photo: angel_ortega.jpg
+  role: master_student
+  website: http://angelortega.io
+- alumni: false
+  display: Hiroyuki Kawakita
+  name: hiroyuki_kawakita
+  order: 22
+  photo: hiroyuki_kawakita.jpg
+  role: visitor
+  website: null
+- alumni: false
+  display: Martin Hering
+  name: martin_hering
+  order: 23
+  photo: martin_hering.jpg
+  role: visitor
+  website: null
+- alumni: false
+  display: adam_ibrahim
+  name: adam_ibrahim
+  order: 24
+  photo: unknown.jpg
+  role: phd_student
+- alumni: false
+  display: peter_zhe_fu
+  name: peter_zhe_fu
+  order: 24
+  photo: unknown.jpg
+  role: phd_student
+- alumni: false
+  display: hannah_wolfe
+  name: hannah_wolfe
+  order: 24
+  photo: unknown.jpg
+  role: phd_student
+- alumni: false
+  display: hanwei_kung
+  name: hanwei_kung
+  order: 24
+  photo: unknown.jpg
+  role: phd_student
+- alumni: false
+  display: ehsan_sayyad
+  name: ehsan_sayyad
+  order: 24
+  photo: unknown.jpg
+  role: phd_student
