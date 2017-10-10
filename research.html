@@ -19,8 +19,8 @@ permalink: /research
 
 <script type="text/javascript">
 // Include the data
-var research_areas = {{site.data.research_areas | json}};
-var people = {{site.data.people | json}};
+var research_areas = {{site.data.research_areas | jsonify}};
+var people = {{site.data.people | jsonify}};
 
 ValidateIntegrity(d3.select("#integrity-messages"), research_areas, people);
 var chart = new ResearchAreasListView(d3.select("#list-area"), research_areas, people)
