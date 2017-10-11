@@ -43,9 +43,9 @@ people_roles_alumni:
         {% endif %}
     <div class="people-item">
         {% if people.website %}
-        <a href="{{people.website}}"><div class="photo" style="background-image: url('{{site.baseurl}}/assets/images/people/{{people.photo}}')" /></div><br />{{people.display}}</a>
+        <a href="{{people.website}}"><div class="photo" style="background-image: url(&quot;{{site.baseurl}}/assets/images/people/{{people.photo}}&quot;)" /></div><br />{{people.display}}</a>
         {% else %}
-        <div class="photo" style="background-image: url('{{site.baseurl}}/assets/images/people/{{people.photo}}')" /></div><br />{{people.display}}
+        <div class="photo" style="background-image: url(&quot;{{site.baseurl}}/assets/images/people/{{people.photo}}&quot;)" /></div><br />{{people.display}}
         {% endif %}
     </div>
 {% endif %}{% endunless %}{% endfor %}
@@ -64,9 +64,9 @@ people_roles_alumni:
         {% endif %}
     <div class="people-item">
         {% if people.website %}
-        <a href="{{people.website}}"><div class="photo" style="background-image: url('{{site.baseurl}}/assets/images/people/{{people.photo}}')" /></div><br />{{people.display}}</a>
+        <a href="{{people.website}}"><div class="photo" style="background-image: url(&quot;{{site.baseurl}}/assets/images/people/{{people.photo}}&quot;)" /></div><br />{{people.display}}</a>
         {% else %}
-        <div class="photo" style="background-image: url('{{site.baseurl}}/assets/images/people/{{people.photo}}')" /></div><br />{{people.display}}
+        <div class="photo" style="background-image: url(&quot;{{site.baseurl}}/assets/images/people/{{people.photo}}&quot;)" /></div><br />{{people.display}}
         {% endif %}
     </div>
 {% endif %}{% endif %}{% endfor %}
