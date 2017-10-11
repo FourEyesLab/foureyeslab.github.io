@@ -122,28 +122,9 @@ PeopleIndex.prototype.get = function (name) {
     };
 }
 
-function ValidateIntegrity(container, research_areas, people) {
-    let valid_areas = new Set(research_areas.areas.map(function(area) {
-        return area.name;
-    }));
-    let valid_people = new Set(people.map(function(d) { return d.name; }));
-    let error_messages = new Set();
-    research_areas.projects.forEach(function(d) {
-        d.areas.forEach(function(a) {
-            if(!valid_areas.has(a)) error_messages.add("Research area '" + a + "' specified in project '" + d.name + "' doesn't exist");
-            valid_areas.add(a);
-        });
-        d.people.forEach(function(a) {
-            if(!valid_people.has(a)) error_messages.add("People '" + a + "' specified in project '" + d.name + "' doesn't exist");
-            valid_people.add(a);
-        });
-    });
-    error_messages.forEach(function(msg) {
-        container.append("li").text(msg);
-    });
-}
-
-function ResearchAreasListView(container, research_areas, people) {
+function ResearchAreasListView(container, dataset) {
+    let research_areas = { areas: dataset.areas, projects: dataset.projects };
+    let people = dataset.people;
     people = new PeopleIndex(people);
     container.classed("research-areas-list-view", true);
     container.classed("group", true);
@@ -172,11 +153,13 @@ function ResearchAreasListView(container, research_areas, people) {
     project_content.append("strong").text(function (p) { return p.display; });
     project_content.append("br");
     project_content.append("span").text(function (p) {
-        return p.people.map(function (person) { return people.get(person).display; }).join(", ");
+        return p.people.map(function (people) { return people.display; }).join(", ");
     });
 }
 
-function ResearchAreasGraphView(container, research_areas, people) {
+function ResearchAreasGraphView(container, dataset) {
+    let research_areas = { areas: dataset.areas, projects: dataset.projects };
+    let people = dataset.people;
     // people = new PeopleIndex(people);
     container.classed("research-areas-graph-view", true);
     var width = container.node().getBoundingClientRect().width;
@@ -203,7 +186,8 @@ function ResearchAreasGraphView(container, research_areas, people) {
     var simulation = d3.forceSimulation()
         .force("link", d3.forceLink().id(function (d) { return d.id; }))
         .force("charge", d3.forceManyBody())
-        .force("center", d3.forceCenter(width / 2, height / 2))
+        .force("centerX", d3.forceX(width / 2))
+        .force("centerY", d3.forceY(height / 2));
 
     var nodes = [];
     var area_to_node = {};
@@ -219,7 +203,7 @@ function ResearchAreasGraphView(container, research_areas, people) {
     }));
     nodes = nodes.concat(research_areas.projects.map(function (project) {
         project.people.forEach(function (p) {
-            people_used[p] = true;
+            people_used[p.name] = true;
         });
         return project_to_node[project.display] = {
             type: "project",
@@ -246,13 +230,14 @@ function ResearchAreasGraphView(container, research_areas, people) {
         p.people.forEach(function (people) {
             links.push({
                 source: project_to_node[p.display],
-                target: people_to_node[people],
+                target: people_to_node[people.name],
             });
         });
     });
 
     // Compute the degree of nodes
     nodes.forEach(function (n) { n.degree = 0; });
+    links = links.filter(function(e) { return e.source != null && e.target != null; });
     links.forEach(function (e) { e.source.degree += 1; e.target.degree += 1 });
 
     var backlayer = svg.append("g");
@@ -281,10 +266,10 @@ function ResearchAreasGraphView(container, research_areas, people) {
         .attr("stroke-linejoin", "round")
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide)
-        // .call(d3.drag()
-        //     .on("start", dragstarted)
-        //     .on("drag", dragged)
-        //     .on("end", dragended));
+        .call(d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended));
 
 
     simulation
@@ -293,10 +278,10 @@ function ResearchAreasGraphView(container, research_areas, people) {
     simulation.force("link")
         .links(links);
 
-    simulation.stop();
-    for (var i = 0, n = Math.ceil(Math.log(simulation.alphaMin()) / Math.log(1 - simulation.alphaDecay())); i < n; ++i) {
-        simulation.tick();
-    }
+    // simulation.stop();
+    // for (var i = 0, n = Math.ceil(Math.log(simulation.alphaMin()) / Math.log(1 - simulation.alphaDecay())); i < n; ++i) {
+    //     simulation.tick();
+    // }
 
     var bubblesets = research_areas.areas.map(function (area) {
         var g = backlayer.append("g");
@@ -331,7 +316,7 @@ function ResearchAreasGraphView(container, research_areas, people) {
             .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
     }
 
-    ticked();
+    simulation.on("tick", ticked);
 
     function dragstarted(d) {
         if (!d3.event.active) simulation.alphaTarget(0.3).restart();

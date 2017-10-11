@@ -67,23 +67,23 @@ projects:
 
   - display: Spatial Mapping Server (Heterogenous Data)
     year: 2016
-    people: [ Brandon Huynh, peter_zhe_fu, "Tobias H\xF6llerer" ]
+    people: [ Brandon Huynh, "Petere Zhe Fu", "Tobias H\xF6llerer" ]
     areas: [ CV ]
 
   - display: Diner's Dilemma "Guru" study
     year: 2016
     areas: [ HCI ]
-    people: [ "John O'Donovan", james_schaffer, "Tobias H\xF6llerer" ]
+    people: [ "John O'Donovan", James Schaffer, "Tobias H\xF6llerer" ]
 
   - display: News Bias Perception Study
     year: 2016
     areas: [ HCI ]
-    people: [ "John O'Donovan", angel_ortega, "Tobias H\xF6llerer" ]
+    people: [ "John O'Donovan", "Angel Ortega", "Tobias H\xF6llerer" ]
 
   - display: Agent-based Modeling in Twitter.
     year: 2016
     areas: [ ML ]
-    people: [ "John O'Donovan", peter_zhe_fu ]
+    people: [ "John O'Donovan", "Petere Zhe Fu" ]
 
   - display: Amazon location-based ratings study.
     year: 2016
