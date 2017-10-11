@@ -1,61 +1,1545 @@
-- title: "Automated Assistants to Identify and Prompt Action on Visual News Bias"
-  authors: ["V. Narwal", "M.H. Salih", "J.A. Lopez", "A. Ortega", " J. O'Donovan", "S. Savage", "T. Höllerer"]
-  where: "Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems"
+- authors: [Domagoj Baricevic, "Tobias H\xF6llerer", Pradeep Sen, Matthew Turk]
+  doi: https://doi.org/10.1109/TVCG.2016.2559483
+  title: User-Perspective AR Magic Lens from Gradient-Based IBR and Semi-Dense Stereo.
+  where: IEEE Trans. Vis. Comput. Graph.
   year: 2017
-  website: "http://doi.acm.org/10.1145/3027063.3053227"
-  bibtex: |
-    @inproceedings{Narwal:2017:AAI:3027063.3053227,
-     author = {Narwal, Vishwajeet and Salih, Mohamed Hashim and Lopez, Jose Angel and Ortega, Angel and O'Donovan, John and H\"{o}llerer, Tobias and Savage, Saiph},
-     title = {Automated Assistants to Identify and Prompt Action on Visual News Bias},
-     booktitle = {Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
-     series = {CHI EA '17},
-     year = {2017},
-     isbn = {978-1-4503-4656-6},
-     location = {Denver, Colorado, USA},
-     pages = {2796--2801},
-     numpages = {6},
-     url = {http://doi.acm.org/10.1145/3027063.3053227},
-     doi = {10.1145/3027063.3053227},
-     acmid = {3053227},
-     publisher = {ACM},
-     address = {New York, NY, USA},
-     keywords = {civic computing, fake news, news bias}
-    }
-
-
-- title: "Botivist: Calling Volunteers to Action Using Online Bots"
-  authors: ["S. Savage", "A. Monroy-Hernandez", "T. Höllerer"]
-  where: "CSCW'16: Computer Supportive Collaborative Work"
+- authors: [Vishwajeet Narwal, Mohamed Hashim Salih, Jose Angel Lopez, Angel Ortega, John O'Donovan, "Tobias H\xF6llerer", Saiph Savage]
+  doi: http://doi.acm.org/10.1145/3027063.3053227
+  title: Automated Assistants to Identify and Prompt Action on Visual News Bias.
+  where: Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems, Denver, CO, USA, May 06-11, 2017, Extended Abstracts.
+  year: 2017
+- authors: [Ismo Rakkolainen, Roope Raisamo, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/3131085.3131088
+  title: Field-of-view extension for VR viewers.
+  where: Proceedings of the 21st International Academic Mindtrek Conference, AcademicMindtrek 2017, Tampere, Finland, September 20 - 21, 2017
+  year: 2017
+- authors: [YunSuk Chang, Benjamin Nuernberger, Bo Luan, "Tobias H\xF6llerer", John O'Donovan]
+  doi: https://doi.org/10.1109/VR.2017.7892383
+  title: Gesture-based augmented reality annotation.
+  where: 2017 IEEE Virtual Reality, VR 2017, Los Angeles, CA, USA, March 18-22, 2017
+  year: 2017
+- authors: [Domagoj Baricevic, "Tobias H\xF6llerer", Matthew Turk]
+  doi: https://doi.org/10.1109/WACV.2017.99
+  title: Densification of Semi-Dense Reconstructions for Novel View Generation of Live Scenes.
+  where: 2017 IEEE Winter Conference on Applications of Computer Vision, WACV 2017, Santa Rosa, CA, USA, March 24-31, 2017
+  year: 2017
+- authors: [Vishwajeet Narwal, Mohamed Hashim Salih, Jose Angel Lopez, Angel Ortega, John O'Donovan, "Tobias H\xF6llerer", Saiph Savage]
+  doi: http://arxiv.org/abs/1702.06492
+  title: Automated Assistants to Identify and Prompt Action on Visual News Bias.
+  where: CoRR
+  year: 2017
+- authors: [Laura R. Marusich, Jonathan Z. Bakdash, Emrah Onal, Michael S. Yu, James Schaffer, John O'Donovan, "Tobias H\xF6llerer", Norbou Buchler, Cleotilde Gonzalez]
+  doi: https://doi.org/10.1177/0018720815619515
+  title: 'Effects of Information Availability on Command-and-Control Decision Making: Performance, Trust, and Situation Awareness.'
+  where: Human Factors
   year: 2016
-  website: "http://research.microsoft.com/apps/pubs/default.aspx?id=256068"
-  bibtex: |
-    @article{savage2016botivist,
-      title={Botivist: Calling Volunteers to Action Using Online Bots},
-      author={Savage, Saiph and Monroy-Hernandez, Andres and Hollerer, Tobias},
-      journal={CSCW'16},
-      year={2016}
-    }
-
-- title: "Botivist: Calling Volunteers to Action Using Online Bots"
-  authors: ["S. Savage", "A. Monroy-Hernandez", "T. Höllerer"]
-  where: "CSCW'16: Computer Supportive Collaborative Work"
+- authors: [Chris Sweeney, Victor Fragoso, "Tobias H\xF6llerer", Matthew Turk]
+  doi: https://doi.org/10.1109/3DV.2016.31
+  title: Large Scale SfM with the Distributed Camera Model.
+  where: Fourth International Conference on 3D Vision, 3DV 2016, Stanford, CA, USA, October 25-28, 2016
   year: 2016
-  website: "http://research.microsoft.com/apps/pubs/default.aspx?id=256068"
-  bibtex: |
-    @article{savage2016botivist,
-      title={Botivist: Calling Volunteers to Action Using Online Bots},
-      author={Savage, Saiph and Monroy-Hernandez, Andres and Hollerer, Tobias},
-      journal={CSCW'16},
-      year={2016}
-    }
-
-- title: "A Superwide-FOV Optical Design for Head-Mounted Displays"
-  authors: ["I. Rakkolainen", "M. Turk", "T. Hollerer"]
-  where: "Intl. Conf. on Artificial Reality and Telexistence / Eurographics Symposium on Virtual Environments (ICAT-EGVE 2016)"
+- authors: [Benjamin Nuernberger, Kuo-Chin Lien, "Tobias H\xF6llerer", Matthew Turk]
+  doi: https://doi.org/10.1109/3DUI.2016.7460046
+  title: Interpreting 2D gesture annotations in 3D augmented reality.
+  where: 2016 IEEE Symposium on 3D User Interfaces, 3DUI 2016, Greenville, SC, USA, March 19-20, 2016
   year: 2016
-  pdf: "http://www.cs.ucsb.edu/~mturk/pubs/IsmoICAT-EGVE2016.pdf"
-
-- title: "One-Class Slab Support Vector Machine"
-  authors: ["V. Fragoso", "W. Scheirer", "J. Hespanha", "M. Turk"]
-  where: "International Conference on Pattern Recognition (ICPR 2016)"
+- authors: [James Schaffer, Brandon Huynh, John O'Donovan, "Tobias H\xF6llerer", Yinglong Xia, W. Sabrina Lin]
+  doi: https://doi.org/10.1109/ASONAM.2016.7752262
+  title: An analysis of student behavior in two massive open online courses.
+  where: 2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining, ASONAM 2016, San Francisco, CA, USA, August 18-21, 2016
   year: 2016
+- authors: [Kuo-Chin Lien, Benjamin Nuernberger, "Tobias H\xF6llerer", Matthew Turk]
+  doi: https://doi.org/10.1109/ISMAR.2016.21
+  title: 'PPV: Pixel-Point-Volume Segmentation for Object Referencing in Collaborative Augmented Reality.'
+  where: 2016 IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2016, Merida, Yucatan, Mexico, September 19-23, 2016
+  year: 2016
+- authors: [Ismo Rakkolainen, Roope Raisamo, Matthew Turk, "Tobias H\xF6llerer", Karri T. Palovuori]
+  doi: http://doi.acm.org/10.1145/2994310.2994314
+  title: Casual immersive viewing with smartphones.
+  where: Proceedings of the 20th International Academic Mindtrek Conference, AcademicMindtrek '16, Tampere, Finland, October 17-18, 2016
+  year: 2016
+- authors: [John O'Donovan, Shinsuke Nakajima, "Tobias H\xF6llerer", Mayumi Ueda, Yuuki Matsunami, Byungkyu Kang]
+  doi: http://ceur-ws.org/Vol-1679/paper9.pdf
+  title: A Cross-Cultural Analysis of Explanations for Product Reviews.
+  where: Proceedings of the Joint Workshop on Interfaces and Human Decision Making for Recommender Systems co-located with ACM Conference on Recommender Systems (RecSys 2016), Boston, MA, USA, September 16, 2016.
+  year: 2016
+- authors: [Byungkyu Kang, Nava Tintarev, "Tobias H\xF6llerer", John O'Donovan]
+  doi: https://doi.org/10.1007/978-3-319-47874-6_20
+  title: What am I not Seeing? An Interactive Approach to Social Content Discovery in Microblogs.
+  where: Social Informatics - 8th International Conference, SocInfo 2016, Bellevue, WA, USA, November 11-14, 2016, Proceedings, Part II
+  year: 2016
+- authors: [Benjamin Nuernberger, Kuo-Chin Lien, "Tobias H\xF6llerer", Matthew Turk]
+  doi: https://doi.org/10.1109/VR.2016.7504746
+  title: Anchoring 2D gesture annotations in augmented reality.
+  where: 2016 IEEE Virtual Reality, VR 2016, Greenville, SC, USA, March 19-23, 2016
+  year: 2016
+- authors: [Benjamin Nuernberger, Kuo-Chin Lien, Lennon Grinta, Chris Sweeney, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2993369.2993371
+  title: Multi-view gesture annotations in image-based 3D reconstructed scenes.
+  where: Proceedings of the 22nd ACM Conference on Virtual Reality Software and Technology, VRST 2016, Munich, Germany, 2-4 November, 2016
+  year: 2016
+- authors: [Ismo Rakkolainen, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2993369.2996322
+  title: A compact, wide-FOV optical design for head-mounted displays.
+  where: Proceedings of the 22nd ACM Conference on Virtual Reality Software and Technology, VRST 2016, Munich, Germany, 2-4 November, 2016
+  year: 2016
+- authors: [Chris Sweeney, Victor Fragoso, "Tobias H\xF6llerer", Matthew Turk]
+  doi: http://arxiv.org/abs/1607.03949
+  title: Large Scale SfM with the Distributed Camera Model.
+  where: CoRR
+  year: 2016
+- authors: [Byungkyu Kang, "Tobias H\xF6llerer", John O'Donovan]
+  doi: http://doi.acm.org/10.1145/2808797.2809379
+  title: Believe it or Not? Analyzing Information Credibility in Microblogs.
+  where: Proceedings of the 2015 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining, ASONAM 2015, Paris, France, August 25 - 28, 2015
+  year: 2015
+- authors: [Byungkyu Kang, "Tobias H\xF6llerer", John O'Donovan]
+  doi: http://doi.acm.org/10.1145/2808797.2809317
+  title: 'The Full Story: Automatic detection of unique news content in Microblogs.'
+  where: Proceedings of the 2015 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining, ASONAM 2015, Paris, France, August 25 - 28, 2015
+  year: 2015
+- authors: [Nataly Moreno, Saiph Savage, Anamary Leal, Jessica Cornick, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2685553.2699015
+  title: Motivating Crowds to Volunteer Neighborhood Data.
+  where: 18th ACM Conference on Computer Supported Cooperative Work & Social Computing, CSCW 2015, Vancouver, BC, Canada, March 14-18, 2015, Companion Volume
+  year: 2015
+- authors: [Chris Sweeney, Laurent Kneip, "Tobias H\xF6llerer", Matthew Turk]
+  doi: https://doi.org/10.1109/CVPR.2015.7298951
+  title: Computing similarity transformations from only image correspondences.
+  where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2015, Boston, MA, USA, June 7-12, 2015
+  year: 2015
+- authors: [James Schaffer, "Tobias H\xF6llerer", John O'Donovan]
+  doi: http://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS15/paper/view/10444
+  title: 'Hypothetical Recommendation: A Study of Interactive Profile Manipulation Behavior for Recommender Systems.'
+  where: Proceedings of the Twenty-Eighth International Florida Artificial Intelligence Research Society Conference, FLAIRS 2015, Hollywood, Florida. May 18-20, 2015.
+  year: 2015
+- authors: [Chris Sweeney, Torsten Sattler, "Tobias H\xF6llerer", Matthew Turk, Marc Pollefeys]
+  doi: https://doi.org/10.1109/ICCV.2015.98
+  title: Optimizing the Viewing Graph for Structure-from-Motion.
+  where: 2015 IEEE International Conference on Computer Vision, ICCV 2015, Santiago, Chile, December 7-13, 2015
+  year: 2015
+- authors: [Kuo-Chin Lien, Benjamin Nuernberger, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2015.56
+  title: 2D-3D Co-segmentation for AR-based Remote Collaboration.
+  where: 2015 IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2015, Fukuoka, Japan, September 29 - Oct. 3, 2015
+  year: 2015
+- authors: [Chris Sweeney, John Flynn, Benjamin Nuernberger, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2015.20
+  title: Efficient Computation of Absolute Pose for Gravity-Aware Augmented Reality.
+  where: 2015 IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2015, Fukuoka, Japan, September 29 - Oct. 3, 2015
+  year: 2015
+- authors: [Yalun Qin, Kuo-Chin Lien, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1007/978-3-319-27857-5_54
+  title: Eye Gaze Correction with a Single Webcam Based on Eye-Replacement.
+  where: Advances in Visual Computing - 11th International Symposium, ISVC 2015, Las Vegas, NV, USA, December 14-16, 2015, Proceedings, Part I
+  year: 2015
+- authors: [Mathieu Rodrigue, Jungah Son, Barry Giesbrecht, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2678025.2701382
+  title: Spatio-Temporal Detection of Divided Attention in Reading Applications Using EEG and Eye Tracking.
+  where: Proceedings of the 20th International Conference on Intelligent User Interfaces, IUI 2015, Atlanta, GA, USA, March 29 - April 01, 2015
+  year: 2015
+- authors: [James Schaffer, Prasanna Giridhar, Debra Jones, "Tobias H\xF6llerer", Tarek F. Abdelzaher, John O'Donovan]
+  doi: http://doi.acm.org/10.1145/2678025.2701406
+  title: 'Getting the Message?: A Study of Explanation Interfaces for Microblog Data Analysis.'
+  where: Proceedings of the 20th International Conference on Intelligent User Interfaces, IUI 2015, Atlanta, GA, USA, March 29 - April 01, 2015
+  year: 2015
+- authors: [Christopher Sweeney, "Tobias H\xF6llerer", Matthew Turk]
+  doi: http://doi.acm.org/10.1145/2733373.2807405
+  title: 'Theia: A Fast and Scalable Structure-from-Motion Library.'
+  where: Proceedings of the 23rd Annual ACM Conference on Multimedia Conference, MM '15, Brisbane, Australia, October 26 - 30, 2015
+  year: 2015
+- authors: [Nava Tintarev, Byungkyu Kang, "Tobias H\xF6llerer", John O'Donovan]
+  doi: http://ceur-ws.org/Vol-1438/paper4.pdf
+  title: Inspection Mechanisms for Community-based Content Discovery in Microblogs.
+  where: Proceedings of the Joint Workshop on Interfaces and Human Decision Making for Recommender Systems, IntRS 2015, co-located with ACM Conference on Recommender Systems (RecSys 2015), Vienna, Austria, September 19, 2015.
+  year: 2015
+- authors: [Steffen Gauglitz, Chris Sweeney, Jonathan Ventura, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/TVCG.2013.243
+  title: Model Estimation and Selection towardsUnconstrained Real-Time Tracking and Mapping.
+  where: IEEE Trans. Vis. Comput. Graph.
+  year: 2014
+- authors: [Benjamin Nuernberger, Steffen Gauglitz, "Tobias H\xF6llerer", Matthew Turk]
+  doi: https://doi.org/10.1109/3DUI.2014.6798869
+  title: 'Poster: Investigating viewpoint visualizations for click & go navigation.'
+  where: IEEE Symposium on 3D User Interfaces, 3DUI 2014, Minneapolis, MN, USA, March 29-30, 2014
+  year: 2014
+- authors: [Chris Sweeney, Victor Fragoso, "Tobias H\xF6llerer", Matthew Turk]
+  doi: https://doi.org/10.1007/978-3-319-10593-2_2
+  title: 'gDLS: A Scalable Solution to the Generalized Pose and Scale Problem.'
+  where: Computer Vision - ECCV 2014 - 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part IV
+  year: 2014
+- authors: [Emrah Onal, John O'Donovan, Laura Marusich, Michael S. Yu, James Schaffer, Cleotilde Gonzalez, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1007/978-3-319-07458-0_20
+  title: 'Trust and Consequences: A Visual Perspective.'
+  where: Virtual, Augmented and Mixed Reality. Designing and Developing Virtual and Augmented Environments - 6th International Conference, VAMR 2014, Held as Part of HCI International 2014, Heraklion, Crete, Greece, June 22-27, 2014, Proceedings, Part I
+  year: 2014
+- authors: [Steffen Gauglitz, Benjamin Nuernberger, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2642918.2647372
+  title: World-stabilized annotations and virtual scene navigation for remote collaboration.
+  where: The 27th Annual ACM Symposium on User Interface Software and Technology, UIST '14, Honolulu, HI, USA, October 5-8, 2014
+  year: 2014
+- authors: [Domagoj Baricevic, "Tobias H\xF6llerer", Pradeep Sen, Matthew Turk]
+  doi: http://doi.acm.org/10.1145/2671015.2671027
+  title: User-perspective augmented reality magic lens from gradients.
+  where: Proceedings of the 20th ACM Symposium on Virtual Reality Software and Technology, VRST 2014, Edinburgh, United Kingdom, November 11-13, 2014
+  year: 2014
+- authors: [Steffen Gauglitz, Benjamin Nuernberger, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2671015.2671016
+  title: 'In touch with the remote world: remote collaboration with augmented reality drawings and virtual navigation.'
+  where: Proceedings of the 20th ACM Symposium on Virtual Reality Software and Technology, VRST 2014, Edinburgh, United Kingdom, November 11-13, 2014
+  year: 2014
+- authors: [Chris Sweeney, "Tobias H\xF6llerer", Matthew Turk]
+  doi: https://doi.org/10.1109/ISMAR.2013.6671820
+  title: Improved outdoor augmented reality through "Globalization".
+  where: IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2013, Adelaide, Australia, October 1-4, 2013
+  year: 2013
+- authors: [Svetlin Bostandjiev, John O'Donovan, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2449396.2449412
+  title: 'LinkedVis: exploring social and semantic career recommendations.'
+  where: 18th International Conference on Intelligent User Interfaces, IUI 2013, Santa Monica, CA, USA, March 19-22, 2013
+  year: 2013
+- authors: [James Schaffer, Byungkyu Kang, "Tobias H\xF6llerer", Hengchang Liu, Chenji Pan, Siyu Giyu, John O'Donovan]
+  doi: https://doi.org/10.1109/PerComW.2013.6529542
+  title: 'Interactive interfaces for complex network analysis: An information credibility perspective.'
+  where: 2013 IEEE International Conference on Pervasive Computing and Communications Workshops, PERCOM 2013 Workshops, San Diego, CA, USA, March 18-22, 2013
+  year: 2013
+- authors: [Sujoy Sikdar, Byungkyu Kang, John O'Donovan, "Tobias H\xF6llerer", Sibel Adali]
+  doi: https://doi.org/10.1109/SocialCom.2013.9
+  title: Understanding Information Credibility on Twitter.
+  where: International Conference on Social Computing, SocialCom 2013, SocialCom/PASSAT/BigData/EconCom/BioMedCom 2013, Washington, DC, USA, 8-14 September, 2013
+  year: 2013
+- authors: [Brynjar Gretarsson, John O'Donovan, Svetlin Bostandjiev, "Tobias H\xF6llerer", Arthur U. Asuncion, David Newman, Padhraic Smyth]
+  doi: http://doi.acm.org/10.1145/2089094.2089099
+  title: 'TopicNets: Visual Analysis of Large Text Corpora with Topic Modeling.'
+  where: ACM TIST
+  year: 2012
+- authors: [Domagoj Baricevic, Cha Lee, Matthew Turk, "Tobias H\xF6llerer", Doug A. Bowman]
+  doi: https://doi.org/10.1109/ISMAR.2012.6402557
+  title: A hand-held AR magic lens with user-perspective rendering.
+  where: 11th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2012, Atlanta, GA, USA, November 5-8, 2012
+  year: 2012
+- authors: [Steffen Gauglitz, Chris Sweeney, Jonathan Ventura, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2012.6402532
+  title: Live tracking and mapping from both general and rotation-only camera motion.
+  where: 11th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2012, Atlanta, GA, USA, November 5-8, 2012
+  year: 2012
+- authors: [Byungkyu Kang, John O'Donovan, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2166966.2166998
+  title: Modeling topic specific credibility on twitter.
+  where: 17th International Conference on Intelligent User Interfaces, IUI 2012, Lisbon, Portugal, February 14-17, 2012
+  year: 2012
+- authors: [Steffen Gauglitz, Cha Lee, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2371664.2371693
+  title: A prototype setup to integrate the physical environment into mobile remote collaboration.
+  where: Mobile HCI '12, Companion Proceedings of the 14th international conference on Human-computer interaction with mobile devices and services, San Francsico, CA, USA, September 21-24, 2012
+  year: 2012
+- authors: [Steffen Gauglitz, Cha Lee, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2371574.2371610
+  title: Integrating the physical environment into mobile remote collaboration.
+  where: Mobile HCI '12, Proceedings of the 14th international conference on Human-computer interaction with mobile devices and services, San Francsico, CA, USA, September 21-24, 2012
+  year: 2012
+- authors: [Svetlin Bostandjiev, John O'Donovan, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2365952.2365964
+  title: 'TasteWeights: a visual interactive hybrid recommender system.'
+  where: Sixth ACM Conference on Recommender Systems, RecSys '12, Dublin, Ireland, September 9-13, 2012
+  year: 2012
+- authors: [John O'Donovan, Byungkyu Kang, Greg Meyer, "Tobias H\xF6llerer", Sibel Adali]
+  doi: https://doi.org/10.1109/SocialCom-PASSAT.2012.128
+  title: 'Credibility in Context: An Analysis of Feature Distributions in Twitter.'
+  where: 2012 International Conference on Privacy, Security, Risk and Trust, PASSAT 2012, and 2012 International Confernece on Social Computing, SocialCom 2012, Amsterdam, Netherlands, September 3-5, 2012
+  year: 2012
+- authors: [Steffen Gauglitz, "Tobias H\xF6llerer", Matthew Turk]
+  doi: https://doi.org/10.1007/s11263-011-0431-5
+  title: Evaluation of Interest Point Detectors and Feature Descriptors for Visual Tracking.
+  where: International Journal of Computer Vision
+  year: 2011
+- authors: [Steffen Gauglitz, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.5244/C.25.93
+  title: Improving Keypoint Orientation Assignment.
+  where: British Machine Vision Conference, BMVC 2011, Dundee, UK, August 29 - September 2, 2011. Proceedings
+  year: 2011
+- authors: [Steffen Gauglitz, Luca Foschini, Matthew Turk, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ICIP.2011.6115832
+  title: Efficiently selecting spatially distributed keypoints for visual tracking.
+  where: 18th IEEE International Conference on Image Processing, ICIP 2011, Brussels, Belgium, September 11-14, 2011
+  year: 2011
+- authors: [Svetlin Bostandjiev, John O'Donovan, Christopher Hall, Brynjar Gretarsson, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ICSC.2011.8
+  title: 'WiGipedia: A Tool for Improving Structured Data in Wikipedia.'
+  where: Proceedings of the 5th IEEE International Conference on Semantic Computing (ICSC 2011), Palo Alto, CA, USA, September 18-21, 2011
+  year: 2011
+- authors: [Brynjar Gretarsson, John O'Donovan, Svetlin Bostandjiev, Christopher Hall, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1111/j.1467-8659.2009.01679.x
+  title: 'SmallWorlds: Visualizing Social Recommendations.'
+  where: Comput. Graph. Forum
+  year: 2010
+- authors: [John O'Donovan, Brynjar Gretarsson, Svetlin Bostandjiev, "Tobias H\xF6llerer", Barry Smyth]
+  doi: https://doi.org/10.1109/CSE.2009.26
+  title: A Visual Interface for Social Information Filtering.
+  where: Proceedings of the 12th IEEE International Conference on Computational Science and Engineering, CSE 2009, Vancouver, BC, Canada, August 29-31, 2009
+  year: 2009
+- authors: [Brynjar Gretarsson, Svetlin Bostandjiev, John O'Donovan, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1007/978-3-642-11805-0_13
+  title: 'WiGis: A Framework for Scalable Web-Based Interactive Graph Visualizations.'
+  where: Graph Drawing, 17th International Symposium, GD 2009, Chicago, IL, USA, September 22-25, 2009. Revised Papers
+  year: 2009
+- authors: [Matthew Turk, "Tobias H\xF6llerer", "Stefan M\xFCller Arisona", JoAnn Kuchera-Morin, Christopher Coffin, Rama Hoetzlein, Lance Putnam, Dan Overholt]
+  doi: http://www.aaai.org/Library/Symposia/Spring/2008/ss08-03-016.php
+  title: Creative Collaborative Exploration in Multiple Environments.
+  where: Creative Intelligent Systems, Papers from the 2008 AAAI Spring Symposium, Technical Report SS-08-03, Stanford, California, USA, March 26-28, 2008
+  year: 2008
+- authors: [John O'Donovan, Barry Smyth, Brynjar Gretarsson, Svetlin Bostandjiev, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/1357054.1357222
+  title: 'PeerChooser: visual interactive recommendation.'
+  where: Proceedings of the 2008 Conference on Human Factors in Computing Systems, CHI 2008, 2008, Florence, Italy, April 5-10, 2008
+  year: 2008
+- authors: ["Mathias K\xF6lsch", Ryan Bane, "Tobias H\xF6llerer", Matthew Turk]
+  doi: https://doi.org/10.1109/MCG.2006.66
+  title: Multimodal Interaction with a Wearable Augmented Reality System.
+  where: IEEE Computer Graphics and Applications
+  year: 2006
+- authors: ["Mathias K\xF6lsch", Matthew Turk, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/MOBIQ.2004.1331713
+  title: Vision-Based Interfaces for Mobility.
+  where: 1st Annual International Conference on Mobile and Ubiquitous Systems (MobiQuitous 2004), Networking and Services, 22-25 August 2004, Cambridge, MA, USA
+  year: 2004
+- authors: [Donghao Ren, Bongshin Lee, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1111/cgf.13178
+  title: 'Stardust: Accessible and Transparent GPU Support for Information Visualization Rendering.'
+  where: Comput. Graph. Forum
+  year: 2017
+- authors: [Alice Allen, Cecilia R. Aragon, Christoph Becker, Jeffrey Carver, Andrei Chis, "Beno\xEEt Combemale", Mike Croucher, Kevin Crowston, Daniel Garijo, Ashish Gehani, Carole A. Goble, Robert Haines, Robert Hirschfeld, James Howison, Kathryn D. Huff, Caroline Jay, Daniel S. Katz, Claude Kirchner, Katie Kuksenok, "Ralf L\xE4mmel", Oscar Nierstrasz, Matthew Turk, Rob van Nieuwpoort, Matthew Vaughn, Jurgen J. Vinju]
+  doi: https://doi.org/10.4230/DagMan.6.1.1
+  title: Engineering Academic Software (Dagstuhl Perspectives Workshop 16252).
+  where: Dagstuhl Manifestos
+  year: 2017
+- authors: [Mahdi Nabiyouni, Siroberto Scerbo, Doug A. Bowman, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.3389/fict.2016.00034
+  title: 'Relative Effects of Real-world and Virtual-World Latency on an Augmented Reality Training Task: An AR Simulation Experiment.'
+  where: Front. ICT
+  year: 2017
+- authors: [YunSuk Chang, Benjamin Nuernberger, Bo Luan, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/3DUI.2017.7893337
+  title: Evaluating gesture-based augmented reality annotation.
+  where: 2017 IEEE Symposium on 3D User Interfaces, 3DUI 2017, Los Angeles, CA, USA, March 18-19, 2017
+  year: 2017
+- authors: [Donghao Ren, Matthew Brehmer, Bongshin Lee, "Tobias H\xF6llerer", Eun Kyoung Choe]
+  doi: http://doi.ieeecomputersociety.org/10.1109/PACIFICVIS.2017.8031599
+  title: 'ChartAccent: Annotation for data-driven storytelling.'
+  where: 2017 IEEE Pacific Visualization Symposium, PacificVis 2017, Seoul, South Korea, April 18-21, 2017
+  year: 2017
+- authors: [Casey Dugan, Peter Brusilovsky, Elizabeth M. Daly, John O'Donovan]
+  doi: http://doi.acm.org/10.1145/3030024.3030026
+  title: 'AWARE: Workshop on Awareness Interfaces and Interactions.'
+  where: Companion Publication of the 22nd International Conference on Intelligent User Interfaces, IUI 2017, Limassol, Cyprus, March 13-16, 2017
+  year: 2017
+- authors: [Peter Brusilovsky, Marco de Gemmis, Alexander Felfernig, Pasquale Lops, John O'Donovan, Nava Tintarev, Martijn C. Willemsen]
+  doi: http://doi.acm.org/10.1145/3109859.3109961
+  title: RecSys'17 Joint Workshop on Interfaces and Human Decision Making for Recommender Systems.
+  where: Proceedings of the Eleventh ACM Conference on Recommender Systems, RecSys 2017, Como, Italy, August 27-31, 2017
+  year: 2017
+- authors: [Pigi Kouki, James Schaffer, Jay Pujara, John O'Donovan, Lise Getoor]
+  doi: http://doi.acm.org/10.1145/3109859.3109915
+  title: User Preferences for Hybrid Explanations.
+  where: Proceedings of the Eleventh ACM Conference on Recommender Systems, RecSys 2017, Como, Italy, August 27-31, 2017
+  year: 2017
+- authors: ["Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/VR.2017.7892223
+  title: Notes on virtual and augmented reality (Keynote).
+  where: 2017 IEEE Virtual Reality, VR 2017, Los Angeles, CA, USA, March 18-22, 2017
+  year: 2017
+- authors: [Dieter Schmalstieg, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/VR.2017.7892358
+  title: 'Augmented reality: Principles and practice.'
+  where: 2017 IEEE Virtual Reality, VR 2017, Los Angeles, CA, USA, March 18-22, 2017
+  year: 2017
+- authors: [Michael S. Warren, Samuel W. Skillman, Rick Chartrand, Tim Kelton, Ryan Keisler, David Raleigh, Matthew Turk]
+  doi: http://arxiv.org/abs/1702.03935
+  title: 'Data-Intensive Supercomputing in the Cloud: Global Analytics for Satellite Imagery.'
+  where: CoRR
+  year: 2017
+- authors: [Victor Fragoso, Chris Sweeney, Pradeep Sen, Matthew Turk]
+  doi: http://arxiv.org/abs/1709.09559
+  title: 'ANSAC: Adaptive Non-minimal Sample and Consensus.'
+  where: CoRR
+  year: 2017
+- authors: [Jeffrey Nichols, John O'Donovan, Jalal Mahmud]
+  doi: http://doi.acm.org/10.1145/2911172.2911183
+  title: ACM IUI 2016 conference highlights.
+  where: AI Matters
+  year: 2016
+- authors: [Xiaoli Zhao, Matthew Turk, Wei Li, Kuo-Chin Lien, Guozhong Wang]
+  doi: https://doi.org/10.1016/j.asoc.2016.07.016
+  title: A multilevel image thresholding segmentation algorithm based on two-dimensional K-L divergence and modified particle swarm optimization.
+  where: Appl. Soft Comput.
+  year: 2016
+- authors: [Matthew Turk]
+  doi: https://doi.org/10.1109/MCSE.2016.115
+  title: Risks.
+  where: Computing in Science and Engineering
+  year: 2016
+- authors: [Nava Tintarev, John O'Donovan, Alexander Felfernig]
+  doi: http://doi.acm.org/10.1145/3014432
+  title: Introduction to the Special Issue on Human Interaction with Artificial Advice Givers.
+  where: TiiS
+  year: 2016
+- authors: ["Renate H\xE4uslschmid", Yixin Shou, John O'Donovan, Gary Burnett, Andreas Butz]
+  doi: http://doi.acm.org/10.1145/3003715.3005418
+  title: First Steps towards a View Management Concept for Large-sized Head-up Displays with Continuous Depth.
+  where: Proceedings of the 8th International Conference on Automotive User Interfaces and Interactive Vehicular Applications, AutomotiveUI 2016, Ann Arbor, MI, USA, October 24-26, 2016
+  year: 2016
+- authors: [Saiph Savage, "Andr\xE9s Monroy-Hern\xE1ndez", "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2818048.2819985
+  title: 'Botivist: Calling Volunteers to Action using Online Bots.'
+  where: Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing, CSCW 2016, San Francisco, CA, USA, February 27 - March 2, 2016
+  year: 2016
+- authors: [Victor Fragoso, Walter J. Scheirer, "Jo\xE3o Pedro Hespanha", Matthew Turk]
+  doi: https://doi.org/10.1109/ICPR.2016.7899670
+  title: One-class slab support vector machine.
+  where: "23rd International Conference on Pattern Recognition, ICPR 2016, Canc\xFAn, Mexico, December 4-8, 2016"
+  year: 2016
+- authors: [Alexander Plopski, Tomohiro Mashita, Akira Kudo, "Tobias H\xF6llerer", Kiyoshi Kiyokawa, Haruo Takemura]
+  doi: https://doi.org/10.1109/ISMAR-Adjunct.2016.0029
+  title: Improving Localization under Varying Illumination.
+  where: 2016 IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2016 Adjunct, Merida, Yucatan, Mexico, September 19-23, 2016
+  year: 2016
+- authors: [Peter Brusilovsky, Alexander Felfernig, Pasquale Lops, John O'Donovan, Giovanni Semeraro, Nava Tintarev, Martijn C. Willemsen]
+  doi: http://doi.acm.org/10.1145/2959100.2959199
+  title: RecSys'16 Joint Workshop on Interfaces and Human Decision Making for Recommender Systems.
+  where: Proceedings of the 10th ACM Conference on Recommender Systems, Boston, MA, USA, September 15-19, 2016
+  year: 2016
+- authors: [Michael S. Warren, Samuel W. Skillman, Rick Chartrand, Tim Kelton, Ryan Keisler, David Raleigh, Matthew Turk]
+  doi: https://doi.org/10.1109/DataCloud.2016.007
+  title: 'Data-Intensive Supercomputing in the Cloud: Global Analytics for Satellite Imagery.'
+  where: Seventh International Workshop on Data-Intensive Computing in the Clouds, DataCloud@SC 2016, Salt Lake, UT, USA, November 14, 2016
+  year: 2016
+- authors: [Dieter Schmalsteig, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2897826.2927365
+  title: 'Augmented reality: principles and practice.'
+  where: Special Interest Group on Computer Graphics and Interactive Techniques Conference, SIGGRAPH '16, Anaheim, CA, USA, July 24-28, 2016, Courses
+  year: 2016
+- authors: [Ivana Andjelkovic, Denis Parra, John O'Donovan]
+  doi: http://doi.acm.org/10.1145/2930238.2930280
+  title: 'Moodplay: Interactive Mood-based Music Discovery and Recommendation.'
+  where: Proceedings of the 2016 Conference on User Modeling Adaptation and Personalization, UMAP 2016, Halifax, NS, Canada, July 13 - 17, 2016
+  year: 2016
+- authors: ["Tobias H\xF6llerer", Victoria Interrante, "Anatole L\xE9cuyer", Evan A. Suma]
+  doi: https://doi.org/10.1109/VR.2016.7504674
+  title: Program chair message.
+  where: 2016 IEEE Virtual Reality, VR 2016, Greenville, SC, USA, March 19-23, 2016
+  year: 2016
+- authors: [Donghao Ren, Tibor Goldschwendt, YunSuk Chang, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/VR.2016.7504692
+  title: Evaluating wide-field-of-view augmented reality with mixed reality simulation.
+  where: 2016 IEEE Virtual Reality, VR 2016, Greenville, SC, USA, March 19-23, 2016
+  year: 2016
+- authors: [Victor Fragoso, Walter J. Scheirer, "Jo\xE3o Pedro Hespanha", Matthew Turk]
+  doi: http://arxiv.org/abs/1608.01026
+  title: One-Class Slab Support Vector Machine.
+  where: CoRR
+  year: 2016
+- authors: ["Bertram Lud\xE4scher", Kyle Chard, Niall Gaffney, Matthew B. Jones, Jaroslaw Nabrzyski, Victoria Stodden, Matthew Turk]
+  doi: http://arxiv.org/abs/1610.09958
+  title: 'Capturing the "Whole Tale" of Computational Research: Reproducibility in Computing Environments.'
+  where: CoRR
+  year: 2016
+- authors: [Aruna Jammalamadaka, Panuakdet Suwannatat, Steven K. Fisher, B. S. Manjunath, "Tobias H\xF6llerer", Gabriel Luna]
+  doi: https://doi.org/10.1093/bioinformatics/btv097
+  title: Characterizing spatial distributions of astrocytes in the mammalian retina.
+  where: Bioinformatics
+  year: 2015
+- authors: [Matthew Turk]
+  doi: https://doi.org/10.1109/MCSE.2015.27
+  title: Vertical Integration.
+  where: Computing in Science and Engineering
+  year: 2015
+- authors: [Albert Ali Salah, Hayley Hung, Oya Aran, Hatice Gunes, Matthew Turk]
+  doi: http://doi.acm.org/10.1145/2786762
+  title: Brief Introduction to the Special Issue on Behavior Understanding for Arts and Entertainment.
+  where: TiiS
+  year: 2015
+- authors: [Albert Ali Salah, Hayley Hung, Oya Aran, Hatice Gunes, Matthew Turk]
+  doi: http://doi.acm.org/10.1145/2817208
+  title: Behavior Understanding for Arts and Entertainment.
+  where: TiiS
+  year: 2015
+- authors: [Kuo-Chin Lien, Matthew Turk]
+  doi: https://doi.org/10.1109/3DV.2015.70
+  title: On Preserving Structure in Stereo Seam Carving.
+  where: 2015 International Conference on 3D Vision, 3DV 2015, Lyon, France, October 19-22, 2015
+  year: 2015
+- authors: [Saiph Savage, "Andr\xE9s Monroy-Hern\xE1ndez", Kasturi Bhattacharjee, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2700171.2791055
+  title: 'Tag Me Maybe: Perceptions of Public Targeted Sharing on Facebook.'
+  where: Proceedings of the 26th ACM Conference on Hypertext & Social Media, HT 2015, Guzelyurt, TRNC, Cyprus, September 1-4, 2015
+  year: 2015
+- authors: [Kuo-Chin Lien, Jerry D. Gibson 0001, Matthew Turk]
+  doi: https://doi.org/10.1109/ICIP.2015.7351077
+  title: High-order regularization for stereo color editing.
+  where: 2015 IEEE International Conference on Image Processing, ICIP 2015, Quebec City, QC, Canada, September 27-30, 2015
+  year: 2015
+- authors: [John O'Donovan, Nava Tintarev, Alexander Felfernig, Peter Brusilovsky, Giovanni Semeraro, Pasquale Lops]
+  doi: http://doi.acm.org/10.1145/2792838.2798714
+  title: Joint Workshop on Interfaces and Human Decision Making for Recommender Systems (#IntRS).
+  where: Proceedings of the 9th ACM Conference on Recommender Systems, RecSys 2015, Vienna, Austria, September 16-20, 2015
+  year: 2015
+- authors: [Mathieu Rodrigue, Andrew Waranis, Tim Wood, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/VR.2015.7223331
+  title: Mixed reality simulation with physical mobile display devices.
+  where: 2015 IEEE Virtual Reality, VR 2015, Arles, Camargue, Provence, France, March 23-27, 2015
+  year: 2015
+- authors: [Daniel A. Vaquero, Matthew Turk]
+  doi: https://doi.org/10.1109/WACV.2015.92
+  title: Composition Context Photography.
+  where: 2015 IEEE Winter Conference on Applications of Computer Vision, WACV 2015, Waikoloa, HI, USA, January 5-9, 2015
+  year: 2015
+- authors: [Matthew Turk, Victor Fragoso]
+  doi: https://doi.org/10.1007/978-3-319-24702-1_1
+  title: Computer Vision for Mobile Augmented Reality.
+  where: Mobile Cloud Visual Media Computing - From Interaction to Service
+  year: 2015
+- authors: [Saiph Savage, "Andr\xE9s Monroy-Hern\xE1ndez", Kasturi Bhattacharjee, "Tobias H\xF6llerer"]
+  doi: http://arxiv.org/abs/1509.01095
+  title: 'Tag Me Maybe: Perceptions of Public Targeted Sharing on Facebook.'
+  where: CoRR
+  year: 2015
+- authors: [Saiph Savage, "Andr\xE9s Monroy-Hern\xE1ndez", "Tobias H\xF6llerer"]
+  doi: http://arxiv.org/abs/1509.06026
+  title: 'Botivist: Calling Volunteers to Action Using Online Bots.'
+  where: CoRR
+  year: 2015
+- authors: [JoAnn Kuchera-Morin, Matthew Wright, Graham Wakefield, Charles Roberts, Dennis Adderton, Behzad Sajadi, "Tobias H\xF6llerer", Aditi Majumder]
+  doi: https://doi.org/10.1016/j.cag.2013.12.004
+  title: Immersive full-surround multi-user system design.
+  where: Computers & Graphics
+  year: 2014
+- authors: [Matthew Turk]
+  doi: https://doi.org/10.1109/MCSE.2014.37
+  title: Fostering Collaborative Computational Science.
+  where: Computing in Science and Engineering
+  year: 2014
+- authors: [Matthew Turk]
+  doi: https://doi.org/10.1016/j.patrec.2013.07.003
+  title: 'Multimodal interaction: A review.'
+  where: Pattern Recognition Letters
+  year: 2014
+- authors: [Donghao Ren, "Tobias H\xF6llerer", Xiaoru Yuan]
+  doi: https://doi.org/10.1109/TVCG.2014.2346291
+  title: 'iVisDesigner: Expressive Interactive Design of Information Visualizations.'
+  where: IEEE Trans. Vis. Comput. Graph.
+  year: 2014
+- authors: [Masahiro Toyoura, Haruhito Aruga, Matthew Turk, Xiaoyang Mao]
+  doi: https://doi.org/10.1007/s00371-013-0910-5
+  title: 'Mono-spectrum marker: an AR marker robust to image blur and defocus.'
+  where: The Visual Computer
+  year: 2014
+- authors: [Chris Sweeney, John Flynn, Matthew Turk]
+  doi: https://doi.org/10.1109/3DV.2014.66
+  title: Solving for Relative Pose with a Partially Known Rotation is a Quadratic Eigenvalue Problem.
+  where: 2nd International Conference on 3D Vision, 3DV 2014, Tokyo, Japan, December 8-11, 2014, Volume 1
+  year: 2014
+- authors: [Basak Alper, Nathalie Henry Riche, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2556288.2557112
+  title: 'Structuring the space: a study on enriching node-link diagrams with visual references.'
+  where: CHI Conference on Human Factors in Computing Systems, CHI'14, Toronto, ON, Canada - April 26 - May 01, 2014
+  year: 2014
+- authors: [Jalal Mahmud, Jeffrey Nichols, Michelle X. Zhou, James Caverlee, Yi Zeng, Liang Chen, John O'Donovan]
+  doi: http://doi.acm.org/10.1145/2661829.2663538
+  title: DUBMOD14 - International Workshop on Data-driven User Behavioral Modeling and Mining from Social Media.
+  where: Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management, CIKM 2014, Shanghai, China, November 3-7, 2014
+  year: 2014
+- authors: [Norma Saiph Savage, Angus Forbes, Carlos Toxtli, Grant McKenzie, Shloka Desai, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1007/978-3-319-06498-7_2
+  title: Visualizing Targeted Audiences.
+  where: Proceedings of the 11th International Conference on the Design of Cooperative Systems, COOP 2014, Nice, France, May 27-30, 2014
+  year: 2014
+- authors: [Victor Fragoso, Gaurav Srivastava, Abhishek Nagar, Zhu Li, Kyungmo Park, Matthew Turk]
+  doi: https://doi.org/10.1109/CVPRW.2014.24
+  title: Cascade of Box (CABOX) Filters for Optimal Scale Space Approximation.
+  where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2014, Columbus, OH, USA, June 23-28, 2014
+  year: 2014
+- authors: [Sujoy Sikdar, Sibel Adali, Md. Tanvir Al Amin, Tarek F. Abdelzaher, Kevin S. Chan, Jin-Hee Cho, Byungkyu Kang, John O'Donovan]
+  doi: http://ieeexplore.ieee.org/document/6915989/
+  title: Finding true and credible information on Twitter.
+  where: 17th International Conference on Information Fusion, FUSION 2014, Salamanca, Spain, July 7-10, 2014
+  year: 2014
+- authors: [Emily Fujimoto, Matthew Turk]
+  doi: http://doi.acm.org/10.1145/2663204.2663243
+  title: Non-Visual Navigation Using Combined Audio Music and Haptic Cues.
+  where: Proceedings of the 16th International Conference on Multimodal Interaction, ICMI 2014, Istanbul, Turkey, November 12-16, 2014
+  year: 2014
+- authors: [Charles Roberts, Matthew Wright, JoAnn Kuchera-Morin, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2647868.2654949
+  title: 'Gibber: Abstractions for Creative Multimedia Programming.'
+  where: Proceedings of the ACM International Conference on Multimedia, MM '14, Orlando, FL, USA, November 03 - 07, 2014
+  year: 2014
+- authors: [Charlie Roberts, Matthew Wright, JoAnn Kuchera-Morin, "Tobias H\xF6llerer"]
+  doi: http://www.nime.org/proceedings/2014/nime2014_373.pdf
+  title: Rapid Creation and Publication of Digital Musical Instruments.
+  where: 14th International Conference on New Interfaces for Musical Expression, NIME 2014, London, United Kingdom, June 30 - July 4, 2014
+  year: 2014
+- authors: [Jason L. Harman, John O'Donovan, Tarek F. Abdelzaher, Cleotilde Gonzalez]
+  doi: http://doi.acm.org/10.1145/2645710.2645761
+  title: Dynamics of human trust in recommender systems.
+  where: Eighth ACM Conference on Recommender Systems, RecSys '14, Foster City, Silicon Valley, CA, USA - October 06 - 10, 2014
+  year: 2014
+- authors: [Nava Tintarev, John O'Donovan, Peter Brusilovsky, Alexander Felfernig, Giovanni Semeraro, Pasquale Lops]
+  doi: http://doi.acm.org/10.1145/2645710.2645787
+  title: RecSys'14 joint workshop on interfaces and human decision making for recommender systems.
+  where: Eighth ACM Conference on Recommender Systems, RecSys '14, Foster City, Silicon Valley, CA, USA - October 06 - 10, 2014
+  year: 2014
+- authors: [Matthew Turk]
+  doi: https://doi.org/10.1201/b17360-12
+  title: Gesture Recognition.
+  where: Handbook of Virtual Environments - Design, Implementation, and Applications, Second Edition.
+  year: 2014
+- authors: [Matthew Turk]
+  doi: https://doi.org/10.1007/978-0-387-31439-6_376
+  title: Gesture Recognition.
+  where: Computer Vision, A Reference Guide
+  year: 2014
+- authors: [Daniel S. Katz, Gabrielle Allen, Neil Chue Hong, Karen Cranston, Manish Parashar, David Proctor, Matthew Turk, Colin C. Venters, Nancy Wilkins-Diehr]
+  doi: http://arxiv.org/abs/1411.3464
+  title: 'Second Workshop on on Sustainable Software for Science: Practice and Experiences (WSSSPE2): Submission, Peer-Review and Sorting Process, and Results.'
+  where: CoRR
+  year: 2014
+- authors: [Daniel S. Katz, Sou-Cheng T. Choi, Hilmar Lapp, Ketan Maheshwari, "Frank L\xF6ffler", Matthew Turk, Marcus D. Hanwell, Nancy Wilkins-Diehr, James Hetherington, James Howison, Shel Swenson, Gabrielle Allen, Anne C. Elster, G. Bruce Berriman, Colin C. Venters]
+  doi: http://arxiv.org/abs/1404.7414
+  title: 'Summary of the First Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE1).'
+  where: CoRR
+  year: 2014
+- authors: [Matthew Turk, Gang Hua]
+  doi: https://doi.org/10.2200/S00536ED1V01Y201309COV005
+  title: Vision-Based Interaction
+  where: Morgan & Claypool Publishers
+  year: 2013
+- authors: [Graham Wakefield, "Tobias H\xF6llerer", JoAnn Kuchera-Morin, Charles Roberts, Matthew Wright]
+  doi: https://doi.org/10.1109/MCG.2013.99
+  title: Spatial Interaction in a Multiuser Immersive Instrument.
+  where: IEEE Computer Graphics and Applications
+  year: 2013
+- authors: ["Matti Pietik\xE4inen", Matthew Turk, Liang Wang 0001, Guoying Zhao, Li Cheng]
+  doi: https://doi.org/10.1016/j.imavis.2013.04.003
+  title: 'Machine learning in motion analysis: New advances.'
+  where: Image Vision Comput.
+  year: 2013
+- authors: [Matthew Turk]
+  doi: http://doi.acm.org/10.1145/2490824
+  title: Over twenty years of eigenfaces.
+  where: TOMCCAP
+  year: 2013
+- authors: [Cha Lee, Gustavo A. Rincon, Greg Meyer, "Tobias H\xF6llerer", Doug A. Bowman]
+  doi: https://doi.org/10.1109/TVCG.2013.41
+  title: The Effects of Visual Realism on Search Tasks in Mixed Reality Simulation.
+  where: IEEE Trans. Vis. Comput. Graph.
+  year: 2013
+- authors: [Jonathan Ventura, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1007/s10055-012-0208-3
+  title: Structure and motion in urban environments using upright panoramas.
+  where: Virtual Reality
+  year: 2013
+- authors: [Byungkyu Kang, Mathieu Rodrigue, "Tobias H\xF6llerer", Hwasup Lim]
+  doi: https://doi.org/10.1109/3DUI.2013.6550233
+  title: 'Poster: Real time hand pose recognition with depth sensors for mixed reality interfaces.'
+  where: IEEE Symposium on 3D User Interfaces, 3DUI 2013, Orlando, FL, USA, March 16-17, 2013
+  year: 2013
+- authors: [Angus Forbes, "Tobias H\xF6llerer", George Legrady]
+  doi: https://doi.org/10.1145/2487276.2487287
+  title: Generative Fluid Profiles for Interactive Media Arts Projects.
+  where: Workshop on Computational Aesthetics, Anaheim, California, USA, 2013. Proceedings
+  year: 2013
+- authors: [Jalal Mahmud, Jeffrey Nichols, Michelle X. Zhou, James Caverlee, John O'Donovan]
+  doi: http://doi.acm.org/10.1145/2505515.2505812
+  title: 'DUBMOD13: international workshop on data-driven user behavioral modelling and mining from social media.'
+  where: 22nd ACM International Conference on Information and Knowledge Management, CIKM'13, San Francisco, CA, USA, October 27 - November 1, 2013
+  year: 2013
+- authors: [Benjamin Holtzman, Jason Candler, Matthew Turk, Daniel Peter]
+  doi: https://doi.org/10.1007/978-3-319-12976-1_10
+  title: 'Seismic Sound Lab: Sights, Sounds and Perception of the Earth as an Acoustic Space.'
+  where: Sound, Music, and Motion - 10th International Symposium, CMMR 2013, Marseille, France, October 15-18, 2013. Revised Selected Papers
+  year: 2013
+- authors: [Norma Saiph Savage, "Norma Elva Ch\xE1vez", Carlos Toxtli, Salvador Medina, "David \xC1lvarez-L\xF3pez", "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2441955.2442018
+  title: A social crowd-controlled orchestra.
+  where: Computer Supported Cooperative Work, CSCW 2013, San Antonio, TX, USA, February 23-27, 2013, Companion Volume
+  year: 2013
+- authors: [Victor Fragoso, Matthew Turk]
+  doi: https://doi.org/10.1109/CVPR.2013.357
+  title: 'SWIGS: A Swift Guided Sampling Method.'
+  where: 2013 IEEE Conference on Computer Vision and Pattern Recognition, Portland, OR, USA, June 23-28, 2013
+  year: 2013
+- authors: [Masahiro Toyoura, Haruhito Aruga, Matthew Turk, Xiaoyang Mao]
+  doi: https://doi.org/10.1109/CW.2013.58
+  title: Detecting Markers in Blurred and Defocused Images.
+  where: 2013 International Conference on Cyberworlds, Yokohama, Japan, October 21-23, 2013
+  year: 2013
+- authors: [Victor Fragoso, Pradeep Sen, "Sergio Rodr\xEDguez", Matthew Turk]
+  doi: https://doi.org/10.1109/ICCV.2013.307
+  title: 'EVSAC: Accelerating Hypotheses Generation by Modeling Matching Scores with Extreme Value Theory.'
+  where: IEEE International Conference on Computer Vision, ICCV 2013, Sydney, Australia, December 1-8, 2013
+  year: 2013
+- authors: [Lukas Gruber, Pradeep Sen, "Tobias H\xF6llerer", Dieter Schmalstieg]
+  doi: https://doi.org/10.1109/ISMAR.2013.6671792
+  title: Acceleration methods for radiance transfer in photorealistic augmented reality.
+  where: IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2013, Adelaide, Australia, October 1-4, 2013
+  year: 2013
+- authors: [Wendy H. Chun, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2449396.2449435
+  title: Real-time hand interaction for augmented reality on mobile phones.
+  where: 18th International Conference on Intelligent User Interfaces, IUI 2013, Santa Monica, CA, USA, March 19-22, 2013
+  year: 2013
+- authors: [Charles Roberts, Angus Forbes, "Tobias H\xF6llerer"]
+  doi: http://nime.org/proceedings/2013/nime2013_303.pdf
+  title: Enabling Multimodal Mobile Interfaces for Musical Performance.
+  where: 13th International Conference on New Interfaces for Musical Expression, NIME 2013, Daejeon, Republic of Korea, May 27-30, 2013
+  year: 2013
+- authors: [Gang Hua, Yun Fu, Matthew Turk, Marc Pollefeys, Zhengyou Zhang]
+  doi: https://doi.org/10.1007/s11263-011-0506-3
+  title: Introduction to the Special Issue on Mobile Vision.
+  where: International Journal of Computer Vision
+  year: 2012
+- authors: [Chunghoon Kim, Sang-Il Choi, Matthew Turk, Chong-Ho Choi]
+  doi: https://doi.org/10.1109/TSMCB.2012.2186798
+  title: A New Biased Discriminant Analysis Using Composite Vectors for Eye Detection.
+  where: IEEE Trans. Systems, Man, and Cybernetics, Part B
+  year: 2012
+- authors: [Charles Roberts, Basak Alper, JoAnn Kuchera-Morin, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/3DUI.2012.6184192
+  title: Augmented textual data viewing in 3D visualizations using tablets.
+  where: IEEE Symposium on 3D User Interfaces 2012, 3DUI 2012, Costa Mesa, CA, USA, March 4-5, 2012
+  year: 2012
+- authors: [Jalal Mahmud, James Caverlee, Jeffrey Nichols, John O'Donovan, Michelle X. Zhou]
+  doi: http://doi.acm.org/10.1145/2396761.2398751
+  title: 'DUBMMSM''12: international workshop on data-driven user behavioral modeling and mining from social media.'
+  where: 21st ACM International Conference on Information and Knowledge Management, CIKM'12, Maui, HI, USA, October 29 - November 02, 2012
+  year: 2012
+- authors: [Victor Fragoso, Matthew Turk, "Jo\xE3o Pedro Hespanha"]
+  doi: https://doi.org/10.1109/ICIP.2012.6467378
+  title: Locating binary features for keypoint recognition using noncooperative games.
+  where: 19th IEEE International Conference on Image Processing, ICIP 2012, Lake Buena Vista, Orlando, FL, USA, September 30 - October 3, 2012
+  year: 2012
+- authors: [Jonathan Ventura, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2012.6402531
+  title: Wide-area scene mapping for mobile visual tracking.
+  where: 11th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2012, Atlanta, GA, USA, November 5-8, 2012
+  year: 2012
+- authors: [Bart P. Knijnenburg, Svetlin Bostandjiev, John O'Donovan, Alfred Kobsa]
+  doi: http://doi.acm.org/10.1145/2365952.2365966
+  title: Inspectability and control in social recommenders.
+  where: Sixth ACM Conference on Recommender Systems, RecSys '12, Dublin, Ireland, September 9-13, 2012
+  year: 2012
+- authors: [Markus Schaal, John O'Donovan, Barry Smyth]
+  doi: https://doi.org/10.1007/978-3-642-35386-4_18
+  title: An Analysis of Topical Proximity in the Twitter Social Graph.
+  where: Social Informatics - 4th International Conference, SocInfo 2012, Lausanne, Switzerland, December 5-7, 2012. Proceedings
+  year: 2012
+- authors: [Norma Saiph Savage, Angus Forbes, Rodrigo Savage, "Tobias H\xF6llerer", "Norma Elva Ch\xE1vez"]
+  doi: http://doi.acm.org/10.1145/2380296.2380321
+  title: Directed social queries with transparent user models.
+  where: The 25th Annual ACM Symposium on User Interface Software and Technology, UIST '12, Cambridge, MA, USA, October 7-10, 2012 - Adjunct Volume
+  year: 2012
+- authors: [Cha Lee, Steffen Gauglitz, "Tobias H\xF6llerer", Doug A. Bowman]
+  doi: https://doi.org/10.1109/VR.2012.6180890
+  title: Examining the equivalence of simulated and real AR on a visual following and identification task.
+  where: 2012 IEEE Virtual Reality, VR 2012, Costa Mesa, CA, USA, March 4-8, 2012
+  year: 2012
+- authors: [Dieter Schmalstieg, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/VR.2012.6180946
+  title: Trends in mobile Augmented Reality.
+  where: 2012 IEEE Virtual Reality, VR 2012, Costa Mesa, CA, USA, March 4-8, 2012
+  year: 2012
+- authors: [Gang Hua, Ming-Hsuan Yang 0001, Erik G. Learned-Miller, Yi Ma, Matthew Turk, David J. Kriegman, Thomas S. Huang]
+  doi: https://doi.org/10.1109/TPAMI.2011.182
+  title: Introduction to the Special Section on Real-World Face Recognition.
+  where: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: 2011
+- authors: [Basak Alper, "Tobias H\xF6llerer", JoAnn Kuchera-Morin, Angus Forbes]
+  doi: https://doi.org/10.1109/TVCG.2011.234
+  title: 'Stereoscopic Highlighting: 2D Graph Visualization on Stereo Displays.'
+  where: IEEE Trans. Vis. Comput. Graph.
+  year: 2011
+- authors: [Sehwan Kim, Christopher Coffin, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/TVCG.2010.243
+  title: Robust Relocalization and Its Evaluation for Online Environment Map Construction.
+  where: IEEE Trans. Vis. Comput. Graph.
+  year: 2011
+- authors: [Gudrun Klinker, "Tobias H\xF6llerer", Hideo Saito, Oliver Bimber]
+  doi: https://doi.org/10.1109/TVCG.2011.139
+  title: 'Guest Editors'' Introduction: Special Section on the IEEE International Symposium on Mixed and Augmented Reality (ISMAR).'
+  where: IEEE Trans. Vis. Comput. Graph.
+  year: 2011
+- authors: [Christine Chen, Daniel A. Vaquero, Matthew Turk]
+  doi: https://doi.org/10.1109/ICCV.2011.6126220
+  title: Illumination demultiplexing from a single image.
+  where: IEEE International Conference on Computer Vision, ICCV 2011, Barcelona, Spain, November 6-13, 2011
+  year: 2011
+- authors: [Marc Petter, Victor Fragoso, Matthew Turk, Charles Baur]
+  doi: https://doi.org/10.1109/ICCVW.2011.6130221
+  title: Automatic text detection for mobile augmented reality translation.
+  where: IEEE International Conference on Computer Vision Workshops, ICCV 2011 Workshops, Barcelona, Spain, November 6-13, 2011
+  year: 2011
+- authors: [Panuakdet Suwannatat, Gabriel Luna, Brian E. Ruttenberg, R. Raviv, Geoffrey P. Lewis, Steven K. Fisher, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISBI.2011.5872397
+  title: Interactive visualization of retinal astrocyte images.
+  where: 'Proceedings of the 8th IEEE International Symposium on Biomedical Imaging: From Nano to Macro, ISBI 2011, March 30 - April 2, 2011, Chicago, Illinois, USA'
+  year: 2011
+- authors: [Christopher Coffin, Cha Lee, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2011.6092374
+  title: Evaluating the impact of recovery density on augmented reality tracking.
+  where: 10th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2011, Basel, Switzerland, October 26-29, 2011
+  year: 2011
+- authors: [Hirokazu Kato, "Tobias H\xF6llerer", Selim Benhimane, Winyu Chinthammit]
+  doi: https://doi.org/10.1109/ISMAR.2011.6092360
+  title: International workshop on AR/MR registration, tracking and benchmarking (TrakMark2011).
+  where: 10th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2011, Basel, Switzerland, October 26-29, 2011
+  year: 2011
+- authors: [Jonathan Ventura, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2011.6092399
+  title: Outdoor mobile localization from panoramic imagery.
+  where: 10th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2011, Basel, Switzerland, October 26-29, 2011
+  year: 2011
+- authors: [Daniel A. Vaquero, Matthew Turk]
+  doi: http://doi.acm.org/10.1145/2037715.2037774
+  title: The composition context in point-and-shoot photography.
+  where: International Conference on Computer Graphics and Interactive Techniques, SIGGRAPH 2011, Vancouver, BC, Canada, August 7-11, 2011 , Poster Proceedings
+  year: 2011
+- authors: [Charles Roberts, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/2046396.2046425
+  title: 'Composition for conductor and audience: new uses for mobile devices in the concert hall.'
+  where: Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology, Santa Barbara, CA, USA, October 16-19, 2011 - Adjunct Volume
+  year: 2011
+- authors: [Eyrun Eyjolfsdottir, Matthew Turk]
+  doi: https://doi.org/10.1109/WACV.2011.5711479
+  title: Multisensory embedded pose estimation.
+  where: IEEE Workshop on Applications of Computer Vision (WACV 2011), 5-7 January 2011, Kona, HI, USA
+  year: 2011
+- authors: [Victor Fragoso, Steffen Gauglitz, Shane Zamora, Jim Kleban, Matthew Turk]
+  doi: https://doi.org/10.1109/WACV.2011.5711545
+  title: 'TranslatAR: A mobile augmented reality translator.'
+  where: IEEE Workshop on Applications of Computer Vision (WACV 2011), 5-7 January 2011, Kona, HI, USA
+  year: 2011
+- authors: [Daniel Marcus Jang, Matthew Turk]
+  doi: https://doi.org/10.1109/WACV.2011.5711559
+  title: 'Car-Rec: A real time car recognition system.'
+  where: IEEE Workshop on Applications of Computer Vision (WACV 2011), 5-7 January 2011, Kona, HI, USA
+  year: 2011
+- authors: [Daniel A. Vaquero, Natasha Gelfand, Marius Tico, Kari Pulli, Matthew Turk]
+  doi: https://doi.org/10.1109/WACV.2011.5711547
+  title: Generalized autofocus.
+  where: IEEE Workshop on Applications of Computer Vision (WACV 2011), 5-7 January 2011, Kona, HI, USA
+  year: 2011
+- authors: [Jonathan Ventura, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/WACV.2011.5711573
+  title: Fast and scalable keypoint recognition and image retrieval using binary codes.
+  where: IEEE Workshop on Applications of Computer Vision (WACV 2011), 5-7 January 2011, Kona, HI, USA
+  year: 2011
+- authors: [Angus Forbes, "Tobias H\xF6llerer", George Legrady]
+  doi: https://doi.org/10.1109/TVCG.2010.126
+  title: '"behaviorism": a framework for dynamic data visualization.'
+  where: IEEE Trans. Vis. Comput. Graph.
+  year: 2010
+- authors: [Matthew Turk]
+  doi: https://doi.org/10.1007/978-3-642-16687-7_5
+  title: Computational Illumination.
+  where: Progress in Pattern Recognition, Image Analysis, Computer Vision, and Applications - 15th Iberoamerican Congress on Pattern Recognition, CIARP 2010, Sao Paulo, Brazil, November 8-11, 2010. Proceedings
+  year: 2010
+- authors: ["R\xE9mi Paucher", Matthew Turk]
+  doi: https://doi.org/10.1109/CVPRW.2010.5543249
+  title: Location-based augmented reality on mobile phones.
+  where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2010, San Francisco, CA, USA, 13-18 June, 2010
+  year: 2010
+- authors: [Lukas Gruber, Stefanie Zollmann, Daniel Wagner, Dieter Schmalstieg, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ICPR.2010.880
+  title: Optimization of Target Objects for Natural Feature Tracking.
+  where: 20th International Conference on Pattern Recognition, ICPR 2010, Istanbul, Turkey, 23-26 August 2010
+  year: 2010
+- authors: [Sharath Venkatesha, Matthew Turk]
+  doi: https://doi.org/10.1109/ICPR.2010.902
+  title: Human Activity Recognition Using Local Shape Descriptors.
+  where: 20th International Conference on Pattern Recognition, ICPR 2010, Istanbul, Turkey, 23-26 August 2010
+  year: 2010
+- authors: [Lukas Gruber, Steffen Gauglitz, Jonathan Ventura, Stefanie Zollmann, Manuel J. Huber, Michael Schlegel, Gudrun Klinker, Dieter Schmalstieg, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2010.5643564
+  title: 'The City of Sights: Design, construction, and measurement of an Augmented Reality stage set.'
+  where: 9th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2010, Seoul, Korea, 13-16 October 2010
+  year: 2010
+- authors: [Christopher Coffin, Sehwan Kim, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/VR.2010.5444774
+  title: Evaluation of tracking robustness in real time panorama acquisition.
+  where: IEEE Virtual Reality Conference, VR 2010, Waltham, Massachusetts, USA, March 20-24, 2010
+  year: 2010
+- authors: [Cha Lee, Scott Bonebrake, "Tobias H\xF6llerer", Doug A. Bowman]
+  doi: https://doi.org/10.1109/VR.2010.5444820
+  title: The role of latency in the validity of AR simulation.
+  where: IEEE Virtual Reality Conference, VR 2010, Waltham, Massachusetts, USA, March 20-24, 2010
+  year: 2010
+- authors: [Stephen DiVerdi, Jason Wither, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1016/j.cag.2008.11.002
+  title: 'All around the map: Online spherical panorama construction.'
+  where: Computers & Graphics
+  year: 2009
+- authors: [Jason Wither, Stephen DiVerdi, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1016/j.cag.2009.06.001
+  title: Annotation in outdoor augmented reality.
+  where: Computers & Graphics
+  year: 2009
+- authors: [Xavier Amatriain, JoAnn Kuchera-Morin, "Tobias H\xF6llerer", Stephen Travis Pope]
+  doi: https://doi.org/10.1109/MMUL.2009.35
+  title: 'The AlloSphere: Immersive Multimedia for Scientific Discovery and Artistic Exploration.'
+  where: IEEE MultiMedia
+  year: 2009
+- authors: [Ismo Rakkolainen, "Tobias H\xF6llerer", Stephen DiVerdi, Alex Olwal]
+  doi: https://doi.org/10.1007/s11042-009-0280-1
+  title: Mid-air display experiments to create novel user interfaces.
+  where: Multimedia Tools Appl.
+  year: 2009
+- authors: [Cha Lee, Stephen DiVerdi, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/TVCG.2008.83
+  title: Depth-Fused 3D Imagery on an Immaterial Display.
+  where: IEEE Trans. Vis. Comput. Graph.
+  year: 2009
+- authors: [Taehee Lee 0002, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/TVCG.2008.190
+  title: Multithreaded Hybrid Feature Tracking for Markerless Augmented Reality.
+  where: IEEE Trans. Vis. Comput. Graph.
+  year: 2009
+- authors: [Longbin Chen, Julian John McAuley, "Rog\xE9rio Schmidt Feris", "Tib\xE9rio S. Caetano", Matthew Turk]
+  doi: https://doi.org/10.1109/CVPRW.2009.5206792
+  title: Shape classification through structured learning of matching measures.
+  where: 2009 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2009), 20-25 June 2009, Miami, Florida, USA
+  year: 2009
+- authors: [Daniel A. Vaquero, Ramesh Raskar, "Rog\xE9rio Schmidt Feris", Matthew Turk]
+  doi: https://doi.org/10.1109/CVPRW.2009.5206614
+  title: A projector-camera setup for geometry-invariant frequency demultiplexing.
+  where: 2009 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2009), 20-25 June 2009, Miami, Florida, USA
+  year: 2009
+- authors: [Steffen Gauglitz, "Tobias H\xF6llerer", Petra Krahwinkler, "J\xFCrgen Rossmann"]
+  doi: https://doi.org/10.1109/ISMAR.2009.5336467
+  title: A setup for evaluating detectors and descriptors for visual tracking.
+  where: Science & Technology Proceedings, 8th IEEE International Symposium on Mixed and Augmented Reality 2009, ISMAR 2009, Orlando, Florida, USA, October 19-22, 2009
+  year: 2009
+- authors: ["Tobias H\xF6llerer", Dieter Schmalstieg, Mark Billinghurst]
+  doi: https://doi.org/10.1109/ISMAR.2009.5336443
+  title: 'AR 2.0: Social Augmented Reality - social computing meets Augmented Reality.'
+  where: Science & Technology Proceedings, 8th IEEE International Symposium on Mixed and Augmented Reality 2009, ISMAR 2009, Orlando, Florida, USA, October 19-22, 2009
+  year: 2009
+- authors: [Cha Lee, Scott Bonebrake, "Tobias H\xF6llerer", Doug A. Bowman]
+  doi: https://doi.org/10.1109/ISMAR.2009.5336464
+  title: A replication study testing the validity of AR simulation in VR for controlled experiments.
+  where: Science & Technology Proceedings, 8th IEEE International Symposium on Mixed and Augmented Reality 2009, ISMAR 2009, Orlando, Florida, USA, October 19-22, 2009
+  year: 2009
+- authors: [Jonathan Ventura, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2009.5336493
+  title: Online environment model estimation for augmented reality.
+  where: Science & Technology Proceedings, 8th IEEE International Symposium on Mixed and Augmented Reality 2009, ISMAR 2009, Orlando, Florida, USA, October 19-22, 2009
+  year: 2009
+- authors: [Jonathan Ventura, Stephen DiVerdi, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.2312/SBM/SBM09/021-028
+  title: A Sketch-based Interface for Photo Pop-up.
+  where: Sketch Based Interfaces and Modeling, New Orleans, Louisiana, USA, 2009. Proceedings
+  year: 2009
+- authors: [Rama Hoetzlein, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/1507149.1507166
+  title: Interactive water streams with sphere scan conversion.
+  where: Proceedings of the 2009 Symposium on Interactive 3D Graphics, SI3D 2009, February 27 - March 1, 2009, Boston, Massachusetts, USA
+  year: 2009
+- authors: [Eric D. Ragan, Curtis Wilkes, Doug A. Bowman, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/VR.2009.4811058
+  title: Simulation of AugmentedReality Systems in Purely Virtual Environments.
+  where: IEEE Virtual Reality Conference 2009 (VR 2009), 14-18 March 2009, Lafayette, Louisiana, USA, Proceedings
+  year: 2009
+- authors: [Sehwan Kim, Christopher Coffin, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/1643928.1643958
+  title: Relocalization using virtual keyframes for online environment map construction.
+  where: Proceedings of the ACM Symposium on Virtual Reality Software and Technology, VRST 2009, Kyoto, Japan, November 18-20, 2009
+  year: 2009
+- authors: [Jonathan Ventura, Marcus Jang, Tyler Crain, "Tobias H\xF6llerer", Doug A. Bowman]
+  doi: http://doi.acm.org/10.1145/1643928.1643963
+  title: Evaluating the effects of tracker reliability and field of view on a target following task in augmented reality.
+  where: Proceedings of the ACM Symposium on Virtual Reality Software and Technology, VRST 2009, Kyoto, Japan, November 18-20, 2009
+  year: 2009
+- authors: [Daniel A. Vaquero, "Rog\xE9rio Schmidt Feris", Duan Tran, Lisa M. Brown, Arun Hampapur, Matthew Turk]
+  doi: https://doi.org/10.1109/WACV.2009.5403131
+  title: Attribute-based people search in surveillance environments.
+  where: IEEE Workshop on Applications of Computer Vision (WACV 2009), 7-8 December, 2009, Snowbird, UT, USA
+  year: 2009
+- authors: [John O'Donovan]
+  doi: https://doi.org/10.1007/978-1-84800-356-9_9
+  title: Capturing Trust in Social Web Applications.
+  where: Computing with Social Trust
+  year: 2009
+- authors: [Jiyoung Park, Cheolhwon Kim, Jaekeun Na, Juneho Yi, Matthew Turk]
+  doi: https://doi.org/10.1016/j.imavis.2008.01.006
+  title: Using structured light for efficient depth edge detection.
+  where: Image Vision Comput.
+  year: 2008
+- authors: ["Rog\xE9rio Schmidt Feris", Ramesh Raskar, Longbin Chen, Kar-Han Tan, Matthew Turk]
+  doi: https://doi.org/10.1109/TPAMI.2007.1136
+  title: 'Multiflash Stereopsis: Depth-Edge-Preserving Stereo with Small Baseline Illumination.'
+  where: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: 2008
+- authors: [Dongpyo Hong, "Tobias H\xF6llerer", Michael Haller, Haruo Takemura, Adrian David Cheok, Gerard Jounghyun Kim, Mark Billinghurst, Woontack Woo, Eva Hornecker, Robert J. K. Jacob, Caroline Hummels, Brygg Ullmer, Albrecht Schmidt 0001, Elise van den Hoven, Ali Mazalek]
+  doi: https://doi.org/10.1109/MPRV.2008.27
+  title: Advances in Tangible Interaction and Ubiquitous Virtual Reality.
+  where: IEEE Pervasive Computing
+  year: 2008
+- authors: [Sheng Zhang 0007, Matthew Turk]
+  doi: https://doi.org/10.4249/scholarpedia.4244
+  title: Eigenfaces.
+  where: Scholarpedia
+  year: 2008
+- authors: [Stephen DiVerdi, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/TVCG.2008.26
+  title: 'Heads Up and Camera Down: A Vision-Based Tracking Modality for Mobile Mixed Reality.'
+  where: IEEE Trans. Vis. Comput. Graph.
+  year: 2008
+- authors: [Longbin Chen, "Rog\xE9rio Schmidt Feris", Matthew Turk]
+  doi: https://doi.org/10.1109/CVPRW.2008.4563078
+  title: Efficient partial shape matching using Smith-Waterman algorithm.
+  where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2008, Anchorage, AK, USA, 23-28 June, 2008
+  year: 2008
+- authors: [Daniel A. Vaquero, "Rog\xE9rio Schmidt Feris", Matthew Turk, Ramesh Raskar]
+  doi: https://doi.org/10.1109/CVPR.2008.4587767
+  title: Characterizing the shadow space of camera-light pairs.
+  where: 2008 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2008), 24-26 June 2008, Anchorage, Alaska, USA
+  year: 2008
+- authors: [Chunghoon Kim, Matthew Turk, Chong-Ho Choi]
+  doi: https://doi.org/10.1109/AFGR.2008.4813371
+  title: Biased discriminant analysis using composite vectors for eye detection.
+  where: 8th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2008), Amsterdam, The Netherlands, 17-19 September 2008
+  year: 2008
+- authors: [Alex Olwal, Stephen DiVerdi, Ismo Rakkolainen, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.4108/ICST.INTETAIN2008.2485
+  title: 'Consigalo: multi-user face-to-face interaction on immaterial displays.'
+  where: 2nd International Conference on INtelligent TEchnologies for interactive enterTAINment, INTETAIN 2008, Cancun, Mexico, January 8-10, 2008
+  year: 2008
+- authors: [Jason Wither, Christopher Coffin, Jonathan Ventura, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2008.4637326
+  title: Fast annotation and modeling with a single-point laser range finder.
+  where: 7th IEEE and ACM International Symposium on Mixed and Augmented Reality, ISMAR 2008, Cambridge, UK, 15-18th September 2008
+  year: 2008
+- authors: [Amit P. Jardosh, Panuakdet Suwannatat, "Tobias H\xF6llerer", Elizabeth M. Belding, Kevin C. Almeroth]
+  doi: https://doi.org/10.1007/978-3-540-79232-1_17
+  title: 'SCUBA: Focus and Context for Real-Time Mesh Network Health Diagnosis.'
+  where: Passive and Active Network Measurement, 9th International Conference, PAM 2008, Cleveland, OH, USA, April 29-30, 2008. Proceedings
+  year: 2008
+- authors: [Jonathan Ventura, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/1400885.1400954
+  title: Depth compositing for augmented reality.
+  where: International Conference on Computer Graphics and Interactive Techniques, SIGGRAPH 2008, Los Angeles, California, USA, August 11-15, 2008, Poster Proceedings
+  year: 2008
+- authors: [Stephen DiVerdi, Jason Wither, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/VR.2008.4480745
+  title: 'Envisor: Online Environment Map Construction for Mixed Reality.'
+  where: IEEE Virtual Reality Conference 2008 (VR 2008), 8-12 March 2008, Reno, Nevada, USA, Proceedings
+  year: 2008
+- authors: [Taehee Lee 0002, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/VR.2008.4480766
+  title: Hybrid Feature Tracking and User Interaction for Markerless Augmented Reality.
+  where: IEEE Virtual Reality Conference 2008 (VR 2008), 8-12 March 2008, Reno, Nevada, USA, Proceedings
+  year: 2008
+- authors: [Xavier Amatriain, Jorge Castellanos, "Tobias H\xF6llerer", JoAnn Kuchera-Morin, Stephen Travis Pope, Graham Wakefield, Will Wolcott]
+  doi: https://doi.org/10.1007/978-3-540-85035-9_27
+  title: Experiencing Audio and Music in a Fully Immersive Environment.
+  where: Computer Music Modeling and Retrieval. Sense of Sounds, 4th International Symposium, CMMR 2007, Copenhagen, Denmark, August 27-31, 2007. Revised Papers
+  year: 2007
+- authors: [Haiying Guan, Matthew Turk]
+  doi: https://doi.org/10.1109/CVPR.2007.383402
+  title: The Hierarchical Isometric Self-Organizing Map for Manifold Representation.
+  where: 2007 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2007), 18-23 June 2007, Minneapolis, Minnesota, USA
+  year: 2007
+- authors: [Xavier Amatriain, "Tobias H\xF6llerer", JoAnn Kuchera-Morin, Stephen Travis Pope]
+  doi: http://hdl.handle.net/2027/spo.bbp2372.2007.165
+  title: Immersive audio and Music in the AlloSphere.
+  where: Proceedings of the 2007 International Computer Music Conference, ICMC 2007, Copenhagen, Denmark, August 27-31, 2007
+  year: 2007
+- authors: [John O'Donovan, Barry Smyth, Vesile Evrim, Dennis McLeod]
+  doi: http://ijcai.org/Proceedings/07/Papers/454.pdf
+  title: Extracting and Visualizing Trust Relationships from Online Auction Feedback Comments.
+  where: IJCAI 2007, Proceedings of the 20th International Joint Conference on Artificial Intelligence, Hyderabad, India, January 6-12, 2007
+  year: 2007
+- authors: [Taehee Lee 0002, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2007.4538856
+  title: Initializing Markerless Tracking Using a Simple Hand Gesture.
+  where: Sixth IEEE/ACM International Symposium on Mixed and Augmented Reality, ISMAR 2007, 13-16 November 2007, Nara, Japan
+  year: 2007
+- authors: [Jason Wither, Stephen DiVerdi, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2007.4538832
+  title: Evaluating Display Types for AR Selection and Annotation.
+  where: Sixth IEEE/ACM International Symposium on Mixed and Augmented Reality, ISMAR 2007, 13-16 November 2007, Nara, Japan
+  year: 2007
+- authors: [Taehee Lee 0002, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISWC.2007.4373785
+  title: 'Handy AR: Markerless Inspection of Augmented Reality Objects Using Fingertip Tracking.'
+  where: 11th IEEE International Symposium on Wearable Computers (ISWC 2007), October 11-13, 2007, Boston, MA, USA
+  year: 2007
+- authors: ["Tobias H\xF6llerer", JoAnn Kuchera-Morin, Xavier Amatriain]
+  doi: http://doi.acm.org/10.1145/1278240.1278243
+  title: 'The allosphere: a large-scale immersive surround-view instrument.'
+  where: 'Proceedings of the Emerging Displays Technologies Workshop, EDT 2007, Images and Beyond: The Future of Displays and Interaction, August 4th, 2007, San Diego, California, co-located with SIGGRAPH 2007'
+  year: 2007
+- authors: [Stephen DiVerdi, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/VR.2007.352466
+  title: 'GroundCam: A Tracking Modality for Mobile Mixed Reality.'
+  where: IEEE Virtual Reality Conference, VR 2007, 10-14 March 2007, Charlotte, NC, USA, Proceedings
+  year: 2007
+- authors: [Sehwan Kim, Stephen DiVerdi, Jae Sik Chang, Taehyuk Kang, Ronald A. Iltis, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/1315184.1315186
+  title: Implicit 3D modeling and tracking for anywhere augmentation.
+  where: Proceedings of the ACM Symposium on Virtual Reality Software and Technology, VRST 2007, Newport Beach, California, USA, November 5-7, 2007
+  year: 2007
+- authors: [Cha Lee, Stephen DiVerdi, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/1315184.1315221
+  title: An immaterial depth-fused 3D display.
+  where: Proceedings of the ACM Symposium on Virtual Reality Software and Technology, VRST 2007, Newport Beach, California, USA, November 5-7, 2007
+  year: 2007
+- authors: ["Tobias H\xF6llerer", Jason Wither, Stephen DiVerdi]
+  doi: https://doi.org/10.1007/978-3-540-36728-4_29
+  title: '"Anywhere Augmentation": Towards Mobile Augmented Reality in Unprepared Environments.'
+  where: Location Based Services and TeleCartography
+  year: 2007
+- authors: [John O'Donovan, Barry Smyth]
+  doi: https://doi.org/10.1142/S0218213006003053
+  title: Mining Trust Values from Recommendation Errors.
+  where: International Journal on Artificial Intelligence Tools
+  year: 2006
+- authors: [Ya Chang, Changbo Hu, "Rog\xE9rio Schmidt Feris", Matthew Turk]
+  doi: https://doi.org/10.1016/j.imavis.2005.08.006
+  title: Manifold based analysis of facial expression.
+  where: Image Vision Comput.
+  year: 2006
+- authors: [Yossi Zana, Roberto Marcondes Cesar Junior, "Rog\xE9rio Schmidt Feris", Matthew Turk]
+  doi: https://doi.org/10.1016/j.imavis.2006.02.014
+  title: Local approach for face verification in polar frequency domain.
+  where: Image Vision Comput.
+  year: 2006
+- authors: ["Rog\xE9rio Schmidt Feris", Ramesh Raskar, Kar-Han Tan, Matthew Turk]
+  doi: https://doi.org/10.1590/S0104-65002006000200003
+  title: Specular Highlights Detection and Reduction with Multi-Flash Photography.
+  where: J. Braz. Comp. Soc.
+  year: 2006
+- authors: [Christopher Coffin, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/VR.2006.88
+  title: Interactive Perspective Cut-away Views for General 3D Scenes.
+  where: IEEE Symposium on 3D User Interfaces, 3DUI 2006, Alexandria, Virginia, USA, 25-26 March, 2006
+  year: 2006
+- authors: [Haiying Guan, Jae Sik Chang, Longbin Chen, "Rog\xE9rio Schmidt Feris", Matthew Turk]
+  doi: https://doi.org/10.1109/CVPRW.2006.137
+  title: Multi-view Appearance-based 3D Hand Pose Estimation.
+  where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2006, New York, NY, USA, 17-22 June, 2006
+  year: 2006
+- authors: [Haiying Guan, "Rog\xE9rio Schmidt Feris", Matthew Turk]
+  doi: https://doi.org/10.1109/FGR.2006.103
+  title: The Isometric Self-Organizing Map for 3D Hand Pose Estimation.
+  where: Seventh IEEE International Conference on Automatic Face and Gesture Recognition (FG 2006), 10-12 April 2006, Southampton, UK
+  year: 2006
+- authors: [Sven Fleck, Florian Busch, Peter Biber, "Wolfgang Stra\xDFer", Ismo Rakkolainen, Stephen DiVerdi, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ICIP.2006.312965
+  title: 3DTV - Panoramic 3D Model Acquisition and its 3D Visualization on the Interactive Fogscreen.
+  where: Proceedings of the International Conference on Image Processing, ICIP 2006, October 8-11, Atlanta, Georgia, USA
+  year: 2006
+- authors: [Haiying Guan, Toshiro Kubota, Xiaolei Huang, Xiang Sean Zhou, Matthew Turk]
+  doi: https://doi.org/10.1109/ICIP.2006.312368
+  title: Automatic Hot Spot Detection and Segmentation in Whole Body FDG-PET Images.
+  where: Proceedings of the International Conference on Image Processing, ICIP 2006, October 8-11, Atlanta, Georgia, USA
+  year: 2006
+- authors: [Taehee Lee 0002, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2006.297824
+  title: Viewpoint stabilization for live collaborative video augmentations.
+  where: Fifth IEEE/ACM International Symposium on Mixed and Augmented Reality, ISMAR 2006, October 22-25, 2006, Santa Barbara, CA, USA
+  year: 2006
+- authors: [Jason Wither, Stephen DiVerdi, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2006.297808
+  title: Using aerial photographs for improved mobile AR annotation.
+  where: Fifth IEEE/ACM International Symposium on Mixed and Augmented Reality, ISMAR 2006, October 22-25, 2006, Santa Barbara, CA, USA
+  year: 2006
+- authors: [John O'Donovan, Barry Smyth]
+  doi: http://doi.acm.org/10.1145/1111449.1111476
+  title: 'Is trust robust?: an analysis of trust-based recommendation.'
+  where: Proceedings of the 11th International Conference on Intelligent User Interfaces, IUI 2006, Sydney, Australia, January 29 - February 1, 2006
+  year: 2006
+- authors: ["Rog\xE9rio Schmidt Feris", Matthew Turk, Ramesh Raskar]
+  doi: https://doi.org/10.1109/SIBGRAPI.2006.10
+  title: Dealing with Multi-Scale Depth Changes and Motion in Depth Edge Detection.
+  where: 19th Brazilian Symposium on Computer Graphics and Image Processing (SIBGRAPI 2006), 8-11 October 2006, Manaus, Amazonas, Brazil
+  year: 2006
+- authors: [Ramesh Raskar, "Rog\xE9rio Schmidt Feris", Jingyi Yu, Matthew Turk]
+  doi: http://doi.acm.org/10.1145/1185657.1185741
+  title: 'Non-photorealistic camera: depth edge detection and stylized rendering using multi-flash imaging.'
+  where: 33. International Conference on Computer Graphics and Interactive Techniques, SIGGRAPH 2006, Boston, Massachusetts, USA, July 30 - August 3, 2006, Courses
+  year: 2006
+- authors: [John O'Donovan, Vesile Evrim, Barry Smyth, Dennis McLeod, Paddy Nixon]
+  doi: http://www.booksonline.iospress.nl/Content/View.aspx?piid=1871
+  title: Personalizing Trust in Online Auctions.
+  where: STAIRS 2006 - Proceedings of the Third Starting AI Researchers' Symposium, Riva del Garda, Trentino, Italy, 2006
+  year: 2006
+- authors: [Stephen DiVerdi, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/VR.2006.82
+  title: Image-space Correction of AR Registration Errors Using Graphics Hardware.
+  where: IEEE Virtual Reality Conference, VR 2006, Alexandria, Virginia, USA, March 25-29, 2006
+  year: 2006
+- authors: [Alex Olwal, Stephen DiVerdi, Nicola Candussi, Ismo Rakkolainen, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/VR.2006.25
+  title: An Immaterial, Dual-sided Display System with 3D Interaction.
+  where: IEEE Virtual Reality Conference, VR 2006, Alexandria, Virginia, USA, March 25-29, 2006
+  year: 2006
+- authors: [Ramesh Raskar, Kar-Han Tan, "Rog\xE9rio Schmidt Feris", Matthew Turk, James Kobler, Jingyi Yu]
+  doi: https://doi.org/10.1109/MCG.2005.10
+  title: Harnessing Real-World Depth Edges with Multiflash Imaging.
+  where: IEEE Computer Graphics and Applications
+  year: 2005
+- authors: [Yuan Wang, Yunde Jia, Changbo Hu, Matthew Turk]
+  doi: https://doi.org/10.1142/S0218001405004198
+  title: Non-negative matrix factorization framework for face recognition.
+  where: IJPRAI
+  year: 2005
+- authors: [Jongsun Kim, Jongmoo Choi, Juneho Yi, Matthew Turk]
+  doi: https://doi.org/10.1109/TPAMI.2005.242
+  title: Effective Representation Using ICA for Face Recognition Robust to Local Distortion and Partial Occlusion.
+  where: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: 2005
+- authors: [Ya Chang, Marcelo Bernardes Vieira, Matthew Turk, Luiz Velho]
+  doi: https://doi.org/10.1007/11564386_23
+  title: Automatic 3D Facial Expression Analysis in Videos.
+  where: Analysis and Modelling of Faces and Gestures, Second International Workshop, AMFG 2005, Beijing, China, October 16, 2005, Proceedings
+  year: 2005
+- authors: [Cheolhwon Kim, Jiyoung Park, Juneho Yi, Matthew Turk]
+  doi: https://doi.org/10.1109/CVPR.2005.536
+  title: Structured Light Based Depth Edge Detection for Object Shape Recovery.
+  where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2005, San Diego, CA, USA, 21-23 September, 2005
+  year: 2005
+- authors: ["Mathias K\xF6lsch", Matthew Turk]
+  doi: https://doi.org/10.1109/CVPR.2005.173
+  title: Hand Tracking with Flocks of Features.
+  where: 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2005), 20-26 June 2005, San Diego, CA, USA
+  year: 2005
+- authors: [Alberto Candussi, Nicola Candussi, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.2312/egs.20051027
+  title: Rendering Realistic Trees and Forests in Real Time.
+  where: Eurographics 2005 - Short Presentations, Dublin, Ireland, August 29 - September 2, 2005
+  year: 2005
+- authors: [John O'Donovan, Barry Smyth]
+  doi: http://www.aaai.org/Library/FLAIRS/2005/flairs05-048.php
+  title: Eliciting Trust Values from Recommendation Errors.
+  where: Proceedings of the Eighteenth International Florida Artificial Intelligence Research Society Conference, Clearwater Beach, Florida, USA
+  year: 2005
+- authors: ["Rog\xE9rio Schmidt Feris", Ramesh Raskar, Longbin Chen, Kar-Han Tan, Matthew Turk]
+  doi: https://doi.org/10.1109/ICCV.2005.76
+  title: Discontinuity Preserving Stereo with Small Baseline Multi-Flash Illumination.
+  where: 10th IEEE International Conference on Computer Vision (ICCV 2005), 17-20 October 2005, Beijing, China
+  year: 2005
+- authors: [Ya Chang, Ross Cutler, Zicheng Liu, Zhengyou Zhang, Alex Acero, Matthew Turk]
+  doi: https://doi.org/10.1109/ICME.2005.1521471
+  title: Automatic Head-size Equalization in Panorama Images for Video Conferencing.
+  where: Proceedings of the 2005 IEEE International Conference on Multimedia and Expo, ICME 2005, July 6-9, 2005, Amsterdam, The Netherlands
+  year: 2005
+- authors: [John O'Donovan, Barry Smyth]
+  doi: http://ijcai.org/Proceedings/05/Papers/post-0411.pdf
+  title: 'Trust No One: Evaluating Trust-based Filtering for Recommenders.'
+  where: IJCAI-05, Proceedings of the Nineteenth International Joint Conference on Artificial Intelligence, Edinburgh, Scotland, UK, July 30 - August 5, 2005
+  year: 2005
+- authors: [Alberto Candussi, "Tobias H\xF6llerer", Nicola Candussi]
+  doi: https://doi.org/10.1109/ISMAR.2005.49
+  title: Real-Time Rendering of Realistic Trees in Mixed Reality.
+  where: Fourth IEEE / ACM International Symposium on Mixed and Augmented Reality (ISMAR 2005), 5-8 October 2005, Vienna, Austria
+  year: 2005
+- authors: [Haiying Guan, Matthew Turk]
+  doi: https://doi.org/10.1007/11595755_77
+  title: 3D Hand Pose Reconstruction with ISOSOM.
+  where: Advances in Visual Computing, First International Symposium, ISVC 2005, Lake Tahoe, NV, USA, December 5-7, 2005, Proceedings
+  year: 2005
+- authors: [Vishal Nayak, Matthew Turk]
+  doi: https://doi.org/10.1007/11595755_38
+  title: Emotional Expression in Virtual Agents Through Body Language.
+  where: Advances in Visual Computing, First International Symposium, ISVC 2005, Lake Tahoe, NV, USA, December 5-7, 2005, Proceedings
+  year: 2005
+- authors: [Jiyoung Park, Cheolhwon Kim, Juneho Yi, Matthew Turk]
+  doi: https://doi.org/10.1007/11595755_94
+  title: Efficient Depth Edge Detection Using Structured Light.
+  where: Advances in Visual Computing, First International Symposium, ISVC 2005, Lake Tahoe, NV, USA, December 5-7, 2005, Proceedings
+  year: 2005
+- authors: [Yossi Zana, Roberto Marcondes Cesar Junior, "Rog\xE9rio Schmidt Feris", Matthew Turk]
+  doi: https://doi.org/10.1007/11595755_23
+  title: 'Face Verification in Polar Frequency Domain: A Biologically Motivated Approach.'
+  where: Advances in Visual Computing, First International Symposium, ISVC 2005, Lake Tahoe, NV, USA, December 5-7, 2005, Proceedings
+  year: 2005
+- authors: [Jason Wither, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISWC.2005.41
+  title: Pictorial Depth Cues for Outdoor Augmented Reality.
+  where: Ninth IEEE International Symposium on Wearable Computers (ISWC 2005), 18-21 October 2005, Osaka, Japan
+  year: 2005
+- authors: [John O'Donovan, Barry Smyth]
+  doi: http://doi.acm.org/10.1145/1040830.1040870
+  title: Trust in recommender systems.
+  where: Proceedings of the 10th International Conference on Intelligent User Interfaces, IUI 2005, San Diego, California, USA, January 10-13, 2005
+  year: 2005
+- authors: [Ismo Rakkolainen, Stephen DiVerdi, Alex Olwal, Nicola Candussi, "Tobias H\xF6llerer", Markku Laitinen, Mika Piirto, Karri T. Palovuori]
+  doi: http://doi.acm.org/10.1145/1187297.1187306
+  title: The interactive FogScreen.
+  where: 32. International Conference on Computer Graphics and Interactive Techniques, SIGGRAPH 2005, Los Angeles, California, USA, July 31 - August 4, 2005, Emerging Technologies
+  year: 2005
+- authors: [Ramesh Raskar, Kar-Han Tan, "Rog\xE9rio Schmidt Feris", Jingyi Yu, Matthew Turk]
+  doi: http://doi.acm.org/10.1145/1198555.1198562
+  title: 'Non-photorealistic camera: depth edge detection and stylized rendering using multi-flash imaging.'
+  where: 32. International Conference on Computer Graphics and Interactive Techniques, SIGGRAPH 2005, Los Angeles, California, USA, July 31 - August 4, 2005, Courses
+  year: 2005
+- authors: [Alex Olwal, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/1101616.1101662
+  title: 'POLAR: portable, optical see-through, low-cost augmented reality.'
+  where: Proceedings of the ACM Symposium on Virtual Reality Software and Technology, VRST 2005, Monterey, CA, USA, November 7-9, 2005
+  year: 2005
+- authors: [Yossi Zana, Roberto M. Cesar, "Rog\xE9rio Schmidt Feris", Matthew Turk]
+  doi: http://arxiv.org/abs/cs/0509083
+  title: 'Face Verification in Polar Frequency Domain: a Biologically Motivated Approach'
+  where: CoRR
+  year: 2005
+- authors: [Drexel Hallaway, Steven Feiner, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1080/08839510490462768
+  title: 'Bridging the Gaps: Hybrid Tracking for Adaptive Mobile Augmented Reality.'
+  where: Applied Artificial Intelligence
+  year: 2004
+- authors: [Matthew Turk]
+  doi: http://doi.acm.org/10.1145/962081.962107
+  title: Computer vision in the interface.
+  where: Commun. ACM
+  year: 2004
+- authors: [Jeremy N. Bailenson, Andrew C. Beall, Jack M. Loomis, Jim Blascovich, Matthew Turk]
+  doi: https://doi.org/10.1162/1054746041944803
+  title: 'Transformed Social Interaction: Decoupling Representation from Behavior and Form in Collaborative Virtual Environments.'
+  where: Presence
+  year: 2004
+- authors: [Ramesh Raskar, Kar-Han Tan, "Rog\xE9rio Schmidt Feris", Jingyi Yu, Matthew Turk]
+  doi: http://doi.acm.org/10.1145/1015706.1015779
+  title: 'Non-photorealistic camera: depth edge detection and stylized rendering using multi-flash imaging.'
+  where: ACM Trans. Graph.
+  year: 2004
+- authors: [John O'Donovan, John Dunnion]
+  doi: https://doi.org/10.1007/978-3-540-27780-4_40
+  title: Evaluating Information Filtering Techniques in an Adaptive Recommender System.
+  where: Adaptive Hypermedia and Adaptive Web-Based Systems, Third International Conference, AH 2004, Eindhoven, The Netherlands, August 23-26, 2004, Proceedings
+  year: 2004
+- authors: [John O'Donovan, John Dunnion]
+  doi: https://doi.org/10.1007/978-3-540-24630-5_62
+  title: A Framework for Evaluation of Information Filtering Techniques in an Adaptive Recommender System.
+  where: Computational Linguistics and Intelligent Text Processing, 5th International Conference, CICLing 2004, Seoul, Korea, February 15-21, 2004, Proceedings
+  year: 2004
+- authors: [Ya Chang, Changbo Hu, Matthew Turk]
+  doi: http://doi.ieeecomputersociety.org/10.1109/CVPR.2004.189
+  title: Probabilistic Expression Analysis on Manifolds.
+  where: 2004 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2004), with CD-ROM, 27 June - 2 July 2004, Washington, DC, USA
+  year: 2004
+- authors: ["Rog\xE9rio Schmidt Feris", Matthew Turk, Ramesh Raskar, Kar-Han Tan, Gosuke Ohashi]
+  doi: https://doi.org/10.1109/CVPR.2004.336
+  title: Exploiting Depth Discontinuities for Vision-Based Fingerspelling Recognition.
+  where: IEEE Conference on Computer Vision and Pattern Recognition Workshops, CVPR Workshops 2004, Washington, DC, USA, June 27 - July 2, 2004
+  year: 2004
+- authors: [Changbo Hu, Ya Chang, "Rog\xE9rio Schmidt Feris", Matthew Turk]
+  doi: https://doi.org/10.1109/CVPR.2004.390
+  title: Manifold Based Analysis of Facial Expression.
+  where: IEEE Conference on Computer Vision and Pattern Recognition Workshops, CVPR Workshops 2004, Washington, DC, USA, June 27 - July 2, 2004
+  year: 2004
+- authors: ["Mathias K\xF6lsch", Matthew Turk]
+  doi: https://doi.org/10.1109/CVPR.2004.345
+  title: Fast 2D Hand Tracking with Flocks of Features and Multi-Cue Integration.
+  where: IEEE Conference on Computer Vision and Pattern Recognition Workshops, CVPR Workshops 2004, Washington, DC, USA, June 27 - July 2, 2004
+  year: 2004
+- authors: ["Mathias K\xF6lsch", Matthew Turk]
+  doi: https://doi.org/10.1109/AFGR.2004.1301601
+  title: Robust Hand Detection.
+  where: Sixth IEEE International Conference on Automatic Face and Gesture Recognition (FGR 2004), May 17-19, 2004, Seoul, Korea
+  year: 2004
+- authors: [Deborah Hix, Joseph L. Gabbard, J. Edward Swan II, Mark A. Livingston, "Tobias H\xF6llerer", Simon Julier, Yohan Baillot, Dennis G. Brown]
+  doi: https://doi.org/10.1109/HICSS.2004.1265653
+  title: A Cost-Effective Usability Evaluation Progression for Novel Interactive Systems.
+  where: 37th Hawaii International Conference on System Sciences (HICSS-37 2004), CD-ROM / Abstracts Proceedings, 5-8 January 2004, Big Island, HI, USA
+  year: 2004
+- authors: [Matthew Turk, Jeremy N. Bailenson, Andrew C. Beall, Jim Blascovich, Rosanna E. Guadagno]
+  doi: http://doi.acm.org/10.1145/1027933.1027942
+  title: Multimodal transformed social interaction.
+  where: Proceedings of the 6th International Conference on Multimodal Interfaces, ICMI 2004, State College, PA, USA, October 13-15, 2004
+  year: 2004
+- authors: ["Mathias K\xF6lsch", Matthew Turk]
+  doi: https://doi.org/10.1109/ICPR.2004.1334480
+  title: Analysis of Rotational Robustness of Hand Detection with a Viola-Jones Detector.
+  where: 17th International Conference on Pattern Recognition, ICPR 2004, Cambridge, UK, August 23-26, 2004.
+  year: 2004
+- authors: [John O'Donovan, John Dunnion]
+  doi: http://doi.acm.org/10.1145/1071509.1071531
+  title: 'Adaptive recommendation: putting the best foot forward.'
+  where: Proceedings of the Intenational Symposium on Information and Communication Technologies, Las Vegas, Nevada, USA, June 16-18, 2004
+  year: 2004
+- authors: [Ryan Bane, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2004.36
+  title: Interactive Tools for Virtual X-Ray Vision in Mobile Augmented Reality.
+  where: 3rd IEEE and ACM International Symposium on Mixed and Augmented Reality (ISMAR 2004), 2-5 November 2004, Arlington, VA, USA
+  year: 2004
+- authors: [Stephen DiVerdi, "Tobias H\xF6llerer", Richard Schreyer]
+  doi: https://doi.org/10.1109/ISMAR.2004.38
+  title: Level of Detail Interfaces.
+  where: 3rd IEEE and ACM International Symposium on Mixed and Augmented Reality (ISMAR 2004), 2-5 November 2004, Arlington, VA, USA
+  year: 2004
+- authors: [Jason Wither, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISWC.2004.18
+  title: Evaluating Techniques for Interaction at a Distance.
+  where: 8th International Symposium on Wearable Computers (ISWC 2004), 31 October - 3 November 2004, Arlington, VA, USA
+  year: 2004
+- authors: ["Rog\xE9rio Schmidt Feris", Ramesh Raskar, Kar-Han Tan, Matthew Turk]
+  doi: https://doi.org/10.1109/SIBGRA.2004.1352976
+  title: Specular Reflection Reduction with Multi-Flash Imaging.
+  where: XVII Brazilian Symposium on Computer Graphics and Image Processing, (SIBGRAPI 2004) 17-20 October 2004, Curitiba, PR, Brazil
+  year: 2004
+- authors: ["Rog\xE9rio Schmidt Feris", Kar-Han Tan, Ramesh Raskar, Matthew Turk]
+  doi: http://doi.acm.org/10.1145/1186415.1186482
+  title: Specular reflection reduction using a multi-flash camera.
+  where: 31. International Conference on Computer Graphics and Interactive Techniques, SIGGRAPH 2004, Los Angeles, California, USA, August 8-12, 2004, Posters
+  year: 2004
+- authors: [Ramesh Raskar, Kar-Han Tan, "Rog\xE9rio Schmidt Feris", Jingyi Yu, Matthew Turk]
+  doi: http://doi.acm.org/10.1145/1186155.1186175
+  title: 'The non-photorealistic camera: automatic stylization with multi-flash imaging.'
+  where: 31. International Conference on Computer Graphics and Interactive Techniques, SIGGRAPH 2004, Los Angeles, California, USA, August 8-12, 2004, Emerging Technologies
+  year: 2004
+- authors: [Ya Chang, Changbo Hu, Matthew Turk]
+  doi: https://doi.org/10.1109/AMFG.2003.1240820
+  title: Manifold of Facial Expression.
+  where: 2003 IEEE International Workshop on Analysis and Modeling of Faces and Gestures (AMFG 2003), 17 October 2003, Nice, France, Proceedings
+  year: 2003
+- authors: [Changbo Hu, "Rog\xE9rio Schmidt Feris", Matthew Turk]
+  doi: https://doi.org/10.1109/AMFG.2003.1240846
+  title: Real-time View-based Face Alignment using Active Wavelet Networks.
+  where: 2003 IEEE International Workshop on Analysis and Modeling of Faces and Gestures (AMFG 2003), 17 October 2003, Nice, France, Proceedings
+  year: 2003
+- authors: [Changbo Hu, "Rog\xE9rio Schmidt Feris", Matthew Turk]
+  doi: https://doi.org/10.5244/C.17.40
+  title: Active Wavelet Networks for Face Alignment.
+  where: British Machine Vision Conference, BMVC 2003, Norwich, UK, September, 2003. Proceedings
+  year: 2003
+- authors: [Stephen DiVerdi, Daniel Nurmi, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/ISMAR.2003.1240729
+  title: ARWin-A Desktop Augmented Reality Window Manager.
+  where: 2003 IEEE / ACM International Symposium on Mixed and Augmented Reality (ISMAR 2003), 7-10 October 2003, Tokyo, Japan
+  year: 2003
+- authors: [Mark A. Livingston, J. Edward Swan II, Joseph L. Gabbard, "Tobias H\xF6llerer", Deborah Hix, Simon Julier, Yohan Baillot, Dennis G. Brown]
+  doi: https://doi.org/10.1109/ISMAR.2003.1240688
+  title: Resolving Multiple Occluded Layers in Augmented Reality.
+  where: 2003 IEEE / ACM International Symposium on Mixed and Augmented Reality (ISMAR 2003), 7-10 October 2003, Tokyo, Japan
+  year: 2003
+- authors: [Drexel Hallaway, "Tobias H\xF6llerer", Steven Feiner]
+  doi: https://doi.org/10.1109/ISWC.2003.1241396
+  title: Coarse, Inexpensive, Infrared Tracking for Wearable Computing.
+  where: 7th International Symposium on Wearable Computers (ISWC 2003), 21-23 October 2003, White Plains, NY, USA
+  year: 2003
+- authors: [Blaine Bell, Steven Feiner, "Tobias H\xF6llerer"]
+  doi: https://doi.org/10.1109/MCG.2002.1016691
+  title: Information at a Glance.
+  where: IEEE Computer Graphics and Applications
+  year: 2002
+- authors: [Blaine Bell, "Tobias H\xF6llerer", Steven Feiner]
+  doi: http://doi.acm.org/10.1145/571985.572017
+  title: An annotated situation-awareness aid for augmented reality.
+  where: Proceedings of the 15th Annual ACM Symposium on User Interface Software and Technology, Paris, France, October 27-30, 2002
+  year: 2002
+- authors: ["Tobias H\xF6llerer", Steven Feiner, Drexel Hallaway, Blaine Bell, Marco Lanzagorta, Dennis G. Brown, Simon Julier, Yohan Baillot, Lawrence J. Rosenblum]
+  doi: https://doi.org/10.1016/S0097-8493(01)00122-4
+  title: User interface management techniques for collaborative mobile augmented reality.
+  where: Computers & Graphics
+  year: 2001
+- authors: [Blaine Bell, Steven Feiner, "Tobias H\xF6llerer"]
+  doi: http://doi.acm.org/10.1145/502348.502363
+  title: View management for virtual and augmented reality.
+  where: Proceedings of the 14th Annual ACM Symposium on User Interface Software and Technology, UIST 2001, Disney's BoardWalk Inn Resort, Walt Disney World, Orlando, Florida, USA, November 11-14, 2001
+  year: 2001
+- authors: [Wolfgang Broll, "Leonie Sch\xE4fer", "Tobias H\xF6llerer", Doug A. Bowman]
+  doi: http://doi.ieeecomputersociety.org/10.1109/VR.2001.10016
+  title: 'Workshop 2: The Future of VR and AR Interfaces: Multi-Modal, Humanoid, Adaptive and Intelligent.'
+  where: Virtual Reality 2001 Conference, VR'01, Yokohama, Japan, March 13-17, 2001, Proceedings
+  year: 2001
+- authors: [Matthew Turk, George G. Robertson]
+  doi: http://doi.acm.org/10.1145/330534.330535
+  title: 'Perceptual User Interfaces: Introduction.'
+  where: Commun. ACM
+  year: 2000
+- authors: [Pengyu Hong, Thomas S. Huang, Matthew Turk]
+  doi: https://doi.org/10.1109/AFGR.2000.840667
+  title: Gesture Modeling and Recognition Using Finite State Machines.
+  where: 4th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2000), 26-30 March 2000, Grenoble, France
+  year: 2000
+- authors: [Pengyu Hong, Thomas S. Huang, Matthew Turk]
+  doi: https://doi.org/10.1109/ICPR.2000.903639
+  title: Constructing Finite State Machines for Fast Gesture Recognition.
+  where: 15th International Conference on Pattern Recognition, ICPR'00, Barcelona, Spain, September 3-8, 2000.
+  year: 2000
+- authors: [Simon Julier, Marco Lanzagorta, Yohan Baillot, Lawrence J. Rosenblum, Steven Feiner, "Tobias H\xF6llerer", Sabrina Sestito]
+  doi: https://doi.org/10.1109/ISAR.2000.880917
+  title: Information filtering for mobile augmented reality.
+  where: Proceedings of the IEEE and ACM International Symposium on Augmented Reality, ISAR 2000, October 5-6, 2000, Munich, Germany
+  year: 2000
+- authors: ["Tobias H\xF6llerer", Steven Feiner, Tachio Terauchi, Gus Rashid, Drexel Hallaway]
+  doi: https://doi.org/10.1016/S0097-8493(99)00103-X
+  title: 'Exploring MARS: developing indoor and outdoor user interfaces to a mobile augmented reality system.'
+  where: Computers & Graphics
+  year: 1999
+- authors: [Nebojsa Jojic, Matthew Turk, Thomas S. Huang]
+  doi: https://doi.org/10.1109/ICCV.1999.791207
+  title: Tracking Self-Occluding Articulated Objects in Dense Disparity Maps.
+  where: ICCV
+  year: 1999
+- authors: [Andreas Butz, "Tobias H\xF6llerer", Steven Feiner, Blair MacIntyre, Clifford Beshers]
+  doi: https://doi.org/10.1109/IWAR.1999.803804
+  title: Enveloping users and computers in a collaborative 3D augmented reality.
+  where: 2nd IEEE and ACM International Workshop on Augmented Reality, IWAR '99, San Francisco, CA, USA, October 20-21, 1999
+  year: 1999
+- authors: ["Tobias H\xF6llerer", John V. Pavlik, Steven Feiner]
+  doi: https://doi.org/10.1109/ISWC.1999.806664
+  title: 'Situated Documentaries: Embedding Multimedia Presentations in the Real World.'
+  where: Third International Symposium on Wearable Computers (ISWC 1999), San Francisco, California, USA, 18-19 October 1999, Proceedings.
+  year: 1999
+- authors: [Ross Cutler, Matthew Turk]
+  doi: null
+  title: View-Based Interpretation of Real-Time Optical Flow for Gesture Recognition.
+  where: 3rd International Conference on Face & Gesture Recognition (FG '98), April 14-16, 1998, Nara, Japan
+  year: 1998
+- authors: [Steven Feiner, Blair MacIntyre, "Tobias H\xF6llerer", Anthony Webster]
+  doi: https://doi.org/10.1007/BF01682023
+  title: 'A Touring Machine: Prototyping 3D Augmented Reality Systems for Exploring the Urban Environment.'
+  where: Personal and Ubiquitous Computing
+  year: 1997
+- authors: [Steven Feiner, Blair MacIntyre, "Tobias H\xF6llerer", Anthony Webster]
+  doi: https://doi.org/10.1109/ISWC.1997.629922
+  title: 'A Touring Machine: Prototyping 3D Mobile Augmented Reality Systems for Exploring the Urban Environment.'
+  where: First International Symposium on Wearable Computers (ISWC 1997), Cambridge, Massachusetts, USA, 13-14 October 1997, Proceedings.
+  year: 1997
+- authors: [Matthew Turk]
+  doi: https://doi.org/10.1109/AFGR.1996.557293
+  title: Visual Interaction With Lifelike Characters.
+  where: 2nd International Conference on Automatic Face and Gesture Recognition (FG '96), October 14-16, 1996, Killington, Vermont, USA
+  year: 1996
+- authors: [Mukesh Dalal, Steven Feiner, Kathleen McKeown, Shimei Pan, Michelle X. Zhou, "Tobias H\xF6llerer", James Shaw, Yong Feng, Jeanne Fromer]
+  doi: http://doi.acm.org/10.1145/244130.244147
+  title: Negotiation for Automated Generation of Temporal Multimedia Presentations.
+  where: Proceedings of the Forth ACM International Conference on Multimedia '96, Boston, MA, USA, November 18-22, 1996.
+  year: 1996
+- authors: [Matthew A. Turk, Alex Pentland]
+  doi: https://doi.org/10.1109/CVPR.1991.139758
+  title: Face recognition using eigenfaces.
+  where: IEEE Computer Society Conference on Computer Vision and Pattern Recognition, CVPR 1991, 3-6 June, 1991, Lahaina, Maui, Hawaii, USA
+  year: 1991
+- authors: [Matthew Turk, Alex Pentland]
+  doi: http://b2.cvl.iis.u-tokyo.ac.jp/mva/proceedings/CommemorativeDVD/1990/papers/1990267.pdf
+  title: Face Recognition without Features.
+  where: Proceedings of IAPR Workshop on Machine Vision Applications, MVA 1990, November 28-30, 1990, Kokubunji, Tokyo, Japan
+  year: 1990
+- authors: [Alex Pentland, Trevor Darrell, Matthew Turk, W. Huang]
+  doi: https://doi.org/10.1109/CVPR.1989.37858
+  title: A simple, real-time range camera.
+  where: IEEE Computer Society Conference on Computer Vision and Pattern Recognition, CVPR 1989, 4-8 June, 1989, San Diego, CA, USA.
+  year: 1989
+- authors: [Matthew Turk, David G. Morgenthaler, Keith D. Gremban, Martin Marra]
+  doi: https://doi.org/10.1109/34.3899
+  title: VITS-A Vision System for Autonomous Land Vehicle Navigation.
+  where: IEEE Trans. Pattern Anal. Mach. Intell.
+  year: 1988
+- authors: [Matthew Turk, David G. Morgenthaler, Keith D. Gremban, Martin Marra]
+  doi: https://doi.org/10.1109/ROBOT.1987.1088030
+  title: Video road-following for the autonomous land vehicle.
+  where: Proceedings of the 1987 IEEE International Conference on Robotics and Automation, Raleigh, North Carolina, USA, March 31 - April 3, 1987
+  year: 1987
