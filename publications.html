@@ -24,6 +24,12 @@ permalink: /publications
             {% if pub.website %}
                 <span><a href="{{pub.website}}">Website</a></span>
             {% endif %}
+            {% if pub.link %}
+            <span><a href="{{pub.link}}">Link</a></span>
+            {% endif %}
+            {% if pub.doi %}
+            <span><a href="https://doi.org/{{pub.doi}}">{{pub.doi}}</a></span>
+            {% endif %}
             {% if pub.bibtex %}
                 <span><a href="#" onclick="toggleBibtex(this); return false;">Bibtex</a></span>
             {% endif %}
