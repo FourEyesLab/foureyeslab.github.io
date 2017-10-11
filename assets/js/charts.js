@@ -184,10 +184,10 @@ function ResearchAreasGraphView(container, dataset) {
     var symbolStar = d3.symbol().type(d3.symbolStar);
 
     var simulation = d3.forceSimulation()
-        .force("link", d3.forceLink().id(function (d) { return d.id; }))
+        .force("link", d3.forceLink().id(function (d) { return d.id; }).strength(1))
         .force("charge", d3.forceManyBody())
         .force("centerX", d3.forceX(width / 2))
-        .force("centerY", d3.forceY(height / 2));
+        .force("centerY", d3.forceY(height / 2).strength(0.15));
 
     var nodes = [];
     var area_to_node = {};
@@ -247,7 +247,7 @@ function ResearchAreasGraphView(container, dataset) {
         .selectAll("line")
         .data(links)
         .enter().append("line")
-        .style("stroke", "rgba(0, 0, 0, 0.5)")
+        .style("stroke", "rgba(0, 0, 0, 0.2)")
         .attr("stroke-width", 1);
 
     var node = svg.append("g")
@@ -261,7 +261,7 @@ function ResearchAreasGraphView(container, dataset) {
             if (d.type == "people") return symbolCircle.size(Math.sqrt(d.degree) * 50)();
         })
         .style("cursor", "pointer")
-        .attr("fill", function (d) { return d.area ? color(d.area.name) : "#444"; })
+        .attr("fill", function (d) { return d.area ? color(d.area.name) : (d.type == "people" ? "#444": "#888"); })
         .attr("stroke", "white")
         .attr("stroke-linejoin", "round")
         .on('mouseover', tip.show)
