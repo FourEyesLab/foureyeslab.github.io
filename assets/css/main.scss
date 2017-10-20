@@ -130,26 +130,28 @@ hr {
     background-image: url(../images/banner.png);
 }
 
+.research-areas-areas {
+    ul {
+        margin-right: 1em;
+    }
+    li {
+        margin: 0;
+        a {
+            display: block;
+            padding: 5px 10px;
+        }
+        &.active {
+            background-color: $gray-800;
+        }
+    }
+}
+
 .research-areas-list-view {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 
-    .research-areas-areas {
-        ul {
-            margin-right: 1em;
-        }
-        li {
-            margin: 0;
-            a {
-                display: block;
-                padding: 5px 10px;
-            }
-            &.active {
-                background-color: $gray-800;
-            }
-        }
-    }
+
     .research-areas-projects {
         li {
             margin-bottom: 1em;

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "target": "es5",
+        "outFile": "../assets/js/scripts.js"
+    },
+    "include": [
+        "ts/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

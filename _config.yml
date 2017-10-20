@@ -38,3 +38,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - src

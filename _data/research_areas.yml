@@ -20,20 +20,3 @@ areas:
     display: Data Mining / Machine Learning
   # - name: NS
   #   display: Network Science
-
-projects:
-  # template:
-  # - display: Effects of Restricted FOV
-  #   description: A brief description of the project
-  #   year: year that the project started
-  #   image: project_image.jpg
-  #   people: [ people_name1, people_name2, ... ] -- use the same "name" in people.yml
-  #   areas: [ area1, area2, ... ]
-  #   publications: [ paper_key1, paper_key2, ... ]
-  #   completed: True/False -- is the project completed (True) or still active (ignore this field)
-
-  - display: Gesture-based 3D annotation system for multi-user collaboration in see-through, head-mounted AR
-    year: 2016
-    people: [ YunSuk Chang, "Benjamin Nuernberger", "Tobias H\xF6llerer" ]
-    areas: [ AR, VR, CV ]
-

@@ -6,70 +6,24 @@ permalink: /research
 
 <script src="{{site.baseurl}}/assets/js/d3.v4.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/d3-tip.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/charts.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/scripts.js"></script>
 
 <h1>Research</h1>
 
 <div id="graph-area"></div>
 
 <div id="list-area"></div>
-
+<div id="list-projects"></div>
 <ul id="integrity-messages"></ul>
 
 <script type="text/javascript">
-// Cleanup the data into research areas, projects, and people
-function convertToProjectData(projects, publications, areas, people) {
-    var errors = [];
-    var peopleCache = {};
-    people.forEach(function(people) {
-        peopleCache[people.name] = people;
-    });
-    function getPeople(name) {
-        if(peopleCache.hasOwnProperty(name)) {
-            return peopleCache[name];
-        } else {
-            return peopleCache[name] = { name: name, display: name };
-        }
-    }
-
-    var resultProjects = [];
-
-    projects.forEach(function(project) {
-        project.people = project.people.map(getPeople);
-        resultProjects.push(project);
-    });
-    publications.forEach(function(pub) {
-        var project = {
-            display: pub.title,
-            areas: [],
-            year: pub.year,
-            people: pub.authors.map(getPeople)
-        }
-        resultProjects.push(project);
-    });
-    console.log(resultProjects);
-    var resultPeople = [];
-    for(var name in peopleCache) {
-        if(peopleCache.hasOwnProperty(name)) {
-            resultPeople.push(peopleCache[name]);
-        }
-    }
-    resultProjects.sort(function(a, b) {
-        return b.year - a.year;
-    });
-    return {
-        projects: resultProjects,
-        areas: areas,
-        people: resultPeople
-    };
-}
-
 var research_areas = {{site.data.research_areas | jsonify}};
 var publications = {{site.data.publications | jsonify}};
 var people = {{site.data.people | jsonify}};
-var dataset = convertToProjectData(research_areas.projects, publications, research_areas.areas, people);
-
-var chart = new ResearchAreasListView(d3.select("#list-area"), dataset);
-var chart = new ResearchAreasGraphView(d3.select("#graph-area"), dataset);
+var dataset = new ilab.ChartDataset(people, research_areas.areas, publications);
+var store = new ilab.ViewStateStore(dataset);
+var chart1 = new ilab.ResearchAreasView(d3.select("#list-area"), store);
+var chart1 = new ilab.ProjectsView(d3.select("#list-projects"), "{{site.baseurl}}", store);
+var chart2 = new ilab.ResearchAreasGraphView(d3.select("#graph-area"), store);
 
 </script>

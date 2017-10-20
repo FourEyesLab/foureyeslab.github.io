@@ -4,6 +4,7 @@
   title: User-Perspective AR Magic Lens from Gradient-Based IBR and Semi-Dense Stereo.
   where: IEEE Trans. Vis. Comput. Graph.
   year: 2017
+  areas: [AR, CV]
 - authors: [Vishwajeet Narwal, Mohamed Hashim Salih, Jose Angel Lopez, Angel Ortega, John O'Donovan, "Tobias H\xF6llerer", Saiph Savage]
   doi: 10.1145/3027063.3053227
   key: conf/chi/NarwalSLOOHS17
@@ -16,18 +17,21 @@
   title: Field-of-view extension for VR viewers.
   where: Proceedings of the 21st International Academic Mindtrek Conference, AcademicMindtrek 2017, Tampere, Finland, September 20 - 21, 2017
   year: 2017
+  areas: [VR]
 - authors: [YunSuk Chang, Benjamin Nuernberger, Bo Luan, "Tobias H\xF6llerer", John O'Donovan]
   doi: 10.1109/VR.2017.7892383
   key: conf/vr/ChangNLHO17
   title: Gesture-based augmented reality annotation.
   where: 2017 IEEE Virtual Reality, VR 2017, Los Angeles, CA, USA, March 18-22, 2017
   year: 2017
+  areas: [AR, HCI]
 - authors: [Domagoj Baricevic, "Tobias H\xF6llerer", Matthew Turk]
   doi: 10.1109/WACV.2017.99
   key: conf/wacv/BaricevicHT17
   title: Densification of Semi-Dense Reconstructions for Novel View Generation of Live Scenes.
   where: 2017 IEEE Winter Conference on Applications of Computer Vision, WACV 2017, Santa Rosa, CA, USA, March 24-31, 2017
   year: 2017
+  areas: [CV, AR]
 - authors: [Vishwajeet Narwal, Mohamed Hashim Salih, Jose Angel Lopez, Angel Ortega, John O'Donovan, "Tobias H\xF6llerer", Saiph Savage]
   key: journals/corr/NarwalSLOOHS17
   link: http://arxiv.org/abs/1702.06492
@@ -46,30 +50,35 @@
   title: Large Scale SfM with the Distributed Camera Model.
   where: Fourth International Conference on 3D Vision, 3DV 2016, Stanford, CA, USA, October 25-28, 2016
   year: 2016
+  areas: [CV]
 - authors: [Benjamin Nuernberger, Kuo-Chin Lien, "Tobias H\xF6llerer", Matthew Turk]
   doi: 10.1109/3DUI.2016.7460046
   key: conf/3dui/NuernbergerLHT16
   title: Interpreting 2D gesture annotations in 3D augmented reality.
   where: 2016 IEEE Symposium on 3D User Interfaces, 3DUI 2016, Greenville, SC, USA, March 19-20, 2016
   year: 2016
+  areas: [AR]
 - authors: [James Schaffer, Brandon Huynh, John O'Donovan, "Tobias H\xF6llerer", Yinglong Xia, W. Sabrina Lin]
   doi: 10.1109/ASONAM.2016.7752262
   key: conf/asunam/SchafferHOHXL16
   title: An analysis of student behavior in two massive open online courses.
   where: 2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining, ASONAM 2016, San Francisco, CA, USA, August 18-21, 2016
   year: 2016
+  areas: [HCI]
 - authors: [Kuo-Chin Lien, Benjamin Nuernberger, "Tobias H\xF6llerer", Matthew Turk]
   doi: 10.1109/ISMAR.2016.21
   key: conf/ismar/LienNHT16
   title: 'PPV: Pixel-Point-Volume Segmentation for Object Referencing in Collaborative Augmented Reality.'
   where: 2016 IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2016, Merida, Yucatan, Mexico, September 19-23, 2016
   year: 2016
+  areas: [AR, CV]
 - authors: [Ismo Rakkolainen, Roope Raisamo, Matthew Turk, "Tobias H\xF6llerer", Karri T. Palovuori]
   doi: 10.1145/2994310.2994314
   key: conf/mindtrek/RakkolainenRTHP16
   title: Casual immersive viewing with smartphones.
   where: Proceedings of the 20th International Academic Mindtrek Conference, AcademicMindtrek '16, Tampere, Finland, October 17-18, 2016
   year: 2016
+  areas: [VR]
 - authors: [John O'Donovan, Shinsuke Nakajima, "Tobias H\xF6llerer", Mayumi Ueda, Yuuki Matsunami, Byungkyu Kang]
   key: conf/recsys/ODonovanNHUMK16
   link: http://ceur-ws.org/Vol-1679/paper9.pdf
@@ -370,6 +379,7 @@
   title: 'Stardust: Accessible and Transparent GPU Support for Information Visualization Rendering.'
   where: Comput. Graph. Forum
   year: 2017
+  areas: [VIS, VR]
 - authors: [Alice Allen, Cecilia R. Aragon, Christoph Becker, Jeffrey Carver, Andrei Chis, "Beno\xEEt Combemale", Mike Croucher, Kevin Crowston, Daniel Garijo, Ashish Gehani, Carole A. Goble, Robert Haines, Robert Hirschfeld, James Howison, Kathryn D. Huff, Caroline Jay, Daniel S. Katz, Claude Kirchner, Katie Kuksenok, "Ralf L\xE4mmel", Oscar Nierstrasz, Matthew Turk, Rob van Nieuwpoort, Matthew Vaughn, Jurgen J. Vinju]
   doi: 10.4230/DagMan.6.1.1
   key: journals/dagstuhl-manifestos/AllenABCCCCCGGG17
@@ -394,6 +404,7 @@
   title: 'ChartAccent: Annotation for data-driven storytelling.'
   where: 2017 IEEE Pacific Visualization Symposium, PacificVis 2017, Seoul, South Korea, April 18-21, 2017
   year: 2017
+  areas: [VIS]
 - authors: [Casey Dugan, Peter Brusilovsky, Elizabeth M. Daly, John O'Donovan]
   doi: 10.1145/3030024.3030026
   key: conf/iui/DuganBDO17
@@ -520,6 +531,7 @@
   title: Evaluating wide-field-of-view augmented reality with mixed reality simulation.
   where: 2016 IEEE Virtual Reality, VR 2016, Greenville, SC, USA, March 19-23, 2016
   year: 2016
+  areas: [AR]
 - authors: [Victor Fragoso, Walter J. Scheirer, "Jo\xE3o Pedro Hespanha", Matthew Turk]
   key: journals/corr/FragosoSHT16
   link: http://arxiv.org/abs/1608.01026
@@ -1821,7 +1833,7 @@
   title: Negotiation for Automated Generation of Temporal Multimedia Presentations.
   where: Proceedings of the Forth ACM International Conference on Multimedia '96, Boston, MA, USA, November 18-22, 1996.
   year: 1996
-- authors: [Matthew A. Turk, Alex Pentland]
+- authors: [Matthew Turk, Alex Pentland]
   doi: 10.1109/CVPR.1991.139758
   key: conf/cvpr/TurkP91
   title: Face recognition using eigenfaces.

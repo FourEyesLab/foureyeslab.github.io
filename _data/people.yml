@@ -23,7 +23,7 @@
   website: http://www.saiph.org
 - alumni: true
   display: Daniel Vaquero
-  name: Daniel Vaquero
+  name: Daniel A. Vaquero
   order: 3
   photo: daniel_vaquero.jpg
   role: phd_student
@@ -72,7 +72,7 @@
   website: http://cs.ucsb.edu/~chalee21
 - alumni: false
   display: "Domagoj Bari\u010Devi\u0107"
-  name: "Domagoj Bari\u010Devi\u0107"
+  name: Domagoj Baricevic
   order: 7
   photo: domagoj_baricevic.jpg
   role: phd_student
@@ -422,7 +422,7 @@
   website: http://www.meyergreg.us.
 - alumni: true
   display: Byungkyu Jay Kang
-  name: Byungkyu Jay Kang
+  name: Byungkyu Kang
   order: 15
   photo: byungkyu_jay_kang.jpg
   role: phd_student
