@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p .",
+    "watch": "tsc -p . -w"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "@types/d3": "^4.11.0",
-    "d3": "^4.11.0"
+    "d3": "^4.11.0",
+    "typescript": "^2.5.3"
   }
 }

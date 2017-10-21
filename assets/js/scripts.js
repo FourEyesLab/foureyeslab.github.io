@@ -59,7 +59,7 @@ var ilab;
 })(ilab || (ilab = {}));
 var ilab;
 (function (ilab) {
-    var PeopleIndex = (function () {
+    var PeopleIndex = /** @class */ (function () {
         function PeopleIndex(people) {
             this.name2People = {};
             for (var _i = 0, people_1 = people; _i < people_1.length; _i++) {
@@ -79,7 +79,7 @@ var ilab;
         return PeopleIndex;
     }());
     ilab.PeopleIndex = PeopleIndex;
-    var ViewStateStore = (function () {
+    var ViewStateStore = /** @class */ (function () {
         function ViewStateStore(dataset) {
             this.listeners = [];
             this.dataset = dataset;
@@ -92,9 +92,13 @@ var ilab;
             this.listeners.push(f);
         };
         ViewStateStore.prototype.setYearRange = function (yearMin, yearMax) {
-            this.yearMin = yearMin;
-            this.yearMax = yearMax;
-            this.emitEvent();
+            var newMin = Math.min(yearMin, yearMax);
+            var newMax = Math.max(yearMin, yearMax);
+            if (newMin != this.yearMin || newMax != this.yearMax) {
+                this.yearMin = newMin;
+                this.yearMax = newMax;
+                this.emitEvent();
+            }
         };
         ViewStateStore.prototype.selectPeople = function (person) {
             this.selectedPeople = person;
@@ -134,7 +138,7 @@ var ilab;
         return ViewStateStore;
     }());
     ilab.ViewStateStore = ViewStateStore;
-    var ResearchAreasView = (function () {
+    var ResearchAreasView = /** @class */ (function () {
         function ResearchAreasView(container, store) {
             var _this = this;
             var div = container.append("div").classed("research-areas-areas", true);
@@ -185,7 +189,7 @@ var ilab;
         return ResearchAreasView;
     }());
     ilab.ResearchAreasView = ResearchAreasView;
-    var ProjectsView = (function () {
+    var ProjectsView = /** @class */ (function () {
         function ProjectsView(container, baseurl, store) {
             var _this = this;
             var div = container.append("div").classed("research-areas-projects", true);
@@ -209,7 +213,7 @@ var ilab;
                 }
             }));
             var project_li_enter = project_li.enter().append("li");
-            project_li_enter.append("div").classed("image", true).style("background-image", function (p) { return ("url(" + _this.baseurl + "/assets/images/projects/" + (p.image || "default.jpg") + ")"); });
+            project_li_enter.append("div").classed("image", true).style("background-image", function (p) { return "url(" + _this.baseurl + "/assets/images/projects/" + (p.image || "default.jpg") + ")"; });
             var project_content_enter = project_li_enter.append("div").classed("content", true);
             project_content_enter.append("strong").text(function (p) { return p.display; });
             project_content_enter.append("br");
@@ -221,17 +225,101 @@ var ilab;
         return ProjectsView;
     }());
     ilab.ProjectsView = ProjectsView;
-    var ResearchAreasGraphView = (function () {
+    var YearsView = /** @class */ (function () {
+        function YearsView(container, store) {
+            var div = container.append("div").classed("research-areas-years", true);
+            var minYear = d3.min(store.dataset.projects, function (x) { return x.year; });
+            var maxYear = d3.max(store.dataset.projects, function (x) { return x.year; });
+            var svg = div.append("svg");
+            var width = 600;
+            var height = 30;
+            var y0 = 10;
+            svg.attr("width", width).attr("height", height);
+            var scale = d3.scaleLinear().domain([minYear, maxYear]).range([20, width - 20]);
+            svg.append("g").attr("transform", "translate(0, 10)").call(d3.axisBottom(scale).tickFormat(d3.format("d")).tickSize(8));
+            var lineg = svg.append("line").attr("y1", y0).attr("y2", y0);
+            var line = svg.append("line").attr("y1", y0).attr("y2", y0);
+            var c1 = svg.append("circle").attr("cy", y0).attr("r", 6);
+            var c2 = svg.append("circle").attr("cy", y0).attr("r", 6);
+            var c1g = svg.append("circle").attr("cy", y0).attr("r", 15);
+            var c2g = svg.append("circle").attr("cy", y0).attr("r", 15);
+            c1.style("fill", "#EEE").style("stroke", "#000").style("pointer-events", "none");
+            c2.style("fill", "#EEE").style("stroke", "#000").style("pointer-events", "none");
+            c1g.style("fill", "none").style("stroke", "none").style("cursor", "pointer").style("pointer-events", "all");
+            c2g.style("fill", "none").style("stroke", "none").style("cursor", "pointer").style("pointer-events", "all");
+            lineg.style("stroke", "none").style("cursor", "pointer").style("stroke-width", 15).style("pointer-events", "all");
+            line.style("stroke", "#000").style("pointer-events", "none");
+            line.style("stroke-width", 3);
+            var update = function () {
+                c1.attr("cx", scale(store.yearMin));
+                c2.attr("cx", scale(store.yearMax));
+                line.attr("x1", scale(store.yearMin));
+                line.attr("x2", scale(store.yearMax));
+                c1g.attr("cx", scale(store.yearMin));
+                c2g.attr("cx", scale(store.yearMax));
+                lineg.attr("x1", scale(store.yearMin));
+                lineg.attr("x2", scale(store.yearMax));
+            };
+            var dxTotal = 0;
+            var year0 = 0;
+            var year1 = 0;
+            c1g.call(d3.drag()
+                .on("start", function () {
+                dxTotal = 0;
+                year0 = store.yearMin;
+                year1 = store.yearMax;
+            })
+                .on("drag", function () {
+                dxTotal += d3.event.dx;
+                var newYear = Math.min(maxYear, Math.max(minYear, Math.round(scale.invert(scale(year0) + dxTotal))));
+                store.setYearRange(newYear, year1);
+            }));
+            c2g.call(d3.drag()
+                .on("start", function () {
+                dxTotal = 0;
+                year0 = store.yearMin;
+                year1 = store.yearMax;
+            })
+                .on("drag", function () {
+                dxTotal += d3.event.dx;
+                var newYear = Math.min(maxYear, Math.max(minYear, Math.round(scale.invert(scale(year1) + dxTotal))));
+                store.setYearRange(year0, newYear);
+            }));
+            lineg.call(d3.drag()
+                .on("start", function () {
+                dxTotal = 0;
+                year0 = store.yearMin;
+                year1 = store.yearMax;
+            })
+                .on("drag", function () {
+                dxTotal += d3.event.dx;
+                var n1 = Math.min(maxYear, Math.max(minYear, Math.round(scale.invert(scale(year0) + dxTotal))));
+                var n2 = Math.min(maxYear, Math.max(minYear, Math.round(scale.invert(scale(year1) + dxTotal))));
+                store.setYearRange(n1, n2);
+            }));
+            update();
+            store.addListener(update);
+        }
+        return YearsView;
+    }());
+    ilab.YearsView = YearsView;
+    var ResearchAreasGraphView = /** @class */ (function () {
         function ResearchAreasGraphView(container, store) {
+            var _this = this;
             this.store = store;
             var areas = store.dataset.areas;
             var projects = store.dataset.projects;
             var people = new PeopleIndex(store.dataset.people);
+            this.buildNodes();
+            this.buildLinks();
             container.append("div").classed("research-areas-graph-view", true);
+            // Setup SVG
             var width = container.node().getBoundingClientRect().width;
             var height = 500;
             var svg = container.append("svg");
             svg.attr("width", width).attr("height", height);
+            var defs = svg.append("defs");
+            // Tooltip
             var tip = d3.tip()
                 .attr('class', 'd3-tip')
                 .offset([-10, 0])
@@ -239,22 +327,129 @@ var ilab;
                 return d.display;
             });
             svg.call(tip);
-            var defs = svg.append("defs");
+            // Color scale
             var color = d3.scaleOrdinal(d3.schemeCategory10);
+            // Symbols
             var symbolCircle = d3.symbol().type(d3.symbolCircle);
             var symbolSquare = d3.symbol().type(d3.symbolSquare);
             var symbolStar = d3.symbol().type(d3.symbolStar);
-            var nodes = [];
-            var people_to_node = {};
-            var people_used = {};
-            nodes = nodes.concat(store.dataset.people.filter(function (p) { return true; }).map(function (people) {
-                return people_to_node[people.name] = {
+            var backlayer = svg.append("g");
+            var gLinks = svg.append("g").attr("class", "links");
+            var gNodes = svg.append("g").attr("class", "nodes");
+            var sLink = null;
+            var sNode = null;
+            var degreeToArea = function (d) {
+                return Math.PI * 4 + d.weight * 20;
+            };
+            sNode = gNodes
+                .selectAll("circle")
+                .data(this.nodes)
+                .enter().append("g");
+            sNode.append("circle")
+                .attr("cx", 0).attr("cy", 0)
+                .attr("r", function (d) { return Math.sqrt(degreeToArea(d) / Math.PI); })
+                .style("cursor", "pointer")
+                .attr("fill", function (d) { return d.type == "area" ? color(d.area.name) : (d.type == "people" ? color(d.people.role) : "transparent"); })
+                .attr("stroke", "white")
+                .attr("stroke-linejoin", "round")
+                .on('mouseover', tip.show)
+                .on('mouseout', tip.hide);
+            sNode.filter(function (d) { return d.people.role == "faculty" || d.people.role == "research_scientist"; })
+                .append("image")
+                .style("pointer-events", "none")
+                .attr("xlink:href", function (d) { return "/assets/images/people/" + d.people.photo; });
+            var simulation = d3.forceSimulation()
+                .force("link", d3.forceLink(this.links).strength(function (d) { return Math.sqrt(d.weight) * 0.5; }))
+                .force("collide", d3.forceCollide(function (d) { return Math.sqrt(degreeToArea(d) / Math.PI); }))
+                .force("charge", d3.forceManyBody().strength(-40))
+                .force("centerX", d3.forceX(width / 2).strength(0.07))
+                .force("centerY", d3.forceY(height / 2).strength(0.09));
+            simulation.nodes(this.nodes);
+            var ticked = function () {
+                sLink
+                    .attr("x1", function (d) { return d.source.x; })
+                    .attr("y1", function (d) { return d.source.y; })
+                    .attr("x2", function (d) { return d.target.x; })
+                    .attr("y2", function (d) { return d.target.y; });
+                sNode
+                    .attr("transform", function (d) { return "translate(" + d.x.toFixed(6) + "," + d.y.toFixed(6) + ")"; });
+            };
+            var dragstarted = function (d) {
+                if (!d3.event.active)
+                    simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            };
+            var dragged = function (d) {
+                d.fx = d3.event.x;
+                d.fy = d3.event.y;
+            };
+            var dragended = function (d) {
+                if (!d3.event.active)
+                    simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            };
+            sNode.call(d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended));
+            var update = function () {
+                _this.buildLinks();
+                simulation.force("link", d3.forceLink(_this.links).strength(function (d) { return Math.sqrt(d.weight) * 0.5; }));
+                sLink = gLinks
+                    .selectAll("line")
+                    .data(_this.links);
+                sLink
+                    .enter().append("line");
+                sLink
+                    .exit().remove();
+                sLink = gLinks
+                    .selectAll("line")
+                    .data(_this.links)
+                    .style("stroke", "rgba(0, 0, 0, 0.2)")
+                    .attr("stroke-width", function (d) { return Math.sqrt(d.weight) * 2; });
+                simulation.alpha(0.8);
+                simulation.restart();
+                sNode.select("circle").attr("r", function (d) { return Math.sqrt(degreeToArea(d) / Math.PI); });
+                sNode.select("image").style("clip-path", function (d) {
+                    var r = Math.sqrt(degreeToArea(d) / Math.PI);
+                    return "circle(" + r.toFixed(0) + "px at " + r.toFixed(0) + "px " + r.toFixed(0) + "px)";
+                })
+                    .attr("height", function (d) { return 2 * Math.sqrt(degreeToArea(d) / Math.PI); })
+                    .attr("width", function (d) { return 2 * Math.sqrt(degreeToArea(d) / Math.PI); })
+                    .attr("x", function (d) { return -Math.sqrt(degreeToArea(d) / Math.PI); })
+                    .attr("y", function (d) { return -Math.sqrt(degreeToArea(d) / Math.PI); });
+            };
+            this.store.addListener(update);
+            simulation.on("tick", ticked);
+            update();
+        }
+        ResearchAreasGraphView.prototype.buildNodes = function () {
+            var _this = this;
+            this.name2Node = {};
+            // People nodes
+            this.nodes = this.store.dataset.people.map(function (people) {
+                return _this.name2Node[people.name] = {
                     type: "people",
                     people: people,
                     display: people.display
                 };
-            }));
-            var links = [];
+            });
+        };
+        ResearchAreasGraphView.prototype.buildLinks = function () {
+            var _this = this;
+            var isAllAreasSelected = this.store.isAllResearchAreasSelected();
+            var projects = this.store.dataset.projects.filter(function (p) {
+                if (p.year >= _this.store.yearMin && p.year <= _this.store.yearMax) {
+                    return isAllAreasSelected || p.areas.some(function (area) { return _this.store.isResearchAreaSelected(area); });
+                }
+                else {
+                    return false;
+                }
+            });
+            // Links
+            this.links = [];
             var linkCounter = {};
             for (var _i = 0, projects_1 = projects; _i < projects_1.length; _i++) {
                 var project = projects_1[_i];
@@ -278,116 +473,32 @@ var ilab;
             for (var key in linkCounter) {
                 var count = linkCounter[key];
                 var _e = JSON.parse(key), p1 = _e[0], p2 = _e[1];
-                links.push({
-                    source: people_to_node[p1],
-                    target: people_to_node[p2],
+                this.links.push({
+                    source: this.name2Node[p1],
+                    target: this.name2Node[p2],
                     weight: count
                 });
             }
             // Compute the degree of nodes
-            nodes.forEach(function (n) { n.degree = 0; });
-            for (var _f = 0, projects_2 = projects; _f < projects_2.length; _f++) {
-                var p = projects_2[_f];
-                for (var _g = 0, _h = p.people; _g < _h.length; _g++) {
-                    var person = _h[_g];
-                    people_to_node[person].degree += 1;
+            for (var _f = 0, _g = this.nodes; _f < _g.length; _f++) {
+                var n = _g[_f];
+                n.weight = 0;
+            }
+            for (var _h = 0, projects_2 = projects; _h < projects_2.length; _h++) {
+                var p = projects_2[_h];
+                for (var _j = 0, _k = p.people; _j < _k.length; _j++) {
+                    var person = _k[_j];
+                    this.name2Node[person].weight += 1;
                 }
             }
-            var backlayer = svg.append("g");
-            var link = svg.append("g")
-                .attr("class", "links")
-                .selectAll("line")
-                .data(links)
-                .enter().append("line")
-                .style("stroke", "rgba(0, 0, 0, 0.2)")
-                .attr("stroke-width", function (d) { return Math.sqrt(d.weight); });
-            var degreeToArea = function (degree) {
-                return Math.PI * 16 + degree * 10;
-            };
-            var node = svg.append("g")
-                .attr("class", "nodes")
-                .selectAll("path")
-                .data(nodes)
-                .enter().append("path")
-                .attr("d", function (d) {
-                if (d.type == "area")
-                    return symbolStar();
-                if (d.type == "project")
-                    return symbolSquare();
-                if (d.type == "people")
-                    return symbolCircle.size(degreeToArea(d.degree))();
-            })
-                .style("cursor", "pointer")
-                .attr("fill", function (d) { return d.type == "area" ? color(d.area.name) : (d.type == "people" ? color(d.people.role) : "transparent"); })
-                .attr("stroke", "white")
-                .attr("stroke-linejoin", "round")
-                .on('mouseover', tip.show)
-                .on('mouseout', tip.hide)
-                .call(d3.drag()
-                .on("start", dragstarted)
-                .on("drag", dragged)
-                .on("end", dragended));
-            var simulation = d3.forceSimulation()
-                .force("link", d3.forceLink(links).strength(function (d) { return Math.sqrt(d.weight) * 0.5; }))
-                .force("collide", d3.forceCollide(function (d) { return Math.sqrt(degreeToArea(d.degree) / Math.PI); }))
-                .force("charge", d3.forceManyBody().strength(-40))
-                .force("centerX", d3.forceX(width / 2).strength(0.07))
-                .force("centerY", d3.forceY(height / 2).strength(0.09));
-            simulation.nodes(nodes);
-            var bubblesets = areas.map(function (area) {
-                var g = backlayer.append("g");
-                var back_circles = g.selectAll("circle").data(nodes.filter(function (n) {
-                    return (n.type == "project" && n.project.areas.indexOf(area.name) >= 0) ||
-                        (n.type == "area" && n.area.name == area.name);
-                }));
-                back_circles = back_circles.enter().append("circle").style("fill", "black").attr("r", 10);
-                var c = color(area.name);
-                var bubbleset = ilab.CreateBubbleSet(g, defs, width, height, d3.rgb(c), 0.3, 10);
-                return {
-                    items: back_circles,
-                    update: function () { bubbleset.update(); }
-                };
-            });
-            function ticked() {
-                link
-                    .attr("x1", function (d) { return d.source.x; })
-                    .attr("y1", function (d) { return d.source.y; })
-                    .attr("x2", function (d) { return d.target.x; })
-                    .attr("y2", function (d) { return d.target.y; });
-                bubblesets.forEach(function (back_circles) {
-                    back_circles.items
-                        .attr("cx", function (d) { return d.x; })
-                        .attr("cy", function (d) { return d.y; });
-                    back_circles.update();
-                });
-                node
-                    .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; });
-            }
-            simulation.on("tick", ticked);
-            function dragstarted(d) {
-                if (!d3.event.active)
-                    simulation.alphaTarget(0.3).restart();
-                d.fx = d.x;
-                d.fy = d.y;
-            }
-            function dragged(d) {
-                d.fx = d3.event.x;
-                d.fy = d3.event.y;
-            }
-            function dragended(d) {
-                if (!d3.event.active)
-                    simulation.alphaTarget(0);
-                d.fx = null;
-                d.fy = null;
-            }
-        }
+        };
         return ResearchAreasGraphView;
     }());
     ilab.ResearchAreasGraphView = ResearchAreasGraphView;
 })(ilab || (ilab = {}));
 var ilab;
 (function (ilab) {
-    var ChartDataset = (function () {
+    var ChartDataset = /** @class */ (function () {
         function ChartDataset(people, areas, publications) {
             var peopleCache = {};
             people.forEach(function (people) {

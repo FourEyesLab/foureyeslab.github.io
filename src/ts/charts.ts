@@ -43,9 +43,13 @@ namespace ilab {
         }
 
         public setYearRange(yearMin: number, yearMax: number) {
-            this.yearMin = yearMin;
-            this.yearMax = yearMax;
-            this.emitEvent();
+            let newMin = Math.min(yearMin, yearMax);
+            let newMax = Math.max(yearMin, yearMax);
+            if (newMin != this.yearMin || newMax != this.yearMax) {
+                this.yearMin = newMin;
+                this.yearMax = newMax;
+                this.emitEvent();
+            }
         }
 
         public selectPeople(person: string) {
@@ -159,7 +163,7 @@ namespace ilab {
 
         public update() {
             let isAllAreasSelected = this.store.isAllResearchAreasSelected();
-            var project_li = this.ul.selectAll("li").data(this.store.dataset.projects.filter(p => {
+            let project_li = this.ul.selectAll("li").data(this.store.dataset.projects.filter(p => {
                 if (p.year >= this.store.yearMin && p.year <= this.store.yearMax) {
                     return isAllAreasSelected || p.areas.some(area => this.store.isResearchAreaSelected(area));
                 } else {
@@ -178,66 +182,142 @@ namespace ilab {
         }
     }
 
+    export class YearsView {
+        years: number[];
+        constructor(container: D3Selection<HTMLDivElement>, store: ViewStateStore) {
+            let div = container.append("div").classed("research-areas-years", true);
+            let minYear = d3.min(store.dataset.projects, x => x.year);
+            let maxYear = d3.max(store.dataset.projects, x => x.year);
+
+            let svg = div.append("svg");
+            let width = 600;
+            let height = 30;
+            let y0 = 10;
+            svg.attr("width", width).attr("height", height);
+
+            let scale = d3.scaleLinear().domain([minYear, maxYear]).range([20, width - 20]);
+
+            svg.append("g").attr("transform", "translate(0, 10)").call(d3.axisBottom(scale).tickFormat(d3.format("d")).tickSize(8));
+
+            let lineg = svg.append("line").attr("y1", y0).attr("y2", y0);
+            let line = svg.append("line").attr("y1", y0).attr("y2", y0);
+            let c1 = svg.append("circle").attr("cy", y0).attr("r", 6);
+            let c2 = svg.append("circle").attr("cy", y0).attr("r", 6);
+            let c1g = svg.append("circle").attr("cy", y0).attr("r", 15);
+            let c2g = svg.append("circle").attr("cy", y0).attr("r", 15);
+            c1.style("fill", "#EEE").style("stroke", "#000").style("pointer-events", "none");
+            c2.style("fill", "#EEE").style("stroke", "#000").style("pointer-events", "none");
+            c1g.style("fill", "none").style("stroke", "none").style("cursor", "pointer").style("pointer-events", "all");
+            c2g.style("fill", "none").style("stroke", "none").style("cursor", "pointer").style("pointer-events", "all");
+            lineg.style("stroke", "none").style("cursor", "pointer").style("stroke-width", 15).style("pointer-events", "all");
+            line.style("stroke", "#000").style("pointer-events", "none");
+            line.style("stroke-width", 3)
+            let update = () => {
+                c1.attr("cx", scale(store.yearMin));
+                c2.attr("cx", scale(store.yearMax));
+                line.attr("x1", scale(store.yearMin));
+                line.attr("x2", scale(store.yearMax));
+                c1g.attr("cx", scale(store.yearMin));
+                c2g.attr("cx", scale(store.yearMax));
+                lineg.attr("x1", scale(store.yearMin));
+                lineg.attr("x2", scale(store.yearMax));
+            };
+            let dxTotal = 0;
+            let year0 = 0;
+            let year1 = 0;
+            c1g.call(d3.drag<any, any>()
+                .on("start", () => {
+                    dxTotal = 0;
+                    year0 = store.yearMin;
+                    year1 = store.yearMax;
+                })
+                .on("drag", () => {
+                    dxTotal += d3.event.dx;
+                    let newYear = Math.min(maxYear, Math.max(minYear, Math.round(scale.invert(scale(year0) + dxTotal))));
+                    store.setYearRange(newYear, year1);
+                })
+            );
+            c2g.call(d3.drag<any, any>()
+                .on("start", () => {
+                    dxTotal = 0;
+                    year0 = store.yearMin;
+                    year1 = store.yearMax;
+                })
+                .on("drag", () => {
+                    dxTotal += d3.event.dx;
+                    let newYear = Math.min(maxYear, Math.max(minYear, Math.round(scale.invert(scale(year1) + dxTotal))));
+                    store.setYearRange(year0, newYear);
+                })
+            );
+
+            lineg.call(d3.drag<any, any>()
+                .on("start", () => {
+                    dxTotal = 0;
+                    year0 = store.yearMin;
+                    year1 = store.yearMax;
+                })
+                .on("drag", () => {
+                    dxTotal += d3.event.dx;
+                    let n1 = Math.min(maxYear, Math.max(minYear, Math.round(scale.invert(scale(year0) + dxTotal))));
+                    let n2 = Math.min(maxYear, Math.max(minYear, Math.round(scale.invert(scale(year1) + dxTotal))));
+                    store.setYearRange(n1, n2);
+                })
+            );
+            update();
+            store.addListener(update);
+        }
+    }
+
     export interface GraphNode {
         type: string;
         display: string;
         area?: ResearchArea,
         project?: Project,
         people?: Person,
-        degree?: number;
+        weight?: number;
 
         x?: number; y?: number;
         fx?: number; fy?: number;
     }
 
+    export interface GraphLink {
+        source: GraphNode;
+        target: GraphNode;
+        weight: number;
+    }
+
     export class ResearchAreasGraphView {
         store: ViewStateStore;
 
-        constructor(container: D3Selection<HTMLDivElement>, store: ViewStateStore) {
-            this.store = store;
-            let areas = store.dataset.areas;
-            let projects = store.dataset.projects;
-            let people = new PeopleIndex(store.dataset.people);
+        nodes: GraphNode[];
+        links: GraphLink[];
+        name2Node: Dictionary<GraphNode>;
 
-            container.append("div").classed("research-areas-graph-view", true);
-
-            var width = container.node().getBoundingClientRect().width;
-            var height = 500;
-            var svg = container.append("svg");
-            svg.attr("width", width).attr("height", height);
-
-
-            var tip = (d3 as any).tip()
-                .attr('class', 'd3-tip')
-                .offset([-10, 0])
-                .html(function (d: GraphNode) {
-                    return d.display;
-                })
-            svg.call(tip);
-
-            var defs = svg.append("defs");
-
-            var color = d3.scaleOrdinal(d3.schemeCategory10);
-
-            var symbolCircle = d3.symbol().type(d3.symbolCircle);
-            var symbolSquare = d3.symbol().type(d3.symbolSquare);
-            var symbolStar = d3.symbol().type(d3.symbolStar);
-
-            var nodes: GraphNode[] = [];
-            var people_to_node: Dictionary<GraphNode> = {};
-            var people_used: { [name: string]: boolean } = {};
-
-            nodes = nodes.concat(store.dataset.people.filter(function (p) { return true; }).map(function (people) {
-                return people_to_node[people.name] = {
+        private buildNodes() {
+            this.name2Node = {};
+            // People nodes
+            this.nodes = this.store.dataset.people.map((people) => {
+                return this.name2Node[people.name] = {
                     type: "people",
                     people: people,
                     display: people.display
                 };
-            }));
+            });
+        }
 
-            var links: { source: GraphNode, target: GraphNode, weight: number }[] = [];
+        private buildLinks() {
+            let isAllAreasSelected = this.store.isAllResearchAreasSelected();
+            let projects = this.store.dataset.projects.filter(p => {
+                if (p.year >= this.store.yearMin && p.year <= this.store.yearMax) {
+                    return isAllAreasSelected || p.areas.some(area => this.store.isResearchAreaSelected(area));
+                } else {
+                    return false;
+                }
+            });
 
-            var linkCounter: Dictionary<number> = {};
+            // Links
+            this.links = [];
+            let linkCounter: Dictionary<number> = {};
             for (let project of projects) {
                 for (let p1 of project.people) {
                     for (let p2 of project.people) {
@@ -252,120 +332,171 @@ namespace ilab {
                     }
                 }
             }
+
             for (let key in linkCounter) {
                 let count = linkCounter[key];
                 let [p1, p2] = JSON.parse(key);
-                links.push({
-                    source: people_to_node[p1],
-                    target: people_to_node[p2],
+                this.links.push({
+                    source: this.name2Node[p1],
+                    target: this.name2Node[p2],
                     weight: count
                 });
             }
 
             // Compute the degree of nodes
-            nodes.forEach(function (n) { n.degree = 0; });
+            for (let n of this.nodes) {
+                n.weight = 0;
+            }
             for (let p of projects) {
                 for (let person of p.people) {
-                    people_to_node[person].degree += 1;
+                    this.name2Node[person].weight += 1;
                 }
             }
+        }
+
+        constructor(container: D3Selection<HTMLDivElement>, store: ViewStateStore) {
+            this.store = store;
+            let areas = store.dataset.areas;
+            let projects = store.dataset.projects;
+            let people = new PeopleIndex(store.dataset.people);
+
+            this.buildNodes();
+            this.buildLinks();
+
+            container.append("div").classed("research-areas-graph-view", true);
+
+            // Setup SVG
+            let width = container.node().getBoundingClientRect().width;
+            let height = 500;
+            let svg = container.append("svg");
+            svg.attr("width", width).attr("height", height);
+            let defs = svg.append("defs");
+
+            // Tooltip
+            let tip = (d3 as any).tip()
+                .attr('class', 'd3-tip')
+                .offset([-10, 0])
+                .html(function (d: GraphNode) {
+                    return d.display;
+                })
+            svg.call(tip);
+
+            // Color scale
+            let color = d3.scaleOrdinal(d3.schemeCategory10);
+
+            // Symbols
+            let symbolCircle = d3.symbol().type(d3.symbolCircle);
+            let symbolSquare = d3.symbol().type(d3.symbolSquare);
+            let symbolStar = d3.symbol().type(d3.symbolStar);
+
 
             let backlayer = svg.append("g");
 
-            let link = svg.append("g")
-                .attr("class", "links")
-                .selectAll("line")
-                .data(links)
-                .enter().append("line")
-                .style("stroke", "rgba(0, 0, 0, 0.2)")
-                .attr("stroke-width", d => Math.sqrt(d.weight));
+            let gLinks = svg.append("g").attr("class", "links");
+            let gNodes = svg.append("g").attr("class", "nodes");
 
-            let degreeToArea = (degree: number) => {
-                return Math.PI * 16 + degree * 10;
+            let sLink: D3Selection<any> = null;
+            let sNode: D3Selection<any> = null;
+
+            let degreeToArea = (d: GraphNode) => {
+                return Math.PI * 4 + d.weight * 20;
             }
 
-            let node = svg.append("g")
-                .attr("class", "nodes")
-                .selectAll("path")
-                .data(nodes)
-                .enter().append("path")
-                .attr("d", function (d) {
-                    if (d.type == "area") return symbolStar();
-                    if (d.type == "project") return symbolSquare();
-                    if (d.type == "people") return symbolCircle.size(degreeToArea(d.degree))();
-                })
+            sNode = gNodes
+                .selectAll("circle")
+                .data(this.nodes)
+                .enter().append("g");
+
+            sNode.append("circle")
+                .attr("cx", 0).attr("cy", 0)
+                .attr("r", d => Math.sqrt(degreeToArea(d) / Math.PI))
                 .style("cursor", "pointer")
                 .attr("fill", function (d) { return d.type == "area" ? color(d.area.name) : (d.type == "people" ? color(d.people.role) : "transparent"); })
                 .attr("stroke", "white")
                 .attr("stroke-linejoin", "round")
                 .on('mouseover', tip.show)
-                .on('mouseout', tip.hide)
-                .call(d3.drag<any, any>()
-                    .on("start", dragstarted)
-                    .on("drag", dragged)
-                    .on("end", dragended));
+                .on('mouseout', tip.hide);
+
+            sNode.filter(d => d.people.role == "faculty" || d.people.role == "research_scientist")
+                .append("image")
+                .style("pointer-events", "none")
+                .attr("xlink:href", d => "/assets/images/people/" + d.people.photo);
 
 
             let simulation = d3.forceSimulation<GraphNode>()
-                .force("link", d3.forceLink(links).strength(d => Math.sqrt(d.weight) * 0.5))
-                .force("collide", d3.forceCollide<GraphNode>(d => Math.sqrt(degreeToArea(d.degree) / Math.PI)))
+                .force("link", d3.forceLink(this.links).strength(d => Math.sqrt(d.weight) * 0.5))
+                .force("collide", d3.forceCollide<GraphNode>(d => Math.sqrt(degreeToArea(d) / Math.PI)))
                 .force("charge", d3.forceManyBody().strength(-40))
                 .force("centerX", d3.forceX(width / 2).strength(0.07))
                 .force("centerY", d3.forceY(height / 2).strength(0.09));
-            simulation.nodes(nodes)
+            simulation.nodes(this.nodes)
 
+            let ticked = () => {
+                sLink
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
 
-            var bubblesets = areas.map(function (area) {
-                var g = backlayer.append("g");
-                var back_circles = g.selectAll("circle").data(nodes.filter(function (n) {
-                    return (n.type == "project" && n.project.areas.indexOf(area.name) >= 0) ||
-                        (n.type == "area" && n.area.name == area.name);
-                }));
-                back_circles = back_circles.enter().append("circle").style("fill", "black").attr("r", 10);
-                var c = color(area.name);
-                var bubbleset = CreateBubbleSet(g as D3Selection<SVGGElement>, defs as D3Selection<SVGDefsElement>, width, height, d3.rgb(c), 0.3, 10);
-                return {
-                    items: back_circles,
-                    update: function () { bubbleset.update(); }
-                }
-            });
+                sNode
+                    .attr("transform", d => `translate(${d.x.toFixed(6)},${d.y.toFixed(6)})`)
+            };
 
-            function ticked() {
-                link
-                    .attr("x1", function (d) { return d.source.x; })
-                    .attr("y1", function (d) { return d.source.y; })
-                    .attr("x2", function (d) { return d.target.x; })
-                    .attr("y2", function (d) { return d.target.y; });
-
-                bubblesets.forEach(function (back_circles) {
-                    back_circles.items
-                        .attr("cx", function (d) { return d.x; })
-                        .attr("cy", function (d) { return d.y; })
-                    back_circles.update()
-                });
-
-                node
-                    .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
-            }
-
-            simulation.on("tick", ticked);
-
-            function dragstarted(d: GraphNode) {
+            let dragstarted = (d: GraphNode) => {
                 if (!d3.event.active) simulation.alphaTarget(0.3).restart();
                 d.fx = d.x;
                 d.fy = d.y;
-            }
+            };
 
-            function dragged(d: GraphNode) {
+            let dragged = (d: GraphNode) => {
                 d.fx = d3.event.x;
                 d.fy = d3.event.y;
-            }
+            };
 
-            function dragended(d: GraphNode) {
+            let dragended = (d: GraphNode) => {
                 if (!d3.event.active) simulation.alphaTarget(0);
                 d.fx = null;
                 d.fy = null;
+            };
+
+            sNode.call(d3.drag<any, any>()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended));
+
+
+            let update = () => {
+                this.buildLinks();
+                simulation.force("link", d3.forceLink(this.links).strength(d => Math.sqrt(d.weight) * 0.5))
+                sLink = gLinks
+                    .selectAll("line")
+                    .data(this.links);
+                sLink
+                    .enter().append("line");
+                sLink
+                    .exit().remove();
+                sLink = gLinks
+                    .selectAll("line")
+                    .data(this.links)
+                    .style("stroke", "rgba(0, 0, 0, 0.2)")
+                    .attr("stroke-width", d => Math.sqrt(d.weight) * 2);
+                simulation.alpha(0.8);
+                simulation.restart();
+
+                sNode.select("circle").attr("r", d => Math.sqrt(degreeToArea(d) / Math.PI))
+                sNode.select("image").style("clip-path", d => {
+                    let r = Math.sqrt(degreeToArea(d) / Math.PI);
+                    return `circle(${r.toFixed(0)}px at ${r.toFixed(0)}px ${r.toFixed(0)}px)`;
+                })
+                    .attr("height", d => 2 * Math.sqrt(degreeToArea(d) / Math.PI))
+                    .attr("width", d => 2 * Math.sqrt(degreeToArea(d) / Math.PI))
+                    .attr("x", d => -Math.sqrt(degreeToArea(d) / Math.PI))
+                    .attr("y", d => -Math.sqrt(degreeToArea(d) / Math.PI))
             }
+
+            this.store.addListener(update);
+            simulation.on("tick", ticked);
+            update();
         }
     }
 }

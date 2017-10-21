@@ -11,7 +11,7 @@ permalink: /research
 <h1>Research</h1>
 
 <div id="graph-area"></div>
-
+<div id="years-view"></div>
 <div id="list-area"></div>
 <div id="list-projects"></div>
 <ul id="integrity-messages"></ul>
@@ -20,10 +20,10 @@ permalink: /research
 var research_areas = {{site.data.research_areas | jsonify}};
 var publications = {{site.data.publications | jsonify}};
 var people = {{site.data.people | jsonify}};
-var dataset = new ilab.ChartDataset(people, research_areas.areas, publications);
+var dataset = new ilab.ChartDataset(people, research_areas.areas, publications.filter(function(x) { return x.year >= 2000 }));
 var store = new ilab.ViewStateStore(dataset);
 var chart1 = new ilab.ResearchAreasView(d3.select("#list-area"), store);
 var chart1 = new ilab.ProjectsView(d3.select("#list-projects"), "{{site.baseurl}}", store);
 var chart2 = new ilab.ResearchAreasGraphView(d3.select("#graph-area"), store);
-
+var chart2 = new ilab.YearsView(d3.select("#years-view"), store);
 </script>
