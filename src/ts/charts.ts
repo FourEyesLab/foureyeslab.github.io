@@ -488,6 +488,7 @@ namespace ilab {
                     .data(this.links)
                     .style("stroke", "rgba(0, 0, 0, 0.2)")
                     .attr("stroke-width", d => Math.sqrt(d.weight) * 2);
+                ticked();
                 simulation.alpha(0.8);
                 simulation.restart();
 

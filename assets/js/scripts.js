@@ -413,6 +413,7 @@ var ilab;
                     .data(_this.links)
                     .style("stroke", "rgba(0, 0, 0, 0.2)")
                     .attr("stroke-width", function (d) { return Math.sqrt(d.weight) * 2; });
+                ticked();
                 simulation.alpha(0.8);
                 simulation.restart();
                 sNode.select("circle").attr("r", function (d) { return Math.sqrt(degreeToArea(d) / Math.PI); });
