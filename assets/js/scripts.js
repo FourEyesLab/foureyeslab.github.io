@@ -354,9 +354,13 @@ var ilab;
                 .attr("stroke-linejoin", "round")
                 .on('mouseover', tip.show)
                 .on('mouseout', tip.hide);
-            sNode.filter(function (d) { return d.people.role == "faculty" || d.people.role == "research_scientist"; })
-                .append("image")
+            var toAddImage = sNode.filter(function (d) { return d.people.role == "faculty" || d.people.role == "research_scientist"; });
+            toAddImage.append("clipPath")
+                .attr("id", function (d) { return d.id; })
+                .append("circle");
+            toAddImage.append("image")
                 .style("pointer-events", "none")
+                .style("clip-path", function (d) { return "url(#" + d.id + ")"; })
                 .attr("xlink:href", function (d) { return "/assets/images/people/" + d.people.photo; });
             var simulation = d3.forceSimulation()
                 .force("link", d3.forceLink(this.links).strength(function (d) { return Math.sqrt(d.weight) * 0.5; }))
@@ -412,10 +416,8 @@ var ilab;
                 simulation.alpha(0.8);
                 simulation.restart();
                 sNode.select("circle").attr("r", function (d) { return Math.sqrt(degreeToArea(d) / Math.PI); });
-                sNode.select("image").style("clip-path", function (d) {
-                    var r = Math.sqrt(degreeToArea(d) / Math.PI);
-                    return "circle(" + r.toFixed(0) + "px at " + r.toFixed(0) + "px " + r.toFixed(0) + "px)";
-                })
+                sNode.select("clipPath").select("circle").attr("r", function (d) { return Math.sqrt(degreeToArea(d) / Math.PI); });
+                sNode.select("image")
                     .attr("height", function (d) { return 2 * Math.sqrt(degreeToArea(d) / Math.PI); })
                     .attr("width", function (d) { return 2 * Math.sqrt(degreeToArea(d) / Math.PI); })
                     .attr("x", function (d) { return -Math.sqrt(degreeToArea(d) / Math.PI); })
@@ -431,6 +433,7 @@ var ilab;
             // People nodes
             this.nodes = this.store.dataset.people.map(function (people) {
                 return _this.name2Node[people.name] = {
+                    id: "P" + Math.random().toFixed(16).slice(3),
                     type: "people",
                     people: people,
                     display: people.display

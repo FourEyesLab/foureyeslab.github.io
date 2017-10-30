@@ -269,6 +269,7 @@ namespace ilab {
     }
 
     export interface GraphNode {
+        id: string;
         type: string;
         display: string;
         area?: ResearchArea,
@@ -298,6 +299,7 @@ namespace ilab {
             // People nodes
             this.nodes = this.store.dataset.people.map((people) => {
                 return this.name2Node[people.name] = {
+                    id: "P" + Math.random().toFixed(16).slice(3),
                     type: "people",
                     people: people,
                     display: people.display
@@ -417,9 +419,15 @@ namespace ilab {
                 .on('mouseover', tip.show)
                 .on('mouseout', tip.hide);
 
-            sNode.filter(d => d.people.role == "faculty" || d.people.role == "research_scientist")
-                .append("image")
+            let toAddImage = sNode.filter(d => d.people.role == "faculty" || d.people.role == "research_scientist")
+
+            toAddImage.append("clipPath")
+                .attr("id", d => d.id)
+                .append("circle");
+
+            toAddImage.append("image")
                 .style("pointer-events", "none")
+                .style("clip-path", d => `url(#${d.id})`)
                 .attr("xlink:href", d => "/assets/images/people/" + d.people.photo);
 
 
@@ -484,10 +492,8 @@ namespace ilab {
                 simulation.restart();
 
                 sNode.select("circle").attr("r", d => Math.sqrt(degreeToArea(d) / Math.PI))
-                sNode.select("image").style("clip-path", d => {
-                    let r = Math.sqrt(degreeToArea(d) / Math.PI);
-                    return `circle(${r.toFixed(0)}px at ${r.toFixed(0)}px ${r.toFixed(0)}px)`;
-                })
+                sNode.select("clipPath").select("circle").attr("r", d => Math.sqrt(degreeToArea(d) / Math.PI))
+                sNode.select("image")
                     .attr("height", d => 2 * Math.sqrt(degreeToArea(d) / Math.PI))
                     .attr("width", d => 2 * Math.sqrt(degreeToArea(d) / Math.PI))
                     .attr("x", d => -Math.sqrt(degreeToArea(d) / Math.PI))
