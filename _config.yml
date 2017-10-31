@@ -39,3 +39,4 @@ exclude:
   - Gemfile.lock
   - README.md
   - src
+  - bower_components

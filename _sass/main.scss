@@ -1,0 +1,229 @@
+
+@charset "utf-8";
+@import "./bootstrap/bootstrap.scss"; // (1)
+@import "variables";  // (2)
+
+.image-container{
+    position: relative;
+}
+
+.col-center{
+    margin: 0 auto;
+  }
+  
+.mycover {
+    min-width: 100%;
+    object-fit: cover;
+  }
+
+.content {
+    padding: 0 1em;
+    max-width: 1040px;
+    margin: 0px auto;
+}
+
+.footer {
+    padding: 1em 1em 3em;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #CCC;
+}
+
+.news{
+    padding: 0;
+}
+.news-item {
+    list-style: none;
+    margin-top:10px;
+    text-align: left;
+}
+
+.news-date {
+    color: #888;
+}
+
+.people-list {
+    list-style-type: none;
+    h2 {
+        // font-size: 14px;
+        // border-bottom: 1px solid #CCC;
+    }
+    display: inline-block;
+    margin-right: 2em;
+}
+
+
+.people-item {
+    width: 100px;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    font-size: 13px;
+    .photo {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 4px;
+    }
+
+    a  {
+        // display: block;
+    }
+}
+
+.publication-item {
+    margin-bottom: 0.5em;
+
+    .publication-title {
+        font-weight: bold;
+        display: block;
+    }
+    .publication-authors, .publication-controls {
+        display: block;
+    }
+    .publication-where {
+        font-style: italic;
+        display: block;
+    }
+    .publication-controls {
+        & > span:not(:first-child) {
+            &:before {
+                content: " | ";
+                color: #CCC;
+            }
+        }
+        & > span:first-child {
+            &:before {
+                content: "[ ";
+                color: #CCC;
+            }
+        }
+        & > span:last-child {
+            &:after {
+                content: " ]";
+                color: #CCC;
+            }
+        }
+    }
+}
+
+.active{
+    color:white;
+}
+
+.header {
+    h1, small {
+        display: inline;
+    }
+    small {
+        margin-left: 1em;
+    }
+    margin: 1em 0;
+    padding: 1em;
+    margin-bottom: 0;
+    background-image: url(../images/banner.png);
+}
+
+.research-areas-areas {
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        background-color: rgba(144, 255, 177, 0.116);
+        margin: 0;
+        a:hover{
+           text-decoration:none; 
+        }
+        a {
+            color: white;
+            display: block;
+            padding: 5px 10px;
+        }
+        &.active {
+            background-color: #3ba000;
+        }
+    }
+}
+
+#graph-area{
+    background-color: white;
+}
+
+#years-view{
+
+
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.377);
+}
+
+.research-areas-list-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+    .research-areas-projects {
+        li {
+            margin-bottom: 1em;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            .image {
+                width: 100px;
+                height: 100px;
+                background-position: center center;
+                background-size: cover;
+                border-radius: 4px;
+                align-self: center;
+                flex-shrink: 0;
+            }
+            .content {
+                width: 100%;
+                align-self: center;
+            }
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0; padding: 0;
+    }
+}
+
+.d3-tip {
+      line-height: 1;
+      padding: 6px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 4px;
+      font-size: 12px;
+    }
+
+    /* Creates a small triangle extender for the tooltip */
+    .d3-tip:after {
+      box-sizing: border-box;
+      display: inline;
+      font-size: 10px;
+      width: 100%;
+      line-height: 1;
+      color: rgba(0, 0, 0, 0.8);
+      content: "\25BC";
+      position: absolute;
+      text-align: center;
+    }
+
+    /* Style northward tooltips specifically */
+    .d3-tip.n:after {
+      margin: -2px 0 0 0;
+      top: 100%;
+      left: 0;
+    }

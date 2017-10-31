@@ -6,25 +6,25 @@
 
 # The news items will appear in the website as the order defined here. The front page will display a limited number of items.
  
-- date: May 2017
-  title: Test
-  description: Test
- 
 - date: Feb 2017
   title: CHI17
   description: Research by former lab member Saiph Savage (& team at WVU), in collaboration with Tobias Hollerer, John O'Donovan and Angel Ortega (undergraduate researcher) on combatting bias in news media was accepted to ACM CHI'17 (late breaking track).
-  
+  image: assets/images/fakephotos/2.jpg
+
 - date: Feb 2017
   title: Keynote talk
   description: John O'Donovan will give a keynote talk at the "AWARE" workshop on awareness interfaces and interactions, to be held at IUI 2017 in March.
+  image: assets/images/fakephotos/3.jpg
 
 - date: Jan 2017
   title: ACM IUI Award
   description: John O'Donovan to receive inaugural award for most-influential-paper of ACM IUI conference series, for his 2005 paper on "Trust in Recommender Systems" [(link to article)](http://dl.acm.org/citation.cfm?id=1040870) [(link to ACM award notice)](http://iui.acm.org/2017/).  John will present an invited talk about the work at IUI'17 in Cyprus.
+  image: assets/images/fakephotos/4.jpg
 
 - date: Dec 2016
   title: Ph.D. Defense
   description: James Schaffer successfully defended his Ph.D. dissertation entitled "A Quantitative Investigation into the Design Tradeoffs in Decision Support Systems". Congratulations, James!
+  image: assets/images/fakephotos/5.jpg
 
 - date: Dec 2016
   title: 3DV 2016
