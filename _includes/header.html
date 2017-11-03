@@ -3,10 +3,10 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
-    <div class="container">
+    <div id="headerContainer" class="container">
       <a class="navbar-brand" href="#"> <img src="assets/images/logo.png" alt="Four Eyes Lab Website"  width="170"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
+      <div class="collapse navbar-collapse text-center justify-content-end"  id="navbar2SupportedContent" >
           <ul class="navbar-nav">
               <li class="nav-item" {% if page.url=='/' %} class='active' {% endif %}><a class="nav-link" href="{{site.baseurl}}/"><i class="fa d-inline fa-lg fa-home"></i> Home</a></li>
               <li class="nav-item" {% if page.url=='/people' %} class='active' {% endif %}><a class="nav-link" href="{{site.baseurl}}/people"><i class="fa d-inline fa-lg fa-users"></i> People</a></li>
