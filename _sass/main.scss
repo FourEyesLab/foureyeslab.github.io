@@ -41,7 +41,7 @@ hr {
 }
 
 .news-date {
-    color: #888;
+    color: rgb(197, 197, 197);
 }
 
 .people-list {
@@ -54,6 +54,12 @@ hr {
     margin-right: 2em;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
 
 .people-item {
     width: 100px;
