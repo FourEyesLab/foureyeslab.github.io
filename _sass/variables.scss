@@ -34,11 +34,23 @@ $colors: (
   
   
 $custom-colors:(
-    color1: rgba(38, 84, 124, 1),
-    color2: rgba(23, 190, 187, 1),
-    color3: rgba(84, 69, 127, 1),
-    color4: rgba(219, 80, 74, 1),
-    color5: rgba(255, 223, 0, 1)
+    color1: rgb(15, 52, 82),
+    color2: rgb(13, 88, 86),
+    color3: rgb(43, 19, 112),
+    color4: rgb(107, 35, 34),
+    color5: rgb(80, 43, 97),
+    darkLight:#3e454d,
+
+    pro1:#21295C,
+    pro1-light:#353C6A,
+    pro1-sec:#C8C2AE,
+    pro1-sec-dark:#B6B19F,
+
+    pro2:#008861,
+    pro2-light:#17AE82,
+    pro2-sec:#FBECE8,
+    pro2-sec-dark:#F9DDD6
+
 )!default;
   
   
