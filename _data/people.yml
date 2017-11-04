@@ -70,7 +70,7 @@
   photo: cha_lee.jpg
   role: phd_student
   website: http://cs.ucsb.edu/~chalee21
-- alumni: false
+- alumni: true
   display: "Domagoj Bari\u010Devi\u0107"
   name: Domagoj Baricevic
   order: 7
@@ -91,7 +91,7 @@
   photo: justin_muncaster.jpg
   role: master_student
   website: null
-- alumni: false
+- alumni: true
   display: Christopher Hall
   name: Christopher Hall
   order: 8
@@ -371,7 +371,7 @@
   photo: sven_dickinson.jpg
   role: visitor
   website: http://www.cs.toronto.edu/~sven/
-- alumni: false
+- alumni: true
   display: Benjamin Nuernberger
   name: Benjamin Nuernberger
   order: 21
@@ -385,7 +385,7 @@
   photo: yun_teng.jpg
   role: master_student
   website: http://cs.ucsb.edu/~yunteng.cs
-- alumni: false
+- alumni: true
   display: James Schaffer
   name: James Schaffer
   order: 20
