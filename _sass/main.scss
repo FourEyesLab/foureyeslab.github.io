@@ -35,13 +35,15 @@ hr {
     padding: 0;
 }
 .news-item {
+
     list-style: none;
     margin-top:10px;
+    margin-bottom:10px;
     text-align: left;
 }
 
 .news-date {
-    color: rgb(197, 197, 197);
+    color: nth(nth($custom-colors, -2),2);
 }
 
 .people-list {
@@ -142,7 +144,7 @@ hr {
         padding: 0;
     }
     li {
-        background-color: rgba(144, 255, 177, 0.116);
+        background-color: rgba(144, 172, 255, 0.048);
         margin: 0;
         a:hover{
            text-decoration:none; 
@@ -153,7 +155,7 @@ hr {
             padding: 5px 10px;
         }
         &.active {
-            background-color: #3ba000;
+            background-color: #234b88;
         }
     }
 }
@@ -171,6 +173,30 @@ hr {
     background-color: rgba(255, 255, 255, 0.377);
 }
 
+
+.research-areas-projects {
+
+    li {
+        margin-bottom: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        .image {
+            width: 100px;
+            height: 100px;
+            background-position: center center;
+            background-size: cover;
+            border-radius: 4px;
+            align-self: center;
+            flex-shrink: 0;
+        }
+        .content {
+            width: 100%;
+            align-self: center;
+        }
+    }
+}
+
 .research-areas-list-view {
     display: flex;
     flex-direction: row;
@@ -178,6 +204,7 @@ hr {
 
 
     .research-areas-projects {
+        margin-top:100px;
         li {
             margin-bottom: 1em;
             display: flex;
