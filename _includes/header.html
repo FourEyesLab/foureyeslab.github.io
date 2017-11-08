@@ -1,9 +1,27 @@
+<style>
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle, .navbar-toggler {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
 
-<nav class="navbar navbar-expand-md bg-primary navbar-dark">
+</style>
+
+
+<nav class="navbar navbar-expand-md c-ucsb-dark navbar-dark p-0 sticky " >
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
-    <div id="headerContainer" class="container">
+    <div id="headerContainer" class="container c-ucsb-dark" >
       <a class="navbar-brand" href="#"> <img src="assets/images/logo.png" alt="Four Eyes Lab Website"  width="170"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse text-center justify-content-end"  id="navbar2SupportedContent" >
@@ -16,36 +34,10 @@
               <li class="nav-item" {% if page.url=='/datasets' %} class='active' {% endif %}><a class="nav-link" href="{{site.baseurl}}/datasets"><i class="fa d-inline fa-lg fa-database"></i> Datasets</a></li>
               <li class="nav-item" {% if page.url=='/contact' %} class='active' {% endif %}><a class="nav-link" href="{{site.baseurl}}/contact"> <i class="fa d-inline fa-lg fa-envelope-o"></i> Contact</a></li>          
             </ul>
-        <a id="switch-color-button" class="btn navbar-btn bg-primary ml-2 text-white"><i class="fa d-inline fa-lg fa-paint-brush"></i> Switch Color</a>
-
       </div>
+      
     </div>
+    
   </nav>
 
-
-  <script>
-      var classList= ["bg-primary", "c-color1","c-color2","c-color3","c-color4","c-color5"];
-      var currentClass = 0;
-  
-      $("#switch-color-button").click(function() {
-          
-          $("."+classList[currentClass]).each(function(){
-              $(this).removeClass(classList[currentClass]);
-              console.log(classList.length);
-              if(currentClass<classList.length-1){
-                  console.log("1st happened");
-                  $(this).addClass(classList[currentClass+1]);
-              }else{
-                  console.log("2ndt happened");
-                 $(this).addClass(classList[0]);
-              }
-          });
-  
-          if(currentClass<classList.length-1){
-              currentClass++;
-          }else{
-              currentClass=0;
-          }
-  
-      });
-  </script>
+  <div class="mb-3"></div>
