@@ -49,13 +49,22 @@ $custom-colors:(
     pro2:#008861,
     pro2-light:#17AE82,
     pro2-sec:#FBECE8,
-    pro2-sec-dark:#F9DDD6
+    pro2-sec-dark:#F9DDD6,
+
+
+    ucsb: #222c3b,
+    ucsb-light: #34526e,
+    ucsb-dark: rgb(22, 31, 44),
+    ucsb-yellow: #72694f,
+    ucsb-gray:#727272
+
+
 )!default;
   
   
   $custom-theme-colors: (
     primary: $blue,
-    secondary: $gray-600,
+    secondary: #ffce34,
     success: $green,
     info: $cyan,
     warning: $yellow,
