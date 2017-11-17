@@ -4,6 +4,9 @@
 @import "variables";  // (2)
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+a{
+    color: theme-color("links");
+}
 
 .image-container{
     position: relative;
@@ -43,8 +46,12 @@ hr {
     margin-bottom:10px;
     text-align: left;
     a{
-        color:white;
+        color:theme-color("links");
     }
+}
+
+.news-image{
+
 }
 
 .news-date {
@@ -52,6 +59,9 @@ hr {
 }
 
 .people-list {
+    a{
+        color:white;
+    }
     list-style-type: none;
     h2 {
         // font-size: 14px;
@@ -91,6 +101,9 @@ hr {
 }
 
 .publication-item {
+    a{
+        color: theme-color("links");
+    }
     margin-bottom: 0.5em;
 
     .publication-title {
@@ -145,12 +158,12 @@ hr {
     list-style-type:none;
     .publication-title-mainpage{
 
-        font-weight: 700;
+        font-weight: normal;
         font-size: 10pt;
     }
     .publication-authors-mainpage{
         font-size: 8pt;
-    font-weight: 100;
+        font-weight: lighter;
     }
     .publication-controls-mainpage{
         
@@ -191,18 +204,19 @@ hr {
            text-decoration:none; 
         }
         a {
-            color: white;
+            color: theme-color("links");
             display: block;
             padding: 5px 10px;
         }
         &.active {
-            background-color: #234b88;
+            background-color: #8aa2ce;
         }
     }
 }
 
 #graph-area{
     background-color: white;
+    
 }
 
 #years-view{
@@ -319,4 +333,13 @@ hr {
     {
         background-color: #000000;
         border: 2px solid #555555;
+    }
+
+    .nav-item  {
+       .active
+       {
+        background-color:tomato;
+       }
+            
+        
     }
