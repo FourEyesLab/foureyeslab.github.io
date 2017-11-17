@@ -2,6 +2,8 @@
 @charset "utf-8";
 @import "./bootstrap/bootstrap.scss"; // (1)
 @import "variables";  // (2)
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 
 .image-container{
     position: relative;
@@ -35,11 +37,14 @@ hr {
     padding: 0;
 }
 .news-item {
-
+    font-size: .8em;
     list-style: none;
     margin-top:10px;
     margin-bottom:10px;
     text-align: left;
+    a{
+        color:white;
+    }
 }
 
 .news-date {
@@ -120,6 +125,42 @@ hr {
         }
     }
 }
+
+.publication-mainpage{
+    li{
+        margin-bottom: 10px;
+    }
+    font-size: 0;
+    span{
+        display:inline-block;
+        margin: 0;
+        padding: 0;
+        border: none;
+        
+        a{
+            color: white;
+        }
+    }
+    padding: 0;
+    list-style-type:none;
+    .publication-title-mainpage{
+
+        font-weight: 700;
+        font-size: 10pt;
+    }
+    .publication-authors-mainpage{
+        font-size: 8pt;
+    font-weight: 100;
+    }
+    .publication-controls-mainpage{
+        
+        font-size: 6pt;
+        a{
+            color:white;
+        }
+    }
+}
+
 
 .active{
     color:white;
@@ -259,4 +300,23 @@ hr {
       margin: -2px 0 0 0;
       top: 100%;
       left: 0;
+    }
+
+
+    .custom-scroll::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        background-color: #F5F5F5;
+    }
+    
+    .custom-scroll::-webkit-scrollbar
+    {
+        width: 10px;
+        background-color: #F5F5F5;
+    }
+    
+    .custom-scroll::-webkit-scrollbar-thumb
+    {
+        background-color: #000000;
+        border: 2px solid #555555;
     }
