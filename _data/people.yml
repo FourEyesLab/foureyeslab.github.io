@@ -6,6 +6,18 @@
 #   role: faculty / research_scientist / phd_student / master_student / visitor
 #   alumni: yes / no (or leave out)
 
+- name: "Peter Zhe Fu"
+  display: "Peter Zhe Fu"
+  role: phd_student
+
+- name: "Jedrzej Kozerawski"
+  display: "Jedrzej Kozerawski"
+  role: phd_student
+
+- name: "Sikun Lin"
+  display: "Sikun Lin"
+  role: phd_student
+
 - name: "Adam Ibrahim"
   display: "Adam Ibrahim"
   photo: adam_ibrahim.jpg
