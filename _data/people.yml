@@ -7,6 +7,19 @@
 #   alumni: yes / no (or leave out)
 #   order: 1 (or leave out for alphabetical order)
 
+- name: "Adam Ibrahim"
+  display: "Adam Ibrahim"
+  photo: adam_ibrahim.jpg
+  description: "Ex math and physics major. Interested in machine learning and computer vision, and pretty much any theoretical problem."
+  website: https://www.linkedin.com/in/adam-ibrahim-252019aa/
+  role: phd_student
+
+- name: "Pushkar Shukla"
+  display: "Pushkar Shukla"
+  photo: pushkar_shukla.jpg
+  description: I am budding researcher in the field of computer vision and machine learning (deep learning ) with the desire to develop meaningful technologies in my area of interest.
+  role: master_student
+
 - alumni: true
   display: Jonathan Ventura
   name: Jonathan Ventura
