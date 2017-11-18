@@ -165,21 +165,21 @@
   name: Ryan Bane
   order: 7
   photo: ryan_bane.jpg
-  role: visitor
+  role: master_student
   website: null
 - alumni: true
   display: Lihua Lin
   name: Lihua Lin
   order: 8
   photo: lihua_lin.jpg
-  role: visitor
+  role: phd_student
   website: null
 - alumni: true
   display: Vineet Thanedar
   name: Vineet Thanedar
   order: 9
   photo: vineet_thanedar.jpg
-  role: visitor
+  role: master_student
   website: null
 - alumni: true
   display: "Mathias K\xF6lsch"
@@ -200,7 +200,7 @@
   name: Helly Kwee
   order: 12
   photo: helly_kwee.jpg
-  role: visitor
+  role: master_student
   website: null
 - alumni: true
   display: Alex Olwal
@@ -242,14 +242,14 @@
   name: Ya Chang
   order: 18
   photo: ya_chang.jpg
-  role: visitor
+  role: phd_student
   website: null
 - alumni: true
   display: Rogerio Feris
   name: Rogerio Feris
   order: 19
   photo: rogerio_feris.jpg
-  role: visitor
+  role: phd_student
   website: null
 - alumni: true
   display: John Roberts
@@ -284,7 +284,7 @@
   name: Haiying Guan
   order: 24
   photo: haiying_guan.jpg
-  role: visitor
+  role: phd_student
   website: null
 - alumni: true
   display: Jae Sik Chang
@@ -326,7 +326,7 @@
   name: Victor Fragoso
   order: 13
   photo: victor_fragoso.jpg
-  role: visitor
+  role: phd_student
   website: http://www.cs.ucsb.edu/~vfragoso
 - alumni: true
   display: Wendy Chun
@@ -340,14 +340,14 @@
   name: Eyrun Eyjolfsdottir
   order: 29
   photo: eyrun_eyjolfsdottir.jpg
-  role: visitor
+  role: master_student
   website: null
 - alumni: true
   display: Shane Zamora
   name: Shane Zamora
   order: 30
   photo: shane_zamora.jpg
-  role: visitor
+  role: master_student
   website: null
 - alumni: true
   display: "R\xE9mi Paucher"
@@ -445,7 +445,7 @@
   name: Angus Forbes
   order: 15
   photo: angus_forbes.jpg
-  role: visitor
+  role: master_student
   website: http://www.mat.ucsb.edu/a.forbes
 - alumni: true
   display: Miao Mao
@@ -466,14 +466,14 @@
   name: Chris Sweeney
   order: 16
   photo: chris_sweeney.jpg
-  role: visitor
+  role: phd_student
   website: http://cs.ucsb.edu/~cmsweeney/
 - alumni: true
   display: Mathieu Rodrigue
   name: Mathieu Rodrigue
   order: 17
   photo: mathieu_rodrigue.jpg
-  role: visitor
+  role: master_student
   website: http://cs.ucsb.edu/~mathieu
 - alumni: true
   display: Emily Fujimoto
@@ -494,7 +494,7 @@
   name: Devdeep R. Choudhury
   order: 17
   photo: devdeep_r._choudhury.jpg
-  role: visitor
+  role: master_student
   website: http://www.linkedin.com/pub/devdeep-roy-choudhury/22/83a/319
 - alumni: true
   display: Erina Ishikawa
@@ -538,7 +538,7 @@
   photo: nataly_moreno.jpg
   role: master_student
   website: http://natalymoreno.weebly.com/
-- alumni: false
+- alumni: true
   display: Nicholas Davis
   name: Nicholas Davis
   order: 18
@@ -580,7 +580,7 @@
   photo: jungah_son.jpg
   role: phd_student
   website: null
-- alumni: false
+- alumni: true
   display: Mohit Hingorani
   name: Mohit Hingorani
   order: 19
@@ -606,7 +606,7 @@
   name: Rakesh Ramesh
   order: 20
   photo: rakesh_ramesh.jpg
-  role: visitor
+  role: master_student
   website: null
 - alumni: true
   display: Tibor Goldschwendt
@@ -614,13 +614,6 @@
   order: 20
   photo: tibor_goldschwendt.jpg
   role: visitor
-  website: null
-- alumni: false
-  display: Mudit Uppal
-  name: Mudit Uppal
-  order: 21
-  photo: mudit_uppal.jpg
-  role: master_student
   website: null
 - alumni: true
   display: Shinsuke Nakajima
@@ -634,7 +627,7 @@
   name: Lennon Grinta
   order: 23
   photo: lennon_grinta.jpg
-  role: visitor
+  role: master_student
   website: null
 - alumni: false
   display: Han-Wei Kung
@@ -650,7 +643,7 @@
   photo: brandon_huynh.jpg
   role: phd_student
   website: null
-- alumni: false
+- alumni: true
   display: Kalyan Tej Javvadi Appannacharya
   name: Kalyan Tej Javvadi Appannacharya
   order: 24
@@ -671,21 +664,21 @@
   photo: renate_hauslschmid.jpg
   role: visitor
   website: null
-- alumni: false
+- alumni: true
   display: Angel Ortega
   name: Angel Ortega
   order: 25
   photo: angel_ortega.jpg
   role: master_student
   website: http://angelortega.io
-- alumni: false
+- alumni: true
   display: Hiroyuki Kawakita
   name: Hiroyuki Kawakita
   order: 22
   photo: hiroyuki_kawakita.jpg
   role: visitor
   website: null
-- alumni: false
+- alumni: true
   display: Martin Hering
   name: Martin Hering
   order: 23
