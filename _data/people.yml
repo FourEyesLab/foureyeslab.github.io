@@ -8,14 +8,17 @@
 
 - name: "Peter Zhe Fu"
   display: "Peter Zhe Fu"
+  photo: unknown.jpg
   role: phd_student
 
 - name: "Jedrzej Kozerawski"
   display: "Jedrzej Kozerawski"
+  photo: unknown.jpg
   role: phd_student
 
 - name: "Sikun Lin"
   display: "Sikun Lin"
+  photo: unknown.jpg
   role: phd_student
 
 - name: "Adam Ibrahim"
