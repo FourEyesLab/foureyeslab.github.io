@@ -15,7 +15,7 @@ a{
 .col-center{
     margin: 0 auto;
   }
-  
+
 .mycover {
     min-width: 100%;
     object-fit: cover;
@@ -67,7 +67,6 @@ hr {
         // font-size: 14px;
         // border-bottom: 1px solid #CCC;
     }
-    display: inline-block;
     margin-right: 2em;
 }
 
@@ -79,13 +78,13 @@ hr {
   }
 
 .people-item {
-    width: 100px;
-    vertical-align: top;
-    text-align: center;
     display: inline-block;
     margin-right: 2em;
     margin-bottom: 1em;
     font-size: 13px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+
     .photo {
         display: inline-block;
         width: 100px;
@@ -93,10 +92,28 @@ hr {
         background-position: center center;
         background-size: cover;
         border-radius: 4px;
+        vertical-align: top;
     }
+    .info {
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        vertical-align: top;
+        padding: 5px 10px;
+        overflow: hidden;
+        & > div {
+            line-height: 1.5em;
+            margin-bottom: 5px;
 
-    a  {
-        // display: block;
+            &.name {
+                font-weight: bold;
+            }
+
+            &.description {
+                font-size: 11px;
+                color: #AAA;
+            }
+        }
     }
 }
 
@@ -149,7 +166,7 @@ hr {
         margin: 0;
         padding: 0;
         border: none;
-        
+
         a{
             color: white;
         }
@@ -166,7 +183,7 @@ hr {
         font-weight: lighter;
     }
     .publication-controls-mainpage{
-        
+
         font-size: 6pt;
         a{
             color:white;
@@ -201,7 +218,7 @@ hr {
         background-color: rgba(144, 172, 255, 0.048);
         margin: 0;
         a:hover{
-           text-decoration:none; 
+           text-decoration:none;
         }
         a {
             color: theme-color("links");
@@ -216,7 +233,7 @@ hr {
 
 #graph-area{
     background-color: white;
-    
+
 }
 
 #years-view{
@@ -322,13 +339,13 @@ hr {
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
         background-color: #F5F5F5;
     }
-    
+
     .custom-scroll::-webkit-scrollbar
     {
         width: 10px;
         background-color: #F5F5F5;
     }
-    
+
     .custom-scroll::-webkit-scrollbar-thumb
     {
         background-color: #000000;
@@ -340,6 +357,6 @@ hr {
        {
         background-color:tomato;
        }
-            
-        
+
+
     }
