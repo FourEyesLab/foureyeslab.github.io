@@ -618,11 +618,12 @@
   website: null
 
 - alumni: false
-  display: YunSuk Chang
-  name: YunSuk Chang
+  display: Yun Suk Chang
+  name: Yun Suk Chang
   photo: yunsuk_chang.jpg
   role: master_student
-  website: null
+  website: https://www.linkedin.com/in/yun-suk-chang-a6566a58/
+  description: Masters student working on 3D augmented reality interfaces for authoring annotations from distance. Interested in mixed reality interfaces and their applications.
 
 - alumni: true
   display: Rakesh Ramesh
