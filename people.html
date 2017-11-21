@@ -49,7 +49,11 @@ people_roles_alumni:
                 <div class="people-list">
                     <h2>{{section.display}}</h2>
                         {% endif %}
+                    {% if people.website %}
+                    <div class="people-item people-item-clickable" onclick="document.location='{{people.website}}'">
+                    {% else %}
                     <div class="people-item">
+                    {% endif %}
                         <div class="photo" style="background-image: url(&quot;{{site.baseurl}}/assets/images/people/{{people.photo}}&quot;)" /></div>
                         <div class="info">
                             {% if people.website %}
@@ -94,11 +98,7 @@ people_roles_alumni:
                 </div>
                     {% endif %}
                 {% endfor %}
-
-
-
             </div>
-
         </div>
     </div>
 </div>
