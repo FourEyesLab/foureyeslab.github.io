@@ -9,7 +9,7 @@
 - name: "Ismo Rakkolainen"
   display: "Ismo Rakkolainen"
   photo: ismo_rakkolainen.jpg
-  alumni: no
+  alumni: false
   role: visitor
   description: "Research interests: Human-Technology Interaction, including novel user interfaces, emerging technologies and displays, 3D, virtual reality, multisensory and multimodal interaction, etc. I am also a co-inventor of the FogScreen."
 
@@ -25,7 +25,9 @@
 
 - name: "Sikun Lin"
   display: "Sikun Lin"
-  photo: unknown.jpg
+  photo: sikun_lin.jpg
+  website: http://www.cs.ucsb.edu/~sikun
+  description: "Research Interests: Computer Vision, Augmented Reality"
   role: phd_student
 
 - name: "Adam Ibrahim"
@@ -34,12 +36,19 @@
   description: "Ex math and physics major. Interested in machine learning and computer vision, and pretty much any theoretical problem."
   website: https://www.linkedin.com/in/adam-ibrahim-252019aa/
   role: phd_student
+  
+- name: "Ehsan Sayyad"
+  display: "Ehsan Sayyad"
+  photo: ehsan_sayyad.jpg
+  description: "PhD student of Media Arts and Technology with background in interaction design, Interested in VR/AR and HCI"
+  website: https://www.ehsansayyad.com/
+  role: phd_student
 
 - name: "Pushkar Shukla"
   display: "Pushkar Shukla"
   photo: pushkar_shukla.jpg
-  website: https://www.pushkarshuklasblog.wordpress.com
-  description: "Comuter Vision , Machine Learning,  Deep learning."
+  website: https://pushkarshuklasblog.wordpress.com
+  description: "Comuter Vision, Machine Learning, Deep learning."
   role: master_student
 
 - alumni: true
