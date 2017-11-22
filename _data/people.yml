@@ -9,7 +9,7 @@
 - name: "Ismo Rakkolainen"
   display: "Ismo Rakkolainen"
   photo: ismo_rakkolainen.jpg
-  alumni: no
+  alumni: false
   role: visitor
   description: "Research interests: Human-Technology Interaction, including novel user interfaces, emerging technologies and displays, 3D, virtual reality, multisensory and multimodal interaction, etc. I am also a co-inventor of the FogScreen."
 
