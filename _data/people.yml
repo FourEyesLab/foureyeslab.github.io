@@ -36,6 +36,13 @@
   description: "Ex math and physics major. Interested in machine learning and computer vision, and pretty much any theoretical problem."
   website: https://www.linkedin.com/in/adam-ibrahim-252019aa/
   role: phd_student
+  
+  - name: "Ehsan Sayyad"
+  display: "Ehsan Sayyad"
+  photo: ehsan_sayyad.jpg
+  description: "PhD student of Media Arts and Technology with background in interaction design, Interested in VR/AR and HCI"
+  website: https://www.ehsansayyad.com/
+  role: phd_student
 
 - name: "Pushkar Shukla"
   display: "Pushkar Shukla"
