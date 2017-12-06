@@ -36,7 +36,7 @@
   description: "Ex math and physics major. Interested in machine learning and computer vision, and pretty much any theoretical problem."
   website: https://www.linkedin.com/in/adam-ibrahim-252019aa/
   role: phd_student
-  
+
 - name: "Ehsan Sayyad"
   display: "Ehsan Sayyad"
   photo: ehsan_sayyad.jpg
@@ -83,6 +83,7 @@
   display: Matthew Turk
   name: Matthew Turk
   photo: matthew_turk.jpg
+  description: "Professor and Chair, Computer Science department. Computer vision and imaging, augmented reality, multimodal interaction, AI/ML."
   role: faculty
   website: http://www.cs.ucsb.edu/~mturk
 
@@ -252,13 +253,6 @@
   name: Taehee Lee
   photo: taehee_lee.jpg
   role: master_student
-  website: null
-
-- alumni: true
-  display: Ismo Rakkolainen
-  name: Ismo Rakkolainen
-  photo: ismo_rakkolainen.jpg
-  role: visitor
   website: null
 
 - alumni: true
