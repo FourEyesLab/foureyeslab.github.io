@@ -147,7 +147,7 @@ namespace ilab {
     export class ProjectsView {
         baseurl: string;
         store: ViewStateStore;
-        ul: D3Selection<HTMLUListElement>;
+        ul: D3Selection<any>;
         people: PeopleIndex;
 
         constructor(container: D3Selection<HTMLDivElement>, baseurl: string, store: ViewStateStore) {
