@@ -20,7 +20,9 @@
 
 - name: "Jedrzej Kozerawski"
   display: "Jedrzej Kozerawski"
-  photo: unknown.jpg
+  photo: jedrzej_kozerawski.jpg
+  website: https://www.linkedin.com/in/jkozerawski/
+  description: "Machine Learning for computer vision. Low-shot object detection & recognition, transfer learning."
   role: phd_student
 
 - name: "Sikun Lin"
