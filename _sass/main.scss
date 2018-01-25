@@ -3,6 +3,7 @@
 @import "./bootstrap/bootstrap.scss"; // (1)
 @import "variables";  // (2)
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import "lity";
 
 a{
     color: theme-color("links");
@@ -244,7 +245,7 @@ hr {
             padding: 5px 10px;
         }
         &.active {
-            background-color: #8aa2ce;
+            background-color: #55688a;
         }
     }
 }

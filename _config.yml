@@ -34,6 +34,11 @@ kramdown:
 # Build settings
 markdown: kramdown
 
+collections:
+  news
+    output: true
+    permalink: /:collection/:name
+
 exclude:
   - Gemfile
   - Gemfile.lock
