@@ -59,7 +59,7 @@ var ilab;
 })(ilab || (ilab = {}));
 var ilab;
 (function (ilab) {
-    var PeopleIndex = /** @class */ (function () {
+    var PeopleIndex = (function () {
         function PeopleIndex(people) {
             this.name2People = {};
             for (var _i = 0, people_1 = people; _i < people_1.length; _i++) {
@@ -79,7 +79,7 @@ var ilab;
         return PeopleIndex;
     }());
     ilab.PeopleIndex = PeopleIndex;
-    var ViewStateStore = /** @class */ (function () {
+    var ViewStateStore = (function () {
         function ViewStateStore(dataset) {
             this.listeners = [];
             this.dataset = dataset;
@@ -138,7 +138,7 @@ var ilab;
         return ViewStateStore;
     }());
     ilab.ViewStateStore = ViewStateStore;
-    var ResearchAreasView = /** @class */ (function () {
+    var ResearchAreasView = (function () {
         function ResearchAreasView(container, store) {
             var _this = this;
             var div = container.append("div").classed("research-areas-areas", true);
@@ -189,7 +189,7 @@ var ilab;
         return ResearchAreasView;
     }());
     ilab.ResearchAreasView = ResearchAreasView;
-    var ProjectsView = /** @class */ (function () {
+    var ProjectsView = (function () {
         function ProjectsView(container, baseurl, store) {
             var _this = this;
             var div = container.append("div").classed("research-areas-projects", true);
@@ -213,7 +213,7 @@ var ilab;
                 }
             }));
             var project_li_enter = project_li.enter().append("li");
-            project_li_enter.append("div").classed("image", true).style("background-image", function (p) { return "url(" + _this.baseurl + "/assets/images/projects/" + (p.image || "default.jpg") + ")"; });
+            project_li_enter.append("div").classed("image", true).style("background-image", function (p) { return ("url(" + _this.baseurl + "/assets/images/projects/" + (p.image || "default.jpg") + ")"); });
             var project_content_enter = project_li_enter.append("div").classed("content", true);
             project_content_enter.append("strong").text(function (p) { return p.display; });
             project_content_enter.append("br");
@@ -225,7 +225,7 @@ var ilab;
         return ProjectsView;
     }());
     ilab.ProjectsView = ProjectsView;
-    var YearsView = /** @class */ (function () {
+    var YearsView = (function () {
         function YearsView(container, store) {
             var div = container.append("div").classed("research-areas-years", true);
             var minYear = d3.min(store.dataset.projects, function (x) { return x.year; });
@@ -303,7 +303,7 @@ var ilab;
         return YearsView;
     }());
     ilab.YearsView = YearsView;
-    var ResearchAreasGraphView = /** @class */ (function () {
+    var ResearchAreasGraphView = (function () {
         function ResearchAreasGraphView(container, store) {
             var _this = this;
             this.store = store;
@@ -360,7 +360,7 @@ var ilab;
                 .append("circle");
             toAddImage.append("image")
                 .style("pointer-events", "none")
-                .style("clip-path", function (d) { return "url(#" + d.id + ")"; })
+                .style("clip-path", function (d) { return ("url(#" + d.id + ")"); })
                 .attr("xlink:href", function (d) { return "/assets/images/people/" + d.people.photo; });
             var simulation = d3.forceSimulation()
                 .force("link", d3.forceLink(this.links).strength(function (d) { return Math.sqrt(d.weight) * 0.5; }))
@@ -376,7 +376,7 @@ var ilab;
                     .attr("x2", function (d) { return d.target.x; })
                     .attr("y2", function (d) { return d.target.y; });
                 sNode
-                    .attr("transform", function (d) { return "translate(" + d.x.toFixed(6) + "," + d.y.toFixed(6) + ")"; });
+                    .attr("transform", function (d) { return ("translate(" + d.x.toFixed(6) + "," + d.y.toFixed(6) + ")"); });
             };
             var dragstarted = function (d) {
                 if (!d3.event.active)
@@ -502,7 +502,7 @@ var ilab;
 })(ilab || (ilab = {}));
 var ilab;
 (function (ilab) {
-    var ChartDataset = /** @class */ (function () {
+    var ChartDataset = (function () {
         function ChartDataset(people, areas, publications) {
             var peopleCache = {};
             people.forEach(function (people) {

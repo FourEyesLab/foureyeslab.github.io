@@ -15,12 +15,14 @@
 
 - name: "Peter Zhe Fu"
   display: "Peter Zhe Fu"
-  photo: unknown.jpg
+  photo: peter_zhe_fu.jpg
   role: phd_student
 
 - name: "Jedrzej Kozerawski"
   display: "Jedrzej Kozerawski"
-  photo: unknown.jpg
+  photo: jedrzej_kozerawski.jpg
+  website: https://www.linkedin.com/in/jkozerawski/
+  description: "Machine Learning for computer vision. Low-shot object detection & recognition, transfer learning."
   role: phd_student
 
 - name: "Sikun Lin"
@@ -36,7 +38,7 @@
   description: "Ex math and physics major. Interested in machine learning and computer vision, and pretty much any theoretical problem."
   website: https://www.linkedin.com/in/adam-ibrahim-252019aa/
   role: phd_student
-  
+
 - name: "Ehsan Sayyad"
   display: "Ehsan Sayyad"
   photo: ehsan_sayyad.jpg
@@ -83,14 +85,16 @@
   display: Matthew Turk
   name: Matthew Turk
   photo: matthew_turk.jpg
+  description: "Professor and Chair, Computer Science department. Computer vision and imaging, augmented reality, multimodal interaction, AI/ML."
   role: faculty
   website: http://www.cs.ucsb.edu/~mturk
 
 - alumni: false
-  display: "Tobias H\xF6llerer"
-  name: "Tobias H\xF6llerer"
+  display: Tobias Höllerer
+  name: Tobias Höllerer
   photo: tobias_hollerer.jpg
   role: faculty
+  description: Professor of Computer Science. Research in AR/VR, InfoVis, 3D displays and UI, contextual and social computing.
   website: http://www.cs.ucsb.edu/~holl/
 
 - alumni: true
@@ -127,7 +131,8 @@
   photo: john_o'donovan.jpg
   role: research_scientist
   website: http://cs.ucsb.edu/~jod
-
+  description:  Associate Researcher, Computer Science Department.  Research in AI/ML, Data Science, HCI, Recommmender Systems
+  
 - alumni: true
   display: Justin Muncaster
   name: Justin Muncaster
@@ -252,13 +257,6 @@
   name: Taehee Lee
   photo: taehee_lee.jpg
   role: master_student
-  website: null
-
-- alumni: true
-  display: Ismo Rakkolainen
-  name: Ismo Rakkolainen
-  photo: ismo_rakkolainen.jpg
-  role: visitor
   website: null
 
 - alumni: true

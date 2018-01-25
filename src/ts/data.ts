@@ -32,6 +32,7 @@ namespace ilab {
     export interface Project {
         display: string;
         year: number;
+        image?: string;
         people: string[];
         areas: string[];
     }
