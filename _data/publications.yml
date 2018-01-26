@@ -11,6 +11,9 @@
   title: Automated Assistants to Identify and Prompt Action on Visual News Bias.
   where: Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems, Denver, CO, USA, May 06-11, 2017, Extended Abstracts.
   year: 2017
+  bibtex: assets/bib/Narwal2017.html
+  link: http://dl.acm.org/ft_gateway.cfm?id=3053227&ftid=1869786&dwn=1&CFID=932820678&CFTOKEN=17411059
+  website: http://dl.acm.org/citation.cfm?id=3053227
 - authors: [Ismo Rakkolainen, Roope Raisamo, Matthew Turk, "Tobias H\xF6llerer"]
   doi: 10.1145/3131085.3131088
   key: conf/mindtrek/RakkolainenRTH17

@@ -22,7 +22,7 @@ permalink: /
         <div class="col-xs-12 col-sm-12 col-md-8 ">
 
           <h2 class="mt-3 mb-3" >Who we are</h2>
-          <div id="carouselExampleControls" class="carousel slide bg-primary" data-ride="carousel" style="width:100%; max-height:300px;overflow:hidden;">
+          <div id="carouselExampleControls" class="carousel slide bg-primary" data-interval="10000" data-ride="carousel" style="width:100%; max-height:300px;overflow:hidden;">
               <div class="carousel-inner" role="listbox" >
                   <div class="carousel-item active">
                   <img class="d-block img-fluid col-center  mycover" src="assets/images/photos/1.jpg" alt="First slide"> </div>
@@ -45,6 +45,14 @@ permalink: /
             <h2 class="mt-3 mb-3" >News</h2>
             <div class="panel panel-primary">
                 <div class="panel-body custom-scroll" style="max-height: 400px;overflow-y: scroll;">
+
+                    <!-- <ul>
+                        {% for post in site.posts %}
+                          <li>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                          </li>
+                        {% endfor %}
+                      </ul> -->
 
                     <ul class="news">
                         {% for newsItem in site.data.news limit:10 %}
@@ -75,12 +83,11 @@ permalink: /
 
     {% for year in (2016..2017) reversed  %}
         <ul class="publication-mainpage">
-            {% for pub in site.data.publications limit:6 %}
+            {% for pub in site.data.publications limit:5 %}
             {% if pub.year == year %}
             <li >
-
-                {% if pub.doi %}
-                <span class="publication-title-mainpage"><a href="https://doi.org/{{pub.doi}}">{{pub.title}}</a></span>
+                {% if pub.link %}
+                <span class="publication-title-mainpage"><a href="{{pub.link}}">{{pub.title}}</a></span>
                 {% else %}
                 <span class="publication-title-mainpage">{{pub.title}}</span>
                 {% endif %}
@@ -97,6 +104,8 @@ permalink: /
 
 
       </div>
+
+   
 
 
 

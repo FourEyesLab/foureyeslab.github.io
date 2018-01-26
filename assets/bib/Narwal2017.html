@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0093)https://ilab.cs.ucsb.edu/index.php/component/jbibliography/?tmpl=component&view=bibtex&id=290 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr"><script>(function main() {
+    // Create enabled event
+    function fireEnabledEvent() {
+        // If gli exists, then we are already present and shouldn't do anything
+        if (!window.gli) {
+            setTimeout(function () {
+                var enabledEvent = document.createEvent("Event");
+                enabledEvent.initEvent("WebGLEnabledEvent", true, true);
+                document.dispatchEvent(enabledEvent);
+            }, 0);
+        } else {
+            //console.log("WebGL Inspector already embedded on the page - disabling extension");
+        }
+    };
+
+    // Grab the path root from the extension
+    document.addEventListener("WebGLInspectorReadyEvent", function (e) {
+        var pathElement = document.getElementById("__webglpathroot");
+        if (window["gliloader"]) {
+            gliloader.pathRoot = pathElement.innerText;
+        } else {
+            // TODO: more?
+            window.gliCssUrl = pathElement.innerText + "gli.all.css";
+        }
+    }, false);
+
+    // Rewrite getContext to snoop for webgl
+    var originalGetContext = HTMLCanvasElement.prototype.getContext;
+    if (!HTMLCanvasElement.prototype.getContextRaw) {
+        HTMLCanvasElement.prototype.getContextRaw = originalGetContext;
+    }
+    HTMLCanvasElement.prototype.getContext = function () {
+        var ignoreCanvas = this.internalInspectorSurface;
+        if (ignoreCanvas) {
+            return originalGetContext.apply(this, arguments);
+        }
+
+        var result = originalGetContext.apply(this, arguments);
+        if (result == null) {
+            return null;
+        }
+
+        var contextNames = ["moz-webgl", "webkit-3d", "experimental-webgl", "webgl", "3d"];
+        var requestingWebGL = contextNames.indexOf(arguments[0]) != -1;
+        if (requestingWebGL) {
+            // Page is requesting a WebGL context!
+            fireEnabledEvent(this);
+
+            // If we are injected, inspect this context
+            if (window.gli) {
+                if (gli.host.inspectContext) {
+                    // TODO: pull options from extension
+                    result = gli.host.inspectContext(this, result);
+                    // NOTE: execute in a timeout so that if the dom is not yet
+                    // loaded this won't error out.
+                    window.setTimeout(function() {
+                        var hostUI = new gli.host.HostUI(result);
+                        result.hostUI = hostUI; // just so we can access it later for debugging
+                    }, 0);
+                }
+            }
+        }
+
+        return result;
+    };
+})();</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	  <!--<base href="https://ilab.cs.ucsb.edu/index.php/component/jbibliography/">--><base href=".">
+  
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="Imaging Interaction Innovative Interfaces 3D Augmented Reality Tracking Vision Graph Network Analysis">
+  <meta name="description" content="Four Eyes Lab, Department of Computer Science, UCSB 
+-Imaging, Interaction and Innovative Interfaces.">
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management">
+  <title>Four Eyes Lab</title>
+  <link href="https://ilab.cs.ucsb.edu/templates/pangea/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+	<link rel="stylesheet" href="./Narwal2017_files/general.css" type="text/css">
+	<link rel="stylesheet" href="./Narwal2017_files/template.css" type="text/css">
+
+</head>
+<body class="contentpane">
+	
+	
+
+<pre>@inproceedings{Narwal:2017:AAI:3027063.3053227,
+ author = {Narwal, Vishwajeet and Salih, Mohamed Hashim and Lopez, Jose Angel and Ortega, Angel and O'Donovan, John and H\"{o}llerer, Tobias and Savage, Saiph},
+ title = {Automated Assistants to Identify and Prompt Action on Visual News Bias},
+ booktitle = {Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
+ series = {CHI EA '17},
+ year = {2017},
+ isbn = {978-1-4503-4656-6},
+ location = {Denver, Colorado, USA},
+ pages = {2796--2801},
+ numpages = {6},
+ url = {http://doi.acm.org/10.1145/3027063.3053227},
+ doi = {10.1145/3027063.3053227},
+ acmid = {3053227},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {civic computing, fake news, news bias},
+} </pre>
+
+
+
+</body></html>
