@@ -42,7 +42,10 @@ permalink: /publications
                                         {% endif %}
                                         {% if pub.bibtex %}
                                             <!-- <span><a href="#" onclick="toggleBibtex(this); return false;">Bibtex</a></span> -->
-                                            <span><a href={{pub.bibtex}} data-lity>Bibtex</a>
+                                            <span><a href="#bib" data-lity="">Bibtex</a>
+                                                <div id="bib" style="overflow: auto; background: rgb(253, 253, 246); padding: 20px; width: 600px; max-width: 100%; border-radius: 6px; max-height: 926px;" class="lity-hide">
+                                                    {{pub.bibtex}}
+                                                </div>
                                             </span>
                                         {% endif %}
                                     </span>
