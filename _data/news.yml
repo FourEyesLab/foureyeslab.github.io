@@ -5,7 +5,12 @@
 #   description: your description here, in **markdown** format, you can add hyperlinks as [link](http://example.com/).
 
 # The news items will appear in the website as the order defined here. The front page will display a limited number of items.
- 
+
+- date: Dec 2017
+  title: IEEE CG'17 Best Paper
+  description: John O'Donovan and collaborators at ARL and RPI receieved best paper award for their work on misinformation propogation with uncertainty in social media.  Announcement available <a href="https://www.eurekalert.org/pub_releases/2017-12/uarl-arw120717.php">here</a>).
+  image: assets/images/fakephotos/2.jpg
+  
 - date: Feb 2017
   title: CHI17
   description: Research by former lab member Saiph Savage (& team at WVU), in collaboration with Tobias Hollerer, John O'Donovan and Angel Ortega (undergraduate researcher) on combatting bias in news media was accepted to ACM CHI'17 (late breaking track).
