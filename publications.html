@@ -44,10 +44,11 @@ permalink: /publications
                                             <!-- <span><a href="#" onclick="toggleBibtex(this); return false;">Bibtex</a></span> -->
                                             <span><a href="#bib" data-lity="">Bibtex</a>
                                                 <div id="bib" style="overflow: auto; background: rgb(253, 253, 246); padding: 20px; width: 600px; max-width: 100%; border-radius: 6px; max-height: 926px;" class="lity-hide">
-                                                    {{pub.bibtex}}
+                                                    {{pub.bibtex | newline_to_br }}
                                                 </div>
                                             </span>
                                         {% endif %}
+
                                     </span>
                                     <!-- <span class="publication-details" style="display: none">
                                         {% if pub.bibtex %}
