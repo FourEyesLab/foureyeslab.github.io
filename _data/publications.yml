@@ -1,3 +1,14 @@
+- areas: [ML, CV]
+  authors: [Jedrzej Kozerawski, Matthew Turk]
+  bibtex: "@inproceedings{kozerawski2018clear,\n  title={CLEAR: Cumulative LEARning\
+    \ for One-Shot One-Class Image Recognition},\n  author={Kozerawski, Jedrzej and Turk, Matthew},\n\
+    \ booktitle={Proceedings of the IEEE\
+    \ Conference on Computer Vision and Pattern Recognition},\n  pages={3446--3455},\n\
+    \  year={2018}\n}\n"
+  link: http://openaccess.thecvf.com/content_cvpr_2018/papers/Kozerawski_CLEAR_Cumulative_LEARning_CVPR_2018_paper.pdf
+  title: Computing similarity transformations from only image correspondences.
+  where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018, Salt Lake City, UT, USA, June 18-22, 2018
+  year: 2018
 - areas: [AR, CV]
   authors: [Domagoj Baricevic, "Tobias H\xF6llerer", Pradeep Sen, Matthew Turk]
   bibtex: "@article{barivcevic2017user,\n  title={User-perspective AR magic lens from\
