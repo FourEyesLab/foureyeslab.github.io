@@ -81,7 +81,7 @@ permalink: /
             <h2 class="mt-3 mb-3" >Recent Publications</h2>
 
 
-    {% for year in (2016..2017) reversed  %}
+    {% for year in (2016..2018) reversed  %}
         <ul class="publication-mainpage">
             {% for pub in site.data.publications limit:5 %}
             {% if pub.year == year %}
