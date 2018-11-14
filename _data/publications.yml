@@ -6,7 +6,7 @@
     \ Conference on Computer Vision and Pattern Recognition},\n  pages={3446--3455},\n\
     \  year={2018}\n}\n"
   link: http://openaccess.thecvf.com/content_cvpr_2018/papers/Kozerawski_CLEAR_Cumulative_LEARning_CVPR_2018_paper.pdf
-  title: CLEAR: Cumulative LEARning for One-Shot One-Class Image Recognition.
+  title: 'CLEAR: Cumulative LEARning for One-Shot One-Class Image Recognition.'
   where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018, Salt Lake City, UT, USA, June 18-22, 2018
   year: 2018
 - areas: [AR, CV]
