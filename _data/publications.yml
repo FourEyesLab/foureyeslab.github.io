@@ -1,3 +1,24 @@
+- areas: [AR, HCI]
+  authors: [Brandon Huynh, Adam Ibrahim, Yun Suk Chang, "Tobias H\xF6llerer", John O'Donovan]
+  bibtex: "@inproceedings{huynh2018study,\n title={A Study of Situated Product Recommendations in Augmented Reality},\n\
+    \ author={Huynh, Brandon and Ibrahim, Adam and Chang, Yun Suk and H{\"o}llerer, Tobias and O'Donovan, John},\n\
+    \ booktitle={2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)},\n\
+    \ pages={35--43},\n year={2018},\n organization={IEEE}\n}\n"
+  link: http://www.cs.ucsb.edu/~holl/pubs/Huynh-2018-AIVR.pdf
+  title: 'A Study of Situated Product Recommendations in Augmented Reality'
+  where: IEEE International Conference on Artificial Intelligence and Virtual Reality, AIVR 2018, Taichung, Taiwan, December 10-12, 2018
+  year: 2018
+- areas: [AR, HCI]
+  authors: [Adam Ibrahim, Brandon Huynh, Jonathan Downey, "Tobias H\xF6llerer", Dorothy Chun, John O'Donovan]
+  bibtex: "@article{ibrahim2018arbis,\n title={ARbis Pictus: A Study of Vocabulary\
+    \ Learning with Augmented Reality},\n author={Ibrahim, Adam and Huynh, Brandon\
+    \ and Downey, Jonathan and H{\"o}llerer, Tobias and Chun, Dorothy and O'donovan, John},\n\
+    \ journal={IEEE transactions on visualization and computer graphics},\n\
+    \ volume={24},\n number={11},\n pages={2867--2874},\n year={2018},\n publisher={IEEE}\n}\n"
+  link: http://cs.ucsb.edu/~holl/pubs/Ibrahim-2018-ISMAR.pdf
+  title: 'ARbis Pictus: A Study of Vocabulary Learning with Augmented Reality'
+  where: IEEE Trans. Vis. Comput. Graph.
+  year: 2018
 - areas: [ML, CV]
   authors: [Jedrzej Kozerawski, Matthew Turk]
   bibtex: "@inproceedings{kozerawski2018clear,\n  title={CLEAR: Cumulative LEARning\
