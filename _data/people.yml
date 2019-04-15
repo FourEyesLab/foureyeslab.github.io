@@ -6,10 +6,42 @@
 #   role: faculty / research_scientist / phd_student / master_student / visitor
 #   alumni: yes / no (or leave out)
 
+- name: aiwen_xu
+  display: "Aiwen Xu"
+  role: phd_student
+  photo: aiwen_xu.jpg
+  website: "https://aiwenxu.com/"
+  description: "Interested in machine learning and human computer interaction."
+  alumni: false
+
+- name: zhening_zhang
+  display: "Sirius Zhening Zhang"
+  role: phd_student
+  photo: zhening_zhang.jpg
+  website: "https://www.linkedin.com/in/sirius-zhening-zhang-64457a90/"
+  description: "I am interested in Computer Vision, Machine Learning, Robotics, and Computer Graphics."
+  alumni: false
+
+- name: sean_lee
+  display: "Sean Han Byul Lee"
+  role: undergraduate_student
+  photo: sean_lee.jpg
+  website: "https://www.linkedin.com/in/seanhanbyullee/"
+  description: "My research interests are HCI, emotion detection, Computer Vision especially 3D reconstruction in AR and autonomous vehicle."
+  alumni: false
+
+- name: cadu_elmadjian
+  display: "Carlos Eduardo L. Elmadjian"
+  role: visitor
+  photo: cadu_elmadjian.jpg
+  website: "https://latin.ime.usp.br/people/elmadjian/"
+  description: "PhD student at University of Sao Paulo. Research interests: eye tracking, multimodal HCI, AR/VR."
+  alumni: true
+
 - name: "Ismo Rakkolainen"
   display: "Ismo Rakkolainen"
   photo: ismo_rakkolainen.jpg
-  alumni: false
+  alumni: true
   role: visitor
   description: "Research interests: Human-Technology Interaction, including novel user interfaces, emerging technologies and displays, 3D, virtual reality, multisensory and multimodal interaction, etc. I am also a co-inventor of the FogScreen."
 
@@ -31,6 +63,7 @@
   website: http://www.cs.ucsb.edu/~sikun
   description: "Research Interests: Computer Vision, Augmented Reality"
   role: phd_student
+  alumni: true
 
 - name: "Adam Ibrahim"
   display: "Adam Ibrahim"
@@ -38,6 +71,7 @@
   description: "Ex math and physics major. Interested in machine learning and computer vision, and pretty much any theoretical problem."
   website: https://www.linkedin.com/in/adam-ibrahim-252019aa/
   role: phd_student
+  alumni: true
 
 - name: "Ehsan Sayyad"
   display: "Ehsan Sayyad"
@@ -132,7 +166,7 @@
   role: phd_student
   website: null
 
-- alumni: false
+- alumni: true
   display: John O'Donovan
   name: John O'Donovan
   photo: john_o'donovan.jpg
@@ -567,7 +601,7 @@
   role: phd_student
   website: http://www.mat.ucsb.edu/basak.alper
 
-- alumni: false
+- alumni: true
   display: Nataly Moreno
   name: Nataly Moreno
   photo: nataly_moreno.jpg
@@ -631,7 +665,7 @@
   role: visitor
   website: null
 
-- alumni: false
+- alumni: true
   display: Yun Suk Chang
   name: Yun Suk Chang
   photo: yunsuk_chang.jpg
@@ -667,7 +701,7 @@
   role: master_student
   website: null
 
-- alumni: false
+- alumni: true
   display: Han-Wei Kung
   name: Han-Wei Kung
   photo: han-wei_kung.jpg
