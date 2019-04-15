@@ -6,6 +6,16 @@
 #   role: faculty / research_scientist / phd_student / master_student / visitor
 #   alumni: yes / no (or leave out)
 
+- name: lingqi_yan
+  display: "Lingqi Yan"
+  role: faculty
+  order: 3
+  website: "https://sites.cs.ucsb.edu/~lingqi/"
+  description: "Assistant Professor of Computer Science. Research in Computer Graphics, especially physically-based rendering."
+  photo: lingqi_yan.jpg
+  alumni: false
+
+
 - name: aiwen_xu
   display: "Aiwen Xu"
   role: phd_student
@@ -124,6 +134,7 @@
 
 - alumni: false
   display: Matthew Turk
+  order: 1
   name: Matthew Turk
   photo: matthew_turk.jpg
   description: "Professor and Chair, Computer Science department. Computer vision and imaging, augmented reality, multimodal interaction, AI/ML."
@@ -134,6 +145,7 @@
   display: Tobias Höllerer
   name: Tobias Höllerer
   photo: tobias_hollerer.jpg
+  order: 2
   role: faculty
   description: Professor of Computer Science. Research in AR/VR, InfoVis, 3D displays and UI, contextual and social computing.
   website: http://www.cs.ucsb.edu/~holl/
