@@ -1,4 +1,5 @@
-- areas: [AR]
+
+- areas: [AR, HCI]
   authors: ["Tobias H\xF6llerer"]
   bibtex: "@inproceedings{},\n\
     \ author={"Tobias H\xF6llerer"},\n\
