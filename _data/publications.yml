@@ -11,6 +11,7 @@
   title: 'Automatic Cricket highlight generation using event-driven and excitement based features'
   where: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops 
   year: 2018
+
 - areas: [AI, HCI]
   authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{Sebastian2019study,\n title={Knowledge Complacency and Decision Support Systems},\n\
