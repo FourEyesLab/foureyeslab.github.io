@@ -1,3 +1,13 @@
+# - areas: []
+#   authors: []
+#   bibtex: "@inproceedings{},\n\
+#     \ author={},\n\
+#     \ booktitle={},\n\
+#     \ pages={},\n year={},\n organization={}\n}\n"
+#   link: 
+#   title: ''
+#   where: 
+#   year: 
 - areas: [AI, HCI]
   authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{Sebastian2019study,\n title={Knowledge Complacency and Decision Support Systems},\n\
