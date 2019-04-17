@@ -1,13 +1,3 @@
-# - areas: []
-#   authors: []
-#   bibtex: "@inproceedings{},\n\
-#     \ author={},\n\
-#     \ booktitle={},\n\
-#     \ pages={},\n year={},\n organization={}\n}\n"
-#   link: 
-#   title: ''
-#   where: 
-#   year: 
 - areas: [AR]
   authors: ["Tobias H\xF6llerer"]
   bibtex: "@inproceedings{},\n\
