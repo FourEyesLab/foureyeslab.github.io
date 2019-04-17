@@ -1,13 +1,16 @@
-- areas: [AI, HCI]
-  authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer"]
-  bibtex: "@inproceedings{Sebastian2019study,\n title={Knowledge Complacency and Decision Support Systems},\n\
-    \ author={Rodriguez, Sebastian and Schaffer, James and O'Donovan, John and H{\"o}llerer, Tobias},\n\
-    \ booktitle={2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)},\n\
-    \ pages={43--51},\n year={2019},\n organization={IEEE}\n}\n"
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Rodriguez-2019-CogSIMA.pdf
-  title: 'Knowledge Complacency and Decision Support Systems'
-  where: 2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA), April 8-11, 2019, Las Vegas, USA
-  year: 2019 
+- areas: [AI, CV]
+  authors: [Pushkar Shukla, Hemant Sadana, Apaar Bansal, Deepak Verma, Carlos Elmadjian, Balasubramanian Raman, Matthew Turk]
+  bibtex: "@inproceedings{shukla2018automatic,
+  title={Automatic Cricket Highlight generation using Event-Driven and Excitement-Based features},
+  author={Shukla, Pushkar and Sadana, Hemant and Bansal, Apaar and Verma, Deepak and Elmadjian, Carlos and Raman, Balasubramanian and Turk, Matthew},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={1800--1808},
+  year={2018}
+  }"
+  link: http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w34/Shukla_Automatic_Cricket_Highlight_CVPR_2018_paper.pdf
+  title: 'Automatic Cricket highlight generation using event-driven and excitement based features'
+  where: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops 
+  year: 2018
 - areas: [AI, HCI]
   authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{Sebastian2019study,\n title={Knowledge Complacency and Decision Support Systems},\n\
