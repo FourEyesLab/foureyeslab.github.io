@@ -1,6 +1,6 @@
 - areas: [HCI]
-  authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer“]
-  bibtex: "@inproceedings{huynh2018study,\n title={Knowledge Complacency and Decision Support Systems},\n\
+  authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer"]
+  bibtex: "@inproceedings{Sebastian2019study,\n title={Knowledge Complacency and Decision Support Systems},\n\
     \ author={Rodriguez, Sebastian and Schaffer, James and O'Donovan, John and H{\"o}llerer, Tobias},\n\
     \ booktitle={2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)},\n\
     \ pages={43-51},\n year={2019},\n organization={IEEE}\n}\n"
