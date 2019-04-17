@@ -8,6 +8,16 @@
 #   title: ''
 #   where: 
 #   year: 
+- areas: [AR]
+  authors: ["Tobias H\xF6llerer"]
+  bibtex: "@inproceedings{},\n\
+    \ author={"Tobias H\xF6llerer"},\n\
+    \ booktitle={Augmented Reality. World Book Student encyclopedia article},\n\
+    \ pages={},\n year={},\n organization={World Book}\n}\n"
+  link: 
+  title: 'Augmented Reality. World Book Student encyclopedia article'
+  where: 
+  year: Accessed Jan. 1, 2019
 - areas: [AI, HCI]
   authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{Sebastian2019study,\n title={Knowledge Complacency and Decision Support Systems},\n\
