@@ -16,8 +16,7 @@
                Veikko Surakka},
   title     = {Gaze and head pointing for hands-free text entry: applicability to
                ultra-small virtual keyboards},
-  booktitle = {Proceedings of the 2018 {ACM} Symposium on Eye Tracking Research {\&}
-               Applications, {ETRA} 2018, Warsaw, Poland, June 14-17, 2018},
+  booktitle = {Proceedings of the 2018 {ACM} Symposium on Eye Tracking Research and Applications, {ETRA} 2018, Warsaw, Poland, June 14-17, 2018},
   pages     = {14:1--14:9},
   year      = {2018},
   crossref  = {DBLP:conf/etra/2018},
