@@ -7,6 +7,23 @@
 #   year:
 
 - areas: [AR]
+  authors: Domagoy Bari{\v{c}}evi{\'c}, Tobias H{\"o}llerer, Pradeep Sen, Matthew Turk
+  bibtex: "@article{barivcevic2017user,
+  title={User-perspective AR magic lens from gradient-based IBR and semi-dense stereo},
+  author={Bari{\v{c}}evi{\'c}, Domagoj and H{\"o}llerer, Tobias and Sen, Pradeep and Turk, Matthew},
+  journal={IEEE transactions on visualization and computer graphics},
+  volume={23},
+  number={7},
+  pages={1838--1851},
+  year={2017},
+  publisher={IEEE}
+}"
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Baricevic-2017-TVCG.pdf
+  title: User-Perspective AR Magic Lens from Gradient-Based IBR and Semi-Dense Stereo
+  where: IEEE Transactions on Visualization and Computer Graphics
+  year: 2017
+
+- areas: [AR]
   authors: Ismo Rakkolainen, Roope Raisamo, Matthew Turk, "Tobias H\xF6llerer", Karri Palovuori
   bibtex: "@inproceedings{rakkolainen2017extreme,
   title={Extreme field-of-view for head-mounted displays},
