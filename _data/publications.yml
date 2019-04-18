@@ -6,6 +6,31 @@
 #   where:
 #   year:
 
+- areas: [CV]
+  authors: Ismo Rakkolainen, Roope Raisamo, "Tobias H\xF6llerer", Matthew Turk
+  bibtex: "@inproceedings{Rakkolainen:2018:IDC:3281505.3281589,
+ author = {Rakkolainen, I. and Raisamo, R. and Turk, M. and H\"{o}llerer, T.},
+ title = {Illumination for 360 Degree Cameras},
+ booktitle = {Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology},
+ series = {VRST '18},
+ year = {2018},
+ isbn = {978-1-4503-6086-9},
+ location = {Tokyo, Japan},
+ pages = {96:1--96:2},
+ articleno = {96},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/3281505.3281589},
+ doi = {10.1145/3281505.3281589},
+ acmid = {3281589},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {360{\${}^\circ\$} cameras, cinematic virtual reality, head-mounted display, illumination, surround video, visualization},
+} "
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Rakkolainen-2018-VRSTPoster.pdf
+  title: Illumination for 360 Degree Cameras
+  where: Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology (VRST 2018)
+  year: 2018
+
 - areas: [VR]
   authors: [Benjamin Nuernberger, "Tobias H\xF6llerer", Matthew Turk]
   bibtex: "@inproceedings{nuernberger2018hybrid,
