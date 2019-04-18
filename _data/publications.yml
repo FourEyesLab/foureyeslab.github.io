@@ -1,3 +1,18 @@
+- areas: [VR]
+  authors: [Benjamin Nuernberger, "Tobias H\xF6llerer", Matthew Turk]
+  bibtex:"@inproceedings{nuernberger2018hybrid,
+  title={Hybrid orbiting-to-photos in 3D reconstructed visual reality},
+  author={Nuernberger, Benjamin and H{\"o}llerer, Tobias and Turk, Matthew},
+  booktitle={Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology},
+  pages={32},
+  year={2018},
+  organization={ACM}
+  }"
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Nuernberger-2018-VRST.pdf
+  title: Hybrid orbiting-to-photos in 3D reconstructed visual reality
+  where: Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology
+  year: 2018
+
 - areas: [AI, CV]
   authors: [Pushkar Shukla, Hemant Sadana, Apaar Bansal, Deepak Verma, Carlos Elmadjian, Balasubramanian Raman, Matthew Turk]
   bibtex: "@inproceedings{shukla2018automatic,\n title={Automatic Cricket Highlight generation using Event-Driven and Excitement-Based features},\n\
