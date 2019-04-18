@@ -1,6 +1,6 @@
 - areas: [VR]
   authors: [Benjamin Nuernberger, "Tobias H\xF6llerer", Matthew Turk]
-  bibtex:"@inproceedings{nuernberger2018hybrid,
+  bibtex: "@inproceedings{nuernberger2018hybrid,
   title={Hybrid orbiting-to-photos in 3D reconstructed visual reality},
   author={Nuernberger, Benjamin and H{\"o}llerer, Tobias and Turk, Matthew},
   booktitle={Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology},
