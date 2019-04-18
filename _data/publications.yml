@@ -6,6 +6,21 @@
 #   where:
 #   year:
 
+- areas: [AR]
+  authors: Ismo Rakkolainen, Roope Raisamo, Matthew Turk, "Tobias H\xF6llerer", Karri Palovuori
+  bibtex: "@inproceedings{rakkolainen2017extreme,
+  title={Extreme field-of-view for head-mounted displays},
+  author={Rakkolainen, Ismo and Raisamo, Roope and Turk, Matthew and H{\"o}llerer, Tobias and Palovuori, Karri},
+  booktitle={2017 3DTV Conference: The True Vision-Capture, Transmission and Display of 3D Video (3DTV-CON)},
+  pages={1--4},
+  year={2017},
+  organization={IEEE}
+}"
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Rakkolainen-2017-3DTV.pdf
+  title: Extreme field-of-view for head-mounted displays
+  where: 3DTV Conference (3DTV-CON)
+  year: 2017
+
 - areas: []
   authors: Victor Fragoso, Chris Sweeney, Pradeep Sen, Matthew Turk
   bibtex: "@article{fragoso2017ansac,
