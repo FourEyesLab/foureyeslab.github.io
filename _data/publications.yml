@@ -6,6 +6,19 @@
 #   where:
 #   year:
 
+- areas: []
+  authors: Victor Fragoso, Chris Sweeney, Pradeep Sen, Matthew Turk
+  bibtex: "@article{fragoso2017ansac,
+  title={Ansac: Adaptive non-minimal sample and consensus},
+  author={Fragoso, Victor and Sweeney, Chris and Sen, Pradeep and Turk, Matthew},
+  journal={arXiv preprint arXiv:1709.09559},
+  year={2017}
+}"
+  link: http://vfragoso.com/pdfs/graphmatch.pdf
+  title: ANSAC: Adaptive Non-Minimal Sample and Consensus
+  where: British Machine Vision Conference (BMVC)
+  year: 2017
+
 - areas: [VR, HCI]
   authors: Benjamin Nuernberger, "Tobias H\xF6llerer", Matthew Turk
   bibtex: "@inproceedings{nuernberger2017evaluating,
