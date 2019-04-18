@@ -6,6 +6,21 @@
 #   where:
 #   year:
 
+- areas: [VR, HCI]
+  authors: Benjamin Nuernberger, "Tobias H\xF6llerer", Matthew Turk
+  bibtex: "@inproceedings{nuernberger2017evaluating,
+  title={Evaluating snapping-to-photos virtual travel interfaces for 3D reconstructed visual reality},
+  author={Nuernberger, Benjamin and Turk, Matthew and H{\"o}llerer, Tobias},
+  booktitle={Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology},
+  pages={22},
+  year={2017},
+  organization={ACM}
+}"
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Nuernberger-2017-VRST.pdf
+  title: Evaluating snapping-to-photos virtual travel interfaces for 3D reconstructed visual reality
+  where: Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology
+  year: 2017
+
 - areas: [CV, AR]
   authors: Yulia Gizatdinova, Oleg Spakov, Outi Tuisku, Matthew Turk, Veikko Surakka
   bibtex: "@inproceedings{DBLP:conf/etra/GizatdinovaSTTS18,
