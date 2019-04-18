@@ -7,7 +7,7 @@
 #   year:
 
 - areas: [VR, HCI]
-  authors: David Englmeier, Isabel Sch{\"o}newald, Andreas Butz, "Tobias H\xF6llerer"
+  authors: [David Englmeier, Isabel Sch{\"o}newald, Andreas Butz, "Tobias H\xF6llerer"]
   bibtex: "@article{englmeiersphere,
   title={Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations},
   author={Englmeier, David and Sch{\"o}newald, Isabel and Butz, Andreas and H{\"o}llerer, Tobias}
@@ -18,7 +18,7 @@
   year: 2019
 
 - areas: [AR]
-  authors: Ismo Rakkolainen, Roope Raisamo, Matthew Turk, "Tobias H\xF6llerer", Karri Palovuori
+  authors: [Ismo Rakkolainen, Roope Raisamo, Matthew Turk, "Tobias H\xF6llerer", Karri Palovuori]
   bibtex: "@inproceedings{rakkolainen2017extreme,
   title={Extreme field-of-view for head-mounted displays},
   author={Rakkolainen, Ismo and Raisamo, Roope and Turk, Matthew and H{\"o}llerer, Tobias and Palovuori, Karri},
@@ -32,8 +32,8 @@
   where: 3DTV Conference (3DTV-CON)
   year: 2017
 
-- areas: []
-  authors: Victor Fragoso, Chris Sweeney, Pradeep Sen, Matthew Turk
+- areas: [ML]
+  authors: [Victor Fragoso, Chris Sweeney, Pradeep Sen, Matthew Turk]
   bibtex: "@article{fragoso2017ansac,
   title={Ansac: Adaptive non-minimal sample and consensus},
   author={Fragoso, Victor and Sweeney, Chris and Sen, Pradeep and Turk, Matthew},
@@ -46,7 +46,7 @@
   year: 2017
 
 - areas: [VR, HCI]
-  authors: Benjamin Nuernberger, "Tobias H\xF6llerer", Matthew Turk
+  authors: [Benjamin Nuernberger, "Tobias H\xF6llerer", Matthew Turk]
   bibtex: "@inproceedings{nuernberger2017evaluating,
   title={Evaluating snapping-to-photos virtual travel interfaces for 3D reconstructed visual reality},
   author={Nuernberger, Benjamin and Turk, Matthew and H{\"o}llerer, Tobias},
@@ -61,7 +61,7 @@
   year: 2017
 
 - areas: [CV, AR]
-  authors: Yulia Gizatdinova, Oleg Spakov, Outi Tuisku, Matthew Turk, Veikko Surakka
+  authors: [Yulia Gizatdinova, Oleg Spakov, Outi Tuisku, Matthew Turk, Veikko Surakka]
   bibtex: "@inproceedings{DBLP:conf/etra/GizatdinovaSTTS18,
   author    = {Yulia Gizatdinova and
                Oleg Spakov and
@@ -86,7 +86,7 @@
   year: 2018
 
 - areas: [CV]
-  authors: Ismo Rakkolainen, Roope Raisamo, "Tobias H\xF6llerer", Matthew Turk
+  authors: [Ismo Rakkolainen, Roope Raisamo, "Tobias H\xF6llerer", Matthew Turk]
   bibtex: "@inproceedings{Rakkolainen:2018:IDC:3281505.3281589,
  author = {Rakkolainen, I. and Raisamo, R. and Turk, M. and H\"{o}llerer, T.},
  title = {Illumination for 360 Degree Cameras},
