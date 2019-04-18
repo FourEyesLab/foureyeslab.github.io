@@ -6,6 +6,32 @@
 #   where:
 #   year:
 
+- areas: [CV, AR]
+  authors: Yulia Gizatdinova, Oleg Spakov, Outi Tuisku, Matthew Turk, Veikko Surakka
+  bibtex: "@inproceedings{DBLP:conf/etra/GizatdinovaSTTS18,
+  author    = {Yulia Gizatdinova and
+               Oleg Spakov and
+               Outi Tuisku and
+               Matthew Turk and
+               Veikko Surakka},
+  title     = {Gaze and head pointing for hands-free text entry: applicability to
+               ultra-small virtual keyboards},
+  booktitle = {Proceedings of the 2018 {ACM} Symposium on Eye Tracking Research {\&}
+               Applications, {ETRA} 2018, Warsaw, Poland, June 14-17, 2018},
+  pages     = {14:1--14:9},
+  year      = {2018},
+  crossref  = {DBLP:conf/etra/2018},
+  url       = {https://doi.org/10.1145/3204493.3204539},
+  doi       = {10.1145/3204493.3204539},
+  timestamp = {Wed, 21 Nov 2018 12:44:21 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/etra/GizatdinovaSTTS18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}"
+  link: https://doi.org/10.1145/3204493.3204539
+  title: Gaze and head pointing for hands-free text entry: applicability to ultra-small virtual keyboards
+  where: Proceedings of the 2018 {ACM} Symposium on Eye Tracking Research {\&} Applications
+  year: 2018
+
 - areas: [CV]
   authors: Ismo Rakkolainen, Roope Raisamo, "Tobias H\xF6llerer", Matthew Turk
   bibtex: "@inproceedings{Rakkolainen:2018:IDC:3281505.3281589,
