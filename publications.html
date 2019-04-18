@@ -4,6 +4,7 @@ title: Publications
 permalink: /publications
 ---
 
+{% assign bib_index = 1 %}
 <div class="text-white c-ucsb" style="padding-top:40px;">
         <div id="bodyContainer" class="container c-ucsb">
 
@@ -21,8 +22,7 @@ permalink: /publications
                             <h2>{{year}}</h2>
 
                             <ul class="publication-list">
-                                {% for pub in site.data.publications %}
-                                {% if pub.year == year %}
+                                {% for pub in site.data.publications %}{% if pub.year == year %}
                                 <li class="publication-item">
                                     <span class="publication-title">{{pub.title}}</span>
                                     <span class="publication-authors">{{pub.authors | join:", "}}</span>
@@ -41,23 +41,12 @@ permalink: /publications
                                             <span><a href="https://doi.org/{{pub.doi}}">DOI</a></span>
                                         {% endif %}
                                         {% if pub.bibtex %}
-                                            <!-- <span><a href="#" onclick="toggleBibtex(this); return false;">Bibtex</a></span> -->
-                                            <span><a href="#bib" data-lity="">Bibtex</a>
-                                                <div id="bib" style="overflow: auto; background: rgb(253, 253, 246); padding: 20px; width: 600px; max-width: 100%; border-radius: 6px; max-height: 926px;" class="lity-hide">
-                                                    {{pub.bibtex | newline_to_br }}
-                                                </div>
-                                            </span>
+                                            <span><a href="#" onclick='toggleBibtex({{ pub.bibtex || jsonify || replace: "'", "\\x27" }}); return false;'>Bibtex</a></span>
                                         {% endif %}
 
                                     </span>
-                                    <!-- <span class="publication-details" style="display: none">
-                                        {% if pub.bibtex %}
-                                            <pre>{{pub.bibtex}}</pre>
-                                        {% endif %}
-                                    </span> -->
                                 </li>
-                                {% endif %}
-                                {% endfor %}
+                                {% endif %}{% endfor %}
                             </ul>
                             {% endfor %}
 
@@ -73,13 +62,13 @@ permalink: /publications
 
 <script type="text/javascript">
 
-function toggleBibtex(a) {
-    let parent = a.parentNode.parentNode.parentNode;
-    let details = parent.lastChild.previousSibling;
-    if(details.style.display != "none") {
-        details.style.display = "none";
-    } else {
-        details.style.display = "block";
-    }
+function toggleBibtex(bibtex) {
+    console.log(bibtex);
+    lines = [
+        '<div id="bib-{{bib_index}}" style="overflow: auto; background: rgb(253, 253, 246); padding: 20px; width: 600px; max-width: 100%; border-radius: 6px; max-height: 926px;" class="lity-hide">',
+            '<pre style="content-editable: true">' + bibtex + '</pre>',
+        '</div>'
+    ];
+    lity(lines.join(""));
 }
 </script>
