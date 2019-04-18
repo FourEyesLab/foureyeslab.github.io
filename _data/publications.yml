@@ -7,7 +7,7 @@
 #   year:
 
 - areas: [VR, HCI]
-  authors: [David Englmeier, Isabel Sch{\"o}newald, Andreas Butz, "Tobias H\xF6llerer"]
+  authors: [David Englmeier, "Isabel Sch{\"o}newald", Andreas Butz, "Tobias H\xF6llerer"]
   bibtex: "@article{englmeiersphere,
   title={Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations},
   author={Englmeier, David and Sch{\"o}newald, Isabel and Butz, Andreas and H{\"o}llerer, Tobias}
