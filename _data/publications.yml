@@ -1,18 +1,26 @@
 # - areas: []
-#   authors:
+#   authors: 
 #   bibtex: ""
 #   link: 
 #   title:
 #   where:
 #   year:
 
-- areas: []
-  authors:
+- areas: [VR]
+  authors: [David Englmeier, "Isabel Sch\xF6newald", Andreas Butz, "Tobias H\xF6llerer"]
   bibtex: ""
-  link:
-  title:
-  where:
-  year:
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-NIDIT.pdf
+  title: Feel the Globe: Enhancing the Perception of Immersive Spherical Visualizations with Tangible Proxies
+  where: NIDIT 2019: The First IEEE VR Workshop on Novel Input Devices and Interaction Techniques, March 24, 2019, Osaka, Japan
+  year: 2019
+
+- areas: [AR]
+  authors: Wallace S Lages, Yuan Li, Lee Lisle, Feiyu Lu, "Tobias H\xF6llerer", Doug A. Bowman
+  bibtex: ""
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Lages-2019-IEEEVRPoster.pdf
+  title: Enhanced Geometric Techniques for Point Marking in Model-Free Augmented Reality
+  where: IEEE Virtual Reality 2019, Poster, March 25-27, 2019, Osaka, Japan
+  year: 2019
 
 - areas: [VR, HCI]
   authors: [David Englmeier, "Isabel Sch\xF6newald", Andreas Butz, "Tobias H\xF6llerer"]
