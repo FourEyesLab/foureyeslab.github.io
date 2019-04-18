@@ -1,12 +1,9 @@
 - areas: [AI, CV]
   authors: [Pushkar Shukla, Hemant Sadana, Apaar Bansal, Deepak Verma, Carlos Elmadjian, Balasubramanian Raman, Matthew Turk]
-  bibtex: "@inproceedings{shukla2018automatic,
-  title={Automatic Cricket Highlight generation using Event-Driven and Excitement-Based features},
-  author={Shukla, Pushkar and Sadana, Hemant and Bansal, Apaar and Verma, Deepak and Elmadjian, Carlos and Raman, Balasubramanian and Turk, Matthew},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
-  pages={1800--1808},
-  year={2018}
-  }"
+  bibtex: "@inproceedings{shukla2018automatic,\n title={Automatic Cricket Highlight generation using Event-Driven and Excitement-Based features},\n\
+    \ author={Shukla, Pushkar and Sadana, Hemant and Bansal, Apaar and Verma, Deepak and Elmadjian, Carlos and Raman, Balasubramanian and Turk, Matthew},\n\
+    \ booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},\n\
+    \ pages={1800--1808},\n year={2018},\n organization={IEEE}\n}\n"
   link: http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w34/Shukla_Automatic_Cricket_Highlight_CVPR_2018_paper.pdf
   title: 'Automatic Cricket highlight generation using event-driven and excitement based features'
   where: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops 
