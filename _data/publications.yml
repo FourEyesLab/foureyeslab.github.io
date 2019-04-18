@@ -1,3 +1,11 @@
+# - areas: []
+#   authors:
+#   bibtex: ""
+#   link: 
+#   title:
+#   where:
+#   year:
+
 - areas: [VR]
   authors: [Benjamin Nuernberger, "Tobias H\xF6llerer", Matthew Turk]
   bibtex: "@inproceedings{nuernberger2018hybrid,
