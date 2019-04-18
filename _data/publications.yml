@@ -7,13 +7,13 @@
 #   year:
 
 - areas: [VR, HCI]
-  authors: [David Englmeier, "Isabel Sch{\"o}newald", Andreas Butz, "Tobias H\xF6llerer"]
+  authors: [David Englmeier, "Isabel Sch\xF6newald", Andreas Butz, "Tobias H\xF6llerer"]
   bibtex: "@article{englmeiersphere,
   title={Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations},
   author={Englmeier, David and Sch{\"o}newald, Isabel and Butz, Andreas and H{\"o}llerer, Tobias}
 }"
   link: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-IEEEVRPoster.pdf
-  title: Sphere in Hand:Exploring Tangible Interaction with Immersive Spherical Visualizations
+  title: 'Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations'
   where: IEEE Virtual Reality 2019, Poster, March 25-27, 2019, Osaka, Japan
   year: 2019
 
@@ -81,8 +81,8 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }"
   link: https://doi.org/10.1145/3204493.3204539
-  title: Gaze and head pointing for hands-free text entry:applicability to ultra-small virtual keyboards
-  where: Proceedings of the 2018 {ACM} Symposium on Eye Tracking Research {\&} Applications
+  title: 'Gaze and head pointing for hands-free text entry: applicability to ultra-small virtual keyboards'
+  where: Proceedings of the 2018 {ACM} Symposium on Eye Tracking Research and Applications
   year: 2018
 
 - areas: [CV]
