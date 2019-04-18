@@ -6,6 +6,17 @@
 #   where:
 #   year:
 
+- areas: [VR, HCI]
+  authors: David Englmeier, Isabel Sch{\"o}newald, Andreas Butz, "Tobias H\xF6llerer"
+  bibtex: "@article{englmeiersphere,
+  title={Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations},
+  author={Englmeier, David and Sch{\"o}newald, Isabel and Butz, Andreas and H{\"o}llerer, Tobias}
+}"
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-IEEEVRPoster.pdf
+  title: Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations
+  where: IEEE Virtual Reality 2019, Poster, March 25-27, 2019, Osaka, Japan
+  year: 2019
+
 - areas: [AR]
   authors: Domagoy Bari{\v{c}}evi{\'c}, Tobias H{\"o}llerer, Pradeep Sen, Matthew Turk
   bibtex: "@article{barivcevic2017user,
