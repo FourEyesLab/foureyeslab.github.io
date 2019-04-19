@@ -14,7 +14,7 @@
   year: 2019
 
 - areas: [AR]
-  authors: Wallace S Lages, Yuan Li, Lee Lisle, Feiyu Lu, "Tobias H\xF6llerer", Doug A. Bowman
+  authors: [Wallace S Lages, Yuan Li, Lee Lisle, Feiyu Lu, "Tobias H\xF6llerer", Doug A. Bowman]
   link: https://sites.cs.ucsb.edu/~holl/pubs/Lages-2019-IEEEVRPoster.pdf
   title: Enhanced Geometric Techniques for Point Marking in Model-Free Augmented Reality
   where: IEEE Virtual Reality 2019, Poster, March 25-27, 2019, Osaka, Japan
