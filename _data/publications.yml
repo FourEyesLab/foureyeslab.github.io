@@ -1,6 +1,6 @@
 # - areas: []
 #   authors: 
-#   bibtex: ""
+#   bibtex: "" (remove this line if bibtex is not available)
 #   link: 
 #   title:
 #   where:
@@ -8,7 +8,6 @@
 
 - areas: [VR]
   authors: [David Englmeier, "Isabel Sch\xF6newald", Andreas Butz, "Tobias H\xF6llerer"]
-  bibtex: ""
   link: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-NIDIT.pdf
   title: 'Feel the Globe: Enhancing the Perception of Immersive Spherical Visualizations with Tangible Proxies'
   where: 'NIDIT 2019: The First IEEE VR Workshop on Novel Input Devices and Interaction Techniques, March 24, 2019, Osaka, Japan'
@@ -16,7 +15,6 @@
 
 - areas: [AR]
   authors: Wallace S Lages, Yuan Li, Lee Lisle, Feiyu Lu, "Tobias H\xF6llerer", Doug A. Bowman
-  bibtex: ""
   link: https://sites.cs.ucsb.edu/~holl/pubs/Lages-2019-IEEEVRPoster.pdf
   title: Enhanced Geometric Techniques for Point Marking in Model-Free Augmented Reality
   where: IEEE Virtual Reality 2019, Poster, March 25-27, 2019, Osaka, Japan
@@ -24,10 +22,11 @@
 
 - areas: [VR, HCI]
   authors: [David Englmeier, "Isabel Sch\xF6newald", Andreas Butz, "Tobias H\xF6llerer"]
-  bibtex: "@article{englmeiersphere,
-  title={Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations},
-  author={Englmeier, David and Sch{\"o}newald, Isabel and Butz, Andreas and H{\"o}llerer, Tobias}
-}"
+  bibtex: |
+    @article{englmeiersphere,
+      title={Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations},
+      author={Englmeier, David and Sch{\"o}newald, Isabel and Butz, Andreas and H{\"o}llerer, Tobias}
+    }
   link: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-IEEEVRPoster.pdf
   title: 'Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations'
   where: IEEE Virtual Reality 2019, Poster, March 25-27, 2019, Osaka, Japan
@@ -35,14 +34,15 @@
 
 - areas: [AR]
   authors: [Ismo Rakkolainen, Roope Raisamo, Matthew Turk, "Tobias H\xF6llerer", Karri Palovuori]
-  bibtex: "@inproceedings{rakkolainen2017extreme,
-  title={Extreme field-of-view for head-mounted displays},
-  author={Rakkolainen, Ismo and Raisamo, Roope and Turk, Matthew and H{\"o}llerer, Tobias and Palovuori, Karri},
-  booktitle={2017 3DTV Conference: The True Vision-Capture, Transmission and Display of 3D Video (3DTV-CON)},
-  pages={1--4},
-  year={2017},
-  organization={IEEE}
-}"
+  bibtex: |
+    @inproceedings{rakkolainen2017extreme,
+      title={Extreme field-of-view for head-mounted displays},
+      author={Rakkolainen, Ismo and Raisamo, Roope and Turk, Matthew and H{\"o}llerer, Tobias and Palovuori, Karri},
+      booktitle={2017 3DTV Conference: The True Vision-Capture, Transmission and Display of 3D Video (3DTV-CON)},
+      pages={1--4},
+      year={2017},
+      organization={IEEE}
+    }
   link: https://sites.cs.ucsb.edu/~holl/pubs/Rakkolainen-2017-3DTV.pdf
   title: Extreme field-of-view for head-mounted displays
   where: 3DTV Conference (3DTV-CON)
