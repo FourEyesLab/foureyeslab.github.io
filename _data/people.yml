@@ -6,6 +6,14 @@
 #   role: faculty / research_scientist / phd_student / master_student / visitor
 #   alumni: yes / no (or leave out)
 
+- name: yi_ding
+  display: "Yi Ding"
+  role: phd_student
+  website: "https://www.linkedin.com/in/yding37/"
+  description: "Machine Learning, Human Computer Interaction, and Affective Computing"
+  photo: yi_ding.jpg
+  alumni: false
+  
 - name: lingqi_yan
   display: "Lingqi Yan"
   role: faculty
