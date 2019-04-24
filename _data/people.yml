@@ -13,6 +13,14 @@
   description: "Machine Learning, Human Computer Interaction, and Affective Computing"
   photo: yi_ding.jpg
   alumni: false
+
+- name: lei_xu
+  display: "Lei Xu"
+  role: master_student
+  website: "http://lei-xu.com/"
+  description: "Interested in Computer Graphics. Especially in rendering, both real-time and offline, and their application in games and movies industry."
+  photo: lei_xu.jpg
+  alumni: false
   
 - name: lingqi_yan
   display: "Lingqi Yan"
