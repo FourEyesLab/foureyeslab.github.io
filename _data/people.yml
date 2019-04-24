@@ -21,6 +21,12 @@
   description: "Interested in Computer Graphics. Especially in rendering, both real-time and offline, and their application in games and movies industry."
   photo: lei_xu.jpg
   alumni: false
+
+- name: alex_rich
+  display: "Alex Rich"
+  role: master_student
+  description: "Interested in computer vision, graphics, augmented reality, ML. Working on AR medical applications."
+  photo: alex_rich.jpg
   
 - name: lingqi_yan
   display: "Lingqi Yan"
