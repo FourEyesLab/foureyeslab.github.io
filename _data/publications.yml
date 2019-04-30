@@ -6,6 +6,13 @@
 #   where:
 #   year:
 
+- areas: []
+  authors: 
+  link: [Renate Häuslschmid, Donhao Ren, Florian Alt, Andreas Butz and Tobias "H\xF6llerer"]
+  title: 'Personalizing Content Presentation on Large 3D Head-Up Displays'
+  where: 'MIT Presence'
+  year: 2019
+
 - areas: [HCI, AI]
   authors: [James Schaffer, John O’Donovan, James Michaelis, Adrienne Raglin, and Tobias "H\xF6llerer"]
   bibtex: "" (remove this line if bibtex is not available)
