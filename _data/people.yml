@@ -32,11 +32,19 @@
   display: "Lingqi Yan"
   role: affiliated_faculty
   order: 3
-  website: "https://sites.cs.ucsb.edu/~lingqi/"
+  website: "http://www.cs.ucsb.edu/~lingqi/"
   description: "Assistant Professor of Computer Science. Research in Computer Graphics, especially physically-based rendering."
   photo: lingqi_yan.jpg
   alumni: false
 
+- name: pradeep_sen
+  display: "Pradeep Sen"
+  role: affiliated_faculty
+  order: 3
+  website: "http://ece.ucsb.edu/~psen/"
+  description: "Professor of Electrical and Computer Engineering. Research in Computer Graphics."
+  photo: pradeep.jpg
+  alumni: false
 
 - name: aiwen_xu
   display: "Aiwen Xu"
