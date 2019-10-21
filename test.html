@@ -39,7 +39,7 @@ people_roles_alumni:
 
         <div class="row mt-3">
             <div class="col-sm-12">
-                {% assign people_sorted = site.data.people | sort: "display" | sort_natural: "order" %}
+                {% assign people_sorted = site.data.people | sort: "display" | sort: "order" %}
 
                 {% assign isFirstItem = true %}
                 {% for people in people_sorted %}{% unless people.alumni %}
