@@ -45,7 +45,7 @@ people_roles_alumni:
         <div class="row mt-3">
             <div class="col-xs-12 col-sm-12 col-md-12 ">
 
-                {% assign people_sorted = site.data.people | sort: "display" | stable_sort: "order" %}
+                {% assign people_sorted = site.data.people | sort: "order" %}
 
                 {% for section in page.people_roles %}
                     {% assign isFirstItem = true %}
