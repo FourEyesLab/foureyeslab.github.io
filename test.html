@@ -42,9 +42,9 @@ people_roles_alumni:
                 {% assign people_sorted = site.data.people | sort: "display" | stable_sort: "order" %}
 
                 {% assign isFirstItem = true %}
-                {% for people in people_sorted %}{% unless people.alumni %}{% if people.role == section.role %}
+                {% for people in people_sorted %}{% unless people.alumni %}
                 <p>{{people.name}}</p>
-                {% endif %}{% endunless %}{% endfor %}
+                {% endunless %}{% endfor %}
             </div>
         </div>
     </div>
