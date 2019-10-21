@@ -15,7 +15,6 @@
 
 - areas: [HCI]
   authors: [James Schaffer, John O’Donovan, James Michaelis, Adrienne Raglin, and Tobias "H\xF6llerer"]
-  bibtex: "" (remove this line if bibtex is not available)
   link: https://sites.cs.ucsb.edu/~holl/pubs/Schaffer-2019-IUI.pdf
   title: 'I Can Do Better Than Your AI: Expertise and Explanations'
   where: Proceedings of the ACM International Conference on Intelligent User Interfaces. Los Angeles, CA, March 17-20, 2019, 14 pages
