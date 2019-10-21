@@ -35,7 +35,7 @@
   description: "Professor of Electrical and Computer Engineering. Research in Computer Graphics."
   photo: pradeep.jpg
   alumni: false
-  order: 3
+  order: 1
   
 - name: yon_visell
   display: "Yon Visell"
@@ -53,7 +53,7 @@
   description: "Assistant Professor of Computer Science. Research in Computer Graphics, especially physically-based rendering."
   photo: lingqi_yan.jpg
   alumni: false
-  order: 1
+  order: 3
 
 - name: aiwen_xu
   display: "Aiwen Xu"
@@ -184,7 +184,7 @@
   display: Tobias Höllerer
   name: Tobias Höllerer
   photo: tobias_hollerer.jpg
-  order: 3
+  order: 1
   role: faculty
   description: Professor of Computer Science. Research in HCI, with focus on  AR/VR, InfoVis, 3D displays and UI, Computer Vision, contextual and social computing.
   website: http://www.cs.ucsb.edu/~holl/
@@ -202,7 +202,7 @@
   display: Misha Sra 
   name: Misha Sra 
   photo: misha_sra.jpg
-  order: 1
+  order: 3
   role: faculty
   description: John and Eileen Gerngross Assistant Professor of Computer Science. Research in HCI, with focus on AR/VR, Perceptual Engineering.
   website: https://www.cs.ucsb.edu/people/faculty/sra
