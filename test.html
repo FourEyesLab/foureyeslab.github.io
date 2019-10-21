@@ -39,75 +39,12 @@ people_roles_alumni:
 
         <div class="row mt-3">
             <div class="col-sm-12">
-            </div>
-        </div>
-
-        <div class="row mt-3">
-            <div class="col-xs-12 col-sm-12 col-md-12 ">
-
                 {% assign people_sorted = site.data.people | sort: "display" | stable_sort: "order" %}
 
-                {% for section in page.people_roles %}
-                    {% assign isFirstItem = true %}
-                    {% for people in people_sorted %}{% unless people.alumni %}{% if people.role == section.role %}
-                        {% if isFirstItem %}
-                        {% assign isFirstItem = false %}
-                <div class="people-list">
-                    <h2>{{section.display}}</h2>
-                        {% endif %}
-                    {% if people_sorted.website %}
-                    <div class="people-item people-item-clickable" onclick="document.location='{{people_sorted.website}}'">
-                    {% else %}
-                    <div class="people-item">
-                    {% endif %}
-                        <div class="photo" style="background-image: url(&quot;{{site.baseurl}}/assets/images/people/{{people_sorted.photo}}&quot;)" /></div>
-                        <div class="info">
-                            {% if people.website %}
-                            <div class="name"><a href="{{people_sorted.website}}">{{people_sorted.display}}</a></div>
-                            {% else %}
-                            <div class="name">{{people_sorted.display}}</div>
-                            {% endif %}
-                            {% if people.description %}
-                            <div class="description">{{people_sorted.description}}</div>
-                            {% endif %}
-                        </div>
-                    </div>
-                    {% endif %}{% endunless %}{% endfor %}
-                    {% if isFirstItem == false %}
-                </div>
-                    {% endif %}
-                {% endfor %}
-
-                {% for section in page.people_roles_alumni %}
-                    {% assign isFirstItem = true %}
-                    {% for people in people_sorted %}{% if people.alumni %}{% if people.role == section.role %}
-                        {% if isFirstItem %}
-                        {% assign isFirstItem = false %}
-                <div class="people-list">
-                    <h2>Past {{section.display}}</h2>
-                        {% endif %}
-                    {% if people.website %}
-                    <div class="people-item people-item-clickable" onclick="document.location='{{people.website}}'">
-                    {% else %}
-                    <div class="people-item">
-                    {% endif %}
-                        <div class="photo" style="background-image: url(&quot;{{site.baseurl}}/assets/images/people/{{people.photo}}&quot;)" /></div>
-                        <div class="info">
-                            {% if people.website %}
-                            <div class="name"><a href="{{people.website}}">{{people.display}}</a></div>
-                            {% else %}
-                            <div class="name">{{people.display}}</div>
-                            {% endif %}
-                            {% if people.description %}
-                            <div class="description">{{people.description}}</div>
-                            {% endif %}
-                        </div>
-                    </div>
-                    {% endif %}{% endif %}{% endfor %}
-                    {% if isFirstItem == false %}
-                </div>
-                    {% endif %}
-                {% endfor %}
+                {% assign isFirstItem = true %}
+                {% for people in people_sorted %}{% unless people.alumni %}{% if people.role == section.role %}
+                <p>{{people.name}}</p>
+                {% endif %}{% endunless %}{% endfor %}
             </div>
         </div>
     </div>
