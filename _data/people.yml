@@ -154,12 +154,12 @@
   role: visitor
   website: null
 
-- alumni: false
+- alumni: true
   display: Matthew Turk
   order: 2
   name: Matthew Turk
   photo: matthew_turk.jpg
-  description: "Professor and Chair, Computer Science department. Computer vision and imaging, augmented reality, multimodal interaction, AI/ML."
+  description: "Professor, Computer Science department. Computer vision and imaging, augmented reality, multimodal interaction, AI/ML."
   role: faculty
   website: http://www.cs.ucsb.edu/~mturk
 
