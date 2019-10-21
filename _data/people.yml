@@ -40,7 +40,7 @@
 - name: pradeep_sen
   display: "Pradeep Sen"
   role: affiliated_faculty
-  order: 3
+  order: 1
   website: "http://ece.ucsb.edu/~psen/"
   description: "Professor of Electrical and Computer Engineering. Research in Computer Graphics."
   photo: pradeep.jpg
@@ -49,7 +49,7 @@
 - name: yon_visell
   display: "Yon Visell"
   role: affiliated_faculty
-  order: 3
+  order: 2
   website: "http://re-touch-lab.com"
   description: "Associate Professor of Media Arets and Technology and Electrical and Computer Engineering. Research in Haptics and Robotics."
   photo: yon.jpg
@@ -173,7 +173,7 @@
 
 - alumni: true
   display: Matthew Turk
-  order: 2
+  order: 1
   name: Matthew Turk
   photo: matthew_turk.jpg
   description: "Professor, Computer Science department. Computer vision and imaging, augmented reality, multimodal interaction, AI/ML."
@@ -186,8 +186,27 @@
   photo: tobias_hollerer.jpg
   order: 1
   role: faculty
-  description: Professor of Computer Science. Research in AR/VR, InfoVis, 3D displays and UI, contextual and social computing.
+  description: Professor of Computer Science. Research in HCI, with focus on  AR/VR, InfoVis, 3D displays and UI, Computer Vision, contextual and social computing.
   website: http://www.cs.ucsb.edu/~holl/
+
+- alumni: false
+  display: Jennifer Jacobs
+  name: Jennifer Jacobs
+  photo: jennifer_jacobs.jpg
+  order: 2
+  role: faculty
+  description: Professor of Media Arts and Technology. Research in HCI, with focus on Expressive and Creative Computing and Manufacturing.
+  website: https://www.mat.ucsb.edu/faculty/#jmjacobs
+
+- alumni: false
+  display: Misha Sra 
+  name: Misha Sra 
+  photo: tobias_hollerer.jpg
+  order: 1
+  role: faculty
+  description: John and Eileen Gerngross Assistant Professor of Computer Science. Research in HCI, with focus on AR/VR, Perceptual Engineering.
+  website: http://www.cs.ucsb.edu/~holl/
+
 
 - alumni: true
   display: Nichole Stockman
