@@ -45,6 +45,15 @@
   description: "Professor of Electrical and Computer Engineering. Research in Computer Graphics."
   photo: pradeep.jpg
   alumni: false
+  
+- name: yon_visell
+  display: "Yon Visell"
+  role: affiliated_faculty
+  order: 3
+  website: "http://re-touch-lab.com"
+  description: "Associate Professor of Media Arets and Technology and Electrical and Computer Engineering. Research in Haptics and Robotics."
+  photo: yon.jpg
+  alumni: false
 
 - name: aiwen_xu
   display: "Aiwen Xu"
