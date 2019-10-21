@@ -55,20 +55,20 @@ people_roles_alumni:
                 <div class="people-list">
                     <h2>{{section.display}}</h2>
                         {% endif %}
-                    {% if people.website %}
-                    <div class="people-item people-item-clickable" onclick="document.location='{{people.website}}'">
+                    {% if people_sorted.website %}
+                    <div class="people-item people-item-clickable" onclick="document.location='{{people_sorted.website}}'">
                     {% else %}
                     <div class="people-item">
                     {% endif %}
-                        <div class="photo" style="background-image: url(&quot;{{site.baseurl}}/assets/images/people/{{people.photo}}&quot;)" /></div>
+                        <div class="photo" style="background-image: url(&quot;{{site.baseurl}}/assets/images/people/{{people_sorted.photo}}&quot;)" /></div>
                         <div class="info">
                             {% if people.website %}
-                            <div class="name"><a href="{{people.website}}">{{people.display}}</a></div>
+                            <div class="name"><a href="{{people_sorted.website}}">{{people_sorted.display}}</a></div>
                             {% else %}
-                            <div class="name">{{people.display}}</div>
+                            <div class="name">{{people_sorted.display}}</div>
                             {% endif %}
                             {% if people.description %}
-                            <div class="description">{{people.description}}</div>
+                            <div class="description">{{people_sorted.description}}</div>
                             {% endif %}
                         </div>
                     </div>
