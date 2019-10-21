@@ -193,7 +193,7 @@
   display: Jennifer Jacobs
   name: Jennifer Jacobs
   photo: jennifer_jacobs.jpg
-  order: 2
+  order: 1
   role: faculty
   description: Assistant Professor of Media Arts and Technology. Research in HCI, with focus on Expressive and Creative Computing and Manufacturing.
   website: https://www.mat.ucsb.edu/faculty/#jmjacobs
@@ -202,7 +202,7 @@
   display: Misha Sra 
   name: Misha Sra 
   photo: misha_sra.jpg
-  order: 3
+  order: 1
   role: faculty
   description: John and Eileen Gerngross Assistant Professor of Computer Science. Research in HCI, with focus on AR/VR, Perceptual Engineering.
   website: https://www.cs.ucsb.edu/people/faculty/sra
