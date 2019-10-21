@@ -195,7 +195,7 @@
   photo: jennifer_jacobs.jpg
   order: 2
   role: faculty
-  description: Professor of Media Arts and Technology. Research in HCI, with focus on Expressive and Creative Computing and Manufacturing.
+  description: Assistant Professor of Media Arts and Technology. Research in HCI, with focus on Expressive and Creative Computing and Manufacturing.
   website: https://www.mat.ucsb.edu/faculty/#jmjacobs
 
 - alumni: false
@@ -205,7 +205,7 @@
   order: 3
   role: faculty
   description: John and Eileen Gerngross Assistant Professor of Computer Science. Research in HCI, with focus on AR/VR, Perceptual Engineering.
-  website: http://www.cs.ucsb.edu/~holl/
+  website: https://www.cs.ucsb.edu/people/faculty/sra
 
 
 - alumni: true
