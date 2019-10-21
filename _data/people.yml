@@ -156,7 +156,7 @@
 
 - alumni: false
   display: Matthew Turk
-  order: 1
+  order: 2
   name: Matthew Turk
   photo: matthew_turk.jpg
   description: "Professor and Chair, Computer Science department. Computer vision and imaging, augmented reality, multimodal interaction, AI/ML."
@@ -167,7 +167,7 @@
   display: Tobias Höllerer
   name: Tobias Höllerer
   photo: tobias_hollerer.jpg
-  order: 2
+  order: 1
   role: faculty
   description: Professor of Computer Science. Research in AR/VR, InfoVis, 3D displays and UI, contextual and social computing.
   website: http://www.cs.ucsb.edu/~holl/
