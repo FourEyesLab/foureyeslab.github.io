@@ -699,7 +699,7 @@
   role: visitor
   website: null
 
-- alumni: false
+- alumni: true
   display: Donghao Ren
   name: Donghao Ren
   description: Information Visualization, Augmented Reality, and Machine Learning.
