@@ -7,14 +7,14 @@
 #   year:
 
 - areas: [HCI]
-  authors: [Renate Haeuslschmid, Donhao Ren, Florian Alt, Andreas Butz and "Tobias H\xF6llerer"]
+  authors: [Renate Haeuslschmid, Donhao Ren, Florian Alt, Andreas Butz, "Tobias H\xF6llerer"]
   link: https://sites.cs.ucsb.edu/~holl/pubs/Haeuslschmid-2019-Presence.pdf
   title: 'Personalizing Content Presentation on Large 3D Head-Up Displays'
   where: 'MIT Presence'
   year: 2019
 
 - areas: [HCI]
-  authors: [James Schaffer, John O’Donovan, James Michaelis, Adrienne Raglin, and "Tobias H\xF6llerer"]
+  authors: [James Schaffer, John O’Donovan, James Michaelis, Adrienne Raglin, "Tobias H\xF6llerer"]
   link: https://sites.cs.ucsb.edu/~holl/pubs/Schaffer-2019-IUI.pdf
   title: 'I Can Do Better Than Your AI: Expertise and Explanations'
   where: Proceedings of the ACM International Conference on Intelligent User Interfaces. Los Angeles, CA, March 17-20, 2019, 14 pages
