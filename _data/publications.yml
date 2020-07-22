@@ -6,9 +6,9 @@
 #   where:
 #   year:
 
-- areas: []
-  authors: 
-  link: [Renate Haeuslschmid, Donhao Ren, Florian Alt, Andreas Butz and Tobias "H\xF6llerer"]
+- areas: [HCI]
+  authors: [Renate Haeuslschmid, Donhao Ren, Florian Alt, Andreas Butz and Tobias "H\xF6llerer"]
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Haeuslschmid-2019-Presence.pdf
   title: 'Personalizing Content Presentation on Large 3D Head-Up Displays'
   where: 'MIT Presence'
   year: 2019
