@@ -6,27 +6,6 @@
 #   where:
 #   year:
 
-- areas: [HCI]
-  authors: [Renate Haeuslschmid, Donhao Ren, Florian Alt, Andreas Butz, "Tobias H\xF6llerer"]
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Haeuslschmid-2019-Presence.pdf
-  title: 'Personalizing Content Presentation on Large 3D Head-Up Displays'
-  where: 'MIT Presence'
-  year: 2019
-
-- areas: [HCI]
-  authors: [James Schaffer, John O’Donovan, James Michaelis, Adrienne Raglin, "Tobias H\xF6llerer"]
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Schaffer-2019-IUI.pdf
-  title: 'I Can Do Better Than Your AI: Expertise and Explanations'
-  where: Proceedings of the ACM International Conference on Intelligent User Interfaces. Los Angeles, CA, March 17-20, 2019, 14 pages
-  year: 2019
-
-- areas: [VR]
-  authors: [David Englmeier, "Isabel Sch\xF6newald", Andreas Butz, "Tobias H\xF6llerer"]
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-NIDIT.pdf
-  title: 'Feel the Globe: Enhancing the Perception of Immersive Spherical Visualizations with Tangible Proxies'
-  where: 'NIDIT 2019: The First IEEE VR Workshop on Novel Input Devices and Interaction Techniques, March 24, 2019, Osaka, Japan'
-  year: 2019
-
 - areas: [AR]
   authors: [Wallace S Lages, Yuan Li, Lee Lisle, Feiyu Lu, "Tobias H\xF6llerer", Doug A. Bowman]
   link: https://sites.cs.ucsb.edu/~holl/pubs/Lages-2019-IEEEVRPoster.pdf
@@ -44,6 +23,27 @@
   link: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-IEEEVRPoster.pdf
   title: 'Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations'
   where: IEEE Virtual Reality 2019, Poster, March 25-27, 2019, Osaka, Japan
+  year: 2019
+  
+  - areas: [VR]
+  authors: [David Englmeier, "Isabel Sch\xF6newald", Andreas Butz, "Tobias H\xF6llerer"]
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-NIDIT.pdf
+  title: 'Feel the Globe: Enhancing the Perception of Immersive Spherical Visualizations with Tangible Proxies'
+  where: 'NIDIT 2019: The First IEEE VR Workshop on Novel Input Devices and Interaction Techniques, March 24, 2019, Osaka, Japan'
+  year: 2019
+  
+  - areas: [HCI]
+  authors: [James Schaffer, John O’Donovan, James Michaelis, Adrienne Raglin, "Tobias H\xF6llerer"]
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Schaffer-2019-IUI.pdf
+  title: 'I Can Do Better Than Your AI: Expertise and Explanations'
+  where: Proceedings of the ACM International Conference on Intelligent User Interfaces. Los Angeles, CA, March 17-20, 2019, 14 pages
+  year: 2019
+  
+  - areas: [HCI]
+  authors: [Renate Haeuslschmid, Donhao Ren, Florian Alt, Andreas Butz, "Tobias H\xF6llerer"]
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Haeuslschmid-2019-Presence.pdf
+  title: 'Personalizing Content Presentation on Large 3D Head-Up Displays'
+  where: 'MIT Presence'
   year: 2019
 
 - areas: [AR]
