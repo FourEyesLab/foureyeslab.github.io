@@ -6,6 +6,17 @@
 #   where:
 #   year:
 
+- areas: [AI, HCI]
+  authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer"]
+  bibtex: "@inproceedings{Sebastian2019study,\n title={Knowledge Complacency and Decision Support Systems},\n\
+    \ author={Rodriguez, Sebastian and Schaffer, James and O'Donovan, John and H{\"o}llerer, Tobias},\n\
+    \ booktitle={2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)},\n\
+    \ pages={43--51},\n year={2019},\n organization={IEEE}\n}\n"
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Rodriguez-2019-CogSIMA.pdf
+  title: 'Knowledge Complacency and Decision Support Systems'
+  where: 2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA), April 8-11, 2019, Las Vegas, USA
+  year: 2019 
+  
 - areas: [AR]
   authors: [Wallace S Lages, Yuan Li, Lee Lisle, Feiyu Lu, "Tobias H\xF6llerer", Doug A. Bowman]
   link: https://sites.cs.ucsb.edu/~holl/pubs/Lages-2019-IEEEVRPoster.pdf
@@ -165,16 +176,6 @@
   where: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops 
   year: 2018
 
-- areas: [AI, HCI]
-  authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer"]
-  bibtex: "@inproceedings{Sebastian2019study,\n title={Knowledge Complacency and Decision Support Systems},\n\
-    \ author={Rodriguez, Sebastian and Schaffer, James and O'Donovan, John and H{\"o}llerer, Tobias},\n\
-    \ booktitle={2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)},\n\
-    \ pages={43--51},\n year={2019},\n organization={IEEE}\n}\n"
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Rodriguez-2019-CogSIMA.pdf
-  title: 'Knowledge Complacency and Decision Support Systems'
-  where: 2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA), April 8-11, 2019, Las Vegas, USA
-  year: 2019 
 - areas: [AR, HCI]
   authors: [Brandon Huynh, Adam Ibrahim, Yun Suk Chang, "Tobias H\xF6llerer", John O'Donovan]
   bibtex: "@inproceedings{huynh2018study,\n title={A Study of Situated Product Recommendations in Augmented Reality},\n\
