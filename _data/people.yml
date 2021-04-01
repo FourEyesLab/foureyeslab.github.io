@@ -6,6 +6,14 @@
 #   role: faculty / research_scientist / phd_student / master_student / visitor
 #   alumni: yes / no (or leave out)
 
+- name: kento_nishi
+  display: "Kento Nishi"
+  role: visitor
+  website: "https://github.com/KentoNishi"
+  description: "Machine Learning, Artificial Inelligence"
+  photo: kento_nishi.jpeg
+  alumni: false
+  
 - name: yi_ding
   display: "Yi Ding"
   role: phd_student
