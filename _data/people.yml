@@ -85,7 +85,7 @@
   photo: sean_lee.jpg
   website: "https://www.linkedin.com/in/seanhanbyullee/"
   description: "My research interests are HCI, emotion detection, Computer Vision especially 3D reconstruction in AR and autonomous vehicle."
-  alumni: false
+  alumni: true
 
 - name: cadu_elmadjian
   display: "Carlos Eduardo L. Elmadjian"
