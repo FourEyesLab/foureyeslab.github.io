@@ -6,6 +6,14 @@
 #   role: faculty / research_scientist / phd_student / master_student / visitor
 #   alumni: yes / no (or leave out)
 
+- name: noah_stier
+  display: "Noah Stier"
+  role: phd_student
+  website: "https://noahstier.github.io"
+  description: "Machine Learning, 3D scene understanding"
+  photo: noah_stier.jpg
+  alumni: false
+
 - name: kento_nishi
   display: "Kento Nishi"
   role: visitor
