@@ -6,6 +6,28 @@
 #   where:
 #   year:
 
+- areas: [ML, CV, 3D]
+  authors: [Noah Stier, Alexander Rich, Pradeep Sen, "Tobias H\xF6llerer"]
+  bibtex: "@article{stier2021vortx,\n title={{VoRTX}: Volumetric {3D} Reconstruction with Transformers for Voxel-wise View Selection and Fusion},\n\
+    \ author={Stier, Noah and Rich, Alexander and Sen, Pradeep and H{\"o}llerer, Tobias},\n\
+    \ booktitle={2021 International Conference on {3D} Vision ({3DV})},\n\
+    \ year={2021},\n organization={IEEE}\n}\n"
+  link: https://noahstier.github.io/vortx/
+  title: 'VoRTX: Volumetric 3D Reconstruction with Transformers for Voxel-wise View Selection and Fusion'
+  where: 2021 International Conference on 3D Vision (3DV)
+  year: 2021
+
+- areas: [AI, HCI]
+  authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer"]
+  bibtex: "@inproceedings{Sebastian2019study,\n title={Knowledge Complacency and Decision Support Systems},\n\
+    \ author={Rodriguez, Sebastian and Schaffer, James and O'Donovan, John and H{\"o}llerer, Tobias},\n\
+    \ booktitle={2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)},\n\
+    \ pages={43--51},\n year={2019},\n organization={IEEE}\n}\n"
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Rodriguez-2019-CogSIMA.pdf
+  title: 'Knowledge Complacency and Decision Support Systems'
+  where: 2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA), April 8-11, 2019, Las Vegas, USA
+  year: 2019 
+
 - areas: [AI, HCI]
   authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{Sebastian2019study,\n title={Knowledge Complacency and Decision Support Systems},\n\
