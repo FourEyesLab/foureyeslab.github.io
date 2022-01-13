@@ -17,11 +17,12 @@
 
 - areas: [ML, CV, 3D]
   authors: [Noah Stier, Alexander Rich, Pradeep Sen, "Tobias H\xF6llerer"]
-  bibtex: "@article{stier2021vortx,\n title={{VoRTX}: Volumetric {3D} Reconstruction with Transformers for Voxel-wise View Selection and Fusion},\n\
+  bibtex: "@inproceedings{stier2021vortx,\n title={{VoRTX}: Volumetric {3D} Reconstruction with Transformers for Voxel-wise View Selection and Fusion},\n\
     \ author={Stier, Noah and Rich, Alexander and Sen, Pradeep and H{\"o}llerer, Tobias},\n\
     \ booktitle={2021 International Conference on {3D} Vision ({3DV})},\n\
     \ year={2021},\n organization={IEEE}\n}\n"
-  link: https://noahstier.github.io/vortx/
+  link: https://arxiv.org/pdf/2112.00236.pdf
+  website: https://noahstier.github.io/vortx/
   title: 'VoRTX: Volumetric 3D Reconstruction with Transformers for Voxel-wise View Selection and Fusion'
   where: 2021 International Conference on 3D Vision (3DV)
   year: 2021
