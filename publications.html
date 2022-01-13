@@ -35,7 +35,10 @@ permalink: /publications
                                             <span><a href="{{pub.website}}">Website</a></span>
                                         {% endif %}
                                         {% if pub.link %}
-                                            <span><a href="{{pub.link}}">Download</a></span>
+                                            <span><a href="{{pub.link}}">Project Page</a></span>
+                                        {% endif %}
+                                        {% if pub.pdf %}
+                                            <span><a href="{{pub.pdf}}">Download</a></span>
                                         {% endif %}
                                         {% if pub.doi %}
                                             <span><a href="https://doi.org/{{pub.doi}}">DOI</a></span>

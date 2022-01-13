@@ -1,7 +1,8 @@
 # - areas: []
 #   authors: 
 #   bibtex: "" (remove this line if bibtex is not available)
-#   link: 
+#   pdf:  link to a pdf
+#   link: link to a project web page
 #   title:
 #   where:
 #   year:
@@ -10,7 +11,7 @@
 - areas: [HCI,VR,3D]
   authors: [Ehsan Sayyad, Pradeep Sen, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{sayyad2020walking, title={Walking and Teleportation in Wide-area Virtual Reality Experiences}, author={Sayyad, Ehsan and Sra, Misha and H{\"o}llerer, Tobias}, booktitle={2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)}, pages={608--617}, year={2020}, organization={IEEE} }"
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Sayyad-2020-ISMAR.pdf
+  pdf: https://sites.cs.ucsb.edu/~holl/pubs/Sayyad-2020-ISMAR.pdf
   title: 'Walking and Teleportation in Wide-area Virtual Reality Experiences'
   where: 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
   year: 2020
@@ -21,6 +22,7 @@
     \ author={Stier, Noah and Rich, Alexander and Sen, Pradeep and H{\"o}llerer, Tobias},\n\
     \ booktitle={2021 International Conference on {3D} Vision ({3DV})},\n\
     \ year={2021},\n organization={IEEE}\n}\n"
+  pdf: https://arxiv.org/pdf/2112.00236.pdf
   link: https://noahstier.github.io/vortx/
   title: 'VoRTX: Volumetric 3D Reconstruction with Transformers for Voxel-wise View Selection and Fusion'
   where: 2021 International Conference on 3D Vision (3DV)
@@ -32,7 +34,7 @@
     \ author={Rodriguez, Sebastian and Schaffer, James and O'Donovan, John and H{\"o}llerer, Tobias},\n\
     \ booktitle={2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)},\n\
     \ pages={43--51},\n year={2019},\n organization={IEEE}\n}\n"
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Rodriguez-2019-CogSIMA.pdf
+  pdf: https://sites.cs.ucsb.edu/~holl/pubs/Rodriguez-2019-CogSIMA.pdf
   title: 'Knowledge Complacency and Decision Support Systems'
   where: 2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA), April 8-11, 2019, Las Vegas, USA
   year: 2019 
@@ -43,14 +45,14 @@
     \ author={Rodriguez, Sebastian and Schaffer, James and O'Donovan, John and H{\"o}llerer, Tobias},\n\
     \ booktitle={2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)},\n\
     \ pages={43--51},\n year={2019},\n organization={IEEE}\n}\n"
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Rodriguez-2019-CogSIMA.pdf
+  pdf: https://sites.cs.ucsb.edu/~holl/pubs/Rodriguez-2019-CogSIMA.pdf
   title: 'Knowledge Complacency and Decision Support Systems'
   where: 2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA), April 8-11, 2019, Las Vegas, USA
   year: 2019 
   
 - areas: [AR]
   authors: [Wallace S Lages, Yuan Li, Lee Lisle, Feiyu Lu, "Tobias H\xF6llerer", Doug A. Bowman]
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Lages-2019-IEEEVRPoster.pdf
+  pdf: https://sites.cs.ucsb.edu/~holl/pubs/Lages-2019-IEEEVRPoster.pdf
   title: Enhanced Geometric Techniques for Point Marking in Model-Free Augmented Reality
   where: 'IEEE Virtual Reality 2019, Poster, March 25-27, 2019, Osaka, Japan'
   year: 2019
@@ -62,28 +64,28 @@
       title={Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations},
       author={Englmeier, David and Sch{\"o}newald, Isabel and Butz, Andreas and H{\"o}llerer, Tobias}
     }
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-IEEEVRPoster.pdf
+  pdf: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-IEEEVRPoster.pdf
   title: 'Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations'
   where: IEEE Virtual Reality 2019, Poster, March 25-27, 2019, Osaka, Japan
   year: 2019
   
 - areas: [VR]
   authors: [David Englmeier, "Isabel Sch\xF6newald", Andreas Butz, "Tobias H\xF6llerer"]
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-NIDIT.pdf
+  pdf: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-NIDIT.pdf
   title: 'Feel the Globe: Enhancing the Perception of Immersive Spherical Visualizations with Tangible Proxies'
   where: 'NIDIT 2019: The First IEEE VR Workshop on Novel Input Devices and Interaction Techniques, March 24, 2019, Osaka, Japan'
   year: 2019
   
 - areas: [HCI]
   authors: [James Schaffer, John O’Donovan, James Michaelis, Adrienne Raglin, "Tobias H\xF6llerer"]
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Schaffer-2019-IUI.pdf
+  pdf: https://sites.cs.ucsb.edu/~holl/pubs/Schaffer-2019-IUI.pdf
   title: 'I Can Do Better Than Your AI: Expertise and Explanations'
   where: Proceedings of the ACM International Conference on Intelligent User Interfaces. Los Angeles, CA, March 17-20, 2019, 14 pages
   year: 2019
   
 - areas: [HCI]
   authors: [Renate Haeuslschmid, Donhao Ren, Florian Alt, Andreas Butz, "Tobias H\xF6llerer"]
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Haeuslschmid-2019-Presence.pdf
+  pdf: https://sites.cs.ucsb.edu/~holl/pubs/Haeuslschmid-2019-Presence.pdf
   title: 'Personalizing Content Presentation on Large 3D Head-Up Displays'
   where: 'MIT Presence'
   year: 2019
@@ -99,7 +101,7 @@
       year={2017},
       organization={IEEE}
     }
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Rakkolainen-2017-3DTV.pdf
+  pdf: https://sites.cs.ucsb.edu/~holl/pubs/Rakkolainen-2017-3DTV.pdf
   title: Extreme field-of-view for head-mounted displays
   where: 3DTV Conference (3DTV-CON)
   year: 2017
@@ -112,7 +114,7 @@
   journal={arXiv preprint arXiv:1709.09559},
   year={2017}
 }"
-  link: http://vfragoso.com/pdfs/graphmatch.pdf
+  pdf: http://vfragoso.com/pdfs/graphmatch.pdf
   title: ANSAC:Adaptive Non-Minimal Sample and Consensus
   where: British Machine Vision Conference (BMVC)
   year: 2017
@@ -127,7 +129,7 @@
   year={2017},
   organization={ACM}
 }"
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Nuernberger-2017-VRST.pdf
+  pdf: https://sites.cs.ucsb.edu/~holl/pubs/Nuernberger-2017-VRST.pdf
   title: Evaluating snapping-to-photos virtual travel interfaces for 3D reconstructed visual reality
   where: Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology
   year: 2017
@@ -152,7 +154,7 @@
   biburl    = {https://dblp.org/rec/bib/conf/etra/GizatdinovaSTTS18},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }"
-  link: https://doi.org/10.1145/3204493.3204539
+  pdf: https://doi.org/10.1145/3204493.3204539
   title: 'Gaze and head pointing for hands-free text entry: applicability to ultra-small virtual keyboards'
   where: Proceedings of the 2018 {ACM} Symposium on Eye Tracking Research and Applications
   year: 2018
@@ -176,7 +178,7 @@
  publisher = {ACM},
  address = {New York, NY, USA},
 } "
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Rakkolainen-2018-VRSTPoster.pdf
+  pdf: https://sites.cs.ucsb.edu/~holl/pubs/Rakkolainen-2018-VRSTPoster.pdf
   title: Illumination for 360 Degree Cameras
   where: Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology (VRST 2018)
   year: 2018
@@ -191,7 +193,7 @@
   year={2018},
   organization={ACM}
   }"
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Nuernberger-2018-VRST.pdf
+  pdf: https://sites.cs.ucsb.edu/~holl/pubs/Nuernberger-2018-VRST.pdf
   title: Hybrid orbiting-to-photos in 3D reconstructed visual reality
   where: Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology
   year: 2018
@@ -202,7 +204,7 @@
     \ author={Shukla, Pushkar and Sadana, Hemant and Bansal, Apaar and Verma, Deepak and Elmadjian, Carlos and Raman, Balasubramanian and Turk, Matthew},\n\
     \ booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},\n\
     \ pages={1800--1808},\n year={2018},\n organization={IEEE}\n}\n"
-  link: http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w34/Shukla_Automatic_Cricket_Highlight_CVPR_2018_paper.pdf
+  pdf: http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w34/Shukla_Automatic_Cricket_Highlight_CVPR_2018_paper.pdf
   title: 'Automatic Cricket highlight generation using event-driven and excitement based features'
   where: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops 
   year: 2018
@@ -213,7 +215,7 @@
     \ author={Huynh, Brandon and Ibrahim, Adam and Chang, Yun Suk and H{\"o}llerer, Tobias and O'Donovan, John},\n\
     \ booktitle={2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)},\n\
     \ pages={35--43},\n year={2018},\n organization={IEEE}\n}\n"
-  link: http://www.cs.ucsb.edu/~holl/pubs/Huynh-2018-AIVR.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Huynh-2018-AIVR.pdf
   title: 'A Study of Situated Product Recommendations in Augmented Reality'
   where: IEEE International Conference on Artificial Intelligence and Virtual Reality, AIVR 2018, Taichung, Taiwan, December 10-12, 2018
   year: 2018
@@ -224,7 +226,7 @@
     \ and Downey, Jonathan and H{\"o}llerer, Tobias and Chun, Dorothy and O'donovan, John},\n\
     \ journal={IEEE transactions on visualization and computer graphics},\n\
     \ volume={24},\n number={11},\n pages={2867--2874},\n year={2018},\n publisher={IEEE}\n}\n"
-  link: http://cs.ucsb.edu/~holl/pubs/Ibrahim-2018-ISMAR.pdf
+  pdf: http://cs.ucsb.edu/~holl/pubs/Ibrahim-2018-ISMAR.pdf
   title: 'ARbis Pictus: A Study of Vocabulary Learning with Augmented Reality'
   where: IEEE Trans. Vis. Comput. Graph.
   year: 2018
@@ -235,7 +237,7 @@
     \ booktitle={Proceedings of the IEEE\
     \ Conference on Computer Vision and Pattern Recognition},\n  pages={3446--3455},\n\
     \  year={2018}\n}\n"
-  link: http://openaccess.thecvf.com/content_cvpr_2018/papers/Kozerawski_CLEAR_Cumulative_LEARning_CVPR_2018_paper.pdf
+  pdf: http://openaccess.thecvf.com/content_cvpr_2018/papers/Kozerawski_CLEAR_Cumulative_LEARning_CVPR_2018_paper.pdf
   title: 'CLEAR: Cumulative LEARning for One-Shot One-Class Image Recognition.'
   where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018, Salt Lake City, UT, USA, June 18-22, 2018
   year: 2018
@@ -248,7 +250,7 @@
     \  pages={1838--1851},\n  year={2017},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/TVCG.2016.2559483
   key: journals/tvcg/BaricevicHST17
-  link: http://www.cs.ucsb.edu/~holl/pubs/Baricevic-2017-TVCG.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Baricevic-2017-TVCG.pdf
   title: User-Perspective AR Magic Lens from Gradient-Based IBR and Semi-Dense Stereo.
   where: IEEE Trans. Vis. Comput. Graph.
   year: 2017
@@ -261,7 +263,7 @@
     \  year={2017}\n}\n"
   doi: 10.1145/3027063.3053227
   key: conf/chi/NarwalSLOOHS17
-  link: https://arxiv.org/pdf/1702.06492
+  pdf: https://arxiv.org/pdf/1702.06492
   title: Automated Assistants to Identify and Prompt Action on Visual News Bias.
   website: http://dl.acm.org/citation.cfm?id=3053227
   where: Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems,
@@ -276,7 +278,7 @@
     }\n"
   doi: 10.1145/3131085.3131088
   key: conf/mindtrek/RakkolainenRTH17
-  link: https://www.researchgate.net/profile/Ismo_Rakkolainen2/publication/319925950_Field-of-view_extension_for_VR_viewers/links/59c56398458515548f28c4ed/Field-of-view-extension-for-VR-viewers.pdf
+  pdf: https://www.researchgate.net/profile/Ismo_Rakkolainen2/publication/319925950_Field-of-view_extension_for_VR_viewers/links/59c56398458515548f28c4ed/Field-of-view-extension-for-VR-viewers.pdf
   title: Field-of-view extension for VR viewers.
   where: Proceedings of the 21st International Academic Mindtrek Conference, AcademicMindtrek
     2017, Tampere, Finland, September 20 - 21, 2017
@@ -291,7 +293,7 @@
     }\n"
   doi: 10.1109/VR.2017.7892383
   key: conf/vr/ChangNLHO17
-  link: https://scholar.google.com/scholar?output=instlink&q=info:29cuj47eeKsJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=10511702014077207915&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:29cuj47eeKsJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=10511702014077207915&oi=lle
   title: Gesture-based augmented reality annotation.
   where: 2017 IEEE Virtual Reality, VR 2017, Los Angeles, CA, USA, March 18-22, 2017
   year: 2017
@@ -304,7 +306,7 @@
     \  year={2017},\n  organization={IEEE}\n}\n"
   doi: 10.1109/WACV.2017.99
   key: conf/wacv/BaricevicHT17
-  link: http://www.cs.ucsb.edu/~mturk/pubs/BaricevicWACV2017.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/pubs/BaricevicWACV2017.pdf
   title: Densification of Semi-Dense Reconstructions for Novel View Generation of
     Live Scenes.
   where: 2017 IEEE Winter Conference on Applications of Computer Vision, WACV 2017,
@@ -318,7 +320,7 @@
     \ Hollerer, Tobias and Savage, Saiph},\n  journal={arXiv preprint arXiv:1702.06492},\n\
     \  year={2017}\n}\n"
   key: journals/corr/NarwalSLOOHS17
-  link: https://arxiv.org/pdf/1702.06492
+  pdf: https://arxiv.org/pdf/1702.06492
   title: Automated Assistants to Identify and Prompt Action on Visual News Bias.
   where: CoRR
   year: 2017
@@ -333,7 +335,7 @@
     \ Sage CA: Los Angeles, CA}\n}\n"
   doi: 10.1177/0018720815619515
   key: journals/hf/MarusichBOYSOHB16
-  link: http://journals.sagepub.com/doi/full/10.1177/0018720815619515
+  pdf: http://journals.sagepub.com/doi/full/10.1177/0018720815619515
   title: 'Effects of Information Availability on Command-and-Control Decision Making:
     Performance, Trust, and Situation Awareness.'
   where: Human Factors
@@ -347,7 +349,7 @@
     }\n"
   doi: 10.1109/3DV.2016.31
   key: conf/3dim/SweeneyFHT16
-  link: https://arxiv.org/pdf/1607.03949
+  pdf: https://arxiv.org/pdf/1607.03949
   title: Large Scale SfM with the Distributed Camera Model.
   where: Fourth International Conference on 3D Vision, 3DV 2016, Stanford, CA, USA,
     October 25-28, 2016
@@ -361,7 +363,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/3DUI.2016.7460046
   key: conf/3dui/NuernbergerLHT16
-  link: https://pdfs.semanticscholar.org/3f6e/e9ae12f8c8c19d9572d5dc6fcdb3090df064.pdf
+  pdf: https://pdfs.semanticscholar.org/3f6e/e9ae12f8c8c19d9572d5dc6fcdb3090df064.pdf
   title: Interpreting 2D gesture annotations in 3D augmented reality.
   where: 2016 IEEE Symposium on 3D User Interfaces, 3DUI 2016, Greenville, SC, USA,
     March 19-20, 2016
@@ -377,7 +379,7 @@
     }\n"
   doi: 10.1109/ASONAM.2016.7752262
   key: conf/asunam/SchafferHOHXL16
-  link: https://pdfs.semanticscholar.org/de79/09fb548bad2ddaeacde827bca92411fd7882.pdf
+  pdf: https://pdfs.semanticscholar.org/de79/09fb548bad2ddaeacde827bca92411fd7882.pdf
   title: An analysis of student behavior in two massive open online courses.
   where: 2016 IEEE/ACM International Conference on Advances in Social Networks Analysis
     and Mining, ASONAM 2016, San Francisco, CA, USA, August 18-21, 2016
@@ -391,7 +393,7 @@
     \ on},\n  pages={77--83},\n  year={2016},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2016.21
   key: conf/ismar/LienNHT16
-  link: https://pdfs.semanticscholar.org/9386/204390d24b2735f7ec643644e886284b09b8.pdf
+  pdf: https://pdfs.semanticscholar.org/9386/204390d24b2735f7ec643644e886284b09b8.pdf
   title: 'PPV: Pixel-Point-Volume Segmentation for Object Referencing in Collaborative
     Augmented Reality.'
   where: 2016 IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2016,
@@ -407,7 +409,7 @@
     \  year={2016},\n  organization={ACM}\n}\n"
   doi: 10.1145/2994310.2994314
   key: conf/mindtrek/RakkolainenRTHP16
-  link: http://www.cs.ucsb.edu/~mturk/pubs/Mindtrek2016.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/pubs/Mindtrek2016.pdf
   title: Casual immersive viewing with smartphones.
   where: Proceedings of the 20th International Academic Mindtrek Conference, AcademicMindtrek
     '16, Tampere, Finland, October 17-18, 2016
@@ -419,7 +421,7 @@
     \ H{\\\"o}llerer, Tobias and Ueda, Mayumi and Matsunami, Yuuki and Kang, Byungkyu},\n\
     \  booktitle={IntRS@ RecSys},\n  pages={55--58},\n  year={2016}\n}\n"
   key: conf/recsys/ODonovanNHUMK16
-  link: https://pdfs.semanticscholar.org/a4fa/dc9d073329fc7037af9f38a2b6b9a801c020.pdf
+  pdf: https://pdfs.semanticscholar.org/a4fa/dc9d073329fc7037af9f38a2b6b9a801c020.pdf
   title: A Cross-Cultural Analysis of Explanations for Product Reviews.
   where: Proceedings of the Joint Workshop on Interfaces and Human Decision Making
     for Recommender Systems co-located with ACM Conference on Recommender Systems
@@ -433,7 +435,7 @@
     \  year={2016},\n  organization={Springer}\n}\n"
   doi: 10.1007/978-3-319-47874-6_20
   key: conf/socinfo/KangTHO16
-  link: http://eprints.bournemouth.ac.uk/24682/1/socinfo16%282%29.pdf
+  pdf: http://eprints.bournemouth.ac.uk/24682/1/socinfo16%282%29.pdf
   title: What am I not Seeing? An Interactive Approach to Social Content Discovery
     in Microblogs.
   where: Social Informatics - 8th International Conference, SocInfo 2016, Bellevue,
@@ -447,7 +449,7 @@
     }\n"
   doi: 10.1109/VR.2016.7504746
   key: conf/vr/NuernbergerLHT16
-  link: https://pdfs.semanticscholar.org/05fc/0b64b6f5f7f4fbc12d4d1b86c93c2897a898.pdf
+  pdf: https://pdfs.semanticscholar.org/05fc/0b64b6f5f7f4fbc12d4d1b86c93c2897a898.pdf
   title: Anchoring 2D gesture annotations in augmented reality.
   where: 2016 IEEE Virtual Reality, VR 2016, Greenville, SC, USA, March 19-23, 2016
   year: 2016
@@ -461,7 +463,7 @@
     }\n"
   doi: 10.1145/2993369.2993371
   key: conf/vrst/NuernbergerLGST16
-  link: https://dl.acm.org/ft_gateway.cfm?id=2993371&type=pdf
+  pdf: https://dl.acm.org/ft_gateway.cfm?id=2993371&type=pdf
   title: Multi-view gesture annotations in image-based 3D reconstructed scenes.
   where: Proceedings of the 22nd ACM Conference on Virtual Reality Software and Technology,
     VRST 2016, Munich, Germany, 2-4 November, 2016
@@ -474,7 +476,7 @@
     \  organization={ACM}\n}\n"
   doi: 10.1145/2993369.2996322
   key: conf/vrst/RakkolainenTH16
-  link: https://pdfs.semanticscholar.org/f1f9/0030d8fb9561f9420bbfec0ffde7e935fcbd.pdf
+  pdf: https://pdfs.semanticscholar.org/f1f9/0030d8fb9561f9420bbfec0ffde7e935fcbd.pdf
   title: A compact, wide-FOV optical design for head-mounted displays.
   where: Proceedings of the 22nd ACM Conference on Virtual Reality Software and Technology,
     VRST 2016, Munich, Germany, 2-4 November, 2016
@@ -486,7 +488,7 @@
     \ Conference on},\n  pages={230--238},\n  year={2016},\n  organization={IEEE}\n\
     }\n"
   key: journals/corr/SweeneyFHT16
-  link: https://arxiv.org/pdf/1607.03949
+  pdf: https://arxiv.org/pdf/1607.03949
   title: Large Scale SfM with the Distributed Camera Model.
   where: CoRR
   year: 2016
@@ -498,7 +500,7 @@
     \  pages={611--616},\n  year={2015},\n  organization={IEEE}\n}\n"
   doi: 10.1145/2808797.2809379
   key: conf/asunam/KangHO15
-  link: https://www.cs.ucsb.edu/~holl/pubs/Kang-2015-ASONAM.pdf
+  pdf: https://www.cs.ucsb.edu/~holl/pubs/Kang-2015-ASONAM.pdf
   title: Believe it or Not? Analyzing Information Credibility in Microblogs.
   where: Proceedings of the 2015 IEEE/ACM International Conference on Advances in
     Social Networks Analysis and Mining, ASONAM 2015, Paris, France, August 25 - 28,
@@ -512,7 +514,7 @@
     \  year={2015},\n  organization={IEEE}\n}\n"
   doi: 10.1145/2808797.2809317
   key: conf/asunam/KangHO15a
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.711.3266&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.711.3266&rep=rep1&type=pdf
   title: 'The Full Story: Automatic detection of unique news content in Microblogs.'
   where: Proceedings of the 2015 IEEE/ACM International Conference on Advances in
     Social Networks Analysis and Mining, ASONAM 2015, Paris, France, August 25 - 28,
@@ -528,7 +530,7 @@
     }\n"
   doi: 10.1145/2685553.2699015
   key: conf/cscw/MorenoSLCTH15
-  link: ''
+  pdf: ''
   title: Motivating Crowds to Volunteer Neighborhood Data.
   where: 18th ACM Conference on Computer Supported Cooperative Work & Social Computing,
     CSCW 2015, Vancouver, BC, Canada, March 14-18, 2015, Companion Volume
@@ -541,7 +543,7 @@
     \  year={2015}\n}\n"
   doi: 10.1109/CVPR.2015.7298951
   key: conf/cvpr/SweeneyKHT15
-  link: https://www.cv-foundation.org/openaccess/content_cvpr_2015/app/2A_117.pdf
+  pdf: https://www.cv-foundation.org/openaccess/content_cvpr_2015/app/2A_117.pdf
   title: Computing similarity transformations from only image correspondences.
   where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2015, Boston,
     MA, USA, June 7-12, 2015
@@ -552,7 +554,7 @@
     \  author={Schaffer, James and H{\\\"o}llerer, Tobias and O'Donovan, John},\n\
     \  booktitle={FLAIRS Conference},\n  pages={507--512},\n  year={2015}\n}\n"
   key: conf/flairs/SchafferHO15
-  link: http://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS15/paper/download/10444/10275
+  pdf: http://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS15/paper/download/10444/10275
   title: 'Hypothetical Recommendation: A Study of Interactive Profile Manipulation
     Behavior for Recommender Systems.'
   where: Proceedings of the Twenty-Eighth International Florida Artificial Intelligence
@@ -567,7 +569,7 @@
     \  year={2015}\n}\n"
   doi: 10.1109/ICCV.2015.98
   key: conf/iccv/SweeneySHTP15
-  link: http://openaccess.thecvf.com/content_iccv_2015/papers/Sweeney_Optimizing_the_Viewing_ICCV_2015_paper.pdf
+  pdf: http://openaccess.thecvf.com/content_iccv_2015/papers/Sweeney_Optimizing_the_Viewing_ICCV_2015_paper.pdf
   title: Optimizing the Viewing Graph for Structure-from-Motion.
   where: 2015 IEEE International Conference on Computer Vision, ICCV 2015, Santiago,
     Chile, December 7-13, 2015
@@ -580,7 +582,7 @@
     \  year={2015},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2015.56
   key: conf/ismar/LienNTH15
-  link: https://pdfs.semanticscholar.org/22bc/6107103a5c24fa1c9007903392dbd613486b.pdf
+  pdf: https://pdfs.semanticscholar.org/22bc/6107103a5c24fa1c9007903392dbd613486b.pdf
   title: 2D-3D Co-segmentation for AR-based Remote Collaboration.
   where: 2015 IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2015,
     Fukuoka, Japan, September 29 - Oct. 3, 2015
@@ -594,7 +596,7 @@
     \ Symposium on},\n  pages={19--24},\n  year={2015},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2015.20
   key: conf/ismar/SweeneyFNTH15
-  link: ''
+  pdf: ''
   title: Efficient Computation of Absolute Pose for Gravity-Aware Augmented Reality.
   where: 2015 IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2015,
     Fukuoka, Japan, September 29 - Oct. 3, 2015
@@ -607,7 +609,7 @@
     }\n"
   doi: 10.1007/978-3-319-27857-5_54
   key: conf/isvc/QinLTH15
-  link: https://pdfs.semanticscholar.org/66f2/f29defeeaf82794c1b99b1c70df5c9debff3.pdf
+  pdf: https://pdfs.semanticscholar.org/66f2/f29defeeaf82794c1b99b1c70df5c9debff3.pdf
   title: Eye Gaze Correction with a Single Webcam Based on Eye-Replacement.
   where: Advances in Visual Computing - 11th International Symposium, ISVC 2015, Las
     Vegas, NV, USA, December 14-16, 2015, Proceedings, Part I
@@ -622,7 +624,7 @@
     \  organization={ACM}\n}\n"
   doi: 10.1145/2678025.2701382
   key: conf/iui/RodrigueSGTH15
-  link: https://pdfs.semanticscholar.org/e2c4/92c25d9b8e1684ac32d708754366a6608573.pdf
+  pdf: https://pdfs.semanticscholar.org/e2c4/92c25d9b8e1684ac32d708754366a6608573.pdf
   title: Spatio-Temporal Detection of Divided Attention in Reading Applications Using
     EEG and Eye Tracking.
   where: Proceedings of the 20th International Conference on Intelligent User Interfaces,
@@ -638,7 +640,7 @@
     \  year={2015},\n  organization={ACM}\n}\n"
   doi: 10.1145/2678025.2701406
   key: conf/iui/SchafferGJHAO15
-  link: http://opac.vimaru.edu.vn/edata/EBook/TAILIEUSO/ACM/IUI%20Intelligent%20User%20Interfaces/p345-schaffer.pdf
+  pdf: http://opac.vimaru.edu.vn/edata/EBook/TAILIEUSO/ACM/IUI%20Intelligent%20User%20Interfaces/p345-schaffer.pdf
   title: 'Getting the Message?: A Study of Explanation Interfaces for Microblog Data
     Analysis.'
   where: Proceedings of the 20th International Conference on Intelligent User Interfaces,
@@ -651,7 +653,7 @@
     \  pages={693--696},\n  year={2015},\n  organization={ACM}\n}\n"
   doi: 10.1145/2733373.2807405
   key: conf/mm/SweeneyHT15
-  link: http://ai2-s2-pdfs.s3.amazonaws.com/92ee/1816733c09da195ef7ffe2addaf5a895ff08.pdf
+  pdf: http://ai2-s2-pdfs.s3.amazonaws.com/92ee/1816733c09da195ef7ffe2addaf5a895ff08.pdf
   title: 'Theia: A Fast and Scalable Structure-from-Motion Library.'
   where: Proceedings of the 23rd Annual ACM Conference on Multimedia Conference, MM
     '15, Brisbane, Australia, October 26 - 30, 2015
@@ -662,7 +664,7 @@
     \ Nava and Kang, Byungkyu and H{\\\"o}llerer, Tobias and O'Donovan, John},\n \
     \ booktitle={IntRS@ RecSys},\n  pages={21--28},\n  year={2015}\n}\n"
   key: conf/recsys/TintarevKHO15
-  link: https://pdfs.semanticscholar.org/fbb3/4f1ca554f0e784e1f12fa37cfd5ad01c2e5d.pdf#page=26
+  pdf: https://pdfs.semanticscholar.org/fbb3/4f1ca554f0e784e1f12fa37cfd5ad01c2e5d.pdf#page=26
   title: Inspection Mechanisms for Community-based Content Discovery in Microblogs.
   where: Proceedings of the Joint Workshop on Interfaces and Human Decision Making
     for Recommender Systems, IntRS 2015, co-located with ACM Conference on Recommender
@@ -677,7 +679,7 @@
     \  pages={825--838},\n  year={2014},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/TVCG.2013.243
   key: journals/tvcg/GauglitzSVTH14
-  link: https://scholar.google.com/scholar?output=instlink&q=info:J9X4XF7X_ZMJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=18374948486199351921&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:J9X4XF7X_ZMJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=18374948486199351921&oi=lle
   title: Model Estimation and Selection towardsUnconstrained Real-Time Tracking and
     Mapping.
   where: IEEE Trans. Vis. Comput. Graph.
@@ -691,7 +693,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/3DUI.2014.6798869
   key: conf/3dui/NuernbergerGHT14
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.438.4635&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.438.4635&rep=rep1&type=pdf
   title: 'Poster: Investigating viewpoint visualizations for click & go navigation.'
   where: IEEE Symposium on 3D User Interfaces, 3DUI 2014, Minneapolis, MN, USA, March
     29-30, 2014
@@ -704,7 +706,7 @@
     }\n"
   doi: 10.1007/978-3-319-10593-2_2
   key: conf/eccv/SweeneyFHT14
-  link: http://www.cs.ucsb.edu/~holl/pubs/Sweeney-2014-ECCV.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Sweeney-2014-ECCV.pdf
   title: 'gDLS: A Scalable Solution to the Generalized Pose and Scale Problem.'
   where: Computer Vision - ECCV 2014 - 13th European Conference, Zurich, Switzerland,
     September 6-12, 2014, Proceedings, Part IV
@@ -719,7 +721,7 @@
     }\n"
   doi: 10.1007/978-3-319-07458-0_20
   key: conf/hci/OnalOMYSGH14
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.431.5507&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.431.5507&rep=rep1&type=pdf
   title: 'Trust and Consequences: A Visual Perspective.'
   where: Virtual, Augmented and Mixed Reality. Designing and Developing Virtual and
     Augmented Environments - 6th International Conference, VAMR 2014, Held as Part
@@ -735,7 +737,7 @@
     }\n"
   doi: 10.1145/2642918.2647372
   key: conf/uist/GauglitzNTH14
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.678.803&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.678.803&rep=rep1&type=pdf
   title: World-stabilized annotations and virtual scene navigation for remote collaboration.
   where: The 27th Annual ACM Symposium on User Interface Software and Technology,
     UIST '14, Honolulu, HI, USA, October 5-8, 2014
@@ -748,7 +750,7 @@
     \  year={2014},\n  organization={ACM}\n}\n"
   doi: 10.1145/2671015.2671027
   key: conf/vrst/BaricevicHST14
-  link: https://pdfs.semanticscholar.org/1403/d1d84a04e67dca70e1e168e91c0d1a0e2fab.pdf
+  pdf: https://pdfs.semanticscholar.org/1403/d1d84a04e67dca70e1e168e91c0d1a0e2fab.pdf
   title: User-perspective augmented reality magic lens from gradients.
   where: Proceedings of the 20th ACM Symposium on Virtual Reality Software and Technology,
     VRST 2014, Edinburgh, United Kingdom, November 11-13, 2014
@@ -762,7 +764,7 @@
     }\n"
   doi: 10.1145/2671015.2671016
   key: conf/vrst/GauglitzNTH14
-  link: https://pdfs.semanticscholar.org/7980/415aee20c1d8eaeb9d90e17b9c53df552e22.pdf
+  pdf: https://pdfs.semanticscholar.org/7980/415aee20c1d8eaeb9d90e17b9c53df552e22.pdf
   title: 'In touch with the remote world: remote collaboration with augmented reality
     drawings and virtual navigation.'
   where: Proceedings of the 20th ACM Symposium on Virtual Reality Software and Technology,
@@ -776,7 +778,7 @@
     }\n"
   doi: 10.1109/ISMAR.2013.6671820
   key: conf/ismar/SweeneyHT13
-  link: https://www.researchgate.net/profile/Chris_Sweeney3/publication/261350801_Improved_outdoor_augmented_reality_through_Globalization/links/572243a708aef9c00b7c7def.pdf
+  pdf: https://www.researchgate.net/profile/Chris_Sweeney3/publication/261350801_Improved_outdoor_augmented_reality_through_Globalization/links/572243a708aef9c00b7c7def.pdf
   title: Improved outdoor augmented reality through "Globalization".
   where: IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2013,
     Adelaide, Australia, October 1-4, 2013
@@ -789,7 +791,7 @@
     \  year={2013},\n  organization={ACM}\n}\n"
   doi: 10.1145/2449396.2449412
   key: conf/iui/BostandjievOH13
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.716.5891&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.716.5891&rep=rep1&type=pdf
   title: 'LinkedVis: exploring social and semantic career recommendations.'
   where: 18th International Conference on Intelligent User Interfaces, IUI 2013, Santa
     Monica, CA, USA, March 19-22, 2013
@@ -804,7 +806,7 @@
     \ on},\n  pages={464--469},\n  year={2013},\n  organization={IEEE}\n}\n"
   doi: 10.1109/PerComW.2013.6529542
   key: conf/percom/SchafferKHLPGO13
-  link: http://www.academia.edu/download/34845215/Schaffer-2013-IQ2S-PERCOM.pdf
+  pdf: http://www.academia.edu/download/34845215/Schaffer-2013-IQ2S-PERCOM.pdf
   title: 'Interactive interfaces for complex network analysis: An information credibility
     perspective.'
   where: 2013 IEEE International Conference on Pervasive Computing and Communications
@@ -819,7 +821,7 @@
     }\n"
   doi: 10.1109/SocialCom.2013.9
   key: conf/socialcom/SikdarKOHA13
-  link: http://www.cs.rpi.edu/~sikdas/papers/socialcom2013.pdf
+  pdf: http://www.cs.rpi.edu/~sikdas/papers/socialcom2013.pdf
   title: Understanding Information Credibility on Twitter.
   where: International Conference on Social Computing, SocialCom 2013, SocialCom/PASSAT/BigData/EconCom/BioMedCom
     2013, Washington, DC, USA, 8-14 September, 2013
@@ -834,7 +836,7 @@
     \  pages={23},\n  year={2012},\n  publisher={ACM}\n}\n"
   doi: 10.1145/2089094.2089099
   key: journals/tist/GretarssonOBHANS12
-  link: http://www.ics.uci.edu/~asuncion/pubs/TIST_11.pdf
+  pdf: http://www.ics.uci.edu/~asuncion/pubs/TIST_11.pdf
   title: 'TopicNets: Visual Analysis of Large Text Corpora with Topic Modeling.'
   where: ACM TIST
   year: 2012
@@ -847,7 +849,7 @@
     \  year={2012},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2012.6402557
   key: conf/ismar/BaricevicLTHB12
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.443.9458&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.443.9458&rep=rep1&type=pdf
   title: A hand-held AR magic lens with user-perspective rendering.
   where: 11th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2012,
     Atlanta, GA, USA, November 5-8, 2012
@@ -861,7 +863,7 @@
     \ on},\n  pages={13--22},\n  year={2012},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2012.6402532
   key: conf/ismar/GauglitzSVTH12
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.674.1506&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.674.1506&rep=rep1&type=pdf
   title: Live tracking and mapping from both general and rotation-only camera motion.
   where: 11th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2012,
     Atlanta, GA, USA, November 5-8, 2012
@@ -874,7 +876,7 @@
     }\n"
   doi: 10.1145/2166966.2166998
   key: conf/iui/KangOH12
-  link: http://www.cs.ucsb.edu/~holl/pubs/Kang-2012-IUI.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Kang-2012-IUI.pdf
   title: Modeling topic specific credibility on twitter.
   where: 17th International Conference on Intelligent User Interfaces, IUI 2012, Lisbon,
     Portugal, February 14-17, 2012
@@ -888,7 +890,7 @@
     }\n"
   doi: 10.1145/2371664.2371693
   key: conf/mhci/GauglitzLTH12
-  link: ''
+  pdf: ''
   title: A prototype setup to integrate the physical environment into mobile remote
     collaboration.
   where: Mobile HCI '12, Companion Proceedings of the 14th international conference
@@ -904,7 +906,7 @@
     }\n"
   doi: 10.1145/2371574.2371610
   key: conf/mhci/GauglitzLTH12a
-  link: http://www.cs.ucsb.edu/~holl/pubs/Gauglitz-2012-MobileHCI.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Gauglitz-2012-MobileHCI.pdf
   title: Integrating the physical environment into mobile remote collaboration.
   where: Mobile HCI '12, Proceedings of the 14th international conference on Human-computer
     interaction with mobile devices and services, San Francsico, CA, USA, September
@@ -918,7 +920,7 @@
     \  organization={ACM}\n}\n"
   doi: 10.1145/2365952.2365964
   key: conf/recsys/BostandjievOH12
-  link: http://bostandjiev.com/content/publications/TasteWeights.pdf
+  pdf: http://bostandjiev.com/content/publications/TasteWeights.pdf
   title: 'TasteWeights: a visual interactive hybrid recommender system.'
   where: Sixth ACM Conference on Recommender Systems, RecSys '12, Dublin, Ireland,
     September 9-13, 2012
@@ -933,7 +935,7 @@
     \  year={2012},\n  organization={IEEE}\n}\n"
   doi: 10.1109/SocialCom-PASSAT.2012.128
   key: conf/socialcom/ODonovanKMHA12
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.310.4223&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.310.4223&rep=rep1&type=pdf
   title: 'Credibility in Context: An Analysis of Feature Distributions in Twitter.'
   where: 2012 International Conference on Privacy, Security, Risk and Trust, PASSAT
     2012, and 2012 International Confernece on Social Computing, SocialCom 2012, Amsterdam,
@@ -947,7 +949,7 @@
     \  year={2011},\n  publisher={Springer}\n}\n"
   doi: 10.1007/s11263-011-0431-5
   key: journals/ijcv/GauglitzHT11
-  link: http://www.cs.ucsb.edu/~holl/pubs/Gauglitz-2011-IJCV.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Gauglitz-2011-IJCV.pdf
   title: Evaluation of Interest Point Detectors and Feature Descriptors for Visual
     Tracking.
   where: International Journal of Computer Vision
@@ -958,7 +960,7 @@
     \ Tobias},\n  booktitle={BMVC},\n  pages={1--11},\n  year={2011}\n}\n"
   doi: 10.5244/C.25.93
   key: conf/bmvc/GauglitzTH11
-  link: https://www.researchgate.net/profile/Tobias_Hoellerer/publication/228516889_Improving_Keypoint_Orientation_Assignment/links/55eab91b08aeb6516265eccc.pdf
+  pdf: https://www.researchgate.net/profile/Tobias_Hoellerer/publication/228516889_Improving_Keypoint_Orientation_Assignment/links/55eab91b08aeb6516265eccc.pdf
   title: Improving Keypoint Orientation Assignment.
   where: British Machine Vision Conference, BMVC 2011, Dundee, UK, August 29 - September
     2, 2011. Proceedings
@@ -971,7 +973,7 @@
     \  year={2011},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ICIP.2011.6115832
   key: conf/icip/GauglitzFTH11
-  link: https://scholar.google.com/scholar?output=instlink&q=info:UhiMcvnr5dwJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=3982266425743535786&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:UhiMcvnr5dwJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=3982266425743535786&oi=lle
   title: Efficiently selecting spatially distributed keypoints for visual tracking.
   where: 18th IEEE International Conference on Image Processing, ICIP 2011, Brussels,
     Belgium, September 11-14, 2011
@@ -986,7 +988,7 @@
     }\n"
   doi: 10.1109/ICSC.2011.8
   key: conf/semco/BostandjievOHGH11
-  link: https://www.researchgate.net/profile/John_Odonovan3/publication/224264632_WiGipedia_A_Tool_for_Improving_Structured_Data_in_Wikipedia/links/552c9a050cf21acb0920e227.pdf
+  pdf: https://www.researchgate.net/profile/John_Odonovan3/publication/224264632_WiGipedia_A_Tool_for_Improving_Structured_Data_in_Wikipedia/links/552c9a050cf21acb0920e227.pdf
   title: 'WiGipedia: A Tool for Improving Structured Data in Wikipedia.'
   where: Proceedings of the 5th IEEE International Conference on Semantic Computing
     (ICSC 2011), Palo Alto, CA, USA, September 18-21, 2011
@@ -1000,7 +1002,7 @@
     \  year={2010},\n  organization={Wiley Online Library}\n}\n"
   doi: 10.1111/j.1467-8659.2009.01679.x
   key: journals/cgf/GretarssonOBHH10
-  link: http://www.cs.ucsb.edu/~holl/pubs/Gretarsson-2010-CGForum.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Gretarsson-2010-CGForum.pdf
   title: 'SmallWorlds: Visualizing Social Recommendations.'
   where: Comput. Graph. Forum
   year: 2010
@@ -1013,7 +1015,7 @@
     \  pages={74--81},\n  year={2009},\n  organization={IEEE}\n}\n"
   doi: 10.1109/CSE.2009.26
   key: conf/cse/ODonovanGBHS09
-  link: http://researchrepository.ucd.ie/bitstream/handle/10197/1662/IEEE4.pdf?sequence=1
+  pdf: http://researchrepository.ucd.ie/bitstream/handle/10197/1662/IEEE4.pdf?sequence=1
   title: A Visual Interface for Social Information Filtering.
   where: Proceedings of the 12th IEEE International Conference on Computational Science
     and Engineering, CSE 2009, Vancouver, BC, Canada, August 29-31, 2009
@@ -1027,7 +1029,7 @@
     \  year={2009},\n  organization={Springer}\n}\n"
   doi: 10.1007/978-3-642-11805-0_13
   key: conf/gd/GretarssonBOH09
-  link: https://link.springer.com/content/pdf/10.1007/978-3-642-11805-0_13.pdf
+  pdf: https://link.springer.com/content/pdf/10.1007/978-3-642-11805-0_13.pdf
   title: 'WiGis: A Framework for Scalable Web-Based Interactive Graph Visualizations.'
   where: Graph Drawing, 17th International Symposium, GD 2009, Chicago, IL, USA, September
     22-25, 2009. Revised Papers
@@ -1041,7 +1043,7 @@
     \ Spring Symposium: Creative Intelligent Systems},\n  pages={102--109},\n  year={2008}\n\
     }\n"
   key: conf/aaaiss/TurkHAKCHPO08
-  link: https://ocs.aaai.org/Papers/Symposia/Spring/2008/SS-08-03/SS08-03-016.pdf
+  pdf: https://ocs.aaai.org/Papers/Symposia/Spring/2008/SS-08-03/SS08-03-016.pdf
   title: Creative Collaborative Exploration in Multiple Environments.
   where: Creative Intelligent Systems, Papers from the 2008 AAAI Spring Symposium,
     Technical Report SS-08-03, Stanford, California, USA, March 26-28, 2008
@@ -1055,7 +1057,7 @@
     \  year={2008},\n  organization={ACM}\n}\n"
   doi: 10.1145/1357054.1357222
   key: conf/chi/ODonovanSGBH08
-  link: https://pdfs.semanticscholar.org/6f33/21a16e9b5499ed2b9397b194189e84eb8880.pdf
+  pdf: https://pdfs.semanticscholar.org/6f33/21a16e9b5499ed2b9397b194189e84eb8880.pdf
   title: 'PeerChooser: visual interactive recommendation.'
   where: Proceedings of the 2008 Conference on Human Factors in Computing Systems,
     CHI 2008, 2008, Florence, Italy, April 5-10, 2008
@@ -1068,7 +1070,7 @@
     \  publisher={IEEE}\n}\n"
   doi: 10.1109/MCG.2006.66
   key: journals/cga/KoelschBHT06
-  link: https://pdfs.semanticscholar.org/1790/129ea78ced1f941178586139a2da75e19c8e.pdf
+  pdf: https://pdfs.semanticscholar.org/1790/129ea78ced1f941178586139a2da75e19c8e.pdf
   title: Multimodal Interaction with a Wearable Augmented Reality System.
   where: IEEE Computer Graphics and Applications
   year: 2006
@@ -1080,7 +1082,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/MOBIQ.2004.1331713
   key: conf/mobiquitous/KolschTH04
-  link: http://www.cs.ucsb.edu/~holl/pubs/kolsch-2004-mobiquitous.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/kolsch-2004-mobiquitous.pdf
   title: Vision-Based Interfaces for Mobility.
   where: 1st Annual International Conference on Mobile and Ubiquitous Systems (MobiQuitous
     2004), Networking and Services, 22-25 August 2004, Cambridge, MA, USA
@@ -1094,7 +1096,7 @@
     \  organization={Wiley Online Library}\n}\n"
   doi: 10.1111/cgf.13178
   key: journals/cgf/RenLH17
-  link: http://www.cs.ucsb.edu/~holl/pubs/Ren-2017-EuroVis.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Ren-2017-EuroVis.pdf
   title: 'Stardust: Accessible and Transparent GPU Support for Information Visualization
     Rendering.'
   where: Comput. Graph. Forum
@@ -1114,7 +1116,7 @@
     }\n"
   doi: 10.4230/DagMan.6.1.1
   key: journals/dagstuhl-manifestos/AllenABCCCCCGGG17
-  link: http://drops.dagstuhl.de/opus/volltexte/2017/7146/pdf/dagman-v006-i001-p001-16252.pdf
+  pdf: http://drops.dagstuhl.de/opus/volltexte/2017/7146/pdf/dagman-v006-i001-p001-16252.pdf
   title: Engineering Academic Software (Dagstuhl Perspectives Workshop 16252).
   where: Dagstuhl Manifestos
   year: 2017
@@ -1126,7 +1128,7 @@
     \  pages={34},\n  year={2017},\n  publisher={Frontiers}\n}\n"
   doi: 10.3389/fict.2016.00034
   key: journals/fiict/NabiyouniSBH17
-  link: https://www.frontiersin.org/article/10.3389/fict.2016.00034/full
+  pdf: https://www.frontiersin.org/article/10.3389/fict.2016.00034/full
   title: 'Relative Effects of Real-world and Virtual-World Latency on an Augmented
     Reality Training Task: An AR Simulation Experiment.'
   where: Front. ICT
@@ -1139,7 +1141,7 @@
     }\n"
   doi: 10.1109/3DUI.2017.7893337
   key: conf/3dui/ChangNLH17
-  link: http://www.cs.ucsb.edu/~holl/pubs/Chang-2017-3DUI.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Chang-2017-3DUI.pdf
   title: Evaluating gesture-based augmented reality annotation.
   where: 2017 IEEE Symposium on 3D User Interfaces, 3DUI 2017, Los Angeles, CA, USA,
     March 18-19, 2017
@@ -1154,7 +1156,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/PACIFICVIS.2017.8031599
   key: conf/apvis/RenBLHC17
-  link: https://pdfs.semanticscholar.org/5841/0da56a7ae9cac486ed288f1ebef9091c59a6.pdf
+  pdf: https://pdfs.semanticscholar.org/5841/0da56a7ae9cac486ed288f1ebef9091c59a6.pdf
   title: 'ChartAccent: Annotation for data-driven storytelling.'
   where: 2017 IEEE Pacific Visualization Symposium, PacificVis 2017, Seoul, South
     Korea, April 18-21, 2017
@@ -1167,7 +1169,7 @@
     \  organization={ACM}\n}\n"
   doi: 10.1145/3030024.3030026
   key: conf/iui/DuganBDO17
-  link: ''
+  pdf: ''
   title: 'AWARE: Workshop on Awareness Interfaces and Interactions.'
   where: Companion Publication of the 22nd International Conference on Intelligent
     User Interfaces, IUI 2017, Limassol, Cyprus, March 13-16, 2017
@@ -1182,7 +1184,7 @@
     \  year={2017},\n  organization={ACM}\n}\n"
   doi: 10.1145/3109859.3109961
   key: conf/recsys/BrusilovskyGFLO17
-  link: ''
+  pdf: ''
   title: RecSys'17 Joint Workshop on Interfaces and Human Decision Making for Recommender
     Systems.
   where: Proceedings of the Eleventh ACM Conference on Recommender Systems, RecSys
@@ -1196,7 +1198,7 @@
     }\n"
   doi: 10.1145/3109859.3109915
   key: conf/recsys/KoukiSPOG17
-  link: https://linqspub.soe.ucsc.edu/basilic/web/Publications/2017/kouki:recsys17/kouki-recsys17.pdf
+  pdf: https://linqspub.soe.ucsc.edu/basilic/web/Publications/2017/kouki:recsys17/kouki-recsys17.pdf
   title: User Preferences for Hybrid Explanations.
   where: Proceedings of the Eleventh ACM Conference on Recommender Systems, RecSys
     2017, Como, Italy, August 27-31, 2017
@@ -1208,7 +1210,7 @@
     }\n"
   doi: 10.1109/VR.2017.7892223
   key: conf/vr/Hollerer17
-  link: https://scholar.google.com/scholar?output=instlink&q=info:zP-O8S5SOSkJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=5441916640882267428&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:zP-O8S5SOSkJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=5441916640882267428&oi=lle
   title: Notes on virtual and augmented reality (Keynote).
   where: 2017 IEEE Virtual Reality, VR 2017, Los Angeles, CA, USA, March 18-22, 2017
   year: 2017
@@ -1218,7 +1220,7 @@
     \  publisher={Addison-Wesley Professional}\n}\n"
   doi: 10.1109/VR.2017.7892358
   key: conf/vr/SchmalstiegH17
-  link: https://scholar.google.com/scholar?output=instlink&q=info:HDqTN8F-04wJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=11212882482943253151&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:HDqTN8F-04wJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=11212882482943253151&oi=lle
   title: 'Augmented reality: Principles and practice.'
   where: 2017 IEEE Virtual Reality, VR 2017, Los Angeles, CA, USA, March 18-22, 2017
   year: 2017
@@ -1231,7 +1233,7 @@
     \ in the Clouds (DataCloud), 2016 Seventh International Workshop on},\n  pages={24--31},\n\
     \  year={2016},\n  organization={IEEE}\n}\n"
   key: journals/corr/WarrenSCKKRT17
-  link: https://arxiv.org/pdf/1702.03935
+  pdf: https://arxiv.org/pdf/1702.03935
   title: 'Data-Intensive Supercomputing in the Cloud: Global Analytics for Satellite
     Imagery.'
   where: CoRR
@@ -1242,7 +1244,7 @@
     \ and Turk, Matthew},\n  journal={arXiv preprint arXiv:1709.09559},\n  year={2017}\n\
     }\n"
   key: journals/corr/abs-1709-09559
-  link: https://arxiv.org/pdf/1709.09559
+  pdf: https://arxiv.org/pdf/1709.09559
   title: 'ANSAC: Adaptive Non-minimal Sample and Consensus.'
   where: CoRR
   year: 2017
@@ -1254,7 +1256,7 @@
     \  year={2016},\n  organization={ACM}\n}\n"
   doi: 10.1145/2911172.2911183
   key: journals/aimatters/NicholsOM16
-  link: http://gotz.web.unc.edu/files/2016/03/gotz_iui_2016.pdf
+  pdf: http://gotz.web.unc.edu/files/2016/03/gotz_iui_2016.pdf
   title: ACM IUI 2016 conference highlights.
   where: AI Matters
   year: 2016
@@ -1267,7 +1269,7 @@
     }\n"
   doi: 10.1016/j.asoc.2016.07.016
   key: journals/asc/ZhaoTLLW16
-  link: http://faratarjome.ir/u/media/shopping_files/store-EN-1486555456-4527.pdf
+  pdf: http://faratarjome.ir/u/media/shopping_files/store-EN-1486555456-4527.pdf
   title: A multilevel image thresholding segmentation algorithm based on two-dimensional
     K-L divergence and modified particle swarm optimization.
   where: Appl. Soft Comput.
@@ -1281,7 +1283,7 @@
     \ Medical Association}\n}\n"
   doi: 10.1109/MCSE.2016.115
   key: journals/cse/Turk16
-  link: https://jamanetwork.com/journals/jama/fullarticle/195120?utm_medium=referral&utm_source=r360
+  pdf: https://jamanetwork.com/journals/jama/fullarticle/195120?utm_medium=referral&utm_source=r360
   title: Risks.
   where: Computing in Science and Engineering
   year: 2016
@@ -1293,7 +1295,7 @@
     \  pages={26},\n  year={2016},\n  publisher={ACM}\n}\n"
   doi: 10.1145/3014432
   key: journals/tiis/TintarevOF16
-  link: https://scholar.google.com/scholar?output=instlink&q=info:DOPlEgiUQY8J:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=10896731933665900296&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:DOPlEgiUQY8J:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=10896731933665900296&oi=lle
   title: Introduction to the Special Issue on Human Interaction with Artificial Advice
     Givers.
   where: TiiS
@@ -1308,7 +1310,7 @@
     \  pages={1--8},\n  year={2016},\n  organization={ACM}\n}\n"
   doi: 10.1145/3003715.3005418
   key: conf/automotiveUI/HauslschmidSOBB16
-  link: https://pdfs.semanticscholar.org/c5eb/975605be490be0e82152c1d2c27b215c9a00.pdf
+  pdf: https://pdfs.semanticscholar.org/c5eb/975605be490be0e82152c1d2c27b215c9a00.pdf
   title: First Steps towards a View Management Concept for Large-sized Head-up Displays
     with Continuous Depth.
   where: Proceedings of the 8th International Conference on Automotive User Interfaces
@@ -1323,7 +1325,7 @@
     \  pages={813--822},\n  year={2016},\n  organization={ACM}\n}\n"
   doi: 10.1145/2818048.2819985
   key: conf/cscw/SavageMH16
-  link: https://arxiv.org/pdf/1509.06026
+  pdf: https://arxiv.org/pdf/1509.06026
   title: 'Botivist: Calling Volunteers to Action using Online Bots.'
   where: Proceedings of the 19th ACM Conference on Computer-Supported Cooperative
     Work & Social Computing, CSCW 2016, San Francisco, CA, USA, February 27 - March
@@ -1338,7 +1340,7 @@
     }\n"
   doi: 10.1109/ICPR.2016.7899670
   key: conf/icpr/FragosoSHT16
-  link: https://arxiv.org/pdf/1608.01026
+  pdf: https://arxiv.org/pdf/1608.01026
   title: One-class slab support vector machine.
   where: "23rd International Conference on Pattern Recognition, ICPR 2016, Canc\xFA\
     n, Mexico, December 4-8, 2016"
@@ -1352,7 +1354,7 @@
     \ Symposium on},\n  pages={19--20},\n  year={2016},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR-Adjunct.2016.0029
   key: conf/ismar/PlopskiMKHKT16
-  link: http://www.cs.ucsb.edu/~holl/pubs/Plopski-2016-ISMAR.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Plopski-2016-ISMAR.pdf
   title: Improving Localization under Varying Illumination.
   where: 2016 IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2016
     Adjunct, Merida, Yucatan, Mexico, September 19-23, 2016
@@ -1367,7 +1369,7 @@
     \ year={2016},\n  organization={ACM}\n}\n"
   doi: 10.1145/2959100.2959199
   key: conf/recsys/BrusilovskyFLOS16
-  link: https://pdfs.semanticscholar.org/30b1/92dfd526150085196288b65fbdfb433d43e8.pdf
+  pdf: https://pdfs.semanticscholar.org/30b1/92dfd526150085196288b65fbdfb433d43e8.pdf
   title: RecSys'16 Joint Workshop on Interfaces and Human Decision Making for Recommender
     Systems.
   where: Proceedings of the 10th ACM Conference on Recommender Systems, Boston, MA,
@@ -1383,7 +1385,7 @@
     \  year={2016},\n  organization={IEEE}\n}\n"
   doi: 10.1109/DataCloud.2016.007
   key: conf/sc/WarrenSCKKRT16
-  link: https://arxiv.org/pdf/1702.03935
+  pdf: https://arxiv.org/pdf/1702.03935
   title: 'Data-Intensive Supercomputing in the Cloud: Global Analytics for Satellite
     Imagery.'
   where: Seventh International Workshop on Data-Intensive Computing in the Clouds,
@@ -1395,7 +1397,7 @@
     \  publisher={Addison-Wesley Professional}\n}\n"
   doi: 10.1145/2897826.2927365
   key: conf/siggraph/SchmalsteigH16
-  link: https://scholar.google.com/scholar?output=instlink&q=info:HDqTN8F-04wJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=11212882482943253151&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:HDqTN8F-04wJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=11212882482943253151&oi=lle
   title: 'Augmented reality: principles and practice.'
   where: Special Interest Group on Computer Graphics and Interactive Techniques Conference,
     SIGGRAPH '16, Anaheim, CA, USA, July 24-28, 2016, Courses
@@ -1408,7 +1410,7 @@
     \  year={2016},\n  organization={ACM}\n}\n"
   doi: 10.1145/2930238.2930280
   key: conf/um/AndjelkovicPO16
-  link: http://dparra.sitios.ing.uc.cl/pdfs/Moodplay_UMAP_2016.pdf
+  pdf: http://dparra.sitios.ing.uc.cl/pdfs/Moodplay_UMAP_2016.pdf
   title: 'Moodplay: Interactive Mood-based Music Discovery and Recommendation.'
   where: Proceedings of the 2016 Conference on User Modeling Adaptation and Personalization,
     UMAP 2016, Halifax, NS, Canada, July 13 - 17, 2016
@@ -1420,7 +1422,7 @@
     \ and Suma, Evan A},\n  booktitle={VR},\n  pages={xii},\n  year={2016}\n}\n"
   doi: 10.1109/VR.2016.7504674
   key: conf/vr/HollererILS16
-  link: https://pdfs.semanticscholar.org/354d/fb0d19ee7ee39af48952c4d03dcae315597c.pdf
+  pdf: https://pdfs.semanticscholar.org/354d/fb0d19ee7ee39af48952c4d03dcae315597c.pdf
   title: Program chair message.
   where: 2016 IEEE Virtual Reality, VR 2016, Greenville, SC, USA, March 19-23, 2016
   year: 2016
@@ -1433,7 +1435,7 @@
     }\n"
   doi: 10.1109/VR.2016.7504692
   key: conf/vr/RenGCH16
-  link: https://pdfs.semanticscholar.org/1394/2504d7fe49afd357ec4fddde021f0c538f5e.pdf
+  pdf: https://pdfs.semanticscholar.org/1394/2504d7fe49afd357ec4fddde021f0c538f5e.pdf
   title: Evaluating wide-field-of-view augmented reality with mixed reality simulation.
   where: 2016 IEEE Virtual Reality, VR 2016, Greenville, SC, USA, March 19-23, 2016
   year: 2016
@@ -1445,7 +1447,7 @@
     \ Conference on},\n  pages={420--425},\n  year={2016},\n  organization={IEEE}\n\
     }\n"
   key: journals/corr/FragosoSHT16
-  link: https://arxiv.org/pdf/1608.01026
+  pdf: https://arxiv.org/pdf/1608.01026
   title: One-Class Slab Support Vector Machine.
   where: CoRR
   year: 2016
@@ -1457,7 +1459,7 @@
     \ Nabrzyski, Jaroslaw and Stodden, Victoria and Turk, Matthew},\n  journal={arXiv\
     \ preprint arXiv:1610.09958},\n  year={2016}\n}\n"
   key: journals/corr/LudascherCGJNST16
-  link: https://arxiv.org/pdf/1610.09958
+  pdf: https://arxiv.org/pdf/1610.09958
   title: 'Capturing the "Whole Tale" of Computational Research: Reproducibility in
     Computing Environments.'
   where: CoRR
@@ -1472,7 +1474,7 @@
     \ Press}\n}\n"
   doi: 10.1093/bioinformatics/btv097
   key: journals/bioinformatics/JammalamadakaSF15
-  link: https://academic.oup.com/bioinformatics/article/31/12/2024/214682
+  pdf: https://academic.oup.com/bioinformatics/article/31/12/2024/214682
   title: Characterizing spatial distributions of astrocytes in the mammalian retina.
   where: Bioinformatics
   year: 2015
@@ -1484,7 +1486,7 @@
     \  publisher={The University of Chicago Law School}\n}\n"
   doi: 10.1109/MCSE.2015.27
   key: journals/cse/Turk15
-  link: http://www.jstor.org/stable/pdf/725234.pdf
+  pdf: http://www.jstor.org/stable/pdf/725234.pdf
   title: Vertical Integration.
   where: Computing in Science and Engineering
   year: 2015
@@ -1496,7 +1498,7 @@
     \  number={2},\n  pages={6},\n  year={2015},\n  publisher={ACM}\n}\n"
   doi: 10.1145/2786762
   key: journals/tiis/SalahHAGT15
-  link: https://pdfs.semanticscholar.org/89c5/001ec85e55362acf35f4e8258b05ef7496db.pdf
+  pdf: https://pdfs.semanticscholar.org/89c5/001ec85e55362acf35f4e8258b05ef7496db.pdf
   title: Brief Introduction to the Special Issue on Behavior Understanding for Arts
     and Entertainment.
   where: TiiS
@@ -1509,7 +1511,7 @@
     \  year={2015},\n  publisher={ACM}\n}\n"
   doi: 10.1145/2817208
   key: journals/tiis/SalahHAGT15a
-  link: https://www.researchgate.net/profile/Hatice_Gunes2/publication/282351454_Behavior_Understanding_for_Arts_and_Entertainment/links/56b1d03608ae56d7b06b99d7/Behavior-Understanding-for-Arts-and-Entertainment.pdf
+  pdf: https://www.researchgate.net/profile/Hatice_Gunes2/publication/282351454_Behavior_Understanding_for_Arts_and_Entertainment/links/56b1d03608ae56d7b06b99d7/Behavior-Understanding-for-Arts-and-Entertainment.pdf
   title: Behavior Understanding for Arts and Entertainment.
   where: TiiS
   year: 2015
@@ -1520,7 +1522,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/3DV.2015.70
   key: conf/3dim/LienT15
-  link: https://pdfs.semanticscholar.org/435f/1dfb8f4efe91e66eee0cf83973613ecf3571.pdf
+  pdf: https://pdfs.semanticscholar.org/435f/1dfb8f4efe91e66eee0cf83973613ecf3571.pdf
   title: On Preserving Structure in Stereo Seam Carving.
   where: 2015 International Conference on 3D Vision, 3DV 2015, Lyon, France, October
     19-22, 2015
@@ -1534,7 +1536,7 @@
     \  year={2015},\n  organization={ACM}\n}\n"
   doi: 10.1145/2700171.2791055
   key: conf/ht/SavageMBH15
-  link: https://arxiv.org/pdf/1509.01095
+  pdf: https://arxiv.org/pdf/1509.01095
   title: 'Tag Me Maybe: Perceptions of Public Targeted Sharing on Facebook.'
   where: Proceedings of the 26th ACM Conference on Hypertext & Social Media, HT 2015,
     Guzelyurt, TRNC, Cyprus, September 1-4, 2015
@@ -1546,7 +1548,7 @@
     \  pages={1633--1637},\n  year={2015},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ICIP.2015.7351077
   key: conf/icip/LienGT15
-  link: https://pdfs.semanticscholar.org/6ea7/9b444f5cdcf68aff02ae6905d662ccc95296.pdf
+  pdf: https://pdfs.semanticscholar.org/6ea7/9b444f5cdcf68aff02ae6905d662ccc95296.pdf
   title: High-order regularization for stereo color editing.
   where: 2015 IEEE International Conference on Image Processing, ICIP 2015, Quebec
     City, QC, Canada, September 27-30, 2015
@@ -1561,7 +1563,7 @@
     \  organization={ACM}\n}\n"
   doi: 10.1145/2792838.2798714
   key: conf/recsys/ODonovanTFBSL15
-  link: ''
+  pdf: ''
   title: Joint Workshop on Interfaces and Human Decision Making for Recommender Systems
     (#IntRS).
   where: Proceedings of the 9th ACM Conference on Recommender Systems, RecSys 2015,
@@ -1575,7 +1577,7 @@
     }\n"
   doi: 10.1109/VR.2015.7223331
   key: conf/vr/RodrigueWWH15
-  link: https://pdfs.semanticscholar.org/94e7/687e96a2389ebe35cd473ecd340a231fce63.pdf
+  pdf: https://pdfs.semanticscholar.org/94e7/687e96a2389ebe35cd473ecd340a231fce63.pdf
   title: Mixed reality simulation with physical mobile display devices.
   where: 2015 IEEE Virtual Reality, VR 2015, Arles, Camargue, Provence, France, March
     23-27, 2015
@@ -1587,7 +1589,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/WACV.2015.92
   key: conf/wacv/VaqueroT15
-  link: https://pdfs.semanticscholar.org/10ed/951c611de5e11dddbfaf4f574be606dd4fad.pdf
+  pdf: https://pdfs.semanticscholar.org/10ed/951c611de5e11dddbfaf4f574be606dd4fad.pdf
   title: Composition Context Photography.
   where: 2015 IEEE Winter Conference on Applications of Computer Vision, WACV 2015,
     Waikoloa, HI, USA, January 5-9, 2015
@@ -1599,7 +1601,7 @@
     }\n"
   doi: 10.1007/978-3-319-24702-1_1
   key: books/sp/15/TurkF15
-  link: http://www.cs.ucsb.edu/~mturk/pubs/TurkFragosoCV4AR2015.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/pubs/TurkFragosoCV4AR2015.pdf
   title: Computer Vision for Mobile Augmented Reality.
   where: Mobile Cloud Visual Media Computing - From Interaction to Service
   year: 2015
@@ -1611,7 +1613,7 @@
     \ of the 26th ACM Conference on Hypertext \\&amp; Social Media},\n  pages={299--303},\n\
     \  year={2015},\n  organization={ACM}\n}\n"
   key: journals/corr/SavageMBH15
-  link: https://arxiv.org/pdf/1509.01095
+  pdf: https://arxiv.org/pdf/1509.01095
   title: 'Tag Me Maybe: Perceptions of Public Targeted Sharing on Facebook.'
   where: CoRR
   year: 2015
@@ -1622,7 +1624,7 @@
     \ Conference on Computer-Supported Cooperative Work \\&amp; Social Computing},\n\
     \  pages={813--822},\n  year={2016},\n  organization={ACM}\n}\n"
   key: journals/corr/SavageMH15
-  link: https://arxiv.org/pdf/1509.06026
+  pdf: https://arxiv.org/pdf/1509.06026
   title: 'Botivist: Calling Volunteers to Action Using Online Bots.'
   where: CoRR
   year: 2015
@@ -1635,7 +1637,7 @@
     \  volume={40},\n  pages={10--21},\n  year={2014},\n  publisher={Elsevier}\n}\n"
   doi: 10.1016/j.cag.2013.12.004
   key: journals/cg/Kuchera-MorinWWRASHM14
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.644.183&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.644.183&rep=rep1&type=pdf
   title: Immersive full-surround multi-user system design.
   where: Computers & Graphics
   year: 2014
@@ -1646,7 +1648,7 @@
     \  publisher={IEEE}\n}\n"
   doi: 10.1109/MCSE.2014.37
   key: journals/cse/Turk14
-  link: https://scholar.google.com/scholar?output=instlink&q=info:OkSrUDf_qFEJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=16073316836675027889&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:OkSrUDf_qFEJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=16073316836675027889&oi=lle
   title: Fostering Collaborative Computational Science.
   where: Computing in Science and Engineering
   year: 2014
@@ -1656,7 +1658,7 @@
     \  pages={189--195},\n  year={2014},\n  publisher={Elsevier}\n}\n"
   doi: 10.1016/j.patrec.2013.07.003
   key: journals/prl/Turk14
-  link: https://pdfs.semanticscholar.org/5789/b22b5bf17861e2b62e2ea75cb3223b5ea3f3.pdf
+  pdf: https://pdfs.semanticscholar.org/5789/b22b5bf17861e2b62e2ea75cb3223b5ea3f3.pdf
   title: 'Multimodal interaction: A review.'
   where: Pattern Recognition Letters
   year: 2014
@@ -1668,7 +1670,7 @@
     \  year={2014},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/TVCG.2014.2346291
   key: journals/tvcg/RenHY14
-  link: http://www.cs.ucsb.edu/~holl/pubs/Ren-2014-TVCG.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Ren-2014-TVCG.pdf
   title: 'iVisDesigner: Expressive Interactive Design of Information Visualizations.'
   where: IEEE Trans. Vis. Comput. Graph.
   year: 2014
@@ -1680,7 +1682,7 @@
     }\n"
   doi: 10.1007/s00371-013-0910-5
   key: journals/vc/ToyouraATM14
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.433.3319&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.433.3319&rep=rep1&type=pdf
   title: 'Mono-spectrum marker: an AR marker robust to image blur and defocus.'
   where: The Visual Computer
   year: 2014
@@ -1692,7 +1694,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/3DV.2014.66
   key: conf/3dim/SweeneyFT14
-  link: https://homes.cs.washington.edu/~csweeney/papers/sfm_with_rotation.pdf
+  pdf: https://homes.cs.washington.edu/~csweeney/papers/sfm_with_rotation.pdf
   title: Solving for Relative Pose with a Partially Known Rotation is a Quadratic
     Eigenvalue Problem.
   where: 2nd International Conference on 3D Vision, 3DV 2014, Tokyo, Japan, December
@@ -1706,7 +1708,7 @@
     \  pages={1825--1834},\n  year={2014},\n  organization={ACM}\n}\n"
   doi: 10.1145/2556288.2557112
   key: conf/chi/AlperRH14
-  link: http://www.basakalper.net/s/chi_contour.pdf
+  pdf: http://www.basakalper.net/s/chi_contour.pdf
   title: 'Structuring the space: a study on enriching node-link diagrams with visual
     references.'
   where: CHI Conference on Human Factors in Computing Systems, CHI'14, Toronto, ON,
@@ -1722,7 +1724,7 @@
     \  pages={2092--2093},\n  year={2014},\n  organization={ACM}\n}\n"
   doi: 10.1145/2661829.2663538
   key: conf/cikm/MahmudNZCZCO14
-  link: ''
+  pdf: ''
   title: DUBMOD14 - International Workshop on Data-driven User Behavioral Modeling
     and Mining from Social Media.
   where: Proceedings of the 23rd ACM International Conference on Conference on Information
@@ -1738,7 +1740,7 @@
     }\n"
   doi: 10.1007/978-3-319-06498-7_2
   key: conf/coop/SavageFTMDH14
-  link: https://www.cs.ucsb.edu/~holl/pubs/Savage-2014-COOP.pdf
+  pdf: https://www.cs.ucsb.edu/~holl/pubs/Savage-2014-COOP.pdf
   title: Visualizing Targeted Audiences.
   where: Proceedings of the 11th International Conference on the Design of Cooperative
     Systems, COOP 2014, Nice, France, May 27-30, 2014
@@ -1752,7 +1754,7 @@
     \ Recognition Workshops},\n  pages={126--131},\n  year={2014}\n}\n"
   doi: 10.1109/CVPRW.2014.24
   key: conf/cvpr/FragosoSNLPT14
-  link: https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W03/papers/Fragoso_Cascade_of_Box_2014_CVPR_paper.pdf
+  pdf: https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W03/papers/Fragoso_Cascade_of_Box_2014_CVPR_paper.pdf
   title: Cascade of Box (CABOX) Filters for Optimal Scale Space Approximation.
   where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops
     2014, Columbus, OH, USA, June 23-28, 2014
@@ -1765,7 +1767,7 @@
     \ Fusion (FUSION), 2014 17th International Conference on},\n  pages={1--8},\n\
     \  year={2014},\n  organization={IEEE}\n}\n"
   key: conf/fusion/SikdarAAACCKO14
-  link: https://www.researchgate.net/profile/Byungkyu_Kang/publication/262300840_Finding_true_and_credible_information_on_Twitter/links/56a4bae508ae232fb20777be.pdf
+  pdf: https://www.researchgate.net/profile/Byungkyu_Kang/publication/262300840_Finding_true_and_credible_information_on_Twitter/links/56a4bae508ae232fb20777be.pdf
   title: Finding true and credible information on Twitter.
   where: 17th International Conference on Information Fusion, FUSION 2014, Salamanca,
     Spain, July 7-10, 2014
@@ -1777,7 +1779,7 @@
     \  pages={411--418},\n  year={2014},\n  organization={ACM}\n}\n"
   doi: 10.1145/2663204.2663243
   key: conf/icmi/FujimotoT14
-  link: http://www.cs.ucsb.edu/~mturk/pubs/FujimotoTurkICMI2014.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/pubs/FujimotoTurkICMI2014.pdf
   title: Non-Visual Navigation Using Combined Audio Music and Haptic Cues.
   where: Proceedings of the 16th International Conference on Multimodal Interaction,
     ICMI 2014, Istanbul, Turkey, November 12-16, 2014
@@ -1790,7 +1792,7 @@
     \  year={2014},\n  organization={ACM}\n}\n"
   doi: 10.1145/2647868.2654949
   key: conf/mm/RobertsWKH14
-  link: http://www.cs.ucsb.edu/~holl/pubs/Roberts-2014-MM.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Roberts-2014-MM.pdf
   title: 'Gibber: Abstractions for Creative Multimedia Programming.'
   where: Proceedings of the ACM International Conference on Multimedia, MM '14, Orlando,
     FL, USA, November 03 - 07, 2014
@@ -1801,7 +1803,7 @@
     \ and Kuchera-Morin, JoAnn and H{\\\"o}llerer, Tobias},\n  booktitle={NIME},\n\
     \  pages={239--242},\n  year={2014}\n}\n"
   key: conf/nime/RobertsWKH14
-  link: https://vislab.mat.ucsb.edu/Publications/2014-NIME-RapidCreation.pdf
+  pdf: https://vislab.mat.ucsb.edu/Publications/2014-NIME-RapidCreation.pdf
   title: Rapid Creation and Publication of Digital Musical Instruments.
   where: 14th International Conference on New Interfaces for Musical Expression, NIME
     2014, London, United Kingdom, June 30 - July 4, 2014
@@ -1814,7 +1816,7 @@
     }\n"
   doi: 10.1145/2645710.2645761
   key: conf/recsys/HarmanOAG14
-  link: https://www.researchgate.net/profile/Cleotilde_Gonzalez/publication/274899847_Dynamics_of_human_trust_in_recommender_systems/links/553148280cf20ea0a071a7b4.pdf
+  pdf: https://www.researchgate.net/profile/Cleotilde_Gonzalez/publication/274899847_Dynamics_of_human_trust_in_recommender_systems/links/553148280cf20ea0a071a7b4.pdf
   title: Dynamics of human trust in recommender systems.
   where: Eighth ACM Conference on Recommender Systems, RecSys '14, Foster City, Silicon
     Valley, CA, USA - October 06 - 10, 2014
@@ -1829,7 +1831,7 @@
     \  organization={ACM}\n}\n"
   doi: 10.1145/2645710.2645787
   key: conf/recsys/TintarevOBFSL14
-  link: ''
+  pdf: ''
   title: RecSys'14 joint workshop on interfaces and human decision making for recommender
     systems.
   where: Eighth ACM Conference on Recommender Systems, RecSys '14, Foster City, Silicon
@@ -1842,7 +1844,7 @@
     \  number={3},\n  pages={311--324},\n  year={2007},\n  publisher={IEEE}\n}\n"
   doi: 10.1201/b17360-12
   key: reference/crc/Turk14
-  link: http://library.isical.ac.in:8080/jspui/bitstream/10263/2344/1/Binder3.pdf
+  pdf: http://library.isical.ac.in:8080/jspui/bitstream/10263/2344/1/Binder3.pdf
   title: Gesture Recognition.
   where: Handbook of Virtual Environments - Design, Implementation, and Applications,
     Second Edition.
@@ -1854,7 +1856,7 @@
     \  number={3},\n  pages={311--324},\n  year={2007},\n  publisher={IEEE}\n}\n"
   doi: 10.1007/978-0-387-31439-6_376
   key: reference/vision/Turk14
-  link: http://library.isical.ac.in:8080/jspui/bitstream/10263/2344/1/Binder3.pdf
+  pdf: http://library.isical.ac.in:8080/jspui/bitstream/10263/2344/1/Binder3.pdf
   title: Gesture Recognition.
   where: Computer Vision, A Reference Guide
   year: 2014
@@ -1867,7 +1869,7 @@
     \ and Turk, Matthew and Venters, Colin C and Wilkins-Diehr, Nancy},\n  journal={arXiv\
     \ preprint arXiv:1411.3464},\n  year={2014}\n}\n"
   key: journals/corr/KatzAHCPPTVW14
-  link: https://arxiv.org/pdf/1411.3464
+  pdf: https://arxiv.org/pdf/1411.3464
   title: 'Second Workshop on on Sustainable Software for Science: Practice and Experiences
     (WSSSPE2): Submission, Peer-Review and Sorting Process, and Results.'
   where: CoRR
@@ -1883,7 +1885,7 @@
     \ and Hetherington, James and Howison, James and others},\n  journal={arXiv preprint\
     \ arXiv:1404.7414},\n  year={2014}\n}\n"
   key: journals/corr/KatzCLMLTHWHHSAEBV14
-  link: https://arxiv.org/pdf/1404.7414
+  pdf: https://arxiv.org/pdf/1404.7414
   title: 'Summary of the First Workshop on Sustainable Software for Science: Practice
     and Experiences (WSSSPE1).'
   where: CoRR
@@ -1895,7 +1897,7 @@
     \  number={1},\n  pages={1--54},\n  year={2015},\n  publisher={Springer}\n}\n"
   doi: 10.2200/S00536ED1V01Y201309COV005
   key: series/synthesis/2013Turk
-  link: http://cgvr.informatik.uni-bremen.de/teaching/studentprojects/nui4cars/wp-content/uploads/2013/06/survey_Agrawal_AI2012_handRecod.pdf
+  pdf: http://cgvr.informatik.uni-bremen.de/teaching/studentprojects/nui4cars/wp-content/uploads/2013/06/survey_Agrawal_AI2012_handRecod.pdf
   title: Vision-Based Interaction
   where: Morgan & Claypool Publishers
   year: 2013
@@ -1908,7 +1910,7 @@
     \  year={2013},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/MCG.2013.99
   key: journals/cga/WakefieldHKRW13
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.638.3524&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.638.3524&rep=rep1&type=pdf
   title: Spatial Interaction in a Multiuser Immersive Instrument.
   where: IEEE Computer Graphics and Applications
   year: 2013
@@ -1920,7 +1922,7 @@
     \  volume={6},\n  number={31},\n  pages={419--420},\n  year={2013}\n}\n"
   doi: 10.1016/j.imavis.2013.04.003
   key: journals/ivc/PietikainenTWZC13
-  link: https://scholar.google.com/scholar?output=instlink&q=info:y8-X0wNam2wJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=11331270374467066682&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:y8-X0wNam2wJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=11331270374467066682&oi=lle
   title: 'Machine learning in motion analysis: New advances.'
   where: Image Vision Comput.
   year: 2013
@@ -1931,7 +1933,7 @@
     \  publisher={ACM}\n}\n"
   doi: 10.1145/2490824
   key: journals/tomccap/Turk13
-  link: https://pdfs.semanticscholar.org/97c7/e7e8ed128ddbb6204870e8739bbe623caf36.pdf
+  pdf: https://pdfs.semanticscholar.org/97c7/e7e8ed128ddbb6204870e8739bbe623caf36.pdf
   title: Over twenty years of eigenfaces.
   where: TOMCCAP
   year: 2013
@@ -1944,7 +1946,7 @@
     \  pages={547--556},\n  year={2013},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/TVCG.2013.41
   key: journals/tvcg/LeeRMHB13
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.310.9689&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.310.9689&rep=rep1&type=pdf
   title: The Effects of Visual Realism on Search Tasks in Mixed Reality Simulation.
   where: IEEE Trans. Vis. Comput. Graph.
   year: 2013
@@ -1955,7 +1957,7 @@
     \  pages={147--156},\n  year={2013},\n  publisher={Springer}\n}\n"
   doi: 10.1007/s10055-012-0208-3
   key: journals/vr/VenturaH13
-  link: https://www.cs.ucsb.edu/~holl/pubs/Ventura-2012-VIRE.pdf
+  pdf: https://www.cs.ucsb.edu/~holl/pubs/Ventura-2012-VIRE.pdf
   title: Structure and motion in urban environments using upright panoramas.
   where: Virtual Reality
   year: 2013
@@ -1967,7 +1969,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/3DUI.2013.6550233
   key: conf/3dui/KangRHL13
-  link: http://www.academia.edu/download/34845216/Kang-2013-3DUI.pdf
+  pdf: http://www.academia.edu/download/34845216/Kang-2013-3DUI.pdf
   title: 'Poster: Real time hand pose recognition with depth sensors for mixed reality
     interfaces.'
   where: IEEE Symposium on 3D User Interfaces, 3DUI 2013, Orlando, FL, USA, March
@@ -1981,7 +1983,7 @@
     }\n"
   doi: 10.1145/2487276.2487287
   key: conf/cae/ForbesHL13
-  link: https://pdfs.semanticscholar.org/3e89/5734de10550508471975c73daa2bbe4c0e62.pdf
+  pdf: https://pdfs.semanticscholar.org/3e89/5734de10550508471975c73daa2bbe4c0e62.pdf
   title: Generative Fluid Profiles for Interactive Media Arts Projects.
   where: Workshop on Computational Aesthetics, Anaheim, California, USA, 2013. Proceedings
   year: 2013
@@ -1995,7 +1997,7 @@
     \  pages={2092--2093},\n  year={2014},\n  organization={ACM}\n}\n"
   doi: 10.1145/2505515.2505812
   key: conf/cikm/MahmudNZCO13
-  link: ''
+  pdf: ''
   title: 'DUBMOD13: international workshop on data-driven user behavioral modelling
     and mining from social media.'
   where: 22nd ACM International Conference on Information and Knowledge Management,
@@ -2009,7 +2011,7 @@
     \  year={2013},\n  organization={Springer}\n}\n"
   doi: 10.1007/978-3-319-12976-1_10
   key: conf/cmmr/HoltzmanCTP13
-  link: http://www.ldeo.columbia.edu/~benh/papers/Holtzman_CMMR_bookREV.pdf
+  pdf: http://www.ldeo.columbia.edu/~benh/papers/Holtzman_CMMR_bookREV.pdf
   title: 'Seismic Sound Lab: Sights, Sounds and Perception of the Earth as an Acoustic
     Space.'
   where: Sound, Music, and Motion - 10th International Symposium, CMMR 2013, Marseille,
@@ -2025,7 +2027,7 @@
     }\n"
   doi: 10.1145/2441955.2442018
   key: conf/cscw/SavageCTMAH13
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.438.51&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.438.51&rep=rep1&type=pdf
   title: A social crowd-controlled orchestra.
   where: Computer Supported Cooperative Work, CSCW 2013, San Antonio, TX, USA, February
     23-27, 2013, Companion Volume
@@ -2037,7 +2039,7 @@
     \  year={2013},\n  organization={IEEE}\n}\n"
   doi: 10.1109/CVPR.2013.357
   key: conf/cvpr/FragosoT13
-  link: http://openaccess.thecvf.com/content_cvpr_2013/papers/Fragoso_SWIGS_A_Swift_2013_CVPR_paper.pdf
+  pdf: http://openaccess.thecvf.com/content_cvpr_2013/papers/Fragoso_SWIGS_A_Swift_2013_CVPR_paper.pdf
   title: 'SWIGS: A Swift Guided Sampling Method.'
   where: 2013 IEEE Conference on Computer Vision and Pattern Recognition, Portland,
     OR, USA, June 23-28, 2013
@@ -2050,7 +2052,7 @@
     }\n"
   doi: 10.1109/CW.2013.58
   key: conf/cw/ToyouraATM13
-  link: http://www.vc.media.yamanashi.ac.jp/docs/2013/Spectrum_Cyberworlds13.pdf
+  pdf: http://www.vc.media.yamanashi.ac.jp/docs/2013/Spectrum_Cyberworlds13.pdf
   title: Detecting Markers in Blurred and Defocused Images.
   where: 2013 International Conference on Cyberworlds, Yokohama, Japan, October 21-23,
     2013
@@ -2063,7 +2065,7 @@
     \  year={2013},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ICCV.2013.307
   key: conf/iccv/FragosoSRT13
-  link: https://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Fragoso_EVSAC_Accelerating_Hypotheses_2013_ICCV_paper.pdf
+  pdf: https://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Fragoso_EVSAC_Accelerating_Hypotheses_2013_ICCV_paper.pdf
   title: 'EVSAC: Accelerating Hypotheses Generation by Modeling Matching Scores with
     Extreme Value Theory.'
   where: IEEE International Conference on Computer Vision, ICCV 2013, Sydney, Australia,
@@ -2077,7 +2079,7 @@
     \  year={2013},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2013.6671792
   key: conf/ismar/GruberSHS13
-  link: https://www.cs.ucsb.edu/~holl/pubs/Gruber-2013-ISMAR.pdf
+  pdf: https://www.cs.ucsb.edu/~holl/pubs/Gruber-2013-ISMAR.pdf
   title: Acceleration methods for radiance transfer in photorealistic augmented reality.
   where: IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2013,
     Adelaide, Australia, October 1-4, 2013
@@ -2090,7 +2092,7 @@
     }\n"
   doi: 10.1145/2449396.2449435
   key: conf/iui/ChunH13
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.310.8240&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.310.8240&rep=rep1&type=pdf
   title: Real-time hand interaction for augmented reality on mobile phones.
   where: 18th International Conference on Intelligent User Interfaces, IUI 2013, Santa
     Monica, CA, USA, March 19-22, 2013
@@ -2102,7 +2104,7 @@
     \ the International Conference on New Interfaces for Musical Expression (NIME)},\n\
     \  pages={102--105},\n  year={2013}\n}\n"
   key: conf/nime/RobertsFH13
-  link: https://mat.ucsb.edu/Publications/Enabling_MMI_for_IMP.pdf
+  pdf: https://mat.ucsb.edu/Publications/Enabling_MMI_for_IMP.pdf
   title: Enabling Multimodal Mobile Interfaces for Musical Performance.
   where: 13th International Conference on New Interfaces for Musical Expression, NIME
     2013, Daejeon, Republic of Korea, May 27-30, 2013
@@ -2115,7 +2117,7 @@
     }\n"
   doi: 10.1007/s11263-011-0506-3
   key: journals/ijcv/HuaFTPZ12
-  link: https://scholar.google.com/scholar?output=instlink&q=info:2er-acl2NP4J:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=16107087288390097238&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:2er-acl2NP4J:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=16107087288390097238&oi=lle
   title: Introduction to the Special Issue on Mobile Vision.
   where: International Journal of Computer Vision
   year: 2012
@@ -2127,7 +2129,7 @@
     \  pages={1095--1106},\n  year={2012},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/TSMCB.2012.2186798
   key: journals/tsmc/KimCTC12
-  link: https://pdfs.semanticscholar.org/2b4d/40ef1610500c207f166e9a5b55dbfe234045.pdf
+  pdf: https://pdfs.semanticscholar.org/2b4d/40ef1610500c207f166e9a5b55dbfe234045.pdf
   title: A New Biased Discriminant Analysis Using Composite Vectors for Eye Detection.
   where: IEEE Trans. Systems, Man, and Cybernetics, Part B
   year: 2012
@@ -2139,7 +2141,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/3DUI.2012.6184192
   key: conf/3dui/RobertsAKH12
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.653.3267&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.653.3267&rep=rep1&type=pdf
   title: Augmented textual data viewing in 3D visualizations using tablets.
   where: IEEE Symposium on 3D User Interfaces 2012, 3DUI 2012, Costa Mesa, CA, USA,
     March 4-5, 2012
@@ -2154,7 +2156,7 @@
     \  organization={ACM}\n}\n"
   doi: 10.1145/2396761.2398751
   key: conf/cikm/MahmudCNDZ12
-  link: ''
+  pdf: ''
   title: 'DUBMMSM''12: international workshop on data-driven user behavioral modeling
     and mining from social media.'
   where: 21st ACM International Conference on Information and Knowledge Management,
@@ -2168,7 +2170,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/ICIP.2012.6467378
   key: conf/icip/FragosoTH12
-  link: https://scholar.google.com/scholar?output=instlink&q=info:RMawCjVm1pgJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=3610280233679664412&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:RMawCjVm1pgJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=3610280233679664412&oi=lle
   title: Locating binary features for keypoint recognition using noncooperative games.
   where: 19th IEEE International Conference on Image Processing, ICIP 2012, Lake Buena
     Vista, Orlando, FL, USA, September 30 - October 3, 2012
@@ -2180,7 +2182,7 @@
     \ on},\n  pages={3--12},\n  year={2012},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2012.6402531
   key: conf/ismar/VenturaH12
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.310.8484&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.310.8484&rep=rep1&type=pdf
   title: Wide-area scene mapping for mobile visual tracking.
   where: 11th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2012,
     Atlanta, GA, USA, November 5-8, 2012
@@ -2193,7 +2195,7 @@
     \  organization={ACM}\n}\n"
   doi: 10.1145/2365952.2365966
   key: conf/recsys/KnijnenburgBOK12
-  link: https://pdfs.semanticscholar.org/07a8/8645de5c138c70610012a471e7cd775e693c.pdf
+  pdf: https://pdfs.semanticscholar.org/07a8/8645de5c138c70610012a471e7cd775e693c.pdf
   title: Inspectability and control in social recommenders.
   where: Sixth ACM Conference on Recommender Systems, RecSys '12, Dublin, Ireland,
     September 9-13, 2012
@@ -2205,7 +2207,7 @@
     \  pages={232--245},\n  year={2012},\n  organization={Springer}\n}\n"
   doi: 10.1007/978-3-642-35386-4_18
   key: conf/socinfo/SchaalOS12
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.710.5915&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.710.5915&rep=rep1&type=pdf
   title: An Analysis of Topical Proximity in the Twitter Social Graph.
   where: Social Informatics - 4th International Conference, SocInfo 2012, Lausanne,
     Switzerland, December 5-7, 2012. Proceedings
@@ -2219,7 +2221,7 @@
     \ technology},\n  pages={59--60},\n  year={2012},\n  organization={ACM}\n}\n"
   doi: 10.1145/2380296.2380321
   key: conf/uist/SavageFSHC12
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.298.4592&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.298.4592&rep=rep1&type=pdf
   title: Directed social queries with transparent user models.
   where: The 25th Annual ACM Symposium on User Interface Software and Technology,
     UIST '12, Cambridge, MA, USA, October 7-10, 2012 - Adjunct Volume
@@ -2232,7 +2234,7 @@
     \  year={2012},\n  organization={IEEE}\n}\n"
   doi: 10.1109/VR.2012.6180890
   key: conf/vr/LeeGHB12
-  link: https://www.cs.ucsb.edu/~holl/pubs/Lee-2012-IEEEVR.pdf
+  pdf: https://www.cs.ucsb.edu/~holl/pubs/Lee-2012-IEEEVR.pdf
   title: Examining the equivalence of simulated and real AR on a visual following
     and identification task.
   where: 2012 IEEE Virtual Reality, VR 2012, Costa Mesa, CA, USA, March 4-8, 2012
@@ -2244,7 +2246,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/VR.2012.6180946
   key: conf/vr/SchmalstiegH12
-  link: https://scholar.google.com/scholar?output=instlink&q=info:BwzyUi2MdskJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=17786394383844092177&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:BwzyUi2MdskJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=17786394383844092177&oi=lle
   title: Trends in mobile Augmented Reality.
   where: 2012 IEEE Virtual Reality, VR 2012, Costa Mesa, CA, USA, March 4-8, 2012
   year: 2012
@@ -2258,7 +2260,7 @@
     \  publisher={IEEE}\n}\n"
   doi: 10.1109/TPAMI.2011.182
   key: journals/pami/HuaYLMTKH11
-  link: http://ieeexplore.ieee.org/iel5/34/5989906/05989909.pdf
+  pdf: http://ieeexplore.ieee.org/iel5/34/5989906/05989909.pdf
   title: Introduction to the Special Section on Real-World Face Recognition.
   where: IEEE Trans. Pattern Anal. Mach. Intell.
   year: 2011
@@ -2270,7 +2272,7 @@
     \ pages={2325--2333},\n  year={2011},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/TVCG.2011.234
   key: journals/tvcg/AlperHKF11
-  link: https://svn.labri.fr/repos/visu/InfoVis_2011/VisWeek2011_proceedings/infovis/papers/alper2.pdf
+  pdf: https://svn.labri.fr/repos/visu/InfoVis_2011/VisWeek2011_proceedings/infovis/papers/alper2.pdf
   title: 'Stereoscopic Highlighting: 2D Graph Visualization on Stereo Displays.'
   where: IEEE Trans. Vis. Comput. Graph.
   year: 2011
@@ -2282,7 +2284,7 @@
     \  year={2011},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/TVCG.2010.243
   key: journals/tvcg/KimCH11
-  link: https://scholar.google.com/scholar?output=instlink&q=info:SbJdsxTtB7gJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=8233805228069850516&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:SbJdsxTtB7gJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=8233805228069850516&oi=lle
   title: Robust Relocalization and Its Evaluation for Online Environment Map Construction.
   where: IEEE Trans. Vis. Comput. Graph.
   year: 2011
@@ -2294,7 +2296,7 @@
     \  number={10},\n  pages={1353--1354},\n  year={2011},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/TVCG.2011.139
   key: journals/tvcg/KlinkerHSB11
-  link: https://pdfs.semanticscholar.org/2f1a/2effbbed75c226d5ebfbe1ec9ae26eeb9be7.pdf
+  pdf: https://pdfs.semanticscholar.org/2f1a/2effbbed75c226d5ebfbe1ec9ae26eeb9be7.pdf
   title: 'Guest Editors'' Introduction: Special Section on the IEEE International
     Symposium on Mixed and Augmented Reality (ISMAR).'
   where: IEEE Trans. Vis. Comput. Graph.
@@ -2306,7 +2308,7 @@
     \ on},\n  pages={17--24},\n  year={2011},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ICCV.2011.6126220
   key: conf/iccv/ChenVT11
-  link: http://www.cs.ucsb.edu/~mturk/pubs/ChenVaqueroTurkICCV2011.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/pubs/ChenVaqueroTurkICCV2011.pdf
   title: Illumination demultiplexing from a single image.
   where: IEEE International Conference on Computer Vision, ICCV 2011, Barcelona, Spain,
     November 6-13, 2011
@@ -2319,7 +2321,7 @@
     \  year={2011},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ICCVW.2011.6130221
   key: conf/iccvw/PetterFTB11
-  link: https://scholar.google.com/scholar?output=instlink&q=info:P48UOauIwAQJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=844501355623807884&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:P48UOauIwAQJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=844501355623807884&oi=lle
   title: Automatic text detection for mobile augmented reality translation.
   where: IEEE International Conference on Computer Vision Workshops, ICCV 2011 Workshops,
     Barcelona, Spain, November 6-13, 2011
@@ -2334,7 +2336,7 @@
     }\n"
   doi: 10.1109/ISBI.2011.5872397
   key: conf/isbi/SuwannatatLRRLFH11
-  link: http://www.cs.ucsb.edu/~dbl/papers/berutten_ISBI11.pdf
+  pdf: http://www.cs.ucsb.edu/~dbl/papers/berutten_ISBI11.pdf
   title: Interactive visualization of retinal astrocyte images.
   where: 'Proceedings of the 8th IEEE International Symposium on Biomedical Imaging:
     From Nano to Macro, ISBI 2011, March 30 - April 2, 2011, Chicago, Illinois, USA'
@@ -2347,7 +2349,7 @@
     \  year={2011},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2011.6092374
   key: conf/ismar/CoffinLH11
-  link: https://pdfs.semanticscholar.org/88ae/3922b5f9b4ccffb6fc5be4b97c3d932e2958.pdf
+  pdf: https://pdfs.semanticscholar.org/88ae/3922b5f9b4ccffb6fc5be4b97c3d932e2958.pdf
   title: Evaluating the impact of recovery density on augmented reality tracking.
   where: 10th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2011,
     Basel, Switzerland, October 26-29, 2011
@@ -2361,7 +2363,7 @@
     }\n"
   doi: 10.1109/ISMAR.2011.6092360
   key: conf/ismar/KatoHBC11
-  link: https://scholar.google.com/scholar?output=instlink&q=info:HbMnBg8ue1oJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=17832827027857128171&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:HbMnBg8ue1oJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=17832827027857128171&oi=lle
   title: International workshop on AR/MR registration, tracking and benchmarking (TrakMark2011).
   where: 10th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2011,
     Basel, Switzerland, October 26-29, 2011
@@ -2374,7 +2376,7 @@
     }\n"
   doi: 10.1109/ISMAR.2011.6092399
   key: conf/ismar/VenturaH11
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.228.3113&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.228.3113&rep=rep1&type=pdf
   title: Outdoor mobile localization from panoramic imagery.
   where: 10th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2011,
     Basel, Switzerland, October 26-29, 2011
@@ -2386,7 +2388,7 @@
     }\n"
   doi: 10.1145/2037715.2037774
   key: conf/siggraph/VaqueroT11
-  link: https://pdfs.semanticscholar.org/e062/731c8ef5f1303be5f51b5defcf82f080d6bc.pdf#page=30
+  pdf: https://pdfs.semanticscholar.org/e062/731c8ef5f1303be5f51b5defcf82f080d6bc.pdf#page=30
   title: The composition context in point-and-shoot photography.
   where: International Conference on Computer Graphics and Interactive Techniques,
     SIGGRAPH 2011, Vancouver, BC, Canada, August 7-11, 2011 , Poster Proceedings
@@ -2399,7 +2401,7 @@
     \  year={2011},\n  organization={ACM}\n}\n"
   doi: 10.1145/2046396.2046425
   key: conf/uist/RobertsH11
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.228.4059&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.228.4059&rep=rep1&type=pdf
   title: 'Composition for conductor and audience: new uses for mobile devices in the
     concert hall.'
   where: Proceedings of the 24th Annual ACM Symposium on User Interface Software and
@@ -2412,7 +2414,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/WACV.2011.5711479
   key: conf/wacv/EyjolfsdottirT11
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.4831&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.4831&rep=rep1&type=pdf
   title: Multisensory embedded pose estimation.
   where: IEEE Workshop on Applications of Computer Vision (WACV 2011), 5-7 January
     2011, Kona, HI, USA
@@ -2425,7 +2427,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/WACV.2011.5711545
   key: conf/wacv/FragosoGZKT11
-  link: http://nidhogg.cs.ucsb.edu/research/tech_reports/reports/2010-12.pdf
+  pdf: http://nidhogg.cs.ucsb.edu/research/tech_reports/reports/2010-12.pdf
   title: 'TranslatAR: A mobile augmented reality translator.'
   where: IEEE Workshop on Applications of Computer Vision (WACV 2011), 5-7 January
     2011, Kona, HI, USA
@@ -2437,7 +2439,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/WACV.2011.5711559
   key: conf/wacv/JangT11
-  link: https://www.cs.ucsb.edu/~mturk/pubs/JangTurkWACV2011.pdf
+  pdf: https://www.cs.ucsb.edu/~mturk/pubs/JangTurkWACV2011.pdf
   title: 'Car-Rec: A real time car recognition system.'
   where: IEEE Workshop on Applications of Computer Vision (WACV 2011), 5-7 January
     2011, Kona, HI, USA
@@ -2450,7 +2452,7 @@
     }\n"
   doi: 10.1109/WACV.2011.5711547
   key: conf/wacv/VaqueroGTPT11
-  link: http://www.academia.edu/download/30789285/10.1.1.187.2468.pdf
+  pdf: http://www.academia.edu/download/30789285/10.1.1.187.2468.pdf
   title: Generalized autofocus.
   where: IEEE Workshop on Applications of Computer Vision (WACV 2011), 5-7 January
     2011, Kona, HI, USA
@@ -2463,7 +2465,7 @@
     }\n"
   doi: 10.1109/WACV.2011.5711573
   key: conf/wacv/VenturaH11
-  link: https://pdfs.semanticscholar.org/468a/15b86aac2275e3d254b1eb1906a56f34e570.pdf
+  pdf: https://pdfs.semanticscholar.org/468a/15b86aac2275e3d254b1eb1906a56f34e570.pdf
   title: Fast and scalable keypoint recognition and image retrieval using binary codes.
   where: IEEE Workshop on Applications of Computer Vision (WACV 2011), 5-7 January
     2011, Kona, HI, USA
@@ -2476,7 +2478,7 @@
     \  publisher={IEEE}\n}\n"
   doi: 10.1109/TVCG.2010.126
   key: journals/tvcg/ForbesHL10
-  link: https://www.researchgate.net/profile/Angus_Forbes2/publication/224186386_behaviorism_A_Framework_for_Dynamic_Data_Visualization/links/54de244b0cf22a26721f0b34/behaviorism-A-Framework-for-Dynamic-Data-Visualization.pdf
+  pdf: https://www.researchgate.net/profile/Angus_Forbes2/publication/224186386_behaviorism_A_Framework_for_Dynamic_Data_Visualization/links/54de244b0cf22a26721f0b34/behaviorism-A-Framework-for-Dynamic-Data-Visualization.pdf
   title: '"behaviorism": a framework for dynamic data visualization.'
   where: IEEE Trans. Vis. Comput. Graph.
   year: 2010
@@ -2488,7 +2490,7 @@
     \ of America}\n}\n"
   doi: 10.1007/978-3-642-16687-7_5
   key: conf/ciarp/Turk10
-  link: https://cloudfront.escholarship.org/dist/prd/content/qt6649b422/qt6649b422.pdf
+  pdf: https://cloudfront.escholarship.org/dist/prd/content/qt6649b422/qt6649b422.pdf
   title: Computational Illumination.
   where: Progress in Pattern Recognition, Image Analysis, Computer Vision, and Applications
     - 15th Iberoamerican Congress on Pattern Recognition, CIARP 2010, Sao Paulo, Brazil,
@@ -2502,7 +2504,7 @@
     }\n"
   doi: 10.1109/CVPRW.2010.5543249
   key: conf/cvpr/PaucherT10
-  link: http://www.cs.ucsb.edu/~mturk/pubs/PaucherTurkWMV2010.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/pubs/PaucherTurkWMV2010.pdf
   title: Location-based augmented reality on mobile phones.
   where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops
     2010, San Francisco, CA, USA, 13-18 June, 2010
@@ -2516,7 +2518,7 @@
     \  pages={3607--3610},\n  year={2010},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ICPR.2010.880
   key: conf/icpr/GruberZWSH10
-  link: https://www.cs.ucsb.edu/~holl/pubs/Gruber-2010-ICPR.pdf
+  pdf: https://www.cs.ucsb.edu/~holl/pubs/Gruber-2010-ICPR.pdf
   title: Optimization of Target Objects for Natural Feature Tracking.
   where: 20th International Conference on Pattern Recognition, ICPR 2010, Istanbul,
     Turkey, 23-26 August 2010
@@ -2528,7 +2530,7 @@
     \  pages={3704--3707},\n  year={2010},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ICPR.2010.902
   key: conf/icpr/VenkateshaT10
-  link: http://www.cs.ucsb.edu/~mturk/pubs/VenkateshaTurkICPR2010.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/pubs/VenkateshaTurkICPR2010.pdf
   title: Human Activity Recognition Using Local Shape Descriptors.
   where: 20th International Conference on Pattern Recognition, ICPR 2010, Istanbul,
     Turkey, 23-26 August 2010
@@ -2545,7 +2547,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2010.5643564
   key: conf/ismar/GruberGVZHSKSH10
-  link: http://jventura.net/sites/default/files/lgruber_ismar10.pdf
+  pdf: http://jventura.net/sites/default/files/lgruber_ismar10.pdf
   title: 'The City of Sights: Design, construction, and measurement of an Augmented
     Reality stage set.'
   where: 9th IEEE International Symposium on Mixed and Augmented Reality, ISMAR 2010,
@@ -2559,7 +2561,7 @@
     }\n"
   doi: 10.1109/VR.2010.5444774
   key: conf/vr/CoffinKH10
-  link: https://www.researchgate.net/profile/Christopher_Coffin/publication/221402517_Evaluation_of_tracking_robustness_in_real_time_panorama_acquisition/links/0046351a77fe6db2e6000000/Evaluation-of-tracking-robustness-in-real-time-panorama-acquisition.pdf
+  pdf: https://www.researchgate.net/profile/Christopher_Coffin/publication/221402517_Evaluation_of_tracking_robustness_in_real_time_panorama_acquisition/links/0046351a77fe6db2e6000000/Evaluation-of-tracking-robustness-in-real-time-panorama-acquisition.pdf
   title: Evaluation of tracking robustness in real time panorama acquisition.
   where: IEEE Virtual Reality Conference, VR 2010, Waltham, Massachusetts, USA, March
     20-24, 2010
@@ -2571,7 +2573,7 @@
     \ 2010 IEEE},\n  pages={11--18},\n  year={2010},\n  organization={IEEE}\n}\n"
   doi: 10.1109/VR.2010.5444820
   key: conf/vr/LeeBHB10
-  link: https://www.cs.ucsb.edu/~holl/pubs/Lee-2010-VR.pdf
+  pdf: https://www.cs.ucsb.edu/~holl/pubs/Lee-2010-VR.pdf
   title: The role of latency in the validity of AR simulation.
   where: IEEE Virtual Reality Conference, VR 2010, Waltham, Massachusetts, USA, March
     20-24, 2010
@@ -2583,7 +2585,7 @@
     \  number={1},\n  pages={73--84},\n  year={2009},\n  publisher={Elsevier}\n}\n"
   doi: 10.1016/j.cag.2008.11.002
   key: journals/cg/DiVerdiWH09
-  link: https://scholar.google.com/scholar?output=instlink&q=info:sK69S2xzdtEJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=7471860404164990822&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:sK69S2xzdtEJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=7471860404164990822&oi=lle
   title: 'All around the map: Online spherical panorama construction.'
   where: Computers & Graphics
   year: 2009
@@ -2594,7 +2596,7 @@
     \  pages={679--689},\n  year={2009},\n  publisher={Elsevier}\n}\n"
   doi: 10.1016/j.cag.2009.06.001
   key: journals/cg/WitherDH09
-  link: https://scholar.google.com/scholar?output=instlink&q=info:f1nqmSMPrhYJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=13342797383087986777&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:f1nqmSMPrhYJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=13342797383087986777&oi=lle
   title: Annotation in outdoor augmented reality.
   where: Computers & Graphics
   year: 2009
@@ -2607,7 +2609,7 @@
     \  year={2009}\n}\n"
   doi: 10.1109/MMUL.2009.35
   key: journals/ieeemm/AmatriainKHP09
-  link: https://scholar.google.com/scholar?output=instlink&q=info:ChrIjxiQQYwJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=13575869284810695146&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:ChrIjxiQQYwJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=13575869284810695146&oi=lle
   title: 'The AlloSphere: Immersive Multimedia for Scientific Discovery and Artistic
     Exploration.'
   where: IEEE MultiMedia
@@ -2620,7 +2622,7 @@
     }\n"
   doi: 10.1007/s11042-009-0280-1
   key: journals/mta/RakkolainenHDO09
-  link: https://link.springer.com/article/10.1007/s11042-009-0280-1
+  pdf: https://link.springer.com/article/10.1007/s11042-009-0280-1
   title: Mid-air display experiments to create novel user interfaces.
   where: Multimedia Tools Appl.
   year: 2009
@@ -2631,7 +2633,7 @@
     \  number={1},\n  pages={20--33},\n  year={2009},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/TVCG.2008.83
   key: journals/tvcg/LeeDH09
-  link: https://scholar.google.com/scholar?output=instlink&q=info:Fi84RAx6G8UJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=18197775297759790913&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:Fi84RAx6G8UJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=18197775297759790913&oi=lle
   title: Depth-Fused 3D Imagery on an Immaterial Display.
   where: IEEE Trans. Vis. Comput. Graph.
   year: 2009
@@ -2642,7 +2644,7 @@
     \  number={3},\n  pages={355--368},\n  year={2009},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/TVCG.2008.190
   key: journals/tvcg/LeeH09
-  link: https://scholar.google.com/scholar?output=instlink&q=info:xAM0FVc9ARAJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=7777955402214673319&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:xAM0FVc9ARAJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=7777955402214673319&oi=lle
   title: Multithreaded Hybrid Feature Tracking for Markerless Augmented Reality.
   where: IEEE Trans. Vis. Comput. Graph.
   year: 2009
@@ -2655,7 +2657,7 @@
     \  year={2009},\n  organization={IEEE}\n}\n"
   doi: 10.1109/CVPRW.2009.5206792
   key: conf/cvpr/ChenMFCT09
-  link: http://www.cs.ucsb.edu/~mturk/pubs/ChenCVPR2009.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/pubs/ChenCVPR2009.pdf
   title: Shape classification through structured learning of matching measures.
   where: 2009 IEEE Computer Society Conference on Computer Vision and Pattern Recognition
     (CVPR 2009), 20-25 June 2009, Miami, Florida, USA
@@ -2669,7 +2671,7 @@
     \  year={2009},\n  organization={IEEE}\n}\n"
   doi: 10.1109/CVPRW.2009.5206614
   key: conf/cvpr/VaqueroRFT09
-  link: https://dspace.mit.edu/openaccess-disseminate/1721.1/73468
+  pdf: https://dspace.mit.edu/openaccess-disseminate/1721.1/73468
   title: A projector-camera setup for geometry-invariant frequency demultiplexing.
   where: 2009 IEEE Computer Society Conference on Computer Vision and Pattern Recognition
     (CVPR 2009), 20-25 June 2009, Miami, Florida, USA
@@ -2683,7 +2685,7 @@
     \  pages={185--186},\n  year={2009},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2009.5336467
   key: conf/ismar/GauglitzHKR09
-  link: http://ai2-s2-pdfs.s3.amazonaws.com/25b6/9cf1441a0cbd82bc1e23a2e5ba4e2a61d548.pdf
+  pdf: http://ai2-s2-pdfs.s3.amazonaws.com/25b6/9cf1441a0cbd82bc1e23a2e5ba4e2a61d548.pdf
   title: A setup for evaluating detectors and descriptors for visual tracking.
   where: Science & Technology Proceedings, 8th IEEE International Symposium on Mixed
     and Augmented Reality 2009, ISMAR 2009, Orlando, Florida, USA, October 19-22,
@@ -2697,7 +2699,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2009.5336443
   key: conf/ismar/HollererSB09
-  link: https://scholar.google.com/scholar?output=instlink&q=info:4352IhRvOGEJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=2521236898525420359&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:4352IhRvOGEJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=2521236898525420359&oi=lle
   title: 'AR 2.0: Social Augmented Reality - social computing meets Augmented Reality.'
   where: Science & Technology Proceedings, 8th IEEE International Symposium on Mixed
     and Augmented Reality 2009, ISMAR 2009, Orlando, Florida, USA, October 19-22,
@@ -2711,7 +2713,7 @@
     \  pages={203--204},\n  year={2009},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2009.5336464
   key: conf/ismar/LeeBHB09
-  link: http://www.academia.edu/download/30765887/Lee-2009-ISMARPoster.pdf
+  pdf: http://www.academia.edu/download/30765887/Lee-2009-ISMARPoster.pdf
   title: A replication study testing the validity of AR simulation in VR for controlled
     experiments.
   where: Science & Technology Proceedings, 8th IEEE International Symposium on Mixed
@@ -2726,7 +2728,7 @@
     }\n"
   doi: 10.1109/ISMAR.2009.5336493
   key: conf/ismar/VenturaH09
-  link: https://pdfs.semanticscholar.org/2617/b21dd47f4a84fa2f3604fd3188f4b0c8522f.pdf#page=16
+  pdf: https://pdfs.semanticscholar.org/2617/b21dd47f4a84fa2f3604fd3188f4b0c8522f.pdf#page=16
   title: Online environment model estimation for augmented reality.
   where: Science & Technology Proceedings, 8th IEEE International Symposium on Mixed
     and Augmented Reality 2009, ISMAR 2009, Orlando, Florida, USA, October 19-22,
@@ -2740,7 +2742,7 @@
     \  organization={ACM}\n}\n"
   doi: 10.2312/SBM/SBM09/021-028
   key: conf/sbm/VenturaDH09
-  link: https://www.researchgate.net/profile/Tobias_Hoellerer/publication/220772335_A_Sketch-based_Interface_for_Photo_Pop-up/links/55eab92208ae65b6389c631a.pdf
+  pdf: https://www.researchgate.net/profile/Tobias_Hoellerer/publication/220772335_A_Sketch-based_Interface_for_Photo_Pop-up/links/55eab92208ae65b6389c631a.pdf
   title: A Sketch-based Interface for Photo Pop-up.
   where: Sketch Based Interfaces and Modeling, New Orleans, Louisiana, USA, 2009.
     Proceedings
@@ -2752,7 +2754,7 @@
     \ and games},\n  pages={107--114},\n  year={2009},\n  organization={ACM}\n}\n"
   doi: 10.1145/1507149.1507166
   key: conf/si3d/HoetzleinH09
-  link: https://create.ucsb.edu/Publications/hoetzlein_i3D2009.pdf
+  pdf: https://create.ucsb.edu/Publications/hoetzlein_i3D2009.pdf
   title: Interactive water streams with sphere scan conversion.
   where: Proceedings of the 2009 Symposium on Interactive 3D Graphics, SI3D 2009,
     February 27 - March 1, 2009, Boston, Massachusetts, USA
@@ -2765,7 +2767,7 @@
     }\n"
   doi: 10.1109/VR.2009.4811058
   key: conf/vr/RaganWBH09
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.5307&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.5307&rep=rep1&type=pdf
   title: Simulation of AugmentedReality Systems in Purely Virtual Environments.
   where: IEEE Virtual Reality Conference 2009 (VR 2009), 14-18 March 2009, Lafayette,
     Louisiana, USA, Proceedings
@@ -2778,7 +2780,7 @@
     \  year={2009},\n  organization={ACM}\n}\n"
   doi: 10.1145/1643928.1643958
   key: conf/vrst/KimCH09
-  link: http://www.cs.ucsb.edu/~holl/pubs/Kim-2009-VRST.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Kim-2009-VRST.pdf
   title: Relocalization using virtual keyframes for online environment map construction.
   where: Proceedings of the ACM Symposium on Virtual Reality Software and Technology,
     VRST 2009, Kyoto, Japan, November 18-20, 2009
@@ -2793,7 +2795,7 @@
     \  year={2009},\n  organization={ACM}\n}\n"
   doi: 10.1145/1643928.1643963
   key: conf/vrst/VenturaJCHB09
-  link: http://www.cs.ucsb.edu/~holl/pubs/Ventura-2009-VRST.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Ventura-2009-VRST.pdf
   title: Evaluating the effects of tracker reliability and field of view on a target
     following task in augmented reality.
   where: Proceedings of the ACM Symposium on Virtual Reality Software and Technology,
@@ -2808,7 +2810,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/WACV.2009.5403131
   key: conf/wacv/VaqueroFTBHT09
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.180.7630&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.180.7630&rep=rep1&type=pdf
   title: Attribute-based people search in surveillance environments.
   where: IEEE Workshop on Applications of Computer Vision (WACV 2009), 7-8 December,
     2009, Snowbird, UT, USA
@@ -2819,7 +2821,7 @@
     \  pages={213--257},\n  year={2009},\n  publisher={Springer}\n}\n"
   doi: 10.1007/978-1-84800-356-9_9
   key: series/hci/ODonovan09
-  link: https://scholar.google.com/scholar?output=instlink&q=info:Rrr8sNSWr60J:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=843674123238989921&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:Rrr8sNSWr60J:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=843674123238989921&oi=lle
   title: Capturing Trust in Social Web Applications.
   where: Computing with Social Trust
   year: 2009
@@ -2831,7 +2833,7 @@
     }\n"
   doi: 10.1016/j.imavis.2008.01.006
   key: journals/ivc/ParkKNYT08
-  link: http://vision.skku.ac.kr/publications/International%20journal/2008-Using%20structured%20light%20for%20efficient%20depth%20edge%20detection.pdf
+  pdf: http://vision.skku.ac.kr/publications/International%20journal/2008-Using%20structured%20light%20for%20efficient%20depth%20edge%20detection.pdf
   title: Using structured light for efficient depth edge detection.
   where: Image Vision Comput.
   year: 2008
@@ -2844,7 +2846,7 @@
     \  number={1},\n  pages={147--159},\n  year={2008},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/TPAMI.2007.1136
   key: journals/pami/FerisRCTT08
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.137.4985&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.137.4985&rep=rep1&type=pdf
   title: 'Multiflash Stereopsis: Depth-Edge-Preserving Stereo with Small Baseline
     Illumination.'
   where: IEEE Trans. Pattern Anal. Mach. Intell.
@@ -2861,7 +2863,7 @@
     \  number={2},\n  pages={90--96},\n  year={2008},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/MPRV.2008.27
   key: journals/pervasive/HongHHTCKBWHJHUSHM08
-  link: http://search.ror.unisa.edu.au/record/UNISA_ALMA11143327210001831/media/digital/open/9915977911301831/12143327200001831/13143325700001831/pdf
+  pdf: http://search.ror.unisa.edu.au/record/UNISA_ALMA11143327210001831/media/digital/open/9915977911301831/12143327200001831/13143325700001831/pdf
   title: Advances in Tangible Interaction and Ubiquitous Virtual Reality.
   where: IEEE Pervasive Computing
   year: 2008
@@ -2872,7 +2874,7 @@
     \ on},\n  pages={586--591},\n  year={1991},\n  organization={IEEE}\n}\n"
   doi: 10.4249/scholarpedia.4244
   key: journals/scholarpedia/ZhangT08
-  link: http://cvrr.ucsd.edu/ece172a/fa10/projects/papers/eigenfaces_cvpr.pdf
+  pdf: http://cvrr.ucsd.edu/ece172a/fa10/projects/papers/eigenfaces_cvpr.pdf
   title: Eigenfaces.
   where: Scholarpedia
   year: 2008
@@ -2884,7 +2886,7 @@
     \  publisher={IEEE}\n}\n"
   doi: 10.1109/TVCG.2008.26
   key: journals/tvcg/DiVerdiH08
-  link: https://scholar.google.com/scholar?output=instlink&q=info:OL6lO74M4TUJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=6151518418424784311&oi=lle
+  pdf: https://scholar.google.com/scholar?output=instlink&q=info:OL6lO74M4TUJ:scholar.google.com/&hl=en&as_sdt=0,5&scillfp=6151518418424784311&oi=lle
   title: 'Heads Up and Camera Down: A Vision-Based Tracking Modality for Mobile Mixed
     Reality.'
   where: IEEE Trans. Vis. Comput. Graph.
@@ -2897,7 +2899,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/CVPRW.2008.4563078
   key: conf/cvpr/ChenFT08
-  link: http://www.academia.edu/download/30789271/129.pdf
+  pdf: http://www.academia.edu/download/30789271/129.pdf
   title: Efficient partial shape matching using Smith-Waterman algorithm.
   where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops
     2008, Anchorage, AK, USA, 23-28 June, 2008
@@ -2910,7 +2912,7 @@
     \  year={2008},\n  organization={IEEE}\n}\n"
   doi: 10.1109/CVPR.2008.4587767
   key: conf/cvpr/VaqueroFTR08
-  link: http://mplab.ucsd.edu/wordpress/wp-content/uploads/CVPR2008/Conference/data/papers/427.pdf
+  pdf: http://mplab.ucsd.edu/wordpress/wp-content/uploads/CVPR2008/Conference/data/papers/427.pdf
   title: Characterizing the shadow space of camera-light pairs.
   where: 2008 IEEE Computer Society Conference on Computer Vision and Pattern Recognition
     (CVPR 2008), 24-26 June 2008, Anchorage, Alaska, USA
@@ -2923,7 +2925,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/AFGR.2008.4813371
   key: conf/fgr/KimTC08
-  link: http://www.cs.ucsb.edu/~mturk/pubs/FG2008.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/pubs/FG2008.pdf
   title: Biased discriminant analysis using composite vectors for eye detection.
   where: 8th IEEE International Conference on Automatic Face and Gesture Recognition
     (FG 2008), Amsterdam, The Netherlands, 17-19 September 2008
@@ -2938,7 +2940,7 @@
     }\n"
   doi: 10.4108/ICST.INTETAIN2008.2485
   key: conf/intetain/OlwalDRH08
-  link: http://olwal.com/projects/research/immaterial/olwal_consigalo_intetain_2008.pdf
+  pdf: http://olwal.com/projects/research/immaterial/olwal_consigalo_intetain_2008.pdf
   title: 'Consigalo: multi-user face-to-face interaction on immaterial displays.'
   where: 2nd International Conference on INtelligent TEchnologies for interactive
     enterTAINment, INTETAIN 2008, Cancun, Mexico, January 8-10, 2008
@@ -2951,7 +2953,7 @@
     \  year={2008},\n  organization={IEEE Computer Society}\n}\n"
   doi: 10.1109/ISMAR.2008.4637326
   key: conf/ismar/WitherCVH08
-  link: https://pdfs.semanticscholar.org/a13c/d0d0c6f6668550d72015952b856acca80988.pdf
+  pdf: https://pdfs.semanticscholar.org/a13c/d0d0c6f6668550d72015952b856acca80988.pdf
   title: Fast annotation and modeling with a single-point laser range finder.
   where: 7th IEEE and ACM International Symposium on Mixed and Augmented Reality,
     ISMAR 2008, Cambridge, UK, 15-18th September 2008
@@ -2966,7 +2968,7 @@
     }\n"
   doi: 10.1007/978-3-540-79232-1_17
   key: conf/pam/JardoshSHBA08
-  link: https://pdfs.semanticscholar.org/8c3a/5053b941f3fa3c4363ce3249bba806aff5ff.pdf
+  pdf: https://pdfs.semanticscholar.org/8c3a/5053b941f3fa3c4363ce3249bba806aff5ff.pdf
   title: 'SCUBA: Focus and Context for Real-Time Mesh Network Health Diagnosis.'
   where: Passive and Active Network Measurement, 9th International Conference, PAM
     2008, Cleveland, OH, USA, April 29-30, 2008. Proceedings
@@ -2977,7 +2979,7 @@
     \ posters},\n  pages={64},\n  year={2008}\n}\n"
   doi: 10.1145/1400885.1400954
   key: conf/siggraph/VenturaH08
-  link: https://pdfs.semanticscholar.org/3f13/a5b7fde15ff6408a3dab2fbf0e5e35c2dc88.pdf
+  pdf: https://pdfs.semanticscholar.org/3f13/a5b7fde15ff6408a3dab2fbf0e5e35c2dc88.pdf
   title: Depth compositing for augmented reality.
   where: International Conference on Computer Graphics and Interactive Techniques,
     SIGGRAPH 2008, Los Angeles, California, USA, August 11-15, 2008, Poster Proceedings
@@ -2989,7 +2991,7 @@
     \ VR'08. IEEE},\n  pages={19--26},\n  year={2008},\n  organization={IEEE}\n}\n"
   doi: 10.1109/VR.2008.4480745
   key: conf/vr/DiVerdiWH08
-  link: http://ai2-s2-pdfs.s3.amazonaws.com/39d2/63ff653191f3a8d5a882fa986d8099223160.pdf
+  pdf: http://ai2-s2-pdfs.s3.amazonaws.com/39d2/63ff653191f3a8d5a882fa986d8099223160.pdf
   title: 'Envisor: Online Environment Map Construction for Mixed Reality.'
   where: IEEE Virtual Reality Conference 2008 (VR 2008), 8-12 March 2008, Reno, Nevada,
     USA, Proceedings
@@ -3001,7 +3003,7 @@
     \  year={2008},\n  organization={IEEE}\n}\n"
   doi: 10.1109/VR.2008.4480766
   key: conf/vr/LeeH08
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.462.9332&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.462.9332&rep=rep1&type=pdf
   title: Hybrid Feature Tracking and User Interaction for Markerless Augmented Reality.
   where: IEEE Virtual Reality Conference 2008 (VR 2008), 8-12 March 2008, Reno, Nevada,
     USA, Proceedings
@@ -3016,7 +3018,7 @@
     \  year={2007},\n  organization={Springer}\n}\n"
   doi: 10.1007/978-3-540-85035-9_27
   key: conf/cmmr/AmatriainCHKPWW07
-  link: http://www.academia.edu/download/1413624/08_Amatriain_ExperiencingAudioImmersiveEnvironment.pdf
+  pdf: http://www.academia.edu/download/1413624/08_Amatriain_ExperiencingAudioImmersiveEnvironment.pdf
   title: Experiencing Audio and Music in a Fully Immersive Environment.
   where: Computer Music Modeling and Retrieval. Sense of Sounds, 4th International
     Symposium, CMMR 2007, Copenhagen, Denmark, August 27-31, 2007. Revised Papers
@@ -3029,7 +3031,7 @@
     }\n"
   doi: 10.1109/CVPR.2007.383402
   key: conf/cvpr/GuanT07
-  link: http://www.cs.cmu.edu/~ftorre/ca/ca_final_version/p9.pdf
+  pdf: http://www.cs.cmu.edu/~ftorre/ca/ca_final_version/p9.pdf
   title: The Hierarchical Isometric Self-Organizing Map for Manifold Representation.
   where: 2007 IEEE Computer Society Conference on Computer Vision and Pattern Recognition
     (CVPR 2007), 18-23 June 2007, Minneapolis, Minnesota, USA
@@ -3041,7 +3043,7 @@
     \ and Kuchera-Morin, JoAnn and Pope, Stephen Travis},\n  booktitle={ICMC},\n \
     \ year={2007},\n  organization={Citeseer}\n}\n"
   key: conf/icmc/AmatriainHKP07
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.218.7415&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.218.7415&rep=rep1&type=pdf
   title: Immersive audio and Music in the AlloSphere.
   where: Proceedings of the 2007 International Computer Music Conference, ICMC 2007,
     Copenhagen, Denmark, August 27-31, 2007
@@ -3052,7 +3054,7 @@
     \ John and Smyth, Barry and Evrim, Vesile and McLeod, Dennis},\n  booktitle={IJCAI},\n\
     \  pages={2826--2831},\n  year={2007}\n}\n"
   key: conf/ijcai/ODonovanSEM07
-  link: http://www.aaai.org/Papers/IJCAI/2007/IJCAI07-454.pdf
+  pdf: http://www.aaai.org/Papers/IJCAI/2007/IJCAI07-454.pdf
   title: Extracting and Visualizing Trust Relationships from Online Auction Feedback
     Comments.
   where: IJCAI 2007, Proceedings of the 20th International Joint Conference on Artificial
@@ -3066,7 +3068,7 @@
     \ Computer Society}\n}\n"
   doi: 10.1109/ISMAR.2007.4538856
   key: conf/ismar/LeeH07
-  link: http://ai2-s2-pdfs.s3.amazonaws.com/e6e0/de437290f257c12311c8fff9ddd2426ac22b.pdf
+  pdf: http://ai2-s2-pdfs.s3.amazonaws.com/e6e0/de437290f257c12311c8fff9ddd2426ac22b.pdf
   title: Initializing Markerless Tracking Using a Simple Hand Gesture.
   where: Sixth IEEE/ACM International Symposium on Mixed and Augmented Reality, ISMAR
     2007, 13-16 November 2007, Nara, Japan
@@ -3079,7 +3081,7 @@
     \  year={2007},\n  organization={IEEE Computer Society}\n}\n"
   doi: 10.1109/ISMAR.2007.4538832
   key: conf/ismar/WitherDH07
-  link: https://www.cs.ucsb.edu/~holl/pubs/Wither-2007-ISMAR.pdf
+  pdf: https://www.cs.ucsb.edu/~holl/pubs/Wither-2007-ISMAR.pdf
   title: Evaluating Display Types for AR Selection and Annotation.
   where: Sixth IEEE/ACM International Symposium on Mixed and Augmented Reality, ISMAR
     2007, 13-16 November 2007, Nara, Japan
@@ -3091,7 +3093,7 @@
     \ Symposium on},\n  pages={83--90},\n  year={2007},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISWC.2007.4373785
   key: conf/iswc/LeeH07
-  link: http://www.cs.ucsb.edu/~holl/pubs/Lee-2007-ISWC.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Lee-2007-ISWC.pdf
   title: 'Handy AR: Markerless Inspection of Augmented Reality Objects Using Fingertip
     Tracking.'
   where: 11th IEEE International Symposium on Wearable Computers (ISWC 2007), October
@@ -3105,7 +3107,7 @@
     \ and interacton},\n  pages={3},\n  year={2007},\n  organization={ACM}\n}\n"
   doi: 10.1145/1278240.1278243
   key: conf/siggraph/HollererKA07
-  link: http://www.bcchang.com/transfer/articles/2/a3-hoellerer.pdf
+  pdf: http://www.bcchang.com/transfer/articles/2/a3-hoellerer.pdf
   title: 'The allosphere: a large-scale immersive surround-view instrument.'
   where: 'Proceedings of the Emerging Displays Technologies Workshop, EDT 2007, Images
     and Beyond: The Future of Displays and Interaction, August 4th, 2007, San Diego,
@@ -3118,7 +3120,7 @@
     \  year={2007},\n  organization={IEEE}\n}\n"
   doi: 10.1109/VR.2007.352466
   key: conf/vr/DiVerdiH07
-  link: https://www.researchgate.net/profile/Tobias_Hoellerer/publication/224698789_GroundCam_A_Tracking_Modality_for_Mobile_Mixed_Reality/links/55eab91d08ae21d099c45c96.pdf
+  pdf: https://www.researchgate.net/profile/Tobias_Hoellerer/publication/224698789_GroundCam_A_Tracking_Modality_for_Mobile_Mixed_Reality/links/55eab91d08ae21d099c45c96.pdf
   title: 'GroundCam: A Tracking Modality for Mobile Mixed Reality.'
   where: IEEE Virtual Reality Conference, VR 2007, 10-14 March 2007, Charlotte, NC,
     USA, Proceedings
@@ -3133,7 +3135,7 @@
     }\n"
   doi: 10.1145/1315184.1315186
   key: conf/vrst/KimDCKIH07
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.169.5854&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.169.5854&rep=rep1&type=pdf
   title: Implicit 3D modeling and tracking for anywhere augmentation.
   where: Proceedings of the ACM Symposium on Virtual Reality Software and Technology,
     VRST 2007, Newport Beach, California, USA, November 5-7, 2007
@@ -3146,7 +3148,7 @@
     }\n"
   doi: 10.1145/1315184.1315221
   key: conf/vrst/LeeDH07
-  link: https://pdfs.semanticscholar.org/41df/18211c1c23930d5b631092d2c8feee3f09df.pdf
+  pdf: https://pdfs.semanticscholar.org/41df/18211c1c23930d5b631092d2c8feee3f09df.pdf
   title: An immaterial depth-fused 3D display.
   where: Proceedings of the ACM Symposium on Virtual Reality Software and Technology,
     VRST 2007, Newport Beach, California, USA, November 5-7, 2007
@@ -3159,7 +3161,7 @@
     \  publisher={Springer}\n}\n"
   doi: 10.1007/978-3-540-36728-4_29
   key: series/lngc/HollererWD07
-  link: http://www.academia.edu/download/43426787/Hollerer-2007-LNGC.pdf
+  pdf: http://www.academia.edu/download/43426787/Hollerer-2007-LNGC.pdf
   title: '"Anywhere Augmentation": Towards Mobile Augmented Reality in Unprepared
     Environments.'
   where: Location Based Services and TeleCartography
@@ -3171,7 +3173,7 @@
     \  pages={945--962},\n  year={2006},\n  publisher={World Scientific}\n}\n"
   doi: 10.1142/S0218213006003053
   key: journals/ijait/ODonovanS06
-  link: https://vvvvw.aaai.org/Papers/FLAIRS/2005/Flairs05-048.pdf
+  pdf: https://vvvvw.aaai.org/Papers/FLAIRS/2005/Flairs05-048.pdf
   title: Mining Trust Values from Recommendation Errors.
   where: International Journal on Artificial Intelligence Tools
   year: 2006
@@ -3182,7 +3184,7 @@
     \  pages={605--614},\n  year={2006},\n  publisher={Elsevier}\n}\n"
   doi: 10.1016/j.imavis.2005.08.006
   key: journals/ivc/ChangHFT06
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.2048&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.2048&rep=rep1&type=pdf
   title: Manifold based analysis of facial expression.
   where: Image Vision Comput.
   year: 2006
@@ -3195,7 +3197,7 @@
     }\n"
   doi: 10.1016/j.imavis.2006.02.014
   key: journals/ivc/ZanaJFT06
-  link: http://www.cs.ucsb.edu/~mturk/pubs/IVC-ZanaEtAl06.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/pubs/IVC-ZanaEtAl06.pdf
   title: Local approach for face verification in polar frequency domain.
   where: Image Vision Comput.
   year: 2006
@@ -3207,7 +3209,7 @@
     \  publisher={SciELO Brasil}\n}\n"
   doi: 10.1590/S0104-65002006000200003
   key: journals/jbcs/FerisRTT06
-  link: http://www.scielo.br/scielo.php?pid=S0104-65002006000200003&script=sci_arttext&tlng=es
+  pdf: http://www.scielo.br/scielo.php?pid=S0104-65002006000200003&script=sci_arttext&tlng=es
   title: Specular Highlights Detection and Reduction with Multi-Flash Photography.
   where: J. Braz. Comp. Soc.
   year: 2006
@@ -3218,7 +3220,7 @@
     \  pages={25--28},\n  year={2006},\n  organization={IEEE}\n}\n"
   doi: 10.1109/VR.2006.88
   key: conf/3dui/CoffinH06
-  link: https://pdfs.semanticscholar.org/55a2/bc2e58776c4cec21eba2d507c8fad75983b7.pdf
+  pdf: https://pdfs.semanticscholar.org/55a2/bc2e58776c4cec21eba2d507c8fad75983b7.pdf
   title: Interactive Perspective Cut-away Views for General 3D Scenes.
   where: IEEE Symposium on 3D User Interfaces, 3DUI 2006, Alexandria, Virginia, USA,
     25-26 March, 2006
@@ -3232,7 +3234,7 @@
     \ pages={154--154},\n  year={2006},\n  organization={IEEE}\n}\n"
   doi: 10.1109/CVPRW.2006.137
   key: conf/cvpr/GuanCCFT06
-  link: http://www.rogerioferis.com/publications/GuanV4HCI06.pdf
+  pdf: http://www.rogerioferis.com/publications/GuanV4HCI06.pdf
   title: Multi-view Appearance-based 3D Hand Pose Estimation.
   where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops
     2006, New York, NY, USA, 17-22 June, 2006
@@ -3245,7 +3247,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/FGR.2006.103
   key: conf/fgr/GuanFT06
-  link: https://pdfs.semanticscholar.org/6a2d/ab65ab864d70a7895a7b09308d7d5d66785d.pdf
+  pdf: https://pdfs.semanticscholar.org/6a2d/ab65ab864d70a7895a7b09308d7d5d66785d.pdf
   title: The Isometric Self-Organizing Map for 3D Hand Pose Estimation.
   where: Seventh IEEE International Conference on Automatic Face and Gesture Recognition
     (FG 2006), 10-12 April 2006, Southampton, UK
@@ -3260,7 +3262,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/ICIP.2006.312965
   key: conf/icip/FleckBBSRDH06
-  link: https://www.researchgate.net/profile/Dr_Sven_Fleck/publication/221120936_3DTV_-_Panoramic_3D_Model_Acquisition_and_its_3D_Visualization_on_the_Interactive_Fogscreen/links/00b7d515d7fa07f45d000000.pdf
+  pdf: https://www.researchgate.net/profile/Dr_Sven_Fleck/publication/221120936_3DTV_-_Panoramic_3D_Model_Acquisition_and_its_3D_Visualization_on_the_Interactive_Fogscreen/links/00b7d515d7fa07f45d000000.pdf
   title: 3DTV - Panoramic 3D Model Acquisition and its 3D Visualization on the Interactive
     Fogscreen.
   where: Proceedings of the International Conference on Image Processing, ICIP 2006,
@@ -3275,7 +3277,7 @@
     \  year={2006},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ICIP.2006.312368
   key: conf/icip/GuanKHZT06
-  link: http://www.cs.ucsb.edu/~mturk/pubs/ICIP06.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/pubs/ICIP06.pdf
   title: Automatic Hot Spot Detection and Segmentation in Whole Body FDG-PET Images.
   where: Proceedings of the International Conference on Image Processing, ICIP 2006,
     October 8-11, Atlanta, Georgia, USA
@@ -3288,7 +3290,7 @@
     }\n"
   doi: 10.1109/ISMAR.2006.297824
   key: conf/ismar/LeeH06
-  link: https://www.researchgate.net/profile/Tobias_Hoellerer/publication/221221118_Viewpoint_stabilization_for_live_collaborative_video_augmentations/links/55eab92008ae65b6389c6316/Viewpoint-stabilization-for-live-collaborative-video-augmentations.pdf
+  pdf: https://www.researchgate.net/profile/Tobias_Hoellerer/publication/221221118_Viewpoint_stabilization_for_live_collaborative_video_augmentations/links/55eab92008ae65b6389c6316/Viewpoint-stabilization-for-live-collaborative-video-augmentations.pdf
   title: Viewpoint stabilization for live collaborative video augmentations.
   where: Fifth IEEE/ACM International Symposium on Mixed and Augmented Reality, ISMAR
     2006, October 22-25, 2006, Santa Barbara, CA, USA
@@ -3301,7 +3303,7 @@
     \  organization={IEEE Computer Society}\n}\n"
   doi: 10.1109/ISMAR.2006.297808
   key: conf/ismar/WitherDH06
-  link: ''
+  pdf: ''
   title: Using aerial photographs for improved mobile AR annotation.
   where: Fifth IEEE/ACM International Symposium on Mixed and Augmented Reality, ISMAR
     2006, October 22-25, 2006, Santa Barbara, CA, USA
@@ -3313,7 +3315,7 @@
     \  year={2006},\n  organization={ACM}\n}\n"
   doi: 10.1145/1111449.1111476
   key: conf/iui/ODonovanS06
-  link: https://pdfs.semanticscholar.org/7c74/1102dde70de92c7f8a4b624a009816ac9747.pdf
+  pdf: https://pdfs.semanticscholar.org/7c74/1102dde70de92c7f8a4b624a009816ac9747.pdf
   title: 'Is trust robust?: an analysis of trust-based recommendation.'
   where: Proceedings of the 11th International Conference on Intelligent User Interfaces,
     IUI 2006, Sydney, Australia, January 29 - February 1, 2006
@@ -3326,7 +3328,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/SIBGRAPI.2006.10
   key: conf/sibgrapi/FerisTR06
-  link: http://www.academia.edu/download/30716913/TR2006-110.pdf
+  pdf: http://www.academia.edu/download/30716913/TR2006-110.pdf
   title: Dealing with Multi-Scale Depth Changes and Motion in Depth Edge Detection.
   where: 19th Brazilian Symposium on Computer Graphics and Image Processing (SIBGRAPI
     2006), 8-11 October 2006, Manaus, Amazonas, Brazil
@@ -3339,7 +3341,7 @@
     \  pages={679--688},\n  year={2004},\n  organization={ACM}\n}\n"
   doi: 10.1145/1185657.1185741
   key: conf/siggraph/RaskarFYT06
-  link: http://www.merl.com/papers/docs/tr2006-107.pdf
+  pdf: http://www.merl.com/papers/docs/tr2006-107.pdf
   title: 'Non-photorealistic camera: depth edge detection and stylized rendering using
     multi-flash imaging.'
   where: 33. International Conference on Computer Graphics and Interactive Techniques,
@@ -3351,7 +3353,7 @@
     \ and Nixon, Paddy},\n  journal={Frontiers in Artificial Intelligence and Applications},\n\
     \  volume={142},\n  pages={72},\n  year={2006},\n  publisher={ios Press}\n}\n"
   key: conf/stairs/ODonovanESMN06
-  link: https://www.researchgate.net/profile/Karl_Devooght/publication/220774720_Endowing_BDI_Agents_with_Capability_for_Modularizing/links/558be56508ae40781c1f2f1a.pdf#page=85
+  pdf: https://www.researchgate.net/profile/Karl_Devooght/publication/220774720_Endowing_BDI_Agents_with_Capability_for_Modularizing/links/558be56508ae40781c1f2f1a.pdf#page=85
   title: Personalizing Trust in Online Auctions.
   where: STAIRS 2006 - Proceedings of the Third Starting AI Researchers' Symposium,
     Riva del Garda, Trentino, Italy, 2006
@@ -3363,7 +3365,7 @@
     \  year={2006},\n  organization={IEEE}\n}\n"
   doi: 10.1109/VR.2006.82
   key: conf/vr/DiVerdiH06
-  link: https://p2p.cs.ucsb.edu/research/tech_reports/reports/2005-06.pdf
+  pdf: https://p2p.cs.ucsb.edu/research/tech_reports/reports/2005-06.pdf
   title: Image-space Correction of AR Registration Errors Using Graphics Hardware.
   where: IEEE Virtual Reality Conference, VR 2006, Alexandria, Virginia, USA, March
     25-29, 2006
@@ -3377,7 +3379,7 @@
     }\n"
   doi: 10.1109/VR.2006.25
   key: conf/vr/OlwalDCRH06
-  link: http://www.cs.ucsb.edu/~holl/pubs/Olwal-2006-VR.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Olwal-2006-VR.pdf
   title: An Immaterial, Dual-sided Display System with 3D Interaction.
   where: IEEE Virtual Reality Conference, VR 2006, Alexandria, Virginia, USA, March
     25-29, 2006
@@ -3391,7 +3393,7 @@
     \  publisher={IEEE}\n}\n"
   doi: 10.1109/MCG.2005.10
   key: journals/cga/RaskarTFTKY05
-  link: http://www.academia.edu/download/30789288/TR2005-067.pdf
+  pdf: http://www.academia.edu/download/30789288/TR2005-067.pdf
   title: Harnessing Real-World Depth Edges with Multiflash Imaging.
   where: IEEE Computer Graphics and Applications
   year: 2005
@@ -3403,7 +3405,7 @@
     \  year={2005},\n  publisher={World Scientific}\n}\n"
   doi: 10.1142/S0218001405004198
   key: journals/ijprai/WangJHT05
-  link: http://www.worldscientific.com/doi/pdfplus/10.1142/S0218001405004198
+  pdf: http://www.worldscientific.com/doi/pdfplus/10.1142/S0218001405004198
   title: Non-negative matrix factorization framework for face recognition.
   where: IJPRAI
   year: 2005
@@ -3415,7 +3417,7 @@
     \  number={12},\n  pages={1977--1981},\n  year={2005},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/TPAMI.2005.242
   key: journals/pami/KimCYT05
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.84.5934&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.84.5934&rep=rep1&type=pdf
   title: Effective Representation Using ICA for Face Recognition Robust to Local Distortion
     and Partial Occlusion.
   where: IEEE Trans. Pattern Anal. Mach. Intell.
@@ -3428,7 +3430,7 @@
     }\n"
   doi: 10.1007/11564386_23
   key: conf/amfg/ChangVTV05
-  link: https://cloudfront.escholarship.org/dist/prd/content/qt3g44f7k8/qt3g44f7k8.pdf
+  pdf: https://cloudfront.escholarship.org/dist/prd/content/qt3g44f7k8/qt3g44f7k8.pdf
   title: Automatic 3D Facial Expression Analysis in Videos.
   where: Analysis and Modelling of Faces and Gestures, Second International Workshop,
     AMFG 2005, Beijing, China, October 16, 2005, Proceedings
@@ -3441,7 +3443,7 @@
     \ on},\n  pages={106--106},\n  year={2005},\n  organization={IEEE}\n}\n"
   doi: 10.1109/CVPR.2005.536
   key: conf/cvpr/KimPYT05
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.485.8464&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.485.8464&rep=rep1&type=pdf
   title: Structured Light Based Depth Edge Detection for Object Shape Recovery.
   where: IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops
     2005, San Diego, CA, USA, 21-23 September, 2005
@@ -3454,7 +3456,7 @@
     }\n"
   doi: 10.1109/CVPR.2005.173
   key: conf/cvpr/KolschT05
-  link: http://ieeexplore.ieee.org/iel5/9901/31473/01467586.pdf
+  pdf: http://ieeexplore.ieee.org/iel5/9901/31473/01467586.pdf
   title: Hand Tracking with Flocks of Features.
   where: 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition
     (CVPR 2005), 20-26 June 2005, San Diego, CA, USA
@@ -3466,7 +3468,7 @@
     \  pages={73--76},\n  year={2005},\n  organization={Citeseer}\n}\n"
   doi: 10.2312/egs.20051027
   key: conf/eurographics/CandussiCH05
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.2609&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.2609&rep=rep1&type=pdf
   title: Rendering Realistic Trees and Forests in Real Time.
   where: Eurographics 2005 - Short Presentations, Dublin, Ireland, August 29 - September
     2, 2005
@@ -3477,7 +3479,7 @@
     \ Journal on Artificial Intelligence Tools},\n  volume={15},\n  number={06},\n\
     \  pages={945--962},\n  year={2006},\n  publisher={World Scientific}\n}\n"
   key: conf/flairs/ODonovanS05
-  link: https://vvvvw.aaai.org/Papers/FLAIRS/2005/Flairs05-048.pdf
+  pdf: https://vvvvw.aaai.org/Papers/FLAIRS/2005/Flairs05-048.pdf
   title: Eliciting Trust Values from Recommendation Errors.
   where: Proceedings of the Eighteenth International Florida Artificial Intelligence
     Research Society Conference, Clearwater Beach, Florida, USA
@@ -3492,7 +3494,7 @@
     }\n"
   doi: 10.1109/ICCV.2005.76
   key: conf/iccv/FerisRCTT05
-  link: http://www.merl.com/publications/docs/TR2005-146.pdf
+  pdf: http://www.merl.com/publications/docs/TR2005-146.pdf
   title: Discontinuity Preserving Stereo with Small Baseline Multi-Flash Illumination.
   where: 10th IEEE International Conference on Computer Vision (ICCV 2005), 17-20
     October 2005, Beijing, China
@@ -3506,7 +3508,7 @@
     \ on},\n  pages={506--509},\n  year={2005},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ICME.2005.1521471
   key: conf/icmcs/ChangCLZAT05
-  link: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-48.pdf
+  pdf: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-48.pdf
   title: Automatic Head-size Equalization in Panorama Images for Video Conferencing.
   where: Proceedings of the 2005 IEEE International Conference on Multimedia and Expo,
     ICME 2005, July 6-9, 2005, Amsterdam, The Netherlands
@@ -3517,7 +3519,7 @@
     \  booktitle={IJCAI},\n  volume={5},\n  pages={1663--1665},\n  year={2005},\n\
     \  organization={Citeseer}\n}\n"
   key: conf/ijcai/ODonovanS05
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.1474&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.1474&rep=rep1&type=pdf
   title: 'Trust No One: Evaluating Trust-based Filtering for Recommenders.'
   where: IJCAI-05, Proceedings of the Nineteenth International Joint Conference on
     Artificial Intelligence, Edinburgh, Scotland, UK, July 30 - August 5, 2005
@@ -3530,7 +3532,7 @@
     \  organization={IEEE Computer Society}\n}\n"
   doi: 10.1109/ISMAR.2005.49
   key: conf/ismar/CandussiHC05
-  link: http://www.cs.ucsb.edu/~holl/pubs/Candussi-2005-ismar.pdf
+  pdf: http://www.cs.ucsb.edu/~holl/pubs/Candussi-2005-ismar.pdf
   title: Real-Time Rendering of Realistic Trees in Mixed Reality.
   where: Fourth IEEE / ACM International Symposium on Mixed and Augmented Reality
     (ISMAR 2005), 5-8 October 2005, Vienna, Austria
@@ -3542,7 +3544,7 @@
     }\n"
   doi: 10.1007/11595755_77
   key: conf/isvc/GuanT05
-  link: https://ieee-icnp.org/research/tech_reports/reports/2005-15.pdf
+  pdf: https://ieee-icnp.org/research/tech_reports/reports/2005-15.pdf
   title: 3D Hand Pose Reconstruction with ISOSOM.
   where: Advances in Visual Computing, First International Symposium, ISVC 2005, Lake
     Tahoe, NV, USA, December 5-7, 2005, Proceedings
@@ -3554,7 +3556,7 @@
     \  year={2005},\n  organization={Springer}\n}\n"
   doi: 10.1007/11595755_38
   key: conf/isvc/NayakT05
-  link: http://www.academia.edu/download/30890367/10.1.1.92.3135.pdf
+  pdf: http://www.academia.edu/download/30890367/10.1.1.92.3135.pdf
   title: Emotional Expression in Virtual Agents Through Body Language.
   where: Advances in Visual Computing, First International Symposium, ISVC 2005, Lake
     Tahoe, NV, USA, December 5-7, 2005, Proceedings
@@ -3566,7 +3568,7 @@
     \  pages={737--744},\n  year={2005},\n  organization={Springer}\n}\n"
   doi: 10.1007/11595755_94
   key: conf/isvc/ParkKYT05
-  link: http://vision.skku.ac.kr/publications/International%20journal/2005-Efficient%20depth%20edge%20detection%20using%20structured.pdf
+  pdf: http://vision.skku.ac.kr/publications/International%20journal/2005-Efficient%20depth%20edge%20detection%20using%20structured.pdf
   title: Efficient Depth Edge Detection Using Structured Light.
   where: Advances in Visual Computing, First International Symposium, ISVC 2005, Lake
     Tahoe, NV, USA, December 5-7, 2005, Proceedings
@@ -3580,7 +3582,7 @@
     }\n"
   doi: 10.1007/11595755_23
   key: conf/isvc/ZanaJFT05
-  link: https://arxiv.org/pdf/cs/0509083
+  pdf: https://arxiv.org/pdf/cs/0509083
   title: 'Face Verification in Polar Frequency Domain: A Biologically Motivated Approach.'
   where: Advances in Visual Computing, First International Symposium, ISVC 2005, Lake
     Tahoe, NV, USA, December 5-7, 2005, Proceedings
@@ -3592,7 +3594,7 @@
     \ Symposium on},\n  pages={92--99},\n  year={2005},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISWC.2005.41
   key: conf/iswc/WitherH05
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.447.886&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.447.886&rep=rep1&type=pdf
   title: Pictorial Depth Cues for Outdoor Augmented Reality.
   where: Ninth IEEE International Symposium on Wearable Computers (ISWC 2005), 18-21
     October 2005, Osaka, Japan
@@ -3604,7 +3606,7 @@
     \  organization={ACM}\n}\n"
   doi: 10.1145/1040830.1040870
   key: conf/iui/ODonovanS05
-  link: http://brettb.net/project/papers/2007%20Trust-aware%20recommender%20systems.pdf
+  pdf: http://brettb.net/project/papers/2007%20Trust-aware%20recommender%20systems.pdf
   title: Trust in recommender systems.
   where: Proceedings of the 10th International Conference on Intelligent User Interfaces,
     IUI 2005, San Diego, California, USA, January 10-13, 2005
@@ -3618,7 +3620,7 @@
     \  pages={8},\n  year={2005},\n  organization={ACM}\n}\n"
   doi: 10.1145/1187297.1187306
   key: conf/siggraph/RakkolainenDOCH05
-  link: http://www.idemployee.id.tue.nl/g.w.m.rauterberg/movies/2004-rakkolainen.pdf
+  pdf: http://www.idemployee.id.tue.nl/g.w.m.rauterberg/movies/2004-rakkolainen.pdf
   title: The interactive FogScreen.
   where: 32. International Conference on Computer Graphics and Interactive Techniques,
     SIGGRAPH 2005, Los Angeles, California, USA, July 31 - August 4, 2005, Emerging
@@ -3633,7 +3635,7 @@
     \  pages={679--688},\n  year={2004},\n  organization={ACM}\n}\n"
   doi: 10.1145/1198555.1198562
   key: conf/siggraph/RaskarTFYT05
-  link: http://www.merl.com/papers/docs/tr2006-107.pdf
+  pdf: http://www.merl.com/papers/docs/tr2006-107.pdf
   title: 'Non-photorealistic camera: depth edge detection and stylized rendering using
     multi-flash imaging.'
   where: 32. International Conference on Computer Graphics and Interactive Techniques,
@@ -3646,7 +3648,7 @@
     \ technology},\n  pages={227--230},\n  year={2005},\n  organization={ACM}\n}\n"
   doi: 10.1145/1101616.1101662
   key: conf/vrst/OlwalH05
-  link: https://pdfs.semanticscholar.org/c519/8130d4c1823c734095618f78309e4ec30fab.pdf
+  pdf: https://pdfs.semanticscholar.org/c519/8130d4c1823c734095618f78309e4ec30fab.pdf
   title: 'POLAR: portable, optical see-through, low-cost augmented reality.'
   where: Proceedings of the ACM Symposium on Virtual Reality Software and Technology,
     VRST 2005, Monterey, CA, USA, November 7-9, 2005
@@ -3658,7 +3660,7 @@
     \ Symposium on Visual Computing},\n  pages={183--190},\n  year={2005},\n  organization={Springer}\n\
     }\n"
   key: journals/corr/abs-cs-0509083
-  link: https://arxiv.org/pdf/cs/0509083
+  pdf: https://arxiv.org/pdf/cs/0509083
   title: 'Face Verification in Polar Frequency Domain: a Biologically Motivated Approach'
   where: CoRR
   year: 2005
@@ -3670,7 +3672,7 @@
     \ \\&amp; Francis}\n}\n"
   doi: 10.1080/08839510490462768
   key: journals/aai/HallawayFH04
-  link: http://www.tandfonline.com/doi/full/10.1080/08839510490462768
+  pdf: http://www.tandfonline.com/doi/full/10.1080/08839510490462768
   title: 'Bridging the Gaps: Hybrid Tracking for Adaptive Mobile Augmented Reality.'
   where: Applied Artificial Intelligence
   year: 2004
@@ -3680,7 +3682,7 @@
     \  number={1},\n  pages={60--67},\n  year={2004},\n  publisher={ACM}\n}\n"
   doi: 10.1145/962081.962107
   key: journals/cacm/Turk04
-  link: http://www.cs.ucsb.edu/~mturk/pubs/Turk2004.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/pubs/Turk2004.pdf
   title: Computer vision in the interface.
   where: Commun. ACM
   year: 2004
@@ -3694,7 +3696,7 @@
     \  publisher={MIT Press}\n}\n"
   doi: 10.1162/1054746041944803
   key: journals/presence/BailensonBLBT04
-  link: https://www.mitpressjournals.org/doi/pdfplus/10.1162/1054746041944803
+  pdf: https://www.mitpressjournals.org/doi/pdfplus/10.1162/1054746041944803
   title: 'Transformed Social Interaction: Decoupling Representation from Behavior
     and Form in Collaborative Virtual Environments.'
   where: Presence
@@ -3708,7 +3710,7 @@
     \  pages={679--688},\n  year={2004},\n  organization={ACM}\n}\n"
   doi: 10.1145/1015706.1015779
   key: journals/tog/RaskarTFYT04
-  link: http://www.merl.com/papers/docs/tr2006-107.pdf
+  pdf: http://www.merl.com/papers/docs/tr2006-107.pdf
   title: 'Non-photorealistic camera: depth edge detection and stylized rendering using
     multi-flash imaging.'
   where: ACM Trans. Graph.
@@ -3721,7 +3723,7 @@
     }\n"
   doi: 10.1007/978-3-540-27780-4_40
   key: conf/ah/ODonovanD04
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.96.966&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.96.966&rep=rep1&type=pdf
   title: Evaluating Information Filtering Techniques in an Adaptive Recommender System.
   where: Adaptive Hypermedia and Adaptive Web-Based Systems, Third International Conference,
     AH 2004, Eindhoven, The Netherlands, August 23-26, 2004, Proceedings
@@ -3734,7 +3736,7 @@
     \  organization={Springer}\n}\n"
   doi: 10.1007/978-3-540-24630-5_62
   key: conf/cicling/ODonovanD04
-  link: https://pdfs.semanticscholar.org/c537/7563064dca026bee0f47727a8aaa428dbab9.pdf
+  pdf: https://pdfs.semanticscholar.org/c537/7563064dca026bee0f47727a8aaa428dbab9.pdf
   title: A Framework for Evaluation of Information Filtering Techniques in an Adaptive
     Recommender System.
   where: Computational Linguistics and Intelligent Text Processing, 5th International
@@ -3748,7 +3750,7 @@
     \  year={2004},\n  organization={IEEE}\n}\n"
   doi: 10.1109/CVPR.2004.189
   key: conf/cvpr/ChangHT04
-  link: http://www.csd.uwo.ca/faculty/olga/Courses/Fall2009/9840/Chosen/Manifolds.pdf
+  pdf: http://www.csd.uwo.ca/faculty/olga/Courses/Fall2009/9840/Chosen/Manifolds.pdf
   title: Probabilistic Expression Analysis on Manifolds.
   where: 2004 IEEE Computer Society Conference on Computer Vision and Pattern Recognition
     (CVPR 2004), with CD-ROM, 27 June - 2 July 2004, Washington, DC, USA
@@ -3762,7 +3764,7 @@
     \ pages={155--155},\n  year={2004},\n  organization={IEEE}\n}\n"
   doi: 10.1109/CVPR.2004.336
   key: conf/cvpr/FerisTRTO04
-  link: http://www.merl.com/reports/docs/TR2004-099.pdf
+  pdf: http://www.merl.com/reports/docs/TR2004-099.pdf
   title: Exploiting Depth Discontinuities for Vision-Based Fingerspelling Recognition.
   where: IEEE Conference on Computer Vision and Pattern Recognition Workshops, CVPR
     Workshops 2004, Washington, DC, USA, June 27 - July 2, 2004
@@ -3774,7 +3776,7 @@
     \  pages={605--614},\n  year={2006},\n  publisher={Elsevier}\n}\n"
   doi: 10.1109/CVPR.2004.390
   key: conf/cvpr/HuCFT04
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.2048&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.2048&rep=rep1&type=pdf
   title: Manifold Based Analysis of Facial Expression.
   where: IEEE Conference on Computer Vision and Pattern Recognition Workshops, CVPR
     Workshops 2004, Washington, DC, USA, June 27 - July 2, 2004
@@ -3787,7 +3789,7 @@
     }\n"
   doi: 10.1109/CVPR.2004.345
   key: conf/cvpr/KolschT04
-  link: http://www.academia.edu/download/30789250/RTV4HCI_09.pdf
+  pdf: http://www.academia.edu/download/30789250/RTV4HCI_09.pdf
   title: Fast 2D Hand Tracking with Flocks of Features and Multi-Cue Integration.
   where: IEEE Conference on Computer Vision and Pattern Recognition Workshops, CVPR
     Workshops 2004, Washington, DC, USA, June 27 - July 2, 2004
@@ -3798,7 +3800,7 @@
     \  year={2004}\n}\n"
   doi: 10.1109/AFGR.2004.1301601
   key: conf/fgr/KolschT04
-  link: http://schnell-michael.de/me/RobocupSeminar/KolschTurk2004RobustHandDetection.pdf
+  pdf: http://schnell-michael.de/me/RobocupSeminar/KolschTurk2004RobustHandDetection.pdf
   title: Robust Hand Detection.
   where: Sixth IEEE International Conference on Automatic Face and Gesture Recognition
     (FGR 2004), May 17-19, 2004, Seoul, Korea
@@ -3813,7 +3815,7 @@
     \  pages={10--pp},\n  year={2004},\n  organization={IEEE}\n}\n"
   doi: 10.1109/HICSS.2004.1265653
   key: conf/hicss/HixGSLHJBB04
-  link: http://www.dtic.mil/get-tr-doc/pdf?AD=ADA507999
+  pdf: http://www.dtic.mil/get-tr-doc/pdf?AD=ADA507999
   title: A Cost-Effective Usability Evaluation Progression for Novel Interactive Systems.
   where: 37th Hawaii International Conference on System Sciences (HICSS-37 2004),
     CD-ROM / Abstracts Proceedings, 5-8 January 2004, Big Island, HI, USA
@@ -3827,7 +3829,7 @@
     \  year={2004},\n  organization={ACM}\n}\n"
   doi: 10.1145/1027933.1027942
   key: conf/icmi/TurkBBBG04
-  link: http://web.stanford.edu/~bailenso/papers/ICMI.pdf
+  pdf: http://web.stanford.edu/~bailenso/papers/ICMI.pdf
   title: Multimodal transformed social interaction.
   where: Proceedings of the 6th International Conference on Multimodal Interfaces,
     ICMI 2004, State College, PA, USA, October 13-15, 2004
@@ -3840,7 +3842,7 @@
     \  year={2004},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ICPR.2004.1334480
   key: conf/icpr/KolschT04
-  link: http://www.cs.ucsb.edu/~mturk/pubs/KolschICPR2004.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/pubs/KolschICPR2004.pdf
   title: Analysis of Rotational Robustness of Hand Detection with a Viola-Jones Detector.
   where: 17th International Conference on Pattern Recognition, ICPR 2004, Cambridge,
     UK, August 23-26, 2004.
@@ -3853,7 +3855,7 @@
     }\n"
   doi: 10.1145/1071509.1071531
   key: conf/isict/ODonovanD04
-  link: https://pdfs.semanticscholar.org/e305/386f46239a8292a951338175b1c24e452876.pdf
+  pdf: https://pdfs.semanticscholar.org/e305/386f46239a8292a951338175b1c24e452876.pdf
   title: 'Adaptive recommendation: putting the best foot forward.'
   where: Proceedings of the Intenational Symposium on Information and Communication
     Technologies, Las Vegas, Nevada, USA, June 16-18, 2004
@@ -3866,7 +3868,7 @@
     \ Computer Society}\n}\n"
   doi: 10.1109/ISMAR.2004.36
   key: conf/ismar/BaneH04
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.192.2786&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.192.2786&rep=rep1&type=pdf
   title: Interactive Tools for Virtual X-Ray Vision in Mobile Augmented Reality.
   where: 3rd IEEE and ACM International Symposium on Mixed and Augmented Reality (ISMAR
     2004), 2-5 November 2004, Arlington, VA, USA
@@ -3879,7 +3881,7 @@
     }\n"
   doi: 10.1109/ISMAR.2004.38
   key: conf/ismar/DiVerdiHS04
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.137.3516&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.137.3516&rep=rep1&type=pdf
   title: Level of Detail Interfaces.
   where: 3rd IEEE and ACM International Symposium on Mixed and Augmented Reality (ISMAR
     2004), 2-5 November 2004, Arlington, VA, USA
@@ -3892,7 +3894,7 @@
     }\n"
   doi: 10.1109/ISWC.2004.18
   key: conf/iswc/WitherH04
-  link: https://pdfs.semanticscholar.org/a497/9f310f12b0d531020a63cbc3354280783dd2.pdf
+  pdf: https://pdfs.semanticscholar.org/a497/9f310f12b0d531020a63cbc3354280783dd2.pdf
   title: Evaluating Techniques for Interaction at a Distance.
   where: 8th International Symposium on Wearable Computers (ISWC 2004), 31 October
     - 3 November 2004, Arlington, VA, USA
@@ -3905,7 +3907,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/SIBGRA.2004.1352976
   key: conf/sibgrapi/FerisRTT04
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.60.2821&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.60.2821&rep=rep1&type=pdf
   title: Specular Reflection Reduction with Multi-Flash Imaging.
   where: XVII Brazilian Symposium on Computer Graphics and Image Processing, (SIBGRAPI
     2004) 17-20 October 2004, Curitiba, PR, Brazil
@@ -3917,7 +3919,7 @@
     \  pages={58},\n  year={2004},\n  organization={ACM}\n}\n"
   doi: 10.1145/1186415.1186482
   key: conf/siggraph/FerisTRT04
-  link: ''
+  pdf: ''
   title: Specular reflection reduction using a multi-flash camera.
   where: 31. International Conference on Computer Graphics and Interactive Techniques,
     SIGGRAPH 2004, Los Angeles, California, USA, August 8-12, 2004, Posters
@@ -3931,7 +3933,7 @@
     }\n"
   doi: 10.1145/1186155.1186175
   key: conf/siggraph/RaskarTFYT04
-  link: ''
+  pdf: ''
   title: 'The non-photorealistic camera: automatic stylization with multi-flash imaging.'
   where: 31. International Conference on Computer Graphics and Interactive Techniques,
     SIGGRAPH 2004, Los Angeles, California, USA, August 8-12, 2004, Emerging Technologies
@@ -3942,7 +3944,7 @@
     \  pages={28--35},\n  year={2003}\n}\n"
   doi: 10.1109/AMFG.2003.1240820
   key: conf/amfg/ChangHT03
-  link: https://www.cs.cmu.edu/afs/cs.cmu.edu/Web/People/changbo/publications/manifold.pdf
+  pdf: https://www.cs.cmu.edu/afs/cs.cmu.edu/Web/People/changbo/publications/manifold.pdf
   title: Manifold of Facial Expression.
   where: 2003 IEEE International Workshop on Analysis and Modeling of Faces and Gestures
     (AMFG 2003), 17 October 2003, Nice, France, Proceedings
@@ -3955,7 +3957,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/AMFG.2003.1240846
   key: conf/amfg/HuFT03
-  link: https://www.cs.cmu.edu/afs/cs.cmu.edu/Web/People/changbo/publications/viewAWN.pdf
+  pdf: https://www.cs.cmu.edu/afs/cs.cmu.edu/Web/People/changbo/publications/viewAWN.pdf
   title: Real-time View-based Face Alignment using Active Wavelet Networks.
   where: 2003 IEEE International Workshop on Analysis and Modeling of Faces and Gestures
     (AMFG 2003), 17 October 2003, Nice, France, Proceedings
@@ -3966,7 +3968,7 @@
     \ Matthew},\n  booktitle={BMVC},\n  pages={1--10},\n  year={2003}\n}\n"
   doi: 10.5244/C.17.40
   key: conf/bmvc/HuFT03
-  link: http://www.rogerioferis.com/publications/FerisBMVC03.pdf
+  pdf: http://www.rogerioferis.com/publications/FerisBMVC03.pdf
   title: Active Wavelet Networks for Face Alignment.
   where: British Machine Vision Conference, BMVC 2003, Norwich, UK, September, 2003.
     Proceedings
@@ -3979,7 +3981,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2003.1240729
   key: conf/ismar/DiVerdiNH03
-  link: https://www.researchgate.net/profile/Tobias_Hoellerer/publication/4040617_ARWin_-_a_desktop_augmented_reality_Window_Manager/links/55eab92808ae3e12184514bc/ARWin-a-desktop-augmented-reality-Window-Manager.pdf
+  pdf: https://www.researchgate.net/profile/Tobias_Hoellerer/publication/4040617_ARWin_-_a_desktop_augmented_reality_Window_Manager/links/55eab92808ae3e12184514bc/ARWin-a-desktop-augmented-reality-Window-Manager.pdf
   title: ARWin-A Desktop Augmented Reality Window Manager.
   where: 2003 IEEE / ACM International Symposium on Mixed and Augmented Reality (ISMAR
     2003), 7-10 October 2003, Tokyo, Japan
@@ -3994,7 +3996,7 @@
     \  year={2003},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISMAR.2003.1240688
   key: conf/ismar/LivingstonSGHHJBB03
-  link: http://www.dtic.mil/get-tr-doc/pdf?AD=ADA510705
+  pdf: http://www.dtic.mil/get-tr-doc/pdf?AD=ADA510705
   title: Resolving Multiple Occluded Layers in Augmented Reality.
   where: 2003 IEEE / ACM International Symposium on Mixed and Augmented Reality (ISMAR
     2003), 7-10 October 2003, Tokyo, Japan
@@ -4006,7 +4008,7 @@
     }\n"
   doi: 10.1109/ISWC.2003.1241396
   key: conf/iswc/HallawayHF03
-  link: http://www.academia.edu/download/30744349/195_Hallaway_D.pdf
+  pdf: http://www.academia.edu/download/30744349/195_Hallaway_D.pdf
   title: Coarse, Inexpensive, Infrared Tracking for Wearable Computing.
   where: 7th International Symposium on Wearable Computers (ISWC 2003), 21-23 October
     2003, White Plains, NY, USA
@@ -4017,7 +4019,7 @@
     \  pages={20},\n  year={2012}\n}\n"
   doi: 10.1109/MCG.2002.1016691
   key: journals/cga/BellFH02
-  link: http://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=00296570&AN=78277940&h=Bk9PhAoZVZsYLEA2hDjly9rZHEc7Qy2qJr%2BNeBDKOrzEINjQNAMwkV43op2puZDVC5ecszOCIKHPGI3r8lJcoQ%3D%3D&crl=f
+  pdf: http://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=00296570&AN=78277940&h=Bk9PhAoZVZsYLEA2hDjly9rZHEc7Qy2qJr%2BNeBDKOrzEINjQNAMwkV43op2puZDVC5ecszOCIKHPGI3r8lJcoQ%3D%3D&crl=f
   title: Information at a Glance.
   where: IEEE Computer Graphics and Applications
   year: 2002
@@ -4029,7 +4031,7 @@
     \  organization={ACM}\n}\n"
   doi: 10.1145/571985.572017
   key: conf/uist/BellHF02
-  link: https://www.researchgate.net/profile/Tobias_Hoellerer/publication/220877115_An_annotated_situation-awareness_aid_for_augmented_reality/links/55eab92108ae65b6389c6317/An-annotated-situation-awareness-aid-for-augmented-reality.pdf
+  pdf: https://www.researchgate.net/profile/Tobias_Hoellerer/publication/220877115_An_annotated_situation-awareness_aid_for_augmented_reality/links/55eab92108ae65b6389c6317/An-annotated-situation-awareness-aid-for-augmented-reality.pdf
   title: An annotated situation-awareness aid for augmented reality.
   where: Proceedings of the 15th Annual ACM Symposium on User Interface Software and
     Technology, Paris, France, October 27-30, 2002
@@ -4044,7 +4046,7 @@
     \  year={2001},\n  publisher={Elsevier}\n}\n"
   doi: 10.1016/S0097-8493(01)00122-4
   key: journals/cg/HollererFHBLBJBR01
-  link: http://www.dtic.mil/get-tr-doc/pdf?AD=ADA500071
+  pdf: http://www.dtic.mil/get-tr-doc/pdf?AD=ADA500071
   title: User interface management techniques for collaborative mobile augmented reality.
   where: Computers & Graphics
   year: 2001
@@ -4056,7 +4058,7 @@
     \ organization={ACM}\n}\n"
   doi: 10.1145/502348.502363
   key: conf/uist/BellFH01
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1131&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1131&rep=rep1&type=pdf
   title: View management for virtual and augmented reality.
   where: Proceedings of the 14th Annual ACM Symposium on User Interface Software and
     Technology, UIST 2001, Disney's BoardWalk Inn Resort, Walt Disney World, Orlando,
@@ -4070,7 +4072,7 @@
     \ pages={316},\n  year={2001},\n  organization={IEEE Computer Society}\n}\n"
   doi: 10.1109/VR.2001.10016
   key: conf/vr/BrollSHB01
-  link: ''
+  pdf: ''
   title: 'Workshop 2: The Future of VR and AR Interfaces: Multi-Modal, Humanoid, Adaptive
     and Intelligent.'
   where: Virtual Reality 2001 Conference, VR'01, Yokohama, Japan, March 13-17, 2001,
@@ -4083,7 +4085,7 @@
     \  publisher={Springer}\n}\n"
   doi: 10.1145/330534.330535
   key: journals/cacm/TurkR00
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.448.2688&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.448.2688&rep=rep1&type=pdf
   title: 'Perceptual User Interfaces: Introduction.'
   where: Commun. ACM
   year: 2000
@@ -4095,7 +4097,7 @@
     \  year={2000},\n  organization={IEEE}\n}\n"
   doi: 10.1109/AFGR.2000.840667
   key: conf/fgr/HongHT00
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.8893&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.8893&rep=rep1&type=pdf
   title: Gesture Modeling and Recognition Using Finite State Machines.
   where: 4th IEEE International Conference on Automatic Face and Gesture Recognition
     (FG 2000), 26-30 March 2000, Grenoble, France
@@ -4108,7 +4110,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/ICPR.2000.903639
   key: conf/icpr/HongHT00
-  link: https://pdfs.semanticscholar.org/6289/ef04c5641eba35fca8b460f9eb229d6a4116.pdf
+  pdf: https://pdfs.semanticscholar.org/6289/ef04c5641eba35fca8b460f9eb229d6a4116.pdf
   title: Constructing Finite State Machines for Fast Gesture Recognition.
   where: 15th International Conference on Pattern Recognition, ICPR'00, Barcelona,
     Spain, September 3-8, 2000.
@@ -4123,7 +4125,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/ISAR.2000.880917
   key: conf/ismar/JulierLBRFHS00
-  link: http://www.dtic.mil/get-tr-doc/pdf?AD=ADA606483
+  pdf: http://www.dtic.mil/get-tr-doc/pdf?AD=ADA606483
   title: Information filtering for mobile augmented reality.
   where: Proceedings of the IEEE and ACM International Symposium on Augmented Reality,
     ISAR 2000, October 5-6, 2000, Munich, Germany
@@ -4138,7 +4140,7 @@
     }\n"
   doi: 10.1016/S0097-8493(99)00103-X
   key: journals/cg/HollererFTRH99
-  link: http://www1.cs.columbia.edu/~drexel/research/Hollerer-1999-CandG_Elsevier.pdf
+  pdf: http://www1.cs.columbia.edu/~drexel/research/Hollerer-1999-CandG_Elsevier.pdf
   title: 'Exploring MARS: developing indoor and outdoor user interfaces to a mobile
     augmented reality system.'
   where: Computers & Graphics
@@ -4151,7 +4153,7 @@
     \  year={1999},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ICCV.1999.791207
   key: conf/iccv/JojicTH99
-  link: https://www.researchgate.net/profile/Njegica_Jojic/publication/3816584_Tracking_self-occluding_articulated_objects_in_dense_disparity_maps/links/02e7e5220464414d7f000000/Tracking-self-occluding-articulated-objects-in-dense-disparity-maps.pdf
+  pdf: https://www.researchgate.net/profile/Njegica_Jojic/publication/3816584_Tracking_self-occluding_articulated_objects_in_dense_disparity_maps/links/02e7e5220464414d7f000000/Tracking-self-occluding-articulated-objects-in-dense-disparity-maps.pdf
   title: Tracking Self-Occluding Articulated Objects in Dense Disparity Maps.
   where: ICCV
   year: 1999
@@ -4164,7 +4166,7 @@
     \ on},\n  pages={35--44},\n  year={1999},\n  organization={IEEE}\n}\n"
   doi: 10.1109/IWAR.1999.803804
   key: conf/ismar/ButzHFMB99
-  link: ''
+  pdf: ''
   title: Enveloping users and computers in a collaborative 3D augmented reality.
   where: 2nd IEEE and ACM International Workshop on Augmented Reality, IWAR '99, San
     Francisco, CA, USA, October 20-21, 1999
@@ -4177,7 +4179,7 @@
     \  year={1999},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ISWC.1999.806664
   key: conf/iswc/HollererPF99
-  link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.16.6539&rep=rep1&type=pdf
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.16.6539&rep=rep1&type=pdf
   title: 'Situated Documentaries: Embedding Multimedia Presentations in the Real World.'
   where: Third International Symposium on Wearable Computers (ISWC 1999), San Francisco,
     California, USA, 18-19 October 1999, Proceedings.
@@ -4189,7 +4191,7 @@
     \ IEEE International Conference on},\n  pages={416--421},\n  year={1998},\n  organization={IEEE}\n\
     }\n"
   key: conf/fgr/CutlerT98
-  link: https://pdfs.semanticscholar.org/d8f7/d81f72210abfb9539d204b3e966e66873da8.pdf
+  pdf: https://pdfs.semanticscholar.org/d8f7/d81f72210abfb9539d204b3e966e66873da8.pdf
   title: View-Based Interpretation of Real-Time Optical Flow for Gesture Recognition.
   where: 3rd International Conference on Face & Gesture Recognition (FG '98), April
     14-16, 1998, Nara, Japan
@@ -4202,7 +4204,7 @@
     \  year={1997},\n  publisher={Springer}\n}\n"
   doi: 10.1007/BF01682023
   key: journals/puc/FeinerMHW97
-  link: https://www.researchgate.net/profile/Blair_Macintyre/publication/221240775_A_Touring_Machine_Prototyping_3D_Mobile_Augmented_Reality_Systems_for_Exploring_the_Urban_Environment/links/0f31753c5290d35949000000.pdf
+  pdf: https://www.researchgate.net/profile/Blair_Macintyre/publication/221240775_A_Touring_Machine_Prototyping_3D_Mobile_Augmented_Reality_Systems_for_Exploring_the_Urban_Environment/links/0f31753c5290d35949000000.pdf
   title: 'A Touring Machine: Prototyping 3D Augmented Reality Systems for Exploring
     the Urban Environment.'
   where: Personal and Ubiquitous Computing
@@ -4215,7 +4217,7 @@
     \  year={1997},\n  publisher={Springer}\n}\n"
   doi: 10.1109/ISWC.1997.629922
   key: conf/iswc/FeinerMHW97
-  link: https://www.researchgate.net/profile/Blair_Macintyre/publication/221240775_A_Touring_Machine_Prototyping_3D_Mobile_Augmented_Reality_Systems_for_Exploring_the_Urban_Environment/links/0f31753c5290d35949000000.pdf
+  pdf: https://www.researchgate.net/profile/Blair_Macintyre/publication/221240775_A_Touring_Machine_Prototyping_3D_Mobile_Augmented_Reality_Systems_for_Exploring_the_Urban_Environment/links/0f31753c5290d35949000000.pdf
   title: 'A Touring Machine: Prototyping 3D Mobile Augmented Reality Systems for Exploring
     the Urban Environment.'
   where: First International Symposium on Wearable Computers (ISWC 1997), Cambridge,
@@ -4228,7 +4230,7 @@
     \  pages={368--373},\n  year={1996},\n  organization={IEEE}\n}\n"
   doi: 10.1109/AFGR.1996.557293
   key: conf/fgr/Turk96
-  link: https://www.cs.ucsb.edu/~mturk/Papers/FG96.pdf
+  pdf: https://www.cs.ucsb.edu/~mturk/Papers/FG96.pdf
   title: Visual Interaction With Lifelike Characters.
   where: 2nd International Conference on Automatic Face and Gesture Recognition (FG
     '96), October 14-16, 1996, Killington, Vermont, USA
@@ -4243,7 +4245,7 @@
     \  pages={55--64},\n  year={1997},\n  organization={ACM}\n}\n"
   doi: 10.1145/244130.244147
   key: conf/mm/DalalFMPZHSFF96
-  link: http://www.dtic.mil/get-tr-doc/pdf?AD=AD1027033
+  pdf: http://www.dtic.mil/get-tr-doc/pdf?AD=AD1027033
   title: Negotiation for Automated Generation of Temporal Multimedia Presentations.
   where: Proceedings of the Forth ACM International Conference on Multimedia '96,
     Boston, MA, USA, November 18-22, 1996.
@@ -4255,7 +4257,7 @@
     \ on},\n  pages={586--591},\n  year={1991},\n  organization={IEEE}\n}\n"
   doi: 10.1109/CVPR.1991.139758
   key: conf/cvpr/TurkP91
-  link: http://cvrr.ucsd.edu/ece172a/fa10/projects/papers/eigenfaces_cvpr.pdf
+  pdf: http://cvrr.ucsd.edu/ece172a/fa10/projects/papers/eigenfaces_cvpr.pdf
   title: Face recognition using eigenfaces.
   where: IEEE Computer Society Conference on Computer Vision and Pattern Recognition,
     CVPR 1991, 3-6 June, 1991, Lahaina, Maui, Hawaii, USA
@@ -4265,7 +4267,7 @@
     \  author={Turk, Matthew and Pentland, Alex},\n  booktitle={MVA},\n  pages={267--270},\n\
     \  year={1990}\n}\n"
   key: conf/mva/TurkP90
-  link: https://pdfs.semanticscholar.org/dd14/8fcde3c18a083a432b70e64db8dddc812a1f.pdf
+  pdf: https://pdfs.semanticscholar.org/dd14/8fcde3c18a083a432b70e64db8dddc812a1f.pdf
   title: Face Recognition without Features.
   where: Proceedings of IAPR Workshop on Machine Vision Applications, MVA 1990, November
     28-30, 1990, Kokubunji, Tokyo, Japan
@@ -4278,7 +4280,7 @@
     \  organization={IEEE}\n}\n"
   doi: 10.1109/CVPR.1989.37858
   key: conf/cvpr/PentlandDTH89
-  link: http://www.cs.ucsb.edu/~mturk/Papers/mturk-CVPR89.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/Papers/mturk-CVPR89.pdf
   title: A simple, real-time range camera.
   where: IEEE Computer Society Conference on Computer Vision and Pattern Recognition,
     CVPR 1989, 4-8 June, 1989, San Diego, CA, USA.
@@ -4291,7 +4293,7 @@
     \  year={1988},\n  publisher={IEEE}\n}\n"
   doi: 10.1109/34.3899
   key: journals/pami/TurkMGM88
-  link: http://www.cs.ucsb.edu/~mturk/Papers/ALV.pdf
+  pdf: http://www.cs.ucsb.edu/~mturk/Papers/ALV.pdf
   title: VITS-A Vision System for Autonomous Land Vehicle Navigation.
   where: IEEE Trans. Pattern Anal. Mach. Intell.
   year: 1988
@@ -4303,7 +4305,7 @@
     \  year={1987},\n  organization={IEEE}\n}\n"
   doi: 10.1109/ROBOT.1987.1088030
   key: conf/icra/TurkMGM87
-  link: https://www.cs.ucsb.edu/~mturk/pubs/VideoRoadFollowing-ICRA1987.pdf
+  pdf: https://www.cs.ucsb.edu/~mturk/pubs/VideoRoadFollowing-ICRA1987.pdf
   title: Video road-following for the autonomous land vehicle.
   where: Proceedings of the 1987 IEEE International Conference on Robotics and Automation,
     Raleigh, North Carolina, USA, March 31 - April 3, 1987
