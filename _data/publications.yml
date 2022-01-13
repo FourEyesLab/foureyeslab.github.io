@@ -16,6 +16,23 @@
   year: 2020
 
 - areas: [ML, CV, 3D]
+  authors: [Alexander Rich, Noah Stier, Pradeep Sen, "Tobias H\xF6llerer"]
+  bibtex: "@inproceedings{rich20213dvnet,\n
+      title={3DVNet: Multi-View Depth Prediction and Volumetric Refinement},\n
+      author={Rich, Alexander and Stier, Noah and Sen, Pradeep and H{\\\"o}llerer, Tobias},\n
+      booktitle={2021 International Conference on 3D Vision (3DV)},\n
+      pages={700--709},\n
+      year={2021},\n
+      organization={IEEE}\n
+    }
+  "
+  website: https://github.com/alexrich021/3dvnet
+  link: https://arxiv.org/pdf/2112.00202.pdf
+  title: '3DVNet: Multi-View Depth Prediction and Volumetric Refinement'
+  where: 2021 International Conference on 3D Vision (3DV)
+  year: 2021
+
+- areas: [ML, CV, 3D]
   authors: [Noah Stier, Alexander Rich, Pradeep Sen, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{stier2021vortx,\n title={{VoRTX}: Volumetric {3D} Reconstruction with Transformers for Voxel-wise View Selection and Fusion},\n\
     \ author={Stier, Noah and Rich, Alexander and Sen, Pradeep and H{\"o}llerer, Tobias},\n\
