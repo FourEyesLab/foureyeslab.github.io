@@ -32,13 +32,13 @@ permalink: /publications
                                             <span><a href="{{pub.pdf}}">PDF</a></span>
                                         {% endif %}
                                         {% if pub.website %}
-                                            <span><a href="{{pub.website}}">Website</a></span>
+                                            <span><a href="{{pub.website}}" target="_blank">Website</a></span>
                                         {% endif %}
                                         {% if pub.link %}
-                                            <span><a href="{{pub.link}}">Download</a></span>
+                                            <span><a href="{{pub.link}}" target="_blank">Download</a></span>
                                         {% endif %}
                                         {% if pub.doi %}
-                                            <span><a href="https://doi.org/{{pub.doi}}">DOI</a></span>
+                                            <span><a href="https://doi.org/{{pub.doi}}" target="_blank">DOI</a></span>
                                         {% endif %}
                                         {% if pub.bibtex %}
                                             <span><a href="#" onclick='toggleBibtex({{ pub.bibtex || jsonify || replace: "'", "\\x27" }}); return false;'>Bibtex</a></span>
