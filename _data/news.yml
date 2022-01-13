@@ -6,6 +6,10 @@
 
 # The news items will appear in the website as the order defined here. The front page will display a limited number of items.
 
+- date: October 2021
+  title: Two papers accepted to 3DV 2021!
+  description: State-of-the-art 3D reconstruction for room-scale scenes: <a href="https://github.com/alexrich021/3dvnet">3DVNet</a> and <a href="https://noahstier.github.io/vortx">VoRTX</a>.
+
 - date: April 2019
   title: Spring quarter starts.
   description: Our lab meetings would be on Tuesdays 11 am to 1 pm at Harold Frank Hall 1132. You are welcome to join if you are interested in finding out more about various research projects in our lab.
