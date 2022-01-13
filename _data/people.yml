@@ -150,6 +150,13 @@
   website: https://pushkarshuklasblog.wordpress.com
   description: "Comuter Vision, Machine Learning, Deep learning."
   role: master_student
+  
+- name: "Chengyuan (CY) Xu"
+  display: "Chengyuan (CY) Xu"
+  photo: cy_xu.jpg
+  website: https://github.com/cy-xu
+  description: "Comuter Vision, Interactive Machine Learning."
+  role: phd_student
 
 - alumni: true
   display: Jonathan Ventura
