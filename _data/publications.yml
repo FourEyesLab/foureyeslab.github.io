@@ -9,7 +9,7 @@
 
 - areas: [HCI,VR,3D]
   authors: [Ehsan Sayyad, Pradeep Sen, "Tobias H\xF6llerer"]
-  bibtex: "@inproceedings{sayyad2020walking, title={Walking and Teleportation in Wide-area Virtual Reality Experiences}, author={Sayyad, Ehsan and Sra, Misha and H{\"o}llerer, Tobias}, booktitle={2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)}, pages={608--617}, year={2020}, organization={IEEE} }"
+  bibtex: "@inproceedings{sayyad2020walking, title={Walking and Teleportation in Wide-area Virtual Reality Experiences}, author={Sayyad, Ehsan and Sra, Misha and H{\\\"o}llerer, Tobias}, booktitle={2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)}, pages={608--617}, year={2020}, organization={IEEE} }"
   link: https://sites.cs.ucsb.edu/~holl/pubs/Sayyad-2020-ISMAR.pdf
   title: 'Walking and Teleportation in Wide-area Virtual Reality Experiences'
   where: 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
@@ -35,7 +35,7 @@
 - areas: [ML, CV, 3D]
   authors: [Noah Stier, Alexander Rich, Pradeep Sen, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{stier2021vortx,\n title={{VoRTX}: Volumetric {3D} Reconstruction with Transformers for Voxel-wise View Selection and Fusion},\n\
-    \ author={Stier, Noah and Rich, Alexander and Sen, Pradeep and H{\"o}llerer, Tobias},\n\
+    \ author={Stier, Noah and Rich, Alexander and Sen, Pradeep and H{\\\"o}llerer, Tobias},\n\
     \ booktitle={2021 International Conference on {3D} Vision ({3DV})},\n\
     \ year={2021},\n organization={IEEE}\n}\n"
   link: https://arxiv.org/pdf/2112.00236.pdf
@@ -47,7 +47,7 @@
 - areas: [AI, HCI]
   authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{Sebastian2019study,\n title={Knowledge Complacency and Decision Support Systems},\n\
-    \ author={Rodriguez, Sebastian and Schaffer, James and O'Donovan, John and H{\"o}llerer, Tobias},\n\
+    \ author={Rodriguez, Sebastian and Schaffer, James and O'Donovan, John and H{\\\"o}llerer, Tobias},\n\
     \ booktitle={2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)},\n\
     \ pages={43--51},\n year={2019},\n organization={IEEE}\n}\n"
   link: https://sites.cs.ucsb.edu/~holl/pubs/Rodriguez-2019-CogSIMA.pdf
@@ -58,7 +58,7 @@
 - areas: [AI, HCI]
   authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{Sebastian2019study,\n title={Knowledge Complacency and Decision Support Systems},\n\
-    \ author={Rodriguez, Sebastian and Schaffer, James and O'Donovan, John and H{\"o}llerer, Tobias},\n\
+    \ author={Rodriguez, Sebastian and Schaffer, James and O'Donovan, John and H{\\\"o}llerer, Tobias},\n\
     \ booktitle={2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)},\n\
     \ pages={43--51},\n year={2019},\n organization={IEEE}\n}\n"
   link: https://sites.cs.ucsb.edu/~holl/pubs/Rodriguez-2019-CogSIMA.pdf
@@ -78,7 +78,7 @@
   bibtex: |
     @article{englmeiersphere,
       title={Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations},
-      author={Englmeier, David and Sch{\"o}newald, Isabel and Butz, Andreas and H{\"o}llerer, Tobias}
+      author={Englmeier, David and Sch{\\\"o}newald, Isabel and Butz, Andreas and H{\\\"o}llerer, Tobias}
     }
   link: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-IEEEVRPoster.pdf
   title: 'Sphere in Hand: Exploring Tangible Interaction with Immersive Spherical Visualizations'
@@ -111,7 +111,7 @@
   bibtex: |
     @inproceedings{rakkolainen2017extreme,
       title={Extreme field-of-view for head-mounted displays},
-      author={Rakkolainen, Ismo and Raisamo, Roope and Turk, Matthew and H{\"o}llerer, Tobias and Palovuori, Karri},
+      author={Rakkolainen, Ismo and Raisamo, Roope and Turk, Matthew and H{\\\"o}llerer, Tobias and Palovuori, Karri},
       booktitle={2017 3DTV Conference: The True Vision-Capture, Transmission and Display of 3D Video (3DTV-CON)},
       pages={1--4},
       year={2017},
@@ -139,7 +139,7 @@
   authors: [Benjamin Nuernberger, "Tobias H\xF6llerer", Matthew Turk]
   bibtex: "@inproceedings{nuernberger2017evaluating,
   title={Evaluating snapping-to-photos virtual travel interfaces for 3D reconstructed visual reality},
-  author={Nuernberger, Benjamin and Turk, Matthew and H{\"o}llerer, Tobias},
+  author={Nuernberger, Benjamin and Turk, Matthew and H{\\\"o}llerer, Tobias},
   booktitle={Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology},
   pages={22},
   year={2017},
@@ -203,7 +203,7 @@
   authors: [Benjamin Nuernberger, "Tobias H\xF6llerer", Matthew Turk]
   bibtex: "@inproceedings{nuernberger2018hybrid,
   title={Hybrid orbiting-to-photos in 3D reconstructed visual reality},
-  author={Nuernberger, Benjamin and H{\"o}llerer, Tobias and Turk, Matthew},
+  author={Nuernberger, Benjamin and H{\\\"o}llerer, Tobias and Turk, Matthew},
   booktitle={Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology},
   pages={32},
   year={2018},
@@ -228,7 +228,7 @@
 - areas: [AR, HCI]
   authors: [Brandon Huynh, Adam Ibrahim, Yun Suk Chang, "Tobias H\xF6llerer", John O'Donovan]
   bibtex: "@inproceedings{huynh2018study,\n title={A Study of Situated Product Recommendations in Augmented Reality},\n\
-    \ author={Huynh, Brandon and Ibrahim, Adam and Chang, Yun Suk and H{\"o}llerer, Tobias and O'Donovan, John},\n\
+    \ author={Huynh, Brandon and Ibrahim, Adam and Chang, Yun Suk and H{\\\"o}llerer, Tobias and O'Donovan, John},\n\
     \ booktitle={2018 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)},\n\
     \ pages={35--43},\n year={2018},\n organization={IEEE}\n}\n"
   link: http://www.cs.ucsb.edu/~holl/pubs/Huynh-2018-AIVR.pdf
@@ -239,7 +239,7 @@
   authors: [Adam Ibrahim, Brandon Huynh, Jonathan Downey, "Tobias H\xF6llerer", Dorothy Chun, John O'Donovan]
   bibtex: "@article{ibrahim2018arbis,\n title={ARbis Pictus: A Study of Vocabulary\
     \ Learning with Augmented Reality},\n author={Ibrahim, Adam and Huynh, Brandon\
-    \ and Downey, Jonathan and H{\"o}llerer, Tobias and Chun, Dorothy and O'donovan, John},\n\
+    \ and Downey, Jonathan and H{\\\"o}llerer, Tobias and Chun, Dorothy and O'donovan, John},\n\
     \ journal={IEEE transactions on visualization and computer graphics},\n\
     \ volume={24},\n number={11},\n pages={2867--2874},\n year={2018},\n publisher={IEEE}\n}\n"
   link: http://cs.ucsb.edu/~holl/pubs/Ibrahim-2018-ISMAR.pdf
