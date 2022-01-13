@@ -6,6 +6,15 @@
 #   where:
 #   year:
 
+
+- areas: [ML, CV, 3D]
+  authors: [Ehsan Sayyad, Pradeep Sen, "Tobias H\xF6llerer"]
+  bibtex: "@inproceedings{sayyad2020walking, title={Walking and Teleportation in Wide-area Virtual Reality Experiences}, author={Sayyad, Ehsan and Sra, Misha and H{\"o}llerer, Tobias}, booktitle={2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)}, pages={608--617}, year={2020}, organization={IEEE} }"
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Sayyad-2020-ISMAR.pdf
+  title: 'Walking and Teleportation in Wide-area Virtual Reality Experiences'
+  where: 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
+  year: 2020
+
 - areas: [ML, CV, 3D]
   authors: [Noah Stier, Alexander Rich, Pradeep Sen, "Tobias H\xF6llerer"]
   bibtex: "@article{stier2021vortx,\n title={{VoRTX}: Volumetric {3D} Reconstruction with Transformers for Voxel-wise View Selection and Fusion},\n\
