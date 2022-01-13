@@ -157,6 +157,14 @@
   website: https://github.com/cy-xu
   description: "Comuter Vision, Interactive Machine Learning."
   role: phd_student
+  
+- name: radha_kumaran
+  display: "Radha Kumaran"
+  role: phd_student
+  website: https://www.linkedin.com/in/radha-kumaran/
+  description: "Affective Computing, Mixed Reality"
+  photo: radha_kumaran.jpg
+  alumni: false
 
 - alumni: true
   display: Jonathan Ventura
