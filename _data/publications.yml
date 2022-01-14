@@ -16,6 +16,22 @@
   year: 2020
 
 - areas: [ML, CV, 3D]
+  authors: [Pranav Acharya, Daniel Lohn, Vivian Ross, Maya Ha, Alexander Rich, Ehsan Sayyad, "Tobias H\xF6llerer"]
+  bibtex: "@inproceedings{acharya2021using,\n
+      title={Using Synthetic Data Generation to Probe Multi-View Stereo Networks},\n
+      author={Acharya, Pranav and Lohn, Daniel and Ross, Vivian and Ha, Maya and Rich, Alexander and Sayyad, Ehsan and H{\\\"o}llerer, Tobias},\n
+      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},\n
+      pages={1583--1591},\n
+      year={2021}\n
+    }
+  "
+  link: https://openaccess.thecvf.com/content/ICCV2021W/ILDAV/papers/Acharya_Using_Synthetic_Data_Generation_To_Probe_Multi-View_Stereo_Networks_ICCVW_2021_paper.pdf
+  website: https://github.com/vivianross06/Synthetic-Data-Generation-ICCV-2021
+  title: 'Using Synthetic Data Generation to Probe Multi-View Stereo Networks'
+  where: 2021 IEEE/CVF International Conference on Computer Vision
+  year: 2021
+
+- areas: [ML, CV, 3D]
   authors: [Alexander Rich, Noah Stier, Pradeep Sen, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{rich20213dvnet,\n
       title={3DVNet: Multi-View Depth Prediction and Volumetric Refinement},\n
