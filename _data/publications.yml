@@ -15,6 +15,22 @@
   where: 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
   year: 2020
 
+- areas: [ML, CV]
+  authors: [Kento Nishi, Yi Ding, Alexander Rich, "Tobias H\xF6llerer"]
+  bibtex: "@inproceedings{nishi2021augmentation,\n
+    title={Augmentation Strategies for Learning With Noisy Labels},\n
+    author={Nishi, Kento and Ding, Yi and Rich, Alex and H{\\\"o}llerer, Tobias},\n
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n
+    pages={8022--8031},\n
+    year={2021}\n
+  }
+  "
+  link: https://openaccess.thecvf.com/content/CVPR2021/papers/Nishi_Augmentation_Strategies_for_Learning_With_Noisy_Labels_CVPR_2021_paper.pdf
+  website: https://github.com/KentoNishi/Augmentation-for-LNL
+  title: 'Augmentation Strategies for Learning With Noisy Labels'
+  where: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  year: 2021
+
 - areas: [ML, CV, 3D]
   authors: [Pranav Acharya, Daniel Lohn, Vivian Ross, Maya Ha, Alexander Rich, Ehsan Sayyad, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{acharya2021using,\n
