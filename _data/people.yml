@@ -90,7 +90,7 @@
 - name: morgan_lin
   display: "Morgan Lin"
   role: undergraduate_student
-  photo: morgan.jpg
+  photo: Morgan.jpg
   description: "My research interests are HCI, Computer Vision, and Augmented Reality."
   alumni: false
 
