@@ -8,7 +8,7 @@
 
 - name: kento_nishi
   display: "Kento Nishi"
-  role: visitor
+  role: student_visitor
   website: "https://github.com/KentoNishi"
   description: "Machine Learning, Artificial Inelligence"
   photo: kento_nishi.jpeg
