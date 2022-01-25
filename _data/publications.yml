@@ -75,6 +75,20 @@
   title: 'VoRTX: Volumetric 3D Reconstruction with Transformers for Voxel-wise View Selection and Fusion'
   where: 2021 International Conference on 3D Vision (3DV)
   year: 2021
+  
+- areas: [ML, HCI]
+  authors: [Yi Ding, Radha Kumaran, Tianjiao Yang, "Tobias H\xF6llerer"]
+  bibtex: "@inproceedings{ding2020predicting, \n
+  title={Predicting Video Affect via Induced Affection in the Wild}, \n
+  author={Ding, Yi and Kumaran, Radha and Yang, Tianjiao and H{\\\"o}llerer, Tobias}, \n
+  booktitle={Proceedings of the 2020 International Conference on Multimodal Interaction}, \n
+  pages={442--451}, \n
+  year={2020} \n
+  }"
+  link: https://dl.acm.org/doi/pdf/10.1145/3382507.3418838
+  title: 'Predicting Video Affect via Induced Affection in the Wild'
+  where: Proceedings of the 2020 International Conference on Multimodal Interaction
+  year: 2020
 
 - areas: [AI, HCI]
   authors: [Sebastian S. Rodriguez, James Austin Schaffer, John O'Donovan, "Tobias H\xF6llerer"]
