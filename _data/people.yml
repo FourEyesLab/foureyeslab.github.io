@@ -87,6 +87,13 @@
   description: "My research interests are HCI, emotion detection, Computer Vision especially 3D reconstruction in AR and autonomous vehicle."
   alumni: true
 
+- name: morgan_lin
+  display: "Morgan Lin"
+  role: undergraduate_student
+  photo: morgan.jpg
+  description: "My research interests are HCI, Computer Vision, and Augmented Reality."
+  alumni: false
+
 - name: cadu_elmadjian
   display: "Carlos Eduardo L. Elmadjian"
   role: visitor
