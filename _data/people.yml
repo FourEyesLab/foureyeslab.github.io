@@ -32,7 +32,7 @@
 
 - name: alex_rich
   display: "Alex Rich"
-  role: master_student
+  role: phd_student
   description: "Interested in computer vision, graphics, augmented reality, ML. Working on AR medical applications."
   photo: alex_rich.jpg
 
