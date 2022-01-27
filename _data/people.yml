@@ -172,12 +172,12 @@
   description: "Computer Vision, Human-in-the-loop Machine Learning."
   role: phd_student
 
-- name: "Mason Wang"
+- name: mason_wang
   display: "Mason Wang"
   role: student_visitor
   website: "https://www.linkedin.com/in/mason-wang/"
   description: "Machine Learning, Deep Learning."
-  photo: mason_wang.jpeg
+  photo: mason_wang.jpg
   alumni: false
   
 - alumni: true
