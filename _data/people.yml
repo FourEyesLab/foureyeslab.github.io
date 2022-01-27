@@ -171,6 +171,14 @@
   website: https://github.com/cy-xu
   description: "Computer Vision, Human-in-the-loop Machine Learning."
   role: phd_student
+
+- name: "Mason Wang"
+  display: "Mason Wang"
+  role: student_visitor
+  website: "https://www.linkedin.com/in/mason-wang/"
+  description: "Machine Learning, Deep Learning."
+  photo: mason_wang.jpeg
+  alumni: false
   
 - alumni: true
   display: Jonathan Ventura
