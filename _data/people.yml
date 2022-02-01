@@ -100,6 +100,14 @@
   photo: Morgan.jpg
   description: "My research interests are HCI, Computer Vision, and Augmented Reality."
   alumni: false
+  
+- name: kaleb_guo
+  display: "Kaleb Guo"
+  role: undergraduate_student
+  photo: Kaleb.jpg
+  website: "http://www.kalebguo.com/"
+  description: "My research interests are Computer Vision, Machine Learning, Deep learning and Augmented Reality."
+  alumni: false
 
 - name: cadu_elmadjian
   display: "Carlos Eduardo L. Elmadjian"
