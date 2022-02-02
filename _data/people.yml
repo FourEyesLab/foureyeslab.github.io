@@ -128,6 +128,7 @@
   display: "Peter Zhe Fu"
   photo: peter_zhe_fu.jpg
   role: phd_student
+  alumni: true
 
 - name: "Jedrzej Kozerawski"
   display: "Jedrzej Kozerawski"
