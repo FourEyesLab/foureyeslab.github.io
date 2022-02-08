@@ -6,6 +6,14 @@
 #   role: faculty / research_scientist / phd_student / master_student / visitor
 #   alumni: yes / no (or leave out)
 
+- name: masood_kamandy
+  display: "Masood Kamandy"
+  role: phd_student
+  website: "https://masoodkamandy.com"
+  description: "Human Computer Interaction, Programming Languages/Domain Specific Languages, Computer Graphics, Augmented Reality"
+  photo: masood_kamandy.jpg
+  alumni: false
+
 - name: kento_nishi
   display: "Kento Nishi"
   role: student_visitor
