@@ -30,10 +30,24 @@ img {
         <p style="text-align:center;">Cosmic-CoNN is an end-to-end solution to help tackle the cosmic ray (CR) detection problem in CCD-captured astronomical images.</p>
 
       <h4 id="images">Images</h3>
-      <p><a href="https://github.com/FourEyesLab/foureyeslab.github.io/raw/master/assets/images/projects/median_weighted_loss_mask_vis.png"><img src="https://github.com/FourEyesLab/foureyeslab.github.io/raw/master/assets/images/projects/median_weighted_loss_mask_vis.png" align="left" hspace="10" vspace="10" width="250"/></a></p>
+      <table border="0" cellpadding="0" cellspacing="6">
 
-      <p>3D visualization of the Median-Weighted mask. (a) A small image stamp that includes sources, CR affected pixels, and background.
-        (b) Visualization of the CR-free median frame shows inconsistency within the non-CR class as it could be further split into two sub-classes: sources and background. We want to down-weight the less useful yet dominant background pixels to prioritize learning to distinguish between CRs and sources, but the brightness variation between sources makes it hard to use the median frame as a weight mask directly. (c) The ground-truth CR mask shows the imbalance between CR and non-CR classes. We transform (b) to acquire (d), the Median-Weighted mask (M) to adaptively down-weight background pixel loss in the Median-Weighted loss function while maintaining the weight for sources at 1.0 regardless of their brightness. In this figure, M[i,j] ∈ [0.2, 1.0].</p>
+      <tr>
+          <td align="left" valign="middle" width="250"><a href="https://github.com/FourEyesLab/foureyeslab.github.io/raw/master/assets/images/projects/median_weighted_loss_mask_vis.png"><img src="https://github.com/FourEyesLab/foureyeslab.github.io/raw/master/assets/images/projects/median_weighted_loss_mask_vis.png" border="1" /></a></td>
+          <td align="left" valign="middle" width="10">&nbsp;</td>
+          <td align="left" valign="middle" width="512">
+              <strong>Gaze Locking in People:</strong>
+              <p>3D visualization of the Median-Weighted mask. (a) A small image stamp that includes sources, CR affected pixels, and background. (b) Visualization of the CR-free median frame shows inconsistency within the non-CR class as it could be further split into two sub-classes: sources and background. We want to down-weight the less useful yet dominant background pixels to prioritize learning to distinguish between CRs and sources, but the brightness variation between sources makes it hard to use the median frame as a weight mask directly. (c) The ground-truth CR mask shows the imbalance between CR and non-CR classes. We transform (b) to acquire (d), the Median-Weighted mask (M) to adaptively down-weight background pixel loss in the Median-Weighted loss function while maintaining the weight for sources at 1.0 regardless of their brightness. In this figure, M[i,j] ∈ [0.2, 1.0].</p>
+          </td>
+      </tr>
+
+      <tr>
+          <td height="8">&nbsp;</td>
+          <td height="8">&nbsp;</td>
+          <td height="8">&nbsp;</td>
+      </tr>
+
+      </table>
       
       <br> 
       <br> 
