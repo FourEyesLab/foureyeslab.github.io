@@ -1,4 +1,4 @@
-# - areas: []
+# - areas: [3D,AI,AR,CV,HCI,ML,VR]
 #   authors: 
 #   bibtex: "" (remove this line if bibtex is not available)
 #   link: 
@@ -112,7 +112,7 @@
   where: 2019 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA), April 8-11, 2019, Las Vegas, USA
   year: 2019 
   
-- areas: [AR]
+- areas: [AR, HCI]
   authors: [Wallace S Lages, Yuan Li, Lee Lisle, Feiyu Lu, "Tobias H\xF6llerer", Doug A. Bowman]
   link: https://sites.cs.ucsb.edu/~holl/pubs/Lages-2019-IEEEVRPoster.pdf
   title: Enhanced Geometric Techniques for Point Marking in Model-Free Augmented Reality
@@ -131,7 +131,7 @@
   where: IEEE Virtual Reality 2019, Poster, March 25-27, 2019, Osaka, Japan
   year: 2019
   
-- areas: [VR]
+- areas: [VR, HCI]
   authors: [David Englmeier, "Isabel Sch\xF6newald", Andreas Butz, "Tobias H\xF6llerer"]
   link: https://sites.cs.ucsb.edu/~holl/pubs/Englmeier-2019-NIDIT.pdf
   title: 'Feel the Globe: Enhancing the Perception of Immersive Spherical Visualizations with Tangible Proxies'
