@@ -177,8 +177,8 @@
 - name: "Chengyuan (CY) Xu"
   display: "Chengyuan (CY) Xu"
   photo: cy_xu.jpg
-  website: https://github.com/cy-xu
-  description: "Computer Vision, Human-in-the-loop Machine Learning."
+  website: https://cy-xu.github.io/
+  description: "Human-AI Collaboration, Computer Vision."
   role: phd_student
 
 - name: mason_wang
