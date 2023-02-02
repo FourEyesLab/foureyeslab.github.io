@@ -6,7 +6,42 @@
 #   where:
 #   year:
 
+- areas: [ML, CV]
+  authors: [Chengyuan Xu, Boning Dong, Curtis McCully, D. Andrew Howell, Pradeep Sen]
+  bibtex: "@article{Xu_2023,
+    doi = {10.3847/1538-4357/ac9d91},
+    url = {https://dx.doi.org/10.3847/1538-4357/ac9d91},
+    year = {2023},
+    month = {jan},
+    publisher = {The American Astronomical Society},
+    volume = {942},
+    number = {2},
+    pages = {73},
+    author = {Chengyuan Xu and Curtis McCully and Boning Dong and D. Andrew Howell and Pradeep Sen},
+    title = {Cosmic-CoNN: A Cosmic-Ray Detection Deep-learning Framework, Data Set, and Toolkit},
+    journal = {The Astrophysical Journal},
+    }"
+  link: https://iopscience.iop.org/article/10.3847/1538-4357/ac9d91/meta
+  title: 'Cosmic-CoNN: A Cosmic-Ray Detection Deep-learning Framework, Data Set, and Toolkit'
+  where: The Astrophysical Journal, Volume 942, Number 2
+  year: 2023
 
+
+- areas: [ML, CV]
+  authors: [Chengyuan Xu, Boning Dong, Noah Stier, Curtis McCully, D. Andrew Howell, Pradeep Sen, "Tobias H\xF6llerer"]
+  bibtex: "@InProceedings{Xu_2022_CVPR,
+    author    = {Xu, Chengyuan and Dong, Boning and Stier, Noah and McCully, Curtis and Howell, D. Andrew and Sen, Pradeep and H\"ollerer, Tobias},
+    title     = {Interactive Segmentation and Visualization for Tiny Objects in Multi-Megapixel Images},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {21447-21452}
+    }"
+  link: https://openaccess.thecvf.com/content/CVPR2022/html/Xu_Interactive_Segmentation_and_Visualization_for_Tiny_Objects_in_Multi-Megapixel_Images_CVPR_2022_paper.html
+  title: 'Interactive Segmentation and Visualization for Tiny Objects in Multi-Megapixel Images'
+  where: CVPR
+  year: 2022
+  
 - areas: [HCI,VR,3D]
   authors: [Ehsan Sayyad, Pradeep Sen, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{sayyad2020walking, title={Walking and Teleportation in Wide-area Virtual Reality Experiences}, author={Sayyad, Ehsan and Sra, Misha and H{\\\"o}llerer, Tobias}, booktitle={2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)}, pages={608--617}, year={2020}, organization={IEEE} }"
