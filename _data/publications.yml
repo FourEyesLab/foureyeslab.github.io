@@ -39,7 +39,7 @@
     }"
   link: https://openaccess.thecvf.com/content/CVPR2022/html/Xu_Interactive_Segmentation_and_Visualization_for_Tiny_Objects_in_Multi-Megapixel_Images_CVPR_2022_paper.html
   title: 'Interactive Segmentation and Visualization for Tiny Objects in Multi-Megapixel Images'
-  where: CVPR
+  where:  2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
   year: 2022
   
 - areas: [HCI,VR,3D]
