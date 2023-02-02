@@ -8,6 +8,7 @@
 
 - areas: [ML, CV]
   authors: [Chengyuan Xu, Boning Dong, Curtis McCully, D. Andrew Howell, Pradeep Sen]
+  website: https://github.com/cy-xu/cosmic-conn
   bibtex: "@article{Xu_2023,
     doi = {10.3847/1538-4357/ac9d91},
     url = {https://dx.doi.org/10.3847/1538-4357/ac9d91},
@@ -29,6 +30,7 @@
 
 - areas: [ML, CV]
   authors: [Chengyuan Xu, Boning Dong, Noah Stier, Curtis McCully, D. Andrew Howell, Pradeep Sen, "Tobias H\xF6llerer"]
+  website: https://github.com/cy-xu/cosmic-conn#credits
   bibtex: "@InProceedings{Xu_2022_CVPR,
     author    = {Xu, Chengyuan and Dong, Boning and Stier, Noah and McCully, Curtis and Howell, D. Andrew and Sen, Pradeep and H\"ollerer, Tobias},
     title     = {Interactive Segmentation and Visualization for Tiny Objects in Multi-Megapixel Images},
