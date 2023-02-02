@@ -13,7 +13,7 @@
   description: "Machine Learning, Artificial Inelligence"
   photo: kento_nishi.jpeg
   alumni: false
-  
+
 - name: yi_ding
   display: "Yi Ding"
   role: phd_student
@@ -51,7 +51,7 @@
   photo: pradeep_sen.jpg
   alumni: false
   order: 1
-  
+
 - name: yon_visell
   display: "Yon Visell"
   role: affiliated_faculty
@@ -60,7 +60,7 @@
   photo: yon_visell.jpg
   alumni: false
   order: 2
-  
+
 - name: lingqi_yan
   display: "Lingqi Yan"
   role: affiliated_faculty
@@ -100,7 +100,7 @@
   photo: Morgan.jpg
   description: "My research interests are HCI, Computer Vision, and Augmented Reality."
   alumni: false
-  
+
 - name: kaleb_guo
   display: "Kaleb Guo"
   role: undergraduate_student
@@ -159,7 +159,7 @@
   description: "PhD student of Media Arts and Technology Interested in VR/AR and Machine Learning"
   website: https://www.ehsansayyad.com/
   role: phd_student
-  
+
 - name: "You-Jin Kim"
   display: "You-Jin Kim"
   photo: yujnkm.jpg
@@ -173,7 +173,7 @@
   website: https://pushkarshuklasblog.wordpress.com
   description: "Computer Vision, Machine Learning, Deep learning."
   role: master_student
-  
+
 - name: "Chengyuan (CY) Xu"
   display: "Chengyuan (CY) Xu"
   photo: cy_xu.jpg
@@ -188,7 +188,7 @@
   description: "Machine Learning, Deep Learning."
   photo: mason_wang.jpg
   alumni: false
-  
+
 - alumni: true
   display: Jonathan Ventura
   name: Jonathan Ventura
@@ -245,14 +245,13 @@
   website: https://www.mat.ucsb.edu/faculty/#jmjacobs
 
 - alumni: false
-  display: Misha Sra 
-  name: Misha Sra 
+  display: Misha Sra
+  name: Misha Sra
   photo: misha_sra.jpg
   order: 3
   role: faculty
   description: John and Eileen Gerngross Assistant Professor of Computer Science. Research in HCI, with focus on AR/VR, Perceptual Engineering.
   website: https://www.cs.ucsb.edu/people/faculty/sra
-
 
 - alumni: true
   display: Nichole Stockman
@@ -288,8 +287,8 @@
   photo: john_o'donovan.jpg
   role: research_scientist
   website: http://cs.ucsb.edu/~jod
-  description:  Associate Researcher, Computer Science Department.  Research in AI/ML, Data Science, HCI, Recommmender Systems
-  
+  description: Associate Researcher, Computer Science Department.  Research in AI/ML, Data Science, HCI, Recommmender Systems
+
 - alumni: true
   display: Justin Muncaster
   name: Justin Muncaster
@@ -872,7 +871,7 @@
   photo: martin_hering.jpg
   role: visitor
   website: null
- 
+
 - name: noah_stier
   display: "Noah Stier"
   role: phd_student
@@ -880,7 +879,7 @@
   description: "Machine Learning, 3D scene understanding"
   photo: noah_stier.jpg
   alumni: false
-  
+
 - name: radha_kumaran
   display: "Radha Kumaran"
   role: phd_student
@@ -888,7 +887,7 @@
   description: "Affective Computing, Mixed Reality"
   photo: radha_kumaran.png
   alumni: false
-  
+
 - name: masood_kamandy
   display: "Masood Kamandy"
   role: phd_student
@@ -897,3 +896,10 @@
   photo: masood_kamandy.jpg
   alumni: false
 
+- name: amey_walimbe
+  display: "Amey Walimbe"
+  role: undergraduate_student
+  website: "https://www.linkedin.com/in/ameywalimbe/"
+  description: "Interested in Computer Vision and Machine Learning"
+  photo: amey_walimbe.jpg
+  alumni: false
