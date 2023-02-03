@@ -911,3 +911,11 @@
   description: "My research interests are Computer Vision, Deep Learning, and Machine Learning"
   photo: kelly_lin.jpg
   alumni: false
+
+- name: irene_cho
+  display: "Irene Cho"
+  role: undergraduate_student
+  website: "https://www.linkedin.com/in/irene-cho-ab37a718a/"
+  description: "My research interests are HCI, Machine Learning, and Augmented Reality"
+  photo: irene_cho.jpg
+  alumni: false
