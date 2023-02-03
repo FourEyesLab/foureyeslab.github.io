@@ -44,6 +44,23 @@
   where:  2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
   year: 2022
   
+- areas: [AR, HCI]
+  authors: [You-Jin Kim, Radha Kumaran, Ehsan Sayyad, Anne Milner, Tom Bullock, Barry Giesbrecht, "Tobias H\xF6llerer"]
+  bibtex: "@article{kim2022investigating,
+  title={Investigating Search Among Physical and Virtual Objects Under Different Lighting Conditions},
+  author={Kim, You-Jin and Kumaran, Radha and Sayyad, Ehsan and Milner, Anne and Bullock, Tom and Giesbrecht, Barry and H{\"o}llerer, Tobias},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  volume={28},
+  number={11},
+  pages={3788--3798},
+  year={2022},
+  publisher={IEEE}
+  }"
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Kim-2022-ISMAR_TVCG.pdf
+  title: 'Investigating Search Among Physical and Virtual Objects Under Different Lighting Conditions.'
+  where: IEEE Transactions on Visualization and Computer Graphics
+  year: 2022
+  
 - areas: [HCI,VR,3D]
   authors: [Ehsan Sayyad, Pradeep Sen, "Tobias H\xF6llerer"]
   bibtex: "@inproceedings{sayyad2020walking, title={Walking and Teleportation in Wide-area Virtual Reality Experiences}, author={Sayyad, Ehsan and Sra, Misha and H{\\\"o}llerer, Tobias}, booktitle={2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)}, pages={608--617}, year={2020}, organization={IEEE} }"
