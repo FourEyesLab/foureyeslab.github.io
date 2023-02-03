@@ -903,3 +903,11 @@
   description: "Interested in Computer Vision and Machine Learning"
   photo: amey_walimbe.jpg
   alumni: false
+
+- name: kelly_lin
+  display: "Kelly Lin"
+  role: undergraduate_student
+  website: "https://www.linkedin.com/in/kelly-lin-7689251a0/"
+  description: "My research interests are Computer Vision, Deep Learning, and Machine Learning"
+  photo: kelly_lin.jpg
+  alumni: false
