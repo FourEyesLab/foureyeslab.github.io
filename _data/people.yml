@@ -20,7 +20,7 @@
   website: "https://www.linkedin.com/in/yding37/"
   description: "Machine Learning, Human Computer Interaction, and Affective Computing"
   photo: yi_ding.jpg
-  alumni: false
+  alumni: true
 
 - name: lei_xu
   display: "Lei Xu"
@@ -28,7 +28,7 @@
   website: "http://lei-xu.com/"
   description: "Interested in Computer Graphics. Especially in rendering, both real-time and offline, and their application in games and movies industry."
   photo: lei_xu.jpg
-  alumni: false
+  alumni: true
 
 - name: alex_rich
   display: "Alex Rich"
@@ -76,7 +76,7 @@
   photo: aiwen_xu.jpg
   website: "https://aiwenxu.com/"
   description: "Interested in machine learning and human computer interaction."
-  alumni: false
+  alumni: true
 
 - name: zhening_zhang
   display: "Sirius Zhening Zhang"
@@ -136,6 +136,7 @@
   website: https://www.linkedin.com/in/jkozerawski/
   description: "Machine Learning for computer vision. Low-shot object detection & recognition, transfer learning."
   role: phd_student
+  alumni: true
 
 - name: "Sikun Lin"
   display: "Sikun Lin"
@@ -159,6 +160,7 @@
   description: "PhD student of Media Arts and Technology Interested in VR/AR and Machine Learning"
   website: https://www.ehsansayyad.com/
   role: phd_student
+  alumni: true
 
 - name: "You-Jin Kim"
   display: "You-Jin Kim"
@@ -173,6 +175,7 @@
   website: https://pushkarshuklasblog.wordpress.com
   description: "Computer Vision, Machine Learning, Deep learning."
   role: master_student
+  alumni: true
 
 - name: "Chengyuan (CY) Xu"
   display: "Chengyuan (CY) Xu"
