@@ -826,7 +826,7 @@
   role: phd_student
   website: null
 
-- alumni: false
+- alumni: true
   display: Brandon Huynh
   name: Brandon Huynh
   photo: brandon_huynh.jpg
@@ -921,4 +921,12 @@
   website: "https://www.linkedin.com/in/irene-cho-ab37a718a/"
   description: "My research interests are HCI, Machine Learning, and Augmented Reality"
   photo: irene_cho.jpg
+  alumni: false
+  
+- name: joyce_passananti
+  display: "Joyce Passananti"
+  role: phd_student
+  website: "https://joyce-passananti.github.io/index.html"
+  description: "Mixed Reality, Computational Fabrication, Human-Computer Interaction"
+  photo: joyce_passananti.jpeg
   alumni: false
