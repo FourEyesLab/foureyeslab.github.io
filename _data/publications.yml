@@ -29,19 +29,6 @@
   
   - areas: [AR, HCI]
     authors: [Radha Kumaran, You-Jin Kim, Anne E. Milner, Tom Bullock, Barry Giesbrecht and "Tobias H\xF6llerer"]
-    bibtex: "@article{kumaran2023impact,
-      doi = {},
-      url = {},
-      year = {2023},
-      month = {},
-      publisher = {},
-      volume = {},
-      number = {},
-      pages = {},
-      author = {Kumaran, Radha and Kim, You-Jin and Milner, Anne E and Bullock, Tom and Giesbrecht, Barry and H{\"o}llerer, Tobias},
-      title = {The Impact of Navigation Aids on Search Performance and Object Recall in Wide-Area Augmented Reality},
-      journal = {},
-      }"
     link: https://sites.cs.ucsb.edu/~holl/pubs/Kumaran-2023-CHI.pdf
     title: 'The Impact of Navigation Aids on Search Performance and Object Recall in Wide-Area Augmented Reality'
     where: ACM CHI Conference on Human Factors in Computing Systems, April 23–28, 2023, Hamburg, Germany
