@@ -36,6 +36,13 @@
   description: "Interested in computer vision, graphics, augmented reality, ML. Working on AR medical applications."
   photo: alex_rich.jpg
 
+- name: satyam_awasthi
+  display: "Satyam Awasthi"
+  role: master_student
+  website: "https://www.linkedin.com/in/satyam-awasthi/"
+  description: "Interested in HCI, UX Research and Design, and Augmented Reality"
+  photo: satyam_awasthi.jpeg
+
 - name: vivian_ross
   display: "Vivian Ross"
   role: master_student
