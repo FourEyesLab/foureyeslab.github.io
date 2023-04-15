@@ -26,14 +26,6 @@
   title: 'Cosmic-CoNN: A Cosmic-Ray Detection Deep-learning Framework, Data Set, and Toolkit'
   where: The Astrophysical Journal, Volume 942, Number 2
   year: 2023
-  
-- areas: [AR, HCI]
-  authors: [Radha Kumaran, You-Jin Kim, Anne E. Milner, Tom Bullock, Barry Giesbrecht and "Tobias H\xF6llerer"]
-  link: https://sites.cs.ucsb.edu/~holl/pubs/Kumaran-2023-CHI.pdf
-  title: 'The Impact of Navigation Aids on Search Performance and Object Recall in Wide-Area Augmented Reality'
-  where: ACM CHI Conference on Human Factors in Computing Systems, April 23–28, 2023, Hamburg, Germany
-  year: 2023
-
 
 - areas: [ML, CV]
   authors: [Chengyuan Xu, Boning Dong, Noah Stier, Curtis McCully, D. Andrew Howell, Pradeep Sen, "Tobias H\xF6llerer"]
