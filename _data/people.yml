@@ -50,6 +50,14 @@
   description: "Interested in computer vision, mixed reality"
   photo: vivian_ross.jpg
 
+- name: sydney_lim
+  display: "Sydney Lim"
+  photo: sydney_lim.jpg
+  website: "https://sydneylim.github.io/"
+  description: "Eye Tracking in Mixed Reality, Human-Computer Interaction"
+  role: master_student
+  alumni: yes
+
 - name: pradeep_sen
   display: "Pradeep Sen"
   role: affiliated_faculty
