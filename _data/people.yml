@@ -20,7 +20,7 @@
   website: "https://www.linkedin.com/in/yding37/"
   description: "Machine Learning, Human Computer Interaction, and Affective Computing"
   photo: yi_ding.jpg
-  alumni: false
+  alumni: true
 
 - name: lei_xu
   display: "Lei Xu"
@@ -28,13 +28,20 @@
   website: "http://lei-xu.com/"
   description: "Interested in Computer Graphics. Especially in rendering, both real-time and offline, and their application in games and movies industry."
   photo: lei_xu.jpg
-  alumni: false
+  alumni: true
 
 - name: alex_rich
   display: "Alex Rich"
   role: phd_student
   description: "Interested in computer vision, graphics, augmented reality, ML. Working on AR medical applications."
   photo: alex_rich.jpg
+
+- name: satyam_awasthi
+  display: "Satyam Awasthi"
+  role: master_student
+  website: "https://www.linkedin.com/in/satyam-awasthi/"
+  description: "Interested in HCI, UX Research and Design, and Augmented Reality"
+  photo: satyam_awasthi.jpeg
 
 - name: vivian_ross
   display: "Vivian Ross"
@@ -76,7 +83,7 @@
   photo: aiwen_xu.jpg
   website: "https://aiwenxu.com/"
   description: "Interested in machine learning and human computer interaction."
-  alumni: false
+  alumni: true
 
 - name: zhening_zhang
   display: "Sirius Zhening Zhang"
@@ -136,6 +143,7 @@
   website: https://www.linkedin.com/in/jkozerawski/
   description: "Machine Learning for computer vision. Low-shot object detection & recognition, transfer learning."
   role: phd_student
+  alumni: true
 
 - name: "Sikun Lin"
   display: "Sikun Lin"
@@ -159,6 +167,7 @@
   description: "PhD student of Media Arts and Technology Interested in VR/AR and Machine Learning"
   website: https://www.ehsansayyad.com/
   role: phd_student
+  alumni: true
 
 - name: "You-Jin Kim"
   display: "You-Jin Kim"
@@ -173,6 +182,7 @@
   website: https://pushkarshuklasblog.wordpress.com
   description: "Computer Vision, Machine Learning, Deep learning."
   role: master_student
+  alumni: true
 
 - name: "Chengyuan (CY) Xu"
   display: "Chengyuan (CY) Xu"
@@ -823,7 +833,7 @@
   role: phd_student
   website: null
 
-- alumni: false
+- alumni: true
   display: Brandon Huynh
   name: Brandon Huynh
   photo: brandon_huynh.jpg
@@ -883,7 +893,7 @@
 - name: radha_kumaran
   display: "Radha Kumaran"
   role: phd_student
-  website: https://www.linkedin.com/in/radha-kumaran/
+  website: https://www.radhakumaran.com
   description: "Affective Computing, Mixed Reality"
   photo: radha_kumaran.png
   alumni: false
@@ -918,4 +928,12 @@
   website: "https://www.linkedin.com/in/irene-cho-ab37a718a/"
   description: "My research interests are HCI, Machine Learning, and Augmented Reality"
   photo: irene_cho.jpg
+  alumni: false
+  
+- name: joyce_passananti
+  display: "Joyce Passananti"
+  role: phd_student
+  website: "https://joyce-passananti.github.io/index.html"
+  description: "Mixed Reality, Computational Fabrication, Human-Computer Interaction"
+  photo: joyce_passananti.jpeg
   alumni: false
