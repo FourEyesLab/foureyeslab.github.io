@@ -6,6 +6,352 @@
 #   where:
 #   year:
 
+# new v-----------------------------------v
+
+- areas: [HCI,VR]
+  authors: [Sariya, Aman and Huard, Andrew and Jain, Ishan and Caetano, Arthur and H{\"o}llerer, Tobias and Sra, Misha]
+  bibtex: "@article{sariyahand,
+    title={Hand Grip Pressure Visualization for Task Assistance},
+    author={Sariya, Aman and Huard, Andrew and Jain, Ishan and Caetano, Arthur and H{\"o}llerer, Tobias and Sra, Misha}
+  }"
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Sariya-2024-ISMARPoster.pdf
+  title: 'Hand Grip Pressure Visualization for Task Assistance'
+  where: IEEE International Symposium on Mixed and Augmented Reality 
+  year: 2024
+  
+- areas: [3D,AR,HCI]
+  authors: [Passananti, Joyce and Gasca, Ana Cardenas and Jacobs, Jennifer and H{\"o}llerer, Tobias]
+  bibtex: "@article{passanantiaugmented,
+    title={Augmented Reality for Digital Fabrication: Evaluating impact of AR visualization of machine toolpaths for Clay 3D printing},
+    author={Passananti, Joyce and Gasca, Ana Cardenas and Jacobs, Jennifer and H{\"o}llerer, Tobias}
+  }" 
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Passananti-2024-ISMARPoster.pdf
+  title: 'Augmented Reality for Digital Fabrication: Evaluating impact of AR visualization of machine toolpaths for Clay 3D printing'
+  where: IEEE International Symposium on Mixed and Augmented Reality 
+  year: 2024
+
+  - areas: [3D,AR,HCI]
+  authors: [Kim, You-Jin and Sra, Misha and H{\"o}llerer, Tobias]
+  bibtex: "@inproceedings{kim2024audience,
+  title={Audience Amplified: Virtual Audiences in Asynchronously Performed AR Theater},
+    author={Kim, You-Jin and Sra, Misha and H{\"o}llerer, Tobias},
+    booktitle={2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+    pages={475--484},
+    year={2024},
+    organization={IEEE}
+  }" 
+  link: https://ieeexplore.ieee.org/abstract/document/10765466
+  title: 'Audience Amplified: Virtual Audiences in Asynchronously Performed AR Theater'
+  where: IEEE International Symposium on Mixed and Augmented Reality 
+  year: 2024
+  
+- areas: [HCI,VR]
+  authors: [Setu, Jyotirmay Nag and Le, Joshua M and Kundu, Ripan Kumar and Giesbrecht, Barry and H{\"o}llerer, Tobias and Hoque, Khaza Anuarul and Desai, Kevin and Quarles, John]
+  bibtex: "@inproceedings{setu2024mazed,
+    title={Mazed and Confused: A Dataset of Cybersickness, Working Memory, Mental Load, Physical Load, and Attention During a Real Walking Task in VR},
+    author={Setu, Jyotirmay Nag and Le, Joshua M and Kundu, Ripan Kumar and Giesbrecht, Barry and H{\"o}llerer, Tobias and Hoque, Khaza Anuarul and Desai, Kevin and Quarles, John},
+    booktitle={2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+    pages={1048--1057},
+    year={2024},
+    organization={IEEE}
+  }" 
+  link: https://ieeexplore.ieee.org/abstract/document/10765425
+  title: 'Mazed and Confused: A Dataset of Cybersickness, Working Memory, Mental Load, Physical Load, and Attention During a Real Walking Task in VR'
+  where: IEEE International Symposium on Mixed and Augmented Reality 
+  year: 2024
+
+- areas: [3D,AI,CV,HCI,ML]
+  authors: [Xu, Chengyuan and Kumaran, Radha and Stier, Noah and Yu, Kangyou and H{\"o}llerer, Tobias]
+  bibtex: "@inproceedings{xu2024multimodal,
+    title={Multimodal 3D Fusion and In-Situ Learning for Spatially Aware AI},
+    author={Xu, Chengyuan and Kumaran, Radha and Stier, Noah and Yu, Kangyou and H{\"o}llerer, Tobias},
+    booktitle={2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+    pages={485--494},
+    year={2024},
+    organization={IEEE}
+  }" 
+  link: https://ieeexplore.ieee.org/abstract/document/10765411
+  title: 'Multimodal 3D Fusion and In-Situ Learning for Spatially Aware AI
+  where: IEEE International Symposium on Mixed and Augment'ed Reality 
+  year: 2024
+  
+- areas: [3D,CV,HCI,ML]
+  authors: [Alex Rich, Noah Stier, Pradeep Sen, and Tobias Höllerer]
+  bibtex: "@article{stereosmoothness,
+    title={Smoothness, Synthesis, and Sampling: Re-thinking Unsupervised Multi-view Stereo with DIV Loss},
+    author={Stereo, Re-thinking Unsupervised Multi-view},
+    publisher={Springer}
+  }" 
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Rich-2024-ECCV.pdf
+  title: 'Smoothness, Synthesis, and Sampling: Re-thinking Unsupervised Multi-View Stereo with DIV Loss'
+  where: European Conference on Computer Vision
+  year: 2024
+    
+- areas: [HCI]
+  authors: [Lu, Yanchen and H{\"o}llerer, Tobias and Jacobs, Jennifer]
+  bibtex: "@inproceedings{lu2024knotation,
+  title={Knotation: Supporting Exploration in Macrame Textile Crafting Through Parametric Motif Design},
+    author={Lu, Yanchen and H{\"o}llerer, Tobias and Jacobs, Jennifer},
+    booktitle={2024 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)},
+    pages={317--328},
+    year={2024},
+    organization={IEEE}
+  }" 
+  link: https://ieeexplore.ieee.org/abstract/document/10714523
+  title: 'Knotation: Supporting Exploration in Macrame Textile Crafting Through Parametric Motif Design'
+  where: IEEE Symposium on Visual Languages and Human-Centric Computing
+  year: 2024
+
+- areas: [3D,HCI,VR]
+  authors: [Kim, You-Jin and Lee, Myungin and Peljhan, Marko and Kuchera-Morin, JoAnn and H{\"o}llerer, Tobias]
+  bibtex: "@inproceedings{kim2024spatial,
+    title={Spatial Orchestra: Locomotion Music Instruments through Spatial Exploration},
+    author={Kim, You-Jin and Lee, Myungin and Peljhan, Marko and Kuchera-Morin, JoAnn and H{\"o}llerer, Tobias},
+    booktitle={Extended Abstracts of the CHI Conference on Human Factors in Computing Systems},
+    pages={1--5},
+    year={2024}
+  }" 
+  link: https://dl.acm.org/doi/full/10.1145/3613905.3648659
+  title: 'Spatial Orchestra: Locomotion Music Instruments through Spatial Exploration'
+  where: Abstracts of the CHI Conference on Human Factors in Computing Systems
+  year: 2024
+
+- areas: [AR]
+  authors: [Awasthi, Satyam and Ress, Vivian and Lim, Sydney and Beyeler, Michael and H{\"o}llerer, Tobias]
+  bibtex: "@inproceedings{awasthi2024eye,
+    title={Eye Tracking Performance in Mobile Mixed Reality},
+    author={Awasthi, Satyam and Ress, Vivian and Lim, Sydney and Beyeler, Michael and H{\"o}llerer, Tobias},
+    booktitle={2024 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)},
+    pages={1049--1050},
+    year={2024},
+    organization={IEEE}
+  }" 
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Awasthi-2024-IEEEVRPoster.pdf
+  title: 'Eye Tracking Performance in Mobile Mixed Reality'
+  where: IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops
+  year: 2024
+
+- areas: [AI,AR,HCI,ML]
+  authors: [Sharma, Aditya and Yoffe, Luke and H{\"o}llerer, Tobias]
+  bibtex: "@inproceedings{sharma2024octo+,
+    title={OCTO+: A Suite for Automatic Open-Vocabulary Object Placement in Mixed Reality},
+    author={Sharma, Aditya and Yoffe, Luke and H{\"o}llerer, Tobias},
+    booktitle={2024 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR)},
+    pages={157--165},
+    year={2024},
+    organization={IEEE}
+  }" 
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Sharma-2024-AIXVR.pdf
+  title: 'OCTO+: A Suite for Automatic Open-Vocabulary Object Placement in Mixed Reality'
+  where: IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality
+  year: 2024
+
+- areas: [3D,AR,HCI]
+  authors: [Passananti, Joyce E and CardenasGasca, Ana and Jacobs, Jennifer and H{\"o}llerer, Tobias]
+  bibtex: "@inproceedings{passananti2023sculptar,
+    title={SculptAR: Direct Manipulations of Machine Toolpaths in Augmented Reality for 3D Clay Printing},
+    author={Passananti, Joyce E and CardenasGasca, Ana and Jacobs, Jennifer and H{\"o}llerer, Tobias},
+    booktitle={Adjunct Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology},
+    pages={1--3},
+    year={2023}
+  }" 
+  link: https://dl.acm.org/doi/abs/10.1145/3586182.3615822
+  title: 'SculptAR: Direct Manipulations of Machine Toolpaths in Augmented Reality for 3D Clay Printing'
+  where: Adjunct Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology
+  year: 2023
+  
+- areas: [HCI,ML]
+  authors: [Kumaran, Radha and Doshi, Viral Niraj and Chen, Sherry X and Nargund, Avinash Ajit and H{\"o}llerer, Tobias and Sra, Misha]
+  bibtex: "@inproceedings{kumaran2023echat,
+  title={EChat: An Emotion-Aware Adaptive UI for a Messaging App},
+    author={Kumaran, Radha and Doshi, Viral Niraj and Chen, Sherry X and Nargund, Avinash Ajit and H{\"o}llerer, Tobias and Sra, Misha},
+    booktitle={Adjunct Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology},
+    pages={1--3},
+    year={2023}
+  }" 
+  link: https://dl.acm.org/doi/abs/10.1145/3586182.3616698
+  title: 'EChat: An Emotion-Aware Adaptive UI for a Messaging App'
+  where: Adjunct Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology
+  year: 2023
+  
+- areas: [3D,AR,CV,HCI]
+  authors: [Lohn, Daniel and H{\"o}llerer, Tobias and Sra, Misha]
+  bibtex: "@inproceedings{lohn2023augmented,
+    title={Augmented Photogrammetry: 3D Object Scanning and Appearance Editing in Mobile Augmented Reality},
+    author={Lohn, Daniel and H{\"o}llerer, Tobias and Sra, Misha},
+    booktitle={Adjunct Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology},
+    pages={1--3},
+    year={2023}
+  }" 
+  link: https://dl.acm.org/doi/abs/10.1145/3586182.3616638
+  title: 'Augmented Photogrammetry: 3D Object Scanning and Appearance Editing in Mobile Augmented Reality'
+  where: Adjunct Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology
+  year: 2023
+  
+- areas: [AR]
+  authors: [Awasthi, Satyam and Ross, Vivian and Beyeler, Michael and H{\"o}llerer, Tobias]
+  bibtex: "@inproceedings{awasthi2023eyetts,
+    title={EyeTTS: Evaluating and Calibrating Eye Tracking for Mixed-Reality Locomotion},
+    author={Awasthi, Satyam and Ross, Vivian and Beyeler, Michael and H{\"o}llerer, Tobias},
+    booktitle={2023 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)},
+    pages={479--480},
+    year={2023},
+    organization={IEEE}
+  }" 
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Awasthi-2023-ISMARPoster.pdf
+  title: 'EyeTTS: Evaluating and Calibrating Eye Tracking for Mixed-Reality Locomotion'
+  where: IEEE International Symposium on Mixed and Augmented Reality Adjunct
+  year: 2023
+  
+- areas: [3D,AR,CV,HCI]
+  authors: [Yoffe, Luke and Sharma, Aditya and H{\"o}llerer, Tobias]
+  bibtex: "@inproceedings{yoffe2023octopus,
+    title={Octopus: Open-vocabulary content tracking and object placement using semantic understanding in mixed reality},
+    author={Yoffe, Luke and Sharma, Aditya and H{\"o}llerer, Tobias},
+    booktitle={2023 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)},
+    pages={587--588},
+    year={2023},
+    organization={IEEE}
+  }" 
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Yoffe-2023-ISMARPoster.pdf
+  title: 'Octopus: Open-vocabulary content tracking and object placement using semantic understanding in mixed reality'
+  where: IEEE International Symposium on Mixed and Augmented Reality Adjunct
+  year: 2023
+  
+- areas: [AI,AR,HCI]
+  authors: [Zhu, Jiarui and Kumaran, Radha and Xu, Chengyuan and H{\"o}llerer, Tobias]
+  bibtex: "@inproceedings{zhu2023free,
+    title={Free-form Conversation with Human and Symbolic Avatars in Mixed Reality},
+    author={Zhu, Jiarui and Kumaran, Radha and Xu, Chengyuan and H{\"o}llerer, Tobias},
+    booktitle={2023 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+    pages={751--760},
+    year={2023},
+    organization={IEEE}
+  }" 
+  link: https://ieeexplore.ieee.org/abstract/document/10316364/
+  title: 'Free-form Conversation with Human and Symbolic Avatars in Mixed Reality'
+  where: IEEE International Symposium on Mixed and Augmented Reality
+  year: 2023
+  
+- areas: [AR,HCI]
+  authors: [Kim, You-Jin and Wilson, Andrew D and Jacobs, Jennifer and H{\"o}llerer, Tobias]
+  bibtex: "@inproceedings{kim2023reality,
+  title={Reality Distortion Room: A Study of User Locomotion Responses to Spatial Augmented Reality Effects},
+    author={Kim, You-Jin and Wilson, Andrew D and Jacobs, Jennifer and H{\"o}llerer, Tobias},
+    booktitle={2023 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+    pages={1201--1210},
+    year={2023},
+    organization={IEEE}
+  }" 
+  link: https://ieeexplore.ieee.org/abstract/document/10316513
+  title: 'Reality Distortion Room: A Study of User Locomotion Responses to Spatial Augmented Reality Effects'
+  where: IEEE International Symposium on Mixed and Augmented Reality
+  year: 2023
+  
+- areas: [3D,AR,HCI]
+  authors: [Kim, You-Jin and Lu, Joshua and H{\"o}llerer, Tobias]
+  bibtex: "@inproceedings{kim2023dynamic,
+  title={Dynamic theater: Location-based immersive dance theater, investigating user guidance and experience},
+  author={Kim, You-Jin and Lu, Joshua and H{\"o}llerer, Tobias},
+  booktitle={Proceedings of the 29th ACM Symposium on Virtual Reality Software and Technology},
+  pages={1--11},
+  year={2023}
+}" 
+  link: https://dl.acm.org/doi/abs/10.1145/3611659.3615705
+  title: 'Dynamic theater: Location-based immersive dance theater, investigating user guidance and experience'
+  where: Proceedings of the 29th ACM Symposium on Virtual Reality Software and Technology
+  year: 2023
+  
+- areas: [3D,AR,HCI]
+  authors: [Kumaran, R., Kim, Y.J., Milner, A.E., Bullock, T., Giesbrecht, B., and Höllerer, T]
+  bibtex: "@inproceedings{kumaran2023impact,
+    title={The impact of navigation aids on search performance and object recall in wide-area augmented reality},
+    author={Kumaran, Radha and Kim, You-Jin and Milner, Anne E and Bullock, Tom and Giesbrecht, Barry and H{\"o}llerer, Tobias},
+    booktitle={Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+    pages={1--17},
+    year={2023}
+  }" 
+  link: https://dl.acm.org/doi/full/10.1145/3544548.3581413
+  title: 'The impact of navigation aids on search performance and object recall in wide-area augmented reality'
+  where: ACM CHI Conference on Human Factors in Computing Systems
+  year: 2023
+  
+- areas: [3D,CV,HCI,ML]
+  authors: [Xu, C., Lien, K.-C., and Höllerer, T.]
+  bibtex: "@inproceedings{xu2023comparing,
+    title={Comparing zealous and restrained ai recommendations in a real-world human-ai collaboration task},
+    author={Xu, Chengyuan and Lien, Kuo-Chin and H{\"o}llerer, Tobias},
+    booktitle={Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+    pages={1--15},
+    year={2023}
+  }" 
+  link: https://sites.cs.ucsb.edu/~holl/pubs/Xu-2023-CHI.pdf
+  title: 'Comparing Zealous and Restrained AI Recommendations in a Real-World Human-AI Collaboration Task'
+  where: ACM CHI Conference on Human Factors in Computing Systems
+  year: 2023
+    
+- areas: [3D,HCI]
+  authors: [Hashim, S., Höllerer, T., and Jacobs, J.]
+  bibtex: "@inproceedings{hashim2023drawing,
+    title={Drawing Transforms: A Unifying Interaction Primitive to Procedurally Manipulate Graphics across Style, Space, and Time},
+    author={Hashim, Sonia and H{\"o}llerer, Tobias and Jacobs, Jennifer},
+    booktitle={Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+    pages={1--15},
+    year={2023}
+  }" 
+  link: https://dl.acm.org/doi/full/10.1145/3544548.3580642
+  title: 'Drawing Transforms: A Unifying Interaction Primitive to Procedurally Manipulate Graphics across Style, Space, and Time'
+  where: ACM CHI Conference on Human Factors in Computing Systems
+  year: 2023
+
+- areas: [AR,HCI]
+  authors: 
+  bibtex: "@inproceedings{wysopal2023level,
+    title={Level-of-detail ar: Dynamically adjusting augmented reality level of detail based on visual angle},
+    author={Wysopal, Abby and Ross, Vivian and Passananti, Joyce and Yu, Kangyou and Huynh, Brandon and H{\"o}llerer, Tobias},
+    booktitle={2023 IEEE Conference Virtual Reality and 3D User Interfaces (VR)},
+    pages={63--71},
+    year={2023},
+    organization={IEEE}
+  }" 
+  link: https://ieeexplore.ieee.org/abstract/document/10108438/
+  title: 'Level-of-Detail AR: Dynamically Adjusting Augmented Reality Level of Detail Based on Visual Angle'
+  where: IEEE Virtual Reality
+  year: 2023
+
+- areas: [3D,CV,HCI,ML]
+  authors: [Lin, K.X., Cho, I., Walimbe, A., Zamora, B.A., Rich, A., Zhang, S.Z., and Höllerer, T.]
+  bibtex: "@inproceedings{lin2023benefits,
+    title={Benefits of Synthetically Pre-trained Depth-Prediction Networks for Indoor/Outdoor Image Classification},
+    author={Lin, Kelly X and Cho, Irene and Walimbe, Amey and Zamora, Bryan A and Rich, Alex and Zhang, Sirius Z and H{\"o}llerer, Tobias},
+    booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+    pages={360--369},
+    year={2023}
+  }" 
+  link: https://openaccess.thecvf.com/content/WACV2023W/Pretrain/html/Lin_Benefits_of_Synthetically_Pre-Trained_Depth-Prediction_Networks_for_IndoorOutdoor_Image_Classification_WACVW_2023_paper.html
+  title: 'Benefits of Synthetically Pre-trained Depth-Prediction Networks for Indoor/Outdoor Image Classification'
+  where: WACV Workshop on Pretraining Large Vision and Multimodal Models
+  year: 2023
+
+- areas: [3D,CV,HCI]
+  authors: [Ding, Y., You, J., Machulla, T.-K., Jacobs, J., Sen, P., and Höllerer, T.]
+  bibtex: "@article{ding2022impact,
+    title={Impact of annotator demographics on sentiment dataset labeling},
+    author={Ding, Yi and You, Jacob and Machulla, Tonja-Katrin and Jacobs, Jennifer and Sen, Pradeep and H{\"o}llerer, Tobias},
+    journal={Proceedings of the ACM on Human-Computer Interaction},
+    volume={6},
+    number={CSCW2},
+    pages={1--22},
+    year={2022},
+    publisher={ACM New York, NY, USA}
+  }" 
+  link: https://dl.acm.org/doi/abs/10.1145/3555632 
+  title: 'Impact of annotator demographics on sentiment dataset labeling'
+  where: Proceedings of the ACM Conference On Computer-Supported Cooperative Work And Social Computing
+  year: 2022
+
+# new ^-----------------------------------^
+
 - areas: [ML, CV]
   authors: [Chengyuan Xu, Boning Dong, Curtis McCully, D. Andrew Howell, Pradeep Sen]
   website: https://github.com/cy-xu/cosmic-conn
